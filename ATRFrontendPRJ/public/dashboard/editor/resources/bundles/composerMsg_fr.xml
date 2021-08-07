@@ -1,0 +1,443 @@
+#
+#
+# hash = 405f00d000bf10009f90407060df4f804f40d0b0
+#
+START:                   D\u00E9marrer
+THROW:                   G\u00E9n\u00E9rer
+CATCH:                   D\u00E9tecter
+END:                     Terminer
+
+ABSTRACT_ACTIVITY: Activit\u00E9 abstract
+TASK: Activit\u00E9
+INTERACTIVE_TASK: Interactif
+
+
+USER_TASK: T\u00E2che utilisateur
+SERVICE_TASK: T\u00E2che de service
+SEND_TASK: T\u00E2che d'envoi
+RECEIVE_TASK: T\u00E2che de r\u00E9ception
+NOTIFICATION_TASK: T\u00E2che de notification
+UPDATE_TASK: Mettre \u00E0 jour la t\u00E2che
+BUSINESS_RULE_TASK: T\u00E2che de r\u00E8gle de gestion
+SCRIPT_TASK: T\u00E2che de script
+MANUAL_TASK: T\u00E2che manuelle
+CALL_ACTIVITY: Activit\u00E9 d'appel
+SUBPROCESS: Sous-processus
+INLINE_HANDLER: Sous-processus d'\u00E9v\u00E9nement
+
+EVENT: Ev\u00E9nement
+START_EVENT: D\u00E9marrer
+END_EVENT: Terminer
+BOUNDARY_EVENT: Limite
+THROW_EVENT: G\u00E9n\u00E9rer un \u00E9v\u00E9nement
+CATCH_EVENT: Ev\u00E9nement d'obtention
+
+GATEWAY: Passerelle
+COMPLEX_GATEWAY: Passerelle complexe
+EXCLUSIVE_GATEWAY: Passerelle exclusive
+INCLUSIVE_GATEWAY: Passerelle inclusive
+PARALLEL_GATEWAY: Passerelle parall\u00E8le
+EVENT_BASED_GATEWAY: Passerelle bas\u00E9e sur les \u00E9v\u00E9nements
+
+NOTE: Remarque
+
+START_NONE:              D\u00E9marrer
+START_MESSAGE_TOPLEVEL:  D\u00E9but du message
+START_TIMER_TOPLEVEL:    D\u00E9but de l'horloge
+START_SIGNAL_TOPLEVEL:   D\u00E9but du signal
+START_ERROR_SUBPROCESS:  D\u00E9but de l'erreur
+INTERMEDIATE_NONE:       D\u00E9tecter
+INTERMEDIATE_ERROR_BOUNDARY_INTERRUPTING: Limite d'erreur
+INTERMEDIATE_TIMER_CATCH: Horloge
+INTERMEDIATE_MESSAGE_CATCH: Message
+INTERMEDIATE_NONE_THROW_NONBOUNDARY: G\u00E9n\u00E9rer
+INTERMEDIATE_MESSAGE_THROW_NONBOUNDARY: Message
+INTERMEDIATE_SIGNAL_THROW_NONBOUNDARY: Signal
+INTERMEDIATE_SIGNAL_CATCH: Signal
+END_NONE:                Terminer
+END_MESSAGE:             Fin du message
+END_ERROR:               Fin de l'erreur
+END_SIGNAL:              Fin du signal
+END_TERMINATE:           Fin de l'interruption
+MEASUREMENT_START:       D\u00E9marrer la mesure
+MEASUREMENT_END:         Arr\u00EAter la mesure
+MEASUREMENT:             Mesure
+
+NONE_TRIGGER_TYPE:       Aucun
+MESSAGE_TRIGGER_TYPE:    Message
+TIMER_TRIGGER_TYPE:      Horloge
+ERROR_TRIGGER_TYPE:      Erreur
+SIGNAL_TRIGGER_TYPE:     Signal
+TERMINATE_TRIGGER_TYPE:  Interrompre
+
+PROCESS_COMPONENTS:      Composants BPM
+BPMN_ARTIFACTS:          Objets de flux BPMN
+BASIC_ARTIFACTS:         Objets de flux de base
+BPMN:                    BPMN
+BPM_DESCRIPTIVE:         Descriptif BPM
+BUSINESS_CATALOG:        Catalogue d'activit\u00E9
+ARGUMENT_MAPPING:        Association de donn\u00E9es
+VIEW_COLLABORATION:      Afficher la collaboration
+HIDE_COLLABORATION:      Masquer la collaboration
+LOADING:                 Chargement en cours...
+CANCEL_SEARCH:           Annuler la recherche
+EVENTS:                  Ev\u00E9nements
+ZOOM_OUT:                Zoom arri\u00E8re
+SELECT_ALL:              Tout s\u00E9lectionner
+DELETE:                  Supprimer
+
+SERVICES:                Services
+REMOVE_CUSTOM_OUTPUT:    Enlever la sortie personnalis\u00E9e
+ZOOM_IN:                 Zoom avant
+
+SELECT:                  S\u00E9lectionner
+OK:                      OK
+BPMN_COMPONENTS:         Composants BPMN
+GATEWAYS:                Passerelles
+ARTIFACTS:               Artefacts
+BASIC:                   De base
+SEARCH:                  Rechercher le composant
+FLOW_SEALED:             Flux\nscell\u00E9
+REDO:                    R\u00E9tablir
+CANCEL:                  Annuler
+APPLY:                   Appliquer
+CREATE:                  Cr\u00E9er
+VARIABLES:               Objets de donn\u00E9es
+PREDEFINED_VARIABLES:    Variables pr\u00E9d\u00E9finies
+PROCESS:                 Processus
+PROJECT:                 Projet
+DEFAULT:                 Par d\u00E9faut
+TASKS:                   Activit\u00E9s
+PANNING:                 Panoramique
+SAVE:                    Enregistrer
+UNDO:                    Annuler
+ADD_NEW_VAR:             Ajouter un nouvel objet de donn\u00E9es
+REMOVE_VAR:              Enlever un objet de donn\u00E9es
+VIEW_DATA_OBJECTS:       Afficher les objets de donn\u00E9es
+DATA_OBJECTS:            Objets de donn\u00E9es
+INPUTS:                  Entr\u00E9es
+OUTPUTS:                 Sorties
+DRAG_VARIABLES:          Faites glisser les objets de donn\u00E9es vers les zones de texte.
+NAME:                    Nom
+ICON:                    Ic\u00F4ne
+TYPE:                    Type
+DESCRIPTION:             Description
+SCOPE:                   Port\u00E9e
+NEW_VARIABLE:            Nouvel objet de donn\u00E9es
+ADVANCED:                Avanc\u00E9
+TRANSITIONS:             Flux de s\u00E9quences
+BUSINESS_RULES:          R\u00E8gles de gestion
+HELP:                    Aide       
+HUMAN_TASKS:             T\u00E2ches Human Task
+BUSINESS_OBJECTS:        Business objects
+ADD_CUSTOM_OUTPUT:       Ajouter une sortie personnalis\u00E9e
+ADD_CUSTOM_INPUT:        Ajouter une entr\u00E9e personnalis\u00E9e
+TRANSITION:              Flux de s\u00E9quence
+NORMAL: Inconditionnel
+CONDITIONAL: Conditionnel
+EXCEPTION: Exception
+PRINT:                   Imprimer
+AUTOLAYOUT:              Mise en page automatique
+ADD_TO_MILESTONE:        Ajouter au jalon
+COLLAPSE:                R\u00E9duire
+EXPAND:                  D\u00E9velopper
+OWNER:                   Propri\u00E9taire de processus
+PROPERTIES:              Propri\u00E9t\u00E9s
+IMPLEMENT:               Impl\u00E9menter
+BUSINESS_PROPERTIES: Propri\u00E9t\u00E9s de gestion
+CREATE_TRANSITION:       Ajouter une transition
+DOCUMENTATION:           Documentation
+UNRECOGNIZED_BPMN_TYPE:  Type BPMN non reconnu.
+STRAIGHTEN_TRANSITION:   Redresser la transition
+MAKE_TRANS_ORTHOGONAL:   Rendre la transition orthogonale
+CURVE_TRANSITION:        Courber la transition
+SHOW_DOCUMENTATION:      Documentation
+SHOW_IMPLEMENTATION:     Impl\u00E9mentation
+
+SIMPLE: Simple
+COMPLEX: Complexe
+
+CONVERT_GATEWAY:         Convertir la passerelle
+CONVERT_TO_PARALLEL:     Convertir en parall\u00E8le
+CONVERT_TO_INCLUSIVE:    Convertir en inclus
+
+ERROR_MESSAGE:Nom de l''erreur : {0}. \nMessage d''erreur : {1}
+
+CREATE_COUNTER_MARK:     Cr\u00E9er une marque de compteur
+DELETE_COUNTER_MARK:     Supprimer la marque de compteur
+
+ADD_NEW_SERVICE:         Ajouter un service
+
+GRID_SHOW:              Activer/D\u00E9sactiver la visibilit\u00E9 de la grille
+GRID_SNAP:              Coller \u00E0 la grille
+
+LAUNCH_EXPRESSION_BUILDER: Lancer le g\u00E9n\u00E9rateur d'expressions
+
+EXTERNAL_REFERENCES:       R\u00E9f\u00E9rences externes
+
+CLOSE:                  Fermer
+TRIGGER:                D\u00E9clencheur
+
+OPEN_HT: Ouvrir une t\u00E2che Human Task
+OPEN_PROCESS: Ouvrir un processus
+OPEN_BUSINESS_RULE: Ouvrir une r\u00E8gle de gestion
+
+COPY: Copier
+CUT: Couper
+PASTE: Coller
+
+REFINE_ACTIVITY: Affiner l'activit\u00E9
+CONVERT_TO_REGULAR_SUBPROCESS: Convertir en sous-processus standard
+
+SHOW_PALETTE:              Activer/d\u00E9sactiver la visibilit\u00E9 de la palette
+STAMP_MODE:                Activer/d\u00E9sactiver la visibilit\u00E9 de l'horodatage
+
+ROLE: R\u00F4le
+USE: Utilisation
+AUTOMATIC_HANDLER: Gestionnaire automatique
+CHANGE: Modifier...
+ADD_LANE: Ajouter une ligne
+
+MORE: Plus
+MORE_TOOLTIP: Afficher les sous-\u00E9l\u00E9ments
+LESS: Moins
+LESS_TOOLTIP: Masquer les sous-\u00E9l\u00E9ments
+
+LESS_DC_TOOLTIP: Cliquer deux fois pour masquer les sous-\u00E9l\u00E9ments
+MORE_DC_TOOLTIP: Cliquer deux fois pour plus d'informations
+
+# Policies messages...
+
+INVALID_TYPE: Impossible de modifier le type de noeud en {0}
+CAN_ONLY_CHANGE_TO_ACTIVITY: Vous pouvez modifier uniquement le type d'une activit\u00E9
+ALREADY_DEFINED_TYPE: L'activit\u00E9 est d\u00E9j\u00E0 de ce type
+CAN_ONLY_CHANGE_TO_UNIMPLEMENTED_UT : Impossible de remplacer le mod\u00E8le par une t\u00E2che utilisateur impl\u00E9ment\u00E9e
+
+FROM_EQ_TO: Les noeuds source et cible ne peuvent pas \u00EAtre les m\u00EAmes.
+DIFF_CONTAINER: Les noeuds source et cible doivent avoir le m\u00EAme conteneur.
+DIFF_BOUNDARY_CONTAINER: L'\u00E9v\u00E9nement de limite ne peut pas \u00EAtre li\u00E9 \u00E0 son conteneur.
+START_INCOMING: Les \u00E9v\u00E9nements de d\u00E9but ne peuvent pas avoir de transitions entrantes.
+MORE_THAN_ONE_UNCONDITIONAL: Il existe d\u00E9j\u00E0 une transition inconditionnelle qui connecte ces noeuds.
+EVENT_BASED_CONNECTIONS: La passerelle bas\u00E9e sur les \u00E9v\u00E9nements permet de se connecter uniquement aux messages et horloges d'obtention et aux t\u00E2ches de r\u00E9ception.
+END_OUTGOING: Les \u00E9v\u00E9nements de fin ne peuvent pas contenir de transitions sortantes.
+MORE_OUTGOING_UNCONDITIONAL: Seules les passerelles parall\u00E8les et les passerelles bas\u00E9es sur les \u00E9v\u00E9nements peuvent avoir plusieurs transitions inconditionnelles sortantes.
+CONDITIONAL_TRANS: Seules les passerelles exclusives, inclusives et complexes peuvent avoir plusieurs transitions conditionnelles sortantes.
+OUTGOING_CONDITIONAL: Une fusion de passerelle ne peut pas avoir de transition conditionnelle sortante.
+NOT_PART_OF_THE_FLOW: Un \u00E9l\u00E9ment {0} ne fait pas partie du flux (il ne peut pas avoir d''\u00E9v\u00E9nements de limite, ni de transitions entrantes ou sortantes).
+BOUNDARIES_TASKS: Les \u00E9v\u00E9nements de limite peuvent \u00EAtre ajout\u00E9s uniquement aux t\u00E2ches.
+NOTE_TARGET: La cible de note ne peut pas \u00EAtre {0}.
+BOUNDARY_EVT: Ev\u00E9nement de limite
+MM_TRANSITIONS: Les marques de mesure peuvent \u00EAtre ajout\u00E9es uniquement aux flux de s\u00E9quences.
+ON_TOP_OF_NODE: Impossible d'ajouter sur un autre noeud.
+SPACE_FOR_NODES: Espace insuffisant pour contenir tous les noeuds.
+NOT_BOUNDARY: L''\u00E9v\u00E9nement {0} n''est pas un \u00E9v\u00E9nement de limite.
+
+SERVICE_IMPL: Un \u00E9l\u00E9ment {0} peut \u00EAtre impl\u00E9ment\u00E9 uniquement avec les services.
+SERVICE_NOT_CALLBACK: Les op\u00E9rations callback ne peuvent pas servir \u00E0 impl\u00E9menter un \u00E9l\u00E9ment {0}.
+NOT_SYNC: Les op\u00E9rations synchrones ne peuvent pas servir \u00E0 impl\u00E9menter un \u00E9l\u00E9ment {0}.
+BR_IMPL: Les t\u00E2ches de r\u00E8gle de gestion peuvent \u00EAtre impl\u00E9ment\u00E9es uniquement avec les r\u00E8gles de gestion.
+CANNOT_IMPL: L'activit\u00E9 s\u00E9lectionn\u00E9e ne peut pas \u00EAtre impl\u00E9ment\u00E9e.
+UT_IMPL: Seules les t\u00E2ches utilisateur peuvent \u00EAtre impl\u00E9ment\u00E9es avec les t\u00E2ches Human Task.
+TASKS_IMPL: Seules les t\u00E2ches peuvent \u00EAtre impl\u00E9ment\u00E9es.
+
+FLOW_IS_SEALED: Impossible de modifier le flux car il est scell\u00E9.
+NODE_IS_SEALED: Le noeud est scell\u00E9.
+
+PROCESS_READ_ONLY: Le processus est en lecture seule.
+EDIT_CONVERSATIONS: Modifier les conversations
+
+######################
+
+VALIDATE_TARGET: Valider la cible apr\u00E8s l'affectation :
+VALIDATE_INPUT: associations de donn\u00E9es entrantes
+VALIDATE_OUTPUT: associations de donn\u00E9es sortantes
+
+ADD_SEQUENTIAL: Ajouter un \u00E9l\u00E9ment s\u00E9quentiel
+ADD_PARALLEL: Ajouter un \u00E9l\u00E9ment parall\u00E8le
+PARTICIPANTS: Participants
+STAGE: Etape
+SINGLE: Unique
+PARALLEL_SINGLE: Parall\u00E8le unique
+PARALLEL_BLOCK: Bloc parall\u00E8le
+SERIAL: S\u00E9rie
+FYI: Pour information
+ADHOC: Adhoc
+MANAGEMENT_CHAIN: Cha\u00EEne de gestion
+NOTIFY: Notifier
+
+MANAGEMENT: Gestion
+GROUP: Groupe
+INITIATOR: Initiateur
+
+REVEAL_ASSOCIATIONS: Cliquez ici pour obtenir les associations
+
+FIND_USAGES: Rechercher des utilisations
+
+
+AVG_INSTANCE_COUNT: Nombre moyen d'instances
+AVG_PERFORMANCE: Performances moyennes
+AVG_QUEUE_SIZE: Taille moyenne de la file d'attente
+AVG_RESOURCE_UTILIZATION: Utilisation moyenne des ressources
+AVG_WORKING_COUNT: Nombre moyen de travaux
+COMPLETED_INSTANCES: Instances termin\u00E9es
+COMPLETED_OPERATIONS: Op\u00E9rations termin\u00E9es
+CURRENT_INSTANCE_COUNT: Nombre d'instances en cours
+CURRENT_QUEUE_SIZE: Taille en cours de la file d'attente
+CURRENT_RESOURCE_UTILIZATION: Utilisation en cours des ressources
+CURRENT_WORKING_COUNT: Nombre de travaux en cours
+MAX_INSTANCE_COUNT: Nombre maximal d'instances
+MAX_INSTANCES_WORKING_COUNT: Nombre maximal de travaux d'instances
+MAX_QUEUE_SIZE: Taille de file d'attente maximale
+MAX_RESOURCE_UTILIZATION: Utilisation maximale des ressources
+TOTAL_RESOURCE_UTILIZATION: Utilisation totale des ressources
+TOTAL_WAITING_COUNT: Nombre total d'attentes
+
+AVG_PROCESS_TIME: Temps moyen de traitement
+AVG_CYCLE_TIME: Dur\u00E9e moyenne du cycle
+MAX_CYCLE_TIME: Type de cycle maximal
+MIN_CYCLE_TIME: Type de cycle minimal
+AVG_WAITING_TIME: Temps moyen d'attente
+MAX_WAITING_TIME: Temps maximal d'attente
+MIN_WAITING_TIME: Temps minimal d'attente
+AVG_WORKING_TIME: Temps moyen de travail
+MAX_WORKING_TIME: Temps maximal de travail
+MIN_WORKING_TIME: Temps minimal de travail
+
+TOTAL_COST: Co\u00FBt total
+AVG_TOTAL_COST: Co\u00FBt total moyen
+
+TOTAL_WAITING_TIME: Temps d'attente total
+
+RESOURCE_BUSY_TIME: Temps d'occupation des ressources
+
+RESOURCE_BUSY_COST: Co\u00FBt d'occupation des ressources
+RESOURCE_TOTAL_COST: Co\u00FBt total des ressources
+RESOURCES: Ressources
+INDICATORS: Indicateurs
+VALUES: Valeurs
+
+TIME: Temps
+COST: Co\u00FBts
+UNITS: Unit\u00E9s
+
+COLUMN_CHART: Graphique \u00E0 colonnes
+BAR_CHART: Graphique \u00E0 barres
+
+CLICK_TO_REVEAL_CHART: . Cliquer pour afficher le graphique
+SHOW_RESULTS: Afficher les r\u00E9sultats
+FILTERS: Filtres
+CLEAR_RESULTS: Effacer les r\u00E9sultats
+INSTANCE_NUMBER: Instances
+USE_INSTANCES: Utiliser les instances
+
+INTERVAL: Intervalle
+MEAN: Moyenne
+STANDARD_DEVIATION: Ecart type
+PERIOD: P\u00E9riode
+FREQUENCY: Fr\u00E9quence
+EVERY: tou(te)s les
+DISTRIBUTION_TYPE: Type de distribution
+INSTANCE_CREATION: Cr\u00E9ation d'instance
+DELTA: Delta
+INSTANCES: instances
+CRITERIA: Crit\u00E8res
+
+DAYS: jours
+HOURS_AB: h
+MINUTES_AB: m
+SECONDS_AB: s
+
+
+CONSTANT_DIST: Constant
+UNIFORM_DIST: Uniforme
+EXPONENTIAL_DIST: Exponentiel
+NORMAL_DIST: Normal
+REAL_DIST: R\u00E9el
+
+
+FIFO: F.I.F.O.
+LIFO: L.I.F.O.
+RANDOM: Al\u00E9atoire
+BY_PRIORITY: Par priorit\u00E9
+MINIMUM_COST: Co\u00FBt minimum
+MAXIMUM_EFFICIENCY: Efficacit\u00E9 maximale
+
+
+FIXED_BASE_COST: Co\u00FBt de base fixe
+BASE_COST_PLUS_RESOURCE_COST: Co\u00FBt de base plus co\u00FBt des ressources
+
+HOURLY: Toutes les heures
+DAILY: Tous les jours
+WEEKLY: Toutes les semaines
+MONTHLY: Tous les mois
+
+SUNDAY: Dimanche
+MONDAY: Lundi
+TUESDAY: Mardi
+WEDNESDAY: Mercredi
+THURSDAY: Jeudi
+FRIDAY: Vendredi
+SATURDAY: Samedi
+
+FIRST: Premier
+SECOND: Deuxi\u00E8me
+THIRD: Troisi\u00E8me
+FOURTH: Quatri\u00E8me
+LAST: Dernier
+
+JANUARY: Janvier
+FEBRUARY: F\u00E9vrier
+MARCH: Mars
+APRIL: Avril
+MAY: Mai
+JUNE: Juin
+JULY: Juillet
+AUGUST: Ao\u00FBt
+SEPTEMBER: Septembre
+OCTOBER: Octobre
+NOVEMBER: Novembre
+DECEMBER: D\u00E9cembre
+
+DURATION: Dur\u00E9e
+COST_PER_HOUR: Co\u00FBt par heure
+QUEUE_INFO: Informations sur la file d'attente
+OUTGOING_FLOWS: Flux sortants
+
+USE_ORGANIZATION_RESOURCES: Utiliser les ressources de l'organisation
+USE_FIXED_RESOURCES: Utiliser les ressources fixes
+PARTICIPANT_SELECTION_POLICY: Strat\u00E9gie de s\u00E9lection des participants
+AVAILABLE_RESOURCES: Ressources disponibles
+
+PROCESS_EDITOR: Conception
+SIMULATION_EDITOR: Simulation
+ADD_MODEL_SIMULATION: Ajouter une simulation de mod\u00E8le
+
+ACTIVITY_FIXED_BASE_COST: Co\u00FBt de base fixe de l'activit\u00E9
+ACTIVITY_COST_TYPE: Type de co\u00FBt d'activit\u00E9
+
+QUEUE_WARNING_SIZE: Taille de la file d'attente - Avertissement
+
+THREADS: Threads
+MODEL: Mod\u00E8le :
+CREATE_SIM_MODEL: Cr\u00E9er un mod\u00E8le de simulation
+
+NOT_PROCESS_EDITOR: Basculer en mode Conception pour modifier le processus
+MINUS_ENA: R\u00E9duire le graphique
+
+BUSINESS_INDICATORS: Indicateurs d'activit\u00E9
+
+METRICS: Mesures
+ALL: Tout
+NONE: Aucun
+
+INIT_PLAYER_INSTANCE: Initialiser l'instance de l'objet Player
+REFRESH_PLAYER_INSTANCE: Actualiser
+DELETE_PLAYER_INSTANCE: Supprimer
+PROCESS_VARIABLES: Variables de processus
+THREAD_ID: ID de thread
+INSTANCE_ID: ID d'instance
+INSTANCE_INFORMATION: Informations sur les instances
+
+INVALID_PAYLOAD_NAME: Nom de donn\u00E9es de t\u00E2che non valide
+
+MUST_BE_LOWER : doit \u00EAtre en minuscules.

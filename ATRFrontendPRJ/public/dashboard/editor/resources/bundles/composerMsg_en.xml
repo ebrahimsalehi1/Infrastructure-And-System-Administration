@@ -1,0 +1,444 @@
+#
+#
+# hash = 405f00d000bf10009f90407060df4f804f40d0b0
+#
+START:                   Start
+THROW:                   Throw
+CATCH:                   Catch
+END:                     End
+
+ABSTRACT_ACTIVITY: Abstract Activity
+TASK: Activity
+INTERACTIVE_TASK: Interactive
+
+
+USER_TASK: User Task
+SERVICE_TASK: Service Task
+SEND_TASK: Send Task
+RECEIVE_TASK: Receive Task
+NOTIFICATION_TASK: Notification Task
+UPDATE_TASK: Update Task
+BUSINESS_RULE_TASK: Business Rule Task
+SCRIPT_TASK: Script Task
+MANUAL_TASK: Manual Task
+CALL_ACTIVITY: Call Activity
+SUBPROCESS: Subprocess
+INLINE_HANDLER: Event Subprocess
+
+EVENT: Event
+START_EVENT: Start
+END_EVENT: End
+BOUNDARY_EVENT: Boundary
+THROW_EVENT: Throw Event
+CATCH_EVENT: Catch Event
+
+GATEWAY: Gateway
+COMPLEX_GATEWAY: Complex Gateway
+EXCLUSIVE_GATEWAY: Exclusive Gateway
+INCLUSIVE_GATEWAY: Inclusive Gateway
+PARALLEL_GATEWAY: Parallel Gateway
+EVENT_BASED_GATEWAY: Event Based Gateway
+
+NOTE: Note
+
+START_NONE:              Start
+START_MESSAGE_TOPLEVEL:  Message Start
+START_TIMER_TOPLEVEL:    Timer Start
+START_SIGNAL_TOPLEVEL:   Signal Start
+START_ERROR_SUBPROCESS:  Error Start
+INTERMEDIATE_NONE:       Catch
+INTERMEDIATE_ERROR_BOUNDARY_INTERRUPTING: Error Boundary
+INTERMEDIATE_TIMER_CATCH: Timer
+INTERMEDIATE_MESSAGE_CATCH: Message
+INTERMEDIATE_NONE_THROW_NONBOUNDARY: Throw
+INTERMEDIATE_MESSAGE_THROW_NONBOUNDARY: Message
+INTERMEDIATE_SIGNAL_THROW_NONBOUNDARY: Signal
+INTERMEDIATE_SIGNAL_CATCH: Signal
+END_NONE:                End
+END_MESSAGE:             Message End
+END_ERROR:               Error End
+END_SIGNAL:              Signal End
+END_TERMINATE:           Terminate End
+MEASUREMENT_START:       Start Measurement
+MEASUREMENT_END:         End Measurement
+MEASUREMENT:             Measurement
+
+NONE_TRIGGER_TYPE:       None
+MESSAGE_TRIGGER_TYPE:    Message
+TIMER_TRIGGER_TYPE:      Timer
+ERROR_TRIGGER_TYPE:      Error
+SIGNAL_TRIGGER_TYPE:     Signal
+TERMINATE_TRIGGER_TYPE:  Terminate
+
+PROCESS_COMPONENTS:      BPM Components
+BPMN_ARTIFACTS:          BPMN Flow Objects
+BASIC_ARTIFACTS:         Basic Flow Objects
+BPMN:                    BPMN
+BPM_DESCRIPTIVE:         BPM Descriptive
+BUSINESS_CATALOG:        Business Catalog
+ARGUMENT_MAPPING:        Data Association
+VIEW_COLLABORATION:      View Collaboration
+HIDE_COLLABORATION:      Hide Collaboration
+LOADING:                 Loading ...
+CANCEL_SEARCH:           Cancel Search
+EVENTS:                  Events
+ZOOM_OUT:                Zoom out
+SELECT_ALL:              Select all
+DELETE:                  Delete
+
+SERVICES:                Services
+REMOVE_CUSTOM_OUTPUT:    Remove Custom Output
+ZOOM_IN:                 Zoom in
+
+SELECT:                  Select
+OK:                      Ok
+BPMN_COMPONENTS:         BPMN Components
+GATEWAYS:                Gateways
+ARTIFACTS:               Artifacts
+BASIC:                   Basic
+SEARCH:                  Find Component
+FLOW_SEALED:             Flow\n\
+                         Sealed
+REDO:                    Redo
+CANCEL:                  Cancel
+APPLY:                   Apply
+CREATE:                  Create
+VARIABLES:               Data Objects
+PREDEFINED_VARIABLES:    Predefined Variables
+PROCESS:                 Process
+PROJECT:                 Project
+DEFAULT:                 Default
+TASKS:                   Activities
+PANNING:                 Panning
+SAVE:                    Save
+UNDO:                    Undo
+ADD_NEW_VAR:             Add New Data Object
+REMOVE_VAR:              Remove Data Object
+VIEW_DATA_OBJECTS:       View Data Objects
+DATA_OBJECTS:            Data Objects
+INPUTS:                  Inputs
+OUTPUTS:                 Outputs
+DRAG_VARIABLES:          Drag data objects to text boxes.
+NAME:                    Name
+ICON:                    Icon
+TYPE:                    Type
+DESCRIPTION:             Description
+SCOPE:                   Scope
+NEW_VARIABLE:            New Data Object
+ADVANCED:                Advanced
+TRANSITIONS:             Sequence Flows
+BUSINESS_RULES:          Business Rules
+HELP:                    Help       
+HUMAN_TASKS:             Human Tasks
+BUSINESS_OBJECTS:        Business Objects
+ADD_CUSTOM_OUTPUT:       Add Custom Output
+ADD_CUSTOM_INPUT:        Add Custom Input
+TRANSITION:              Sequence Flow
+NORMAL: Unconditional
+CONDITIONAL: Conditional
+EXCEPTION: Exception
+PRINT:                   Print
+AUTOLAYOUT:              Autolayout
+ADD_TO_MILESTONE:        Add to Milestone
+COLLAPSE:                Collapse
+EXPAND:                  Expand
+OWNER:                   Process Owner
+PROPERTIES:              Properties
+IMPLEMENT:               Implement
+BUSINESS_PROPERTIES: Business Properties
+CREATE_TRANSITION:       Add Transition
+DOCUMENTATION:           Documentation
+UNRECOGNIZED_BPMN_TYPE:  Unrecognized BPMN type.
+STRAIGHTEN_TRANSITION:   Straighten Transition
+MAKE_TRANS_ORTHOGONAL:   Make Transition Orthogonal
+CURVE_TRANSITION:        Curve Transition
+SHOW_DOCUMENTATION:      Documentation
+SHOW_IMPLEMENTATION:     Implementation
+
+SIMPLE: Simple
+COMPLEX: Complex
+
+CONVERT_GATEWAY:         Convert Gateway
+CONVERT_TO_PARALLEL:     Convert to Parallel
+CONVERT_TO_INCLUSIVE:    Convert to Inclusive
+
+ERROR_MESSAGE:Error Name: {0}. \nError Message: {1}
+
+CREATE_COUNTER_MARK:     Create Counter Mark
+DELETE_COUNTER_MARK:     Delete Counter Mark
+
+ADD_NEW_SERVICE:         Add Service
+
+GRID_SHOW:              Toggle grid visibility
+GRID_SNAP:              Snap to grid
+
+LAUNCH_EXPRESSION_BUILDER: Launch Expression Builder
+
+EXTERNAL_REFERENCES:       External References
+
+CLOSE:                  Close
+TRIGGER:                Trigger
+
+OPEN_HT: Open Human Task
+OPEN_PROCESS: Open Process
+OPEN_BUSINESS_RULE: Open Business Rule
+
+COPY: Copy
+CUT: Cut
+PASTE: Paste
+
+REFINE_ACTIVITY: Refine Activity
+CONVERT_TO_REGULAR_SUBPROCESS: Convert to regular Subprocess
+
+SHOW_PALETTE:              Toggle palette visibility
+STAMP_MODE:                Toggle stamp mode
+
+ROLE: Role
+USE: Use
+AUTOMATIC_HANDLER: Automatic Handler
+CHANGE: Change...
+ADD_LANE: Add Lane
+
+MORE: More
+MORE_TOOLTIP: Show sub-items
+LESS: Less
+LESS_TOOLTIP: Hide sub-items
+
+LESS_DC_TOOLTIP: Double-click to hide sub-items
+MORE_DC_TOOLTIP: Double-click for more
+
+# Policies messages...
+
+INVALID_TYPE: Can't change node type to a {0}
+CAN_ONLY_CHANGE_TO_ACTIVITY: You can only change the type of an Activity
+ALREADY_DEFINED_TYPE: The Activity already has this type
+CAN_ONLY_CHANGE_TO_UNIMPLEMENTED_UT : Can't change pattern to an implemented user task
+
+FROM_EQ_TO: The source and target node can not be the same.
+DIFF_CONTAINER: The source and target nodes must have the same container.
+DIFF_BOUNDARY_CONTAINER: The boundary event can not be linked to its container.
+START_INCOMING: Start events cannot have incoming transitions.
+MORE_THAN_ONE_UNCONDITIONAL: There already is one unconditional transition connecting this nodes.
+EVENT_BASED_CONNECTIONS: The Event Based Gateway can only connect to Catch Messages, Catch Timers and Receive Tasks.
+END_OUTGOING: End events cannot have outgoing transitions.
+MORE_OUTGOING_UNCONDITIONAL: Only Parallel and Event Based Gateways can have more than one outgoing unconditional transition.
+CONDITIONAL_TRANS: Only Exclusive, Inclusive and Complex Gateways can have conditional transitions.
+OUTGOING_CONDITIONAL: A Gateway Merge cannot have an outgoing conditional transition.
+NOT_PART_OF_THE_FLOW: A {0} is not part of the flow (it cannot have boundary events, incoming or outgoing transitions).
+BOUNDARIES_TASKS: Boundary events can only be added to Tasks.
+NOTE_TARGET: The note target can't be a {0}.
+BOUNDARY_EVT: Boundary event
+MM_TRANSITIONS: Measurement Marks can only be attached to sequence flows.
+ON_TOP_OF_NODE: Cannot add on top of another node.
+SPACE_FOR_NODES: Not enough space to contain all nodes.
+NOT_BOUNDARY: The event {0} is not a boundary event.
+
+SERVICE_IMPL: A {0} can only be implemented with Services.
+SERVICE_NOT_CALLBACK: Callback operations cannot be used to implement a {0}.
+NOT_SYNC: Synchronic operations cannot be used to implement a {0}.
+BR_IMPL: Business Rule Tasks can only be implemented with Business Rules.
+CANNOT_IMPL: The selected activity cannot be implemented.
+UT_IMPL: Only User Tasks can be implemented with Human Tasks.
+TASKS_IMPL: Only tasks can be implemented.
+
+FLOW_IS_SEALED: Flow cannot be changed because it's sealed.
+NODE_IS_SEALED: Node is sealed.
+
+PROCESS_READ_ONLY: Process is read-only.
+EDIT_CONVERSATIONS: Edit Conversations
+
+######################
+
+VALIDATE_TARGET: Validate target after assigning:
+VALIDATE_INPUT: input data associations
+VALIDATE_OUTPUT: output data associations
+
+ADD_SEQUENTIAL: Add Sequential
+ADD_PARALLEL: Add Parallel
+PARTICIPANTS: Participants
+STAGE: Stage
+SINGLE: Single
+PARALLEL_SINGLE: Parallel Single
+PARALLEL_BLOCK: Parallel Block
+SERIAL: Serial
+FYI: Fyi
+ADHOC: Adhoc
+MANAGEMENT_CHAIN: Management Chain
+NOTIFY: Notify
+
+MANAGEMENT: Management
+GROUP: Group
+INITIATOR: Initiator
+
+REVEAL_ASSOCIATIONS: Click here to reveal associations
+
+FIND_USAGES: Find Usages
+
+
+AVG_INSTANCE_COUNT: Average Instances Count
+AVG_PERFORMANCE: Average Performance
+AVG_QUEUE_SIZE: Average Queue Size
+AVG_RESOURCE_UTILIZATION: Average Resource Utilization
+AVG_WORKING_COUNT: Average Working Count
+COMPLETED_INSTANCES: Completed Instances
+COMPLETED_OPERATIONS: Completed Operations
+CURRENT_INSTANCE_COUNT: Current Instances Count
+CURRENT_QUEUE_SIZE: Current Queue Size
+CURRENT_RESOURCE_UTILIZATION: Current Resource Utilization
+CURRENT_WORKING_COUNT: Current Working Count
+MAX_INSTANCE_COUNT: Maximum Instances Count
+MAX_INSTANCES_WORKING_COUNT: Maximum Instances Working Count
+MAX_QUEUE_SIZE: Maximum Queue Size
+MAX_RESOURCE_UTILIZATION: Maximum Resource Utilization
+TOTAL_RESOURCE_UTILIZATION: Total Resource Utilization
+TOTAL_WAITING_COUNT: Total Waiting Count
+
+AVG_PROCESS_TIME: Average process time
+AVG_CYCLE_TIME: Average Cycle Time
+MAX_CYCLE_TIME: Maximum Cycle Type
+MIN_CYCLE_TIME: Minimum Cycle Type
+AVG_WAITING_TIME: Average Waiting Time
+MAX_WAITING_TIME: Maximum Waiting Time
+MIN_WAITING_TIME: Minimum Waiting Time
+AVG_WORKING_TIME: Average Working Time
+MAX_WORKING_TIME: Maximum Working Time
+MIN_WORKING_TIME: Minimum Working Time
+
+TOTAL_COST: Total Cost
+AVG_TOTAL_COST: Average Total Cost
+
+TOTAL_WAITING_TIME: Total Waiting Time
+
+RESOURCE_BUSY_TIME: Resources Busy Time
+
+RESOURCE_BUSY_COST: Resource Busy Cost
+RESOURCE_TOTAL_COST: Resource Total Cost
+RESOURCES: Resources
+INDICATORS: Indicators
+VALUES: Values
+
+TIME: Time
+COST: Costs
+UNITS: Units
+
+COLUMN_CHART: Column chart
+BAR_CHART: Bar chart
+
+CLICK_TO_REVEAL_CHART: . Click to reveal chart
+SHOW_RESULTS: Show Results
+FILTERS: Filters
+CLEAR_RESULTS: Clear Results
+INSTANCE_NUMBER: Instances
+USE_INSTANCES: Use Instances
+
+INTERVAL: Interval
+MEAN: Mean
+STANDARD_DEVIATION: Standard Deviation
+PERIOD: Period
+FREQUENCY: Frequency
+EVERY: every
+DISTRIBUTION_TYPE: Distribution Type
+INSTANCE_CREATION: Instance Creation
+DELTA: Delta
+INSTANCES: instances
+CRITERIA: Criteria
+
+DAYS: days
+HOURS_AB: h
+MINUTES_AB: m
+SECONDS_AB: s
+
+
+CONSTANT_DIST: Constant
+UNIFORM_DIST: Uniform
+EXPONENTIAL_DIST: Exponential
+NORMAL_DIST: Normal
+REAL_DIST: Real
+
+
+FIFO: F.I.F.O.
+LIFO: L.I.F.O.
+RANDOM: Random
+BY_PRIORITY: By priority
+MINIMUM_COST: Minimum Cost
+MAXIMUM_EFFICIENCY: Maximum Efficiency
+
+
+FIXED_BASE_COST: Fixed Base Cost
+BASE_COST_PLUS_RESOURCE_COST: Base Cost Plus Resource Cost
+
+HOURLY: Hourly
+DAILY: Daily
+WEEKLY: Weekly
+MONTHLY: Monthly
+
+SUNDAY: Sunday
+MONDAY: Monday
+TUESDAY: Tuesday
+WEDNESDAY: Wednesday
+THURSDAY: Thursday
+FRIDAY: Friday
+SATURDAY: Saturday
+
+FIRST: First
+SECOND: Second
+THIRD: Third
+FOURTH: Fourth
+LAST: Last
+
+JANUARY: January
+FEBRUARY: February
+MARCH: March
+APRIL: April
+MAY: May
+JUNE: June
+JULY: July
+AUGUST: August
+SEPTEMBER: September
+OCTOBER: October
+NOVEMBER: November
+DECEMBER: December
+
+DURATION: Duration
+COST_PER_HOUR: Cost per hour
+QUEUE_INFO: Queue Info
+OUTGOING_FLOWS: Outgoing Flows
+
+USE_ORGANIZATION_RESOURCES: Use Organization Resources
+USE_FIXED_RESOURCES: Use Fixed Resources
+PARTICIPANT_SELECTION_POLICY: Participant Selection Policy
+AVAILABLE_RESOURCES: Available Resources
+
+PROCESS_EDITOR: Design
+SIMULATION_EDITOR: Simulation
+ADD_MODEL_SIMULATION: Add Model Simulation
+
+ACTIVITY_FIXED_BASE_COST: Activity Fixed Base Cost
+ACTIVITY_COST_TYPE: Activity Cost Type
+
+QUEUE_WARNING_SIZE: Queue Warning Size
+
+THREADS: Threads
+MODEL: Model:
+CREATE_SIM_MODEL: Create Simulation Model
+
+NOT_PROCESS_EDITOR: Switch to Design mode in order to edit the process
+MINUS_ENA: Collapse chart
+
+BUSINESS_INDICATORS: Business Indicators
+
+METRICS: Metrics
+ALL: All
+NONE: None
+
+INIT_PLAYER_INSTANCE: Initialize Player Instance
+REFRESH_PLAYER_INSTANCE: Refresh
+DELETE_PLAYER_INSTANCE: Delete
+PROCESS_VARIABLES: Process Variables
+THREAD_ID: Thread ID
+INSTANCE_ID: Instance ID
+INSTANCE_INFORMATION: Instance Information
+
+INVALID_PAYLOAD_NAME: Invalid task data name
+
+MUST_BE_LOWER : must be lowercase.

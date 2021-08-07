@@ -1,0 +1,443 @@
+#
+#
+# hash = 405f00d000bf10009f90407060df4f804f40d0b0
+#
+START:                   Start
+THROW:                   Kast
+CATCH:                   Fang opp
+END:                     Slutt
+
+ABSTRACT_ACTIVITY: Abstrakt aktivitet
+TASK: Aktivitet
+INTERACTIVE_TASK: Interaktiv
+
+
+USER_TASK: Brukeroppgave
+SERVICE_TASK: Tjenesteoppgave
+SEND_TASK: Sendingsoppgave
+RECEIVE_TASK: Mottaksoppgave
+NOTIFICATION_TASK: Varseloppgave
+UPDATE_TASK: Oppdater oppgave
+BUSINESS_RULE_TASK: Forretningsregeloppgave
+SCRIPT_TASK: Skriptoppgave
+MANUAL_TASK: Manuell oppgave
+CALL_ACTIVITY: Kallaktivitet
+SUBPROCESS: Delprosess
+INLINE_HANDLER: Delprosess for hendelse
+
+EVENT: Hendelse
+START_EVENT: Start
+END_EVENT: Slutt
+BOUNDARY_EVENT: Grense
+THROW_EVENT: Kast-hendelse
+CATCH_EVENT: Fang opp-hendelse
+
+GATEWAY: Innfallsport
+COMPLEX_GATEWAY: Sammensatt innfallsport
+EXCLUSIVE_GATEWAY: Eksklusiv innfallsport
+INCLUSIVE_GATEWAY: Inklusiv innfallsport
+PARALLEL_GATEWAY: Parallell innfallsport
+EVENT_BASED_GATEWAY: Hendelsesbasert innfallsport
+
+NOTE: Merknad
+
+START_NONE:              Start
+START_MESSAGE_TOPLEVEL:  Meldingsstart
+START_TIMER_TOPLEVEL:    Start for tidtaker
+START_SIGNAL_TOPLEVEL:   Signalstart
+START_ERROR_SUBPROCESS:  Feilstart
+INTERMEDIATE_NONE:       Fang opp
+INTERMEDIATE_ERROR_BOUNDARY_INTERRUPTING: Feilgrense
+INTERMEDIATE_TIMER_CATCH: Tidtaker
+INTERMEDIATE_MESSAGE_CATCH: Melding
+INTERMEDIATE_NONE_THROW_NONBOUNDARY: Kast
+INTERMEDIATE_MESSAGE_THROW_NONBOUNDARY: Melding
+INTERMEDIATE_SIGNAL_THROW_NONBOUNDARY: Signal
+INTERMEDIATE_SIGNAL_CATCH: Signal
+END_NONE:                Slutt
+END_MESSAGE:             Meldingsslutt
+END_ERROR:               Feilslutt
+END_SIGNAL:              Signalslutt
+END_TERMINATE:           Slutt for avslutning
+MEASUREMENT_START:       Start m\u00E5ling
+MEASUREMENT_END:         Avslutt m\u00E5ling
+MEASUREMENT:             M\u00E5ling
+
+NONE_TRIGGER_TYPE:       Ingen
+MESSAGE_TRIGGER_TYPE:    Melding
+TIMER_TRIGGER_TYPE:      Tidtaker
+ERROR_TRIGGER_TYPE:      Feil
+SIGNAL_TRIGGER_TYPE:     Signal
+TERMINATE_TRIGGER_TYPE:  Avslutt
+
+PROCESS_COMPONENTS:      BPM-komponenter
+BPMN_ARTIFACTS:          BPMN-flytobjekter
+BASIC_ARTIFACTS:         Grunnleggende flytobjekter
+BPMN:                    BPMN
+BPM_DESCRIPTIVE:         BPM - beskrivende
+BUSINESS_CATALOG:        Forretningskatalog
+ARGUMENT_MAPPING:        Datatilknytning
+VIEW_COLLABORATION:      Vis samarbeid
+HIDE_COLLABORATION:      Skjul samarbeid
+LOADING:                 Laster inn ...
+CANCEL_SEARCH:           Avbryt s\u00F8k
+EVENTS:                  Hendelser
+ZOOM_OUT:                Zoom ut
+SELECT_ALL:              Velg alle
+DELETE:                  Slett
+
+SERVICES:                Tjenester
+REMOVE_CUSTOM_OUTPUT:    Fjern egendefinerte utdata
+ZOOM_IN:                 Zoom inn
+
+SELECT:                  Velg
+OK:                      OK
+BPMN_COMPONENTS:         BPMN-komponenter
+GATEWAYS:                Innfallsporter
+ARTIFACTS:               Artefakter
+BASIC:                   Grunnleggende
+SEARCH:                  S\u00F8k etter komponent
+FLOW_SEALED:             Flyt\nforseglet
+REDO:                    Gj\u00F8r om
+CANCEL:                  Avbryt
+APPLY:                   Bruk
+CREATE:                  Opprett
+VARIABLES:               Dataobjekter
+PREDEFINED_VARIABLES:    Forh\u00E5ndsdefinerte variabler
+PROCESS:                 Prosess
+PROJECT:                 Prosjekt
+DEFAULT:                 Standard
+TASKS:                   Aktiviteter
+PANNING:                 Panorering
+SAVE:                    Lagre
+UNDO:                    Angre
+ADD_NEW_VAR:             Legg til nytt dataobjekt
+REMOVE_VAR:              Fjern dataobjekt
+VIEW_DATA_OBJECTS:       Vis dataobjekter
+DATA_OBJECTS:            Dataobjekter
+INPUTS:                  Inndata
+OUTPUTS:                 Utdata
+DRAG_VARIABLES:          Dra dataobjekter til tekstbokser.
+NAME:                    Navn
+ICON:                    Ikon
+TYPE:                    Type
+DESCRIPTION:             Beskrivelse
+SCOPE:                   Omfang
+NEW_VARIABLE:            Nytt dataobjekt
+ADVANCED:                Avansert
+TRANSITIONS:             Sekvensflyter
+BUSINESS_RULES:          Forretningsregler
+HELP:                    Hjelp
+HUMAN_TASKS:             Menneskelige oppgaver
+BUSINESS_OBJECTS:        Forretningsobjekter
+ADD_CUSTOM_OUTPUT:       Legg til egendefinerte utdata
+ADD_CUSTOM_INPUT:        Legg til egendefinerte inndata
+TRANSITION:              Sekvensflyt
+NORMAL: Ubetinget
+CONDITIONAL: Betinget
+EXCEPTION: Unntak
+PRINT:                   Skriv ut
+AUTOLAYOUT:              Autooppsett
+ADD_TO_MILESTONE:        Legg til milep\u00E6l
+COLLAPSE:                Trekk sammen
+EXPAND:                  Utvid
+OWNER:                   Prosesseier
+PROPERTIES:              Egenskaper
+IMPLEMENT:               Implementer
+BUSINESS_PROPERTIES: Forretningsegenskaper
+CREATE_TRANSITION:       Legg til overgang
+DOCUMENTATION:           Dokumentasjon
+UNRECOGNIZED_BPMN_TYPE:  Ukjent BPMN-type.
+STRAIGHTEN_TRANSITION:   Rett ut overgang
+MAKE_TRANS_ORTHOGONAL:   Gj\u00F8r overgangen rettvinklet
+CURVE_TRANSITION:        B\u00F8y overgangen
+SHOW_DOCUMENTATION:      Dokumentasjon
+SHOW_IMPLEMENTATION:     Implementering
+
+SIMPLE: Enkel
+COMPLEX: Sammensatt
+
+CONVERT_GATEWAY:         Konverter innfallsport
+CONVERT_TO_PARALLEL:     Konverter til parallell
+CONVERT_TO_INCLUSIVE:    Konverter til inklusiv
+
+ERROR_MESSAGE:Feilnavn: {0}. \nFeilmelding: {1}
+
+CREATE_COUNTER_MARK:     Opprett tellermerke
+DELETE_COUNTER_MARK:     Slett tellermerke
+
+ADD_NEW_SERVICE:         Legg til tjeneste
+
+GRID_SHOW:              Vis eller skjul rutenett
+GRID_SNAP:              Fest til rutenett
+
+LAUNCH_EXPRESSION_BUILDER: Start uttrykksverkt\u00F8y
+
+EXTERNAL_REFERENCES:       Eksterne referanser
+
+CLOSE:                  Lukk
+TRIGGER:                Trigger
+
+OPEN_HT: \u00C5pne menneskelig oppgave
+OPEN_PROCESS: \u00C5pne prosess
+OPEN_BUSINESS_RULE: \u00C5pne forretningsregel
+
+COPY: Kopier
+CUT: Klipp ut
+PASTE: Lim inn
+
+REFINE_ACTIVITY: Presiser aktivitet
+CONVERT_TO_REGULAR_SUBPROCESS: Konverter til vanlig delprosess
+
+SHOW_PALETTE:              Vis eller skjul palett
+STAMP_MODE:                Aktiver/deaktiver stempelmodus
+
+ROLE: Rolle
+USE: Bruk
+AUTOMATIC_HANDLER: Automatisk behandler
+CHANGE: Endre ...
+ADD_LANE: Legg til bane
+
+MORE: Mer
+MORE_TOOLTIP: Vis underelementer
+LESS: Mindre
+LESS_TOOLTIP: Skjul underelementer
+
+LESS_DC_TOOLTIP: Dobbeltklikk for \u00E5 skjule underelementer
+MORE_DC_TOOLTIP: Dobbeltklikk for mer
+
+# Policies messages...
+
+INVALID_TYPE: Kan ikke endre knutepunkttype til {0}
+CAN_ONLY_CHANGE_TO_ACTIVITY: Du kan bare endre type for en aktivitet
+ALREADY_DEFINED_TYPE: Aktiviteten har allerede denne typen
+CAN_ONLY_CHANGE_TO_UNIMPLEMENTED_UT : Kan ikke endre m\u00F8nster i en implementert brukeroppgave
+
+FROM_EQ_TO: Kildeknutepunktet kan ikke v\u00E6re identisk med m\u00E5lknutepunktet.
+DIFF_CONTAINER: Kilde- og m\u00E5lknutepunktet m\u00E5 ha samme beholder.
+DIFF_BOUNDARY_CONTAINER: Kan ikke koble grensehendelsen til beholderen.
+START_INCOMING: Starthendelser kan ikke ha innkommende overganger.
+MORE_THAN_ONE_UNCONDITIONAL: Det finnes allerede \u00E9n ubetinget overgang som kobler sammen disse knutepunktene.
+EVENT_BASED_CONNECTIONS: Den hendelsesbaserte innfallsporten kan bare koble til meldingshenting, tidtakerhenting og oppgavemottak.
+END_OUTGOING: Slutthendelser kan ikke ha utg\u00E5ende overganger.
+MORE_OUTGOING_UNCONDITIONAL: Bare parallelle og hendelsesbaserte innfallsporter kan ha mer enn \u00E9n utg\u00E5ende ubetinget overgang.
+CONDITIONAL_TRANS: Bare eksklusive, inklusive og sammensatte innfallsporter kan ha betingede overganger.
+OUTGOING_CONDITIONAL: En innfallsportsammensl\u00E5ing kan ikke ha en utg\u00E5ende betinget overgang.
+NOT_PART_OF_THE_FLOW: En {0} er ikke en del av flyten (den kan ikke ha grensehendelser, innkommende eller utg\u00E5ende overganger).
+BOUNDARIES_TASKS: Grensehendelser kan bare legges til i oppgaver.
+NOTE_TARGET: Merknadsm\u00E5let kan ikke v\u00E6re en {0}.
+BOUNDARY_EVT: Grensehendelse
+MM_TRANSITIONS: M\u00E5lingsmerker kan bare v\u00E6re tilknyttet sekvensflyter.
+ON_TOP_OF_NODE: Kan ikke legge til opp\u00E5 et annet knutepunkt.
+SPACE_FOR_NODES: Ikke nok plass til alle knutepunktene.
+NOT_BOUNDARY: Hendelsen {0} er ikke en grensehendelse.
+
+SERVICE_IMPL: En {0} kan bare implementeres med tjenester.
+SERVICE_NOT_CALLBACK: Tilbakekallingsoperasjoner kan ikke brukes til \u00E5 implementere en {0}.
+NOT_SYNC: Synkrone operasjoner kan ikke brukes til \u00E5 implementere en {0}.
+BR_IMPL: Forretningsregeloppgaver kan bare implementeres med forretningsregler.
+CANNOT_IMPL: Kan ikke implementere den valgte aktiviteten.
+UT_IMPL: Bare brukeroppgaver kan implementeres med menneskelige oppgaver.
+TASKS_IMPL: Bare oppgaver kan implementeres.
+
+FLOW_IS_SEALED: Kan ikke endre flyten fordi den er forseglet.
+NODE_IS_SEALED: Knutepunktet er forseglet.
+
+PROCESS_READ_ONLY: Prosessen er skrivebeskyttet.
+EDIT_CONVERSATIONS: Rediger konversasjoner
+
+######################
+
+VALIDATE_TARGET: Valider m\u00E5l etter tilordning:
+VALIDATE_INPUT: inndatatilknytninger
+VALIDATE_OUTPUT: utdatatilknytninger
+
+ADD_SEQUENTIAL: Legg til sekvensiell
+ADD_PARALLEL: Legg til parallell
+PARTICIPANTS: Deltakere
+STAGE: Fase
+SINGLE: Enkel
+PARALLEL_SINGLE: Parallell - enkelt
+PARALLEL_BLOCK: Parallell - blokk
+SERIAL: Seriell
+FYI: Til orientering
+ADHOC: Ad hoc
+MANAGEMENT_CHAIN: Administrasjonskjede
+NOTIFY: Varsle
+
+MANAGEMENT: Administrasjon
+GROUP: Gruppe
+INITIATOR: Initiativtaker
+
+REVEAL_ASSOCIATIONS: Klikk her hvis du vil vise flere tilknytninger
+
+FIND_USAGES: S\u00F8k etter bruk
+
+
+AVG_INSTANCE_COUNT: Gjennomsnittlig antall forekomster
+AVG_PERFORMANCE: Gjennomsnittlig ytelse
+AVG_QUEUE_SIZE: Gjennomsnittlig k\u00F8st\u00F8rrelse
+AVG_RESOURCE_UTILIZATION: Gjennomsnittlig ressursbruk
+AVG_WORKING_COUNT: Gjennomsnittlig antall behandlede prosessforekomster
+COMPLETED_INSTANCES: Fullf\u00F8rte forekomster
+COMPLETED_OPERATIONS: Fullf\u00F8rte operasjoner
+CURRENT_INSTANCE_COUNT: Antall gjeldende forekomster
+CURRENT_QUEUE_SIZE: Gjeldende k\u00F8st\u00F8rrelse
+CURRENT_RESOURCE_UTILIZATION: Gjeldende ressursbruk
+CURRENT_WORKING_COUNT: Gjeldende antall behandlede prosessforekomster
+MAX_INSTANCE_COUNT: Maksimalt antall behandlede prosessforekomster
+MAX_INSTANCES_WORKING_COUNT: Maksimalt antall forekomster i arbeid
+MAX_QUEUE_SIZE: Maksimal k\u00F8st\u00F8rrelse
+MAX_RESOURCE_UTILIZATION: Maksimal ressursbruk
+TOTAL_RESOURCE_UTILIZATION: Total ressursbruk
+TOTAL_WAITING_COUNT: Totalt venteantall
+
+AVG_PROCESS_TIME: Gjennomsnittlig behandlingstid
+AVG_CYCLE_TIME: Gjennomsnittlig syklustid
+MAX_CYCLE_TIME: Maksimal syklustype
+MIN_CYCLE_TIME: Korteste syklustype
+AVG_WAITING_TIME: Gjennomsnittlig ventetid
+MAX_WAITING_TIME: Maksimal ventetid
+MIN_WAITING_TIME: Korteste ventetid
+AVG_WORKING_TIME: Gjennomsnittlig arbeidstid
+MAX_WORKING_TIME: Lengste arbeidstid
+MIN_WORKING_TIME: Korteste arbeidstid
+
+TOTAL_COST: Total kostnad
+AVG_TOTAL_COST: Gjennomsnittlig total kostnad
+
+TOTAL_WAITING_TIME: Total ventetid
+
+RESOURCE_BUSY_TIME: Opptatt tid for ressurser
+
+RESOURCE_BUSY_COST: Opptattkostnad for ressurs
+RESOURCE_TOTAL_COST: Total ressurskostnad
+RESOURCES: Ressurser
+INDICATORS: Indikatorer
+VALUES: Verdier
+
+TIME: Tidspunkt
+COST: Kostnader
+UNITS: Enheter
+
+COLUMN_CHART: Kolonnediagram
+BAR_CHART: Stolpediagram
+
+CLICK_TO_REVEAL_CHART: . Klikk for \u00E5 vise diagram
+SHOW_RESULTS: Vis resultater
+FILTERS: Filtre
+CLEAR_RESULTS: Nullstill resultater
+INSTANCE_NUMBER: Forekomster
+USE_INSTANCES: Bruk forekomster
+
+INTERVAL: Intervall
+MEAN: Gjennomsnitt
+STANDARD_DEVIATION: Standardavvik
+PERIOD: Periode
+FREQUENCY: Frekvens
+EVERY: hver(t)
+DISTRIBUTION_TYPE: Fordelingstype
+INSTANCE_CREATION: Forekomstopprettelse
+DELTA: Delta
+INSTANCES: forekomster
+CRITERIA: Kriterier
+
+DAYS: dager
+HOURS_AB: t
+MINUTES_AB: m
+SECONDS_AB: s
+
+
+CONSTANT_DIST: Konstant
+UNIFORM_DIST: Uniform
+EXPONENTIAL_DIST: Eksponentiell
+NORMAL_DIST: Normal
+REAL_DIST: Virkelig
+
+
+FIFO: FIFO
+LIFO: LIFO
+RANDOM: Tilfeldig
+BY_PRIORITY: Etter prioritet
+MINIMUM_COST: Laveste kostnad
+MAXIMUM_EFFICIENCY: Maksimal effektivitet
+
+
+FIXED_BASE_COST: Fast basiskostnad
+BASE_COST_PLUS_RESOURCE_COST: Basiskostnader pluss ressurskostnader
+
+HOURLY: Hver time
+DAILY: Daglig
+WEEKLY: Ukentlig
+MONTHLY: M\u00E5nedlig
+
+SUNDAY: S\u00F8ndag
+MONDAY: Mandag
+TUESDAY: Tirsdag
+WEDNESDAY: Onsdag
+THURSDAY: Torsdag
+FRIDAY: Fredag
+SATURDAY: L\u00F8rdag
+
+FIRST: F\u00F8rste
+SECOND: Andre
+THIRD: Tredje
+FOURTH: Fjerde
+LAST: Siste
+
+JANUARY: Januar
+FEBRUARY: Februar
+MARCH: Mars
+APRIL: April
+MAY: Mai
+JUNE: Juni
+JULY: Juli
+AUGUST: August
+SEPTEMBER: September
+OCTOBER: Oktober
+NOVEMBER: November
+DECEMBER: Desember
+
+DURATION: Varighet
+COST_PER_HOUR: Kostnad per time
+QUEUE_INFO: K\u00F8opplysninger
+OUTGOING_FLOWS: Utg\u00E5ende flyter
+
+USE_ORGANIZATION_RESOURCES: Bruk organisasjonsressurser
+USE_FIXED_RESOURCES: Bruk faste ressurser
+PARTICIPANT_SELECTION_POLICY: Retningslinjer for deltakervalg
+AVAILABLE_RESOURCES: Tilgjengelige ressurser
+
+PROCESS_EDITOR: Utforming
+SIMULATION_EDITOR: Simulering
+ADD_MODEL_SIMULATION: Legg til modellsimulering
+
+ACTIVITY_FIXED_BASE_COST: Fast basiskostnad for aktivitet
+ACTIVITY_COST_TYPE: Aktivitetskostnadstype
+
+QUEUE_WARNING_SIZE: Advarselsst\u00F8rrelse for k\u00F8
+
+THREADS: Tr\u00E5der
+MODEL: Modell:
+CREATE_SIM_MODEL: Opprett simuleringsmodell
+
+NOT_PROCESS_EDITOR: Bytt til utformingsmodus for \u00E5 redigere prosessen
+MINUS_ENA: Trekk sammen diagrammet
+
+BUSINESS_INDICATORS: Forretningsindikatorer
+
+METRICS: M\u00E5linger
+ALL: Alle
+NONE: Ingen
+
+INIT_PLAYER_INSTANCE: Initialiser spillerforekomst
+REFRESH_PLAYER_INSTANCE: Oppfrisk
+DELETE_PLAYER_INSTANCE: Slett
+PROCESS_VARIABLES: Prosessvariabler
+THREAD_ID: Tr\u00E5d-ID
+INSTANCE_ID: Forekomst-ID
+INSTANCE_INFORMATION: Forekomstopplysninger
+
+INVALID_PAYLOAD_NAME: Ugyldig navn p\u00E5 oppgavedata
+
+MUST_BE_LOWER : m\u00E5 v\u00E6re sm\u00E5 bokstaver.

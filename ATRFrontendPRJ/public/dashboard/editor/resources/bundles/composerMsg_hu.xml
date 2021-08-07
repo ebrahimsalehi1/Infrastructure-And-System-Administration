@@ -1,0 +1,443 @@
+#
+#
+# hash = 405f00d000bf10009f90407060df4f804f40d0b0
+#
+START:                   Ind\u00EDt\u00E1s
+THROW:                   Eldob\u00E1s
+CATCH:                   Elfog\u00E1s
+END:                     Befejez\u00E9s
+
+ABSTRACT_ACTIVITY: Elvont tev\u00E9kenys\u00E9g
+TASK: Tev\u00E9kenys\u00E9g
+INTERACTIVE_TASK: Interakt\u00EDv
+
+
+USER_TASK: Felhaszn\u00E1l\u00F3i feladat
+SERVICE_TASK: Szolg\u00E1ltat\u00E1si feladat
+SEND_TASK: Feladat k\u00FCld\u00E9se
+RECEIVE_TASK: Feladat fogad\u00E1sa
+NOTIFICATION_TASK: \u00C9rtes\u00EDt\u00E9si feladat
+UPDATE_TASK: Feladat m\u00F3dos\u00EDt\u00E1sa
+BUSINESS_RULE_TASK: \u00DCzleti szab\u00E1ly szerinti feladat
+SCRIPT_TASK: Parancsf\u00E1jlos feladat
+MANUAL_TASK: Manu\u00E1lis feladat
+CALL_ACTIVITY: H\u00EDv\u00E1si tev\u00E9kenys\u00E9g
+SUBPROCESS: R\u00E9szfolyamat
+INLINE_HANDLER: Esem\u00E9ny r\u00E9szfolyamata
+
+EVENT: Esem\u00E9ny
+START_EVENT: Ind\u00EDt\u00E1s
+END_EVENT: Befejez\u00E9s
+BOUNDARY_EVENT: Hat\u00E1rol\u00F3
+THROW_EVENT: Eldob\u00E1si (THROW) esem\u00E9ny
+CATCH_EVENT: Elfog\u00E1si (CATCH) esem\u00E9ny
+
+GATEWAY: \u00C1tj\u00E1r\u00F3
+COMPLEX_GATEWAY: \u00D6sszetett \u00E1tj\u00E1r\u00F3
+EXCLUSIVE_GATEWAY: Kiz\u00E1r\u00F3 \u00E1tj\u00E1r\u00F3
+INCLUSIVE_GATEWAY: Befoglal\u00F3 \u00E1tj\u00E1r\u00F3
+PARALLEL_GATEWAY: P\u00E1rhuzamos \u00E1tj\u00E1r\u00F3
+EVENT_BASED_GATEWAY: Esem\u00E9ny alap\u00FA \u00E1tj\u00E1r\u00F3
+
+NOTE: Feljegyz\u00E9s
+
+START_NONE:              Ind\u00EDt\u00E1s
+START_MESSAGE_TOPLEVEL:  \u00DCzenet kezdete
+START_TIMER_TOPLEVEL:    Id\u0151z\u00EDt\u0151 kezdete
+START_SIGNAL_TOPLEVEL:   Jelz\u00E9s kezdete
+START_ERROR_SUBPROCESS:  Hiba kezdete
+INTERMEDIATE_NONE:       Elfog\u00E1s
+INTERMEDIATE_ERROR_BOUNDARY_INTERRUPTING: Hibahat\u00E1r
+INTERMEDIATE_TIMER_CATCH: Id\u0151z\u00EDt\u0151.
+INTERMEDIATE_MESSAGE_CATCH: \u00DCzenet
+INTERMEDIATE_NONE_THROW_NONBOUNDARY: Eldob\u00E1s
+INTERMEDIATE_MESSAGE_THROW_NONBOUNDARY: \u00DCzenet
+INTERMEDIATE_SIGNAL_THROW_NONBOUNDARY: Jel
+INTERMEDIATE_SIGNAL_CATCH: Jel
+END_NONE:                Befejez\u00E9s
+END_MESSAGE:             \u00DCzenet v\u00E9ge
+END_ERROR:               Hiba v\u00E9ge
+END_SIGNAL:              Jelz\u00E9s v\u00E9ge
+END_TERMINATE:           Lez\u00E1r\u00E1s v\u00E9ge
+MEASUREMENT_START:       M\u00E9r\u00E9s ind\u00EDt\u00E1sa
+MEASUREMENT_END:         M\u00E9r\u00E9s befejez\u00E9se
+MEASUREMENT:             M\u00E9r\u00E9s
+
+NONE_TRIGGER_TYPE:       Nincs
+MESSAGE_TRIGGER_TYPE:    \u00DCzenet
+TIMER_TRIGGER_TYPE:      Id\u0151z\u00EDt\u0151.
+ERROR_TRIGGER_TYPE:      Hiba
+SIGNAL_TRIGGER_TYPE:     Jel
+TERMINATE_TRIGGER_TYPE:  Lez\u00E1r\u00E1s
+
+PROCESS_COMPONENTS:      BPM \u00F6sszetev\u0151k
+BPMN_ARTIFACTS:          BPMN folyamatobjektumok
+BASIC_ARTIFACTS:         Alapvet\u0151 folyamatobjektumok
+BPMN:                    BPMN
+BPM_DESCRIPTIVE:         BPM le\u00EDr\u00F3
+BUSINESS_CATALOG:        \u00DCzleti katal\u00F3gus
+ARGUMENT_MAPPING:        Adatt\u00E1rs\u00EDt\u00E1s
+VIEW_COLLABORATION:      Egy\u00FCttm\u0171k\u00F6d\u00E9s megjelen\u00EDt\u00E9se
+HIDE_COLLABORATION:      Egy\u00FCttm\u0171k\u00F6d\u00E9s elrejt\u00E9se
+LOADING:                 Bet\u00F6lt\u00E9s...
+CANCEL_SEARCH:           Keres\u00E9s megszak\u00EDt\u00E1sa
+EVENTS:                  Esem\u00E9nyek
+ZOOM_OUT:                Kicsiny\u00EDt\u00E9s
+SELECT_ALL:              Mindent kijel\u00F6l
+DELETE:                  T\u00F6rl\u00E9s
+
+SERVICES:                Szolg\u00E1ltat\u00E1sok
+REMOVE_CUSTOM_OUTPUT:    Egy\u00E9ni kimenet elt\u00E1vol\u00EDt\u00E1sa
+ZOOM_IN:                 Nagy\u00EDt\u00E1s
+
+SELECT:                  Kijel\u00F6l\u00E9s
+OK:                      OK
+BPMN_COMPONENTS:         BPMN \u00F6sszetev\u0151k
+GATEWAYS:                \u00C1tj\u00E1r\u00F3k
+ARTIFACTS:               Modellelemek
+BASIC:                   Alapszint\u0171
+SEARCH:                  \u00D6sszetev\u0151 keres\u00E9se
+FLOW_SEALED:             Folyamat\nlepecs\u00E9telve
+REDO:                    Ism\u00E9t
+CANCEL:                  M\u00E9gse
+APPLY:                   Alkalmaz
+CREATE:                  L\u00E9trehoz\u00E1s
+VARIABLES:               Adatobjektumok
+PREDEFINED_VARIABLES:    El\u0151re defini\u00E1lt v\u00E1ltoz\u00F3k
+PROCESS:                 Folyamat
+PROJECT:                 Projekt
+DEFAULT:                 Alap\u00E9rtelmez\u00E9s
+TASKS:                   Tev\u00E9kenys\u00E9gek
+PANNING:                 P\u00E1szt\u00E1z\u00E1s
+SAVE:                    Ment\u00E9s
+UNDO:                    Visszavon\u00E1s
+ADD_NEW_VAR:             \u00DAj adatobjektum hozz\u00E1ad\u00E1sa
+REMOVE_VAR:              Adatobjektum elt\u00E1vol\u00EDt\u00E1sa
+VIEW_DATA_OBJECTS:       Adatobjektumok megtekint\u00E9se
+DATA_OBJECTS:            Adatobjektumok
+INPUTS:                  Bemenetek
+OUTPUTS:                 Kimenetek
+DRAG_VARIABLES:          Adatobjektumok \u00E1th\u00FAz\u00E1sa sz\u00F6vegmez\u0151kbe.
+NAME:                    N\u00E9v
+ICON:                    Ikon
+TYPE:                    T\u00EDpus
+DESCRIPTION:             Le\u00EDr\u00E1s
+SCOPE:                   Hat\u00F3k\u00F6r
+NEW_VARIABLE:            \u00DAj adatobjektum
+ADVANCED:                Speci\u00E1lis
+TRANSITIONS:             Folyamatsorrendek
+BUSINESS_RULES:          \u00DCzleti szab\u00E1lyok
+HELP:                    S\u00FAg\u00F3       
+HUMAN_TASKS:             Hum\u00E1n feladatok
+BUSINESS_OBJECTS:        \u00DCzleti objektumok
+ADD_CUSTOM_OUTPUT:       Egy\u00E9ni kimenet hozz\u00E1ad\u00E1sa
+ADD_CUSTOM_INPUT:        Egy\u00E9ni bemenet hozz\u00E1ad\u00E1sa
+TRANSITION:              Sorrend
+NORMAL: Felt\u00E9tel n\u00E9lk\u00FCli
+CONDITIONAL: Felt\u00E9teles
+EXCEPTION: Kiv\u00E9tel
+PRINT:                   Nyomtat\u00E1s
+AUTOLAYOUT:              Automatikus elrendez\u00E9s
+ADD_TO_MILESTONE:        Felv\u00E9tel a m\u00E9rf\u00F6ldk\u0151 r\u00E9sz\u00E9re
+COLLAPSE:                Becsuk\u00E1s
+EXPAND:                  Kibont\u00E1s
+OWNER:                   Feldolgoz\u00E1s tulajdonosa
+PROPERTIES:              Tulajdons\u00E1gok
+IMPLEMENT:               Megval\u00F3s\u00EDt\u00E1s
+BUSINESS_PROPERTIES: \u00DCzleti tulajdons\u00E1gok
+CREATE_TRANSITION:       \u00C1tmenet hozz\u00E1ad\u00E1sa
+DOCUMENTATION:           Dokument\u00E1ci\u00F3
+UNRECOGNIZED_BPMN_TYPE:  Ismeretlen BPMN t\u00EDpus.
+STRAIGHTEN_TRANSITION:   \u00C1tmenet kiegyenes\u00EDt\u00E9se
+MAKE_TRANS_ORTHOGONAL:   \u00C1tmenet der\u00E9ksz\u00F6g\u0171v\u00E9 t\u00E9tele
+CURVE_TRANSITION:        Egy\u00E9ni \u00E1tmenet
+SHOW_DOCUMENTATION:      Dokument\u00E1ci\u00F3
+SHOW_IMPLEMENTATION:     Megval\u00F3s\u00EDt\u00E1s
+
+SIMPLE: Egyszer\u0171
+COMPLEX: \u00D6sszetett
+
+CONVERT_GATEWAY:         \u00C1tj\u00E1r\u00F3 \u00E1talak\u00EDt\u00E1sa
+CONVERT_TO_PARALLEL:     \u00C1talak\u00EDt\u00E1s p\u00E1rhuzamoss\u00E1
+CONVERT_TO_INCLUSIVE:    \u00C1talak\u00EDt\u00E1s befoglal\u00F3v\u00E1
+
+ERROR_MESSAGE:Hiba neve: {0}. \nHiba\u00FCzenet: {1}
+
+CREATE_COUNTER_MARK:     Sz\u00E1ml\u00E1l\u00F3jel l\u00E9trehoz\u00E1sa
+DELETE_COUNTER_MARK:     Sz\u00E1ml\u00E1l\u00F3jel t\u00F6rl\u00E9se
+
+ADD_NEW_SERVICE:         Szolg\u00E1ltat\u00E1s hozz\u00E1ad\u00E1sa
+
+GRID_SHOW:              V\u00E1lt\u00E1s a r\u00E1cs l\u00E1that\u00F3s\u00E1g\u00E1ban
+GRID_SNAP:              R\u00E1cshoz illeszt\u00E9s
+
+LAUNCH_EXPRESSION_BUILDER: Kifejez\u00E9sszerkeszt\u0151 ind\u00EDt\u00E1sa
+
+EXTERNAL_REFERENCES:       K\u00FCls\u0151 hivatkoz\u00E1sok
+
+CLOSE:                  Bez\u00E1r\u00E1s
+TRIGGER:                Trigger
+
+OPEN_HT: Hum\u00E1n feladat megnyit\u00E1sa
+OPEN_PROCESS: Folyamat megnyit\u00E1sa
+OPEN_BUSINESS_RULE: \u00DCzleti szab\u00E1ly megnyit\u00E1sa
+
+COPY: M\u00E1sol\u00E1s
+CUT: Kiv\u00E1g\u00E1s
+PASTE: Beilleszt\u00E9s
+
+REFINE_ACTIVITY: Tev\u00E9kenys\u00E9g sz\u0171k\u00EDt\u00E9se
+CONVERT_TO_REGULAR_SUBPROCESS: \u00C1talak\u00EDt\u00E1s szok\u00E1sos r\u00E9szfolyamatt\u00E1
+
+SHOW_PALETTE:              V\u00E1lt\u00E1s a paletta l\u00E1that\u00F3s\u00E1g\u00E1ban
+STAMP_MODE:                B\u00E9lyegz\u00E9si m\u00F3d v\u00E1lt\u00E1sa
+
+ROLE: Szerepk\u00F6r
+USE: Haszn\u00E1lat
+AUTOMATIC_HANDLER: Automatikus kezel\u0151
+CHANGE: M\u00F3dos\u00EDt\u00E1s...
+ADD_LANE: S\u00E1v hozz\u00E1ad\u00E1sa
+
+MORE: T\u00F6bb
+MORE_TOOLTIP: Al\u00E1rendelt elemek megjelen\u00EDt\u00E9se
+LESS: Kevesebb
+LESS_TOOLTIP: Al\u00E1rendelt elemek elrejt\u00E9se
+
+LESS_DC_TOOLTIP: Kattintson dupl\u00E1n az al\u00E1rendelt elemek elrejt\u00E9s\u00E9hez
+MORE_DC_TOOLTIP: Kattintson dupl\u00E1n a tov\u00E1bbiakhoz
+
+# Policies messages...
+
+INVALID_TYPE: A csom\u00F3pont t\u00EDpusa nem m\u00F3dos\u00EDthat\u00F3 erre: {0}
+CAN_ONLY_CHANGE_TO_ACTIVITY: Csak tev\u00E9kenys\u00E9gek t\u00EDpus\u00E1t m\u00F3dos\u00EDthatja
+ALREADY_DEFINED_TYPE: A tev\u00E9kenys\u00E9g m\u00E1r rendelkezik ezzel a t\u00EDpussal
+CAN_ONLY_CHANGE_TO_UNIMPLEMENTED_UT : Implement\u00E1lt felhaszn\u00E1l\u00F3i feladathoz val\u00F3 mint\u00E1zat nem m\u00F3dos\u00EDthat\u00F3
+
+FROM_EQ_TO: A forr\u00E1s- \u00E9s a c\u00E9lcsom\u00F3pont nem lehet azonos.
+DIFF_CONTAINER: A forr\u00E1s- \u00E9s a c\u00E9lcsom\u00F3pontnak azonos t\u00E1rol\u00F3val kell rendelkeznie.
+DIFF_BOUNDARY_CONTAINER: A hat\u00E1rol\u00F3 esem\u00E9ny nem csatolhat\u00F3 a t\u00E1rol\u00F3j\u00E1hoz.
+START_INCOMING: Kezd\u0151 esem\u00E9nyekhez nem tartozhatnak bej\u00F6v\u0151 \u00E1tmenetek.
+MORE_THAN_ONE_UNCONDITIONAL: M\u00E1r van kapcsol\u00F3d\u00F3 felt\u00E9tel n\u00E9lk\u00FCli \u00E1tmenet enn\u00E9l a csom\u00F3pontn\u00E1l.
+EVENT_BASED_CONNECTIONS: Az esem\u00E9ny alap\u00FA \u00E1tj\u00E1r\u00F3 csak \u00FCzenetek elfog\u00E1s\u00E1hoz, id\u0151z\u00EDt\u0151k elfog\u00E1s\u00E1hoz \u00E9s feladatok fogad\u00E1s\u00E1hoz csatlakoztathat\u00F3k.
+END_OUTGOING: Z\u00E1r\u00F3 esem\u00E9nyekhez nem tartozhatnak kimen\u0151 \u00E1tmenetek.
+MORE_OUTGOING_UNCONDITIONAL: Csak p\u00E1rhuzamos \u00E9s esem\u00E9ny alap\u00FA \u00E1tj\u00E1r\u00F3k rendelkezhetnek egyn\u00E9l t\u00F6bb felt\u00E9tel n\u00E9lk\u00FCli kimen\u0151 \u00E1tmenettel.
+CONDITIONAL_TRANS: Csak kiz\u00E1r\u00F3, befoglal\u00F3 \u00E9s \u00F6sszetett \u00E1tj\u00E1r\u00F3k rendelkezhetnek felt\u00E9teles \u00E1tmenetekkel.
+OUTGOING_CONDITIONAL: Az \u00E1tj\u00E1r\u00F3egyes\u00EDt\u00E9sek nem rendelkezhetnek felt\u00E9teles kimen\u0151 \u00E1tmenettel.
+NOT_PART_OF_THE_FLOW: Egy {0} nem r\u00E9sze a folyamatnak (nem tartalmazhat hat\u00E1rol\u00F3 esem\u00E9nyeket, bej\u00F6v\u0151 \u00E9s kimen\u0151 \u00E1tmeneteket).
+BOUNDARIES_TASKS: Hat\u00E1rol\u00F3 esem\u00E9nyek csak feladatokhoz vehet\u0151k fel.
+NOTE_TARGET: A c\u00E9l nem lehet {0}.
+BOUNDARY_EVT: Hat\u00E1rol\u00F3 esem\u00E9ny
+MM_TRANSITIONS: M\u00E9r\u0151jelek csak folyamatsorrendekhez csatolhat\u00F3k.
+ON_TOP_OF_NODE: Nem vehet\u0151 fel m\u00E1sik csom\u00F3pont tetej\u00E9n.
+SPACE_FOR_NODES: Nincs elegend\u0151 hely az \u00F6sszes csom\u00F3pont befogad\u00E1s\u00E1hoz.
+NOT_BOUNDARY: A(z) {0} esem\u00E9ny nem hat\u00E1rol\u00F3 esem\u00E9ny.
+
+SERVICE_IMPL: {0} csak szolg\u00E1ltat\u00E1sokkal val\u00F3s\u00EDthat\u00F3 meg.
+SERVICE_NOT_CALLBACK: Visszah\u00EDv\u00E1si m\u0171veletek nem haszn\u00E1lhat\u00F3k {0} megval\u00F3s\u00EDt\u00E1s\u00E1ra.
+NOT_SYNC: Szinkroniz\u00E1l\u00E1si m\u0171veletek nem haszn\u00E1lhat\u00F3k {0} megval\u00F3s\u00EDt\u00E1s\u00E1ra.
+BR_IMPL: \u00DCzleti szab\u00E1lyon alapul\u00F3 feladatok csak \u00FCzleti szab\u00E1lyokkal val\u00F3s\u00EDthat\u00F3k meg.
+CANNOT_IMPL: A kijel\u00F6lt tev\u00E9kenys\u00E9g nem val\u00F3s\u00EDthat\u00F3 meg.
+UT_IMPL: Hum\u00E1n feladatokkal csak felhaszn\u00E1l\u00F3i feladatok val\u00F3s\u00EDthat\u00F3k meg.
+TASKS_IMPL: Csak feladatok val\u00F3s\u00EDthat\u00F3k meg.
+
+FLOW_IS_SEALED: Adatfolyam nem m\u00F3dos\u00EDthat\u00F3, mivel le van z\u00E1rva.
+NODE_IS_SEALED: A csom\u00F3pont lez\u00E1rt.
+
+PROCESS_READ_ONLY: A folyamat \u00EDr\u00E1sv\u00E9dett.
+EDIT_CONVERSATIONS: P\u00E1rbesz\u00E9dek szerkeszt\u00E9se
+
+######################
+
+VALIDATE_TARGET: C\u00E9l \u00E9rv\u00E9nyes\u00EDt\u00E9se hozz\u00E1rendel\u00E9s ut\u00E1n:
+VALIDATE_INPUT: bemeneti adatt\u00E1rs\u00EDt\u00E1sok
+VALIDATE_OUTPUT: kimeneti adatt\u00E1rs\u00EDt\u00E1sok
+
+ADD_SEQUENTIAL: Soros hozz\u00E1ad\u00E1sa
+ADD_PARALLEL: P\u00E1rhuzamos hozz\u00E1ad\u00E1sa
+PARTICIPANTS: R\u00E9sztvev\u0151k
+STAGE: Szakasz
+SINGLE: Egyetlen
+PARALLEL_SINGLE: P\u00E1rhuzamos egyetlen
+PARALLEL_BLOCK: P\u00E1rhuzamos blokk
+SERIAL: Sorrendben
+FYI: T\u00E1j\u00E9koztat\u00E1s
+ADHOC: Alkalmi
+MANAGEMENT_CHAIN: Vezet\u0151i l\u00E1nc
+NOTIFY: \u00C9rtes\u00EDt\u00E9s
+
+MANAGEMENT: Kezel\u00E9s
+GROUP: Csoport
+INITIATOR: Kezdem\u00E9nyez\u0151
+
+REVEAL_ASSOCIATIONS: Ide kattintva megjelennek a t\u00E1rs\u00EDt\u00E1sok
+
+FIND_USAGES: Haszn\u00E1latok keres\u00E9se
+
+
+AVG_INSTANCE_COUNT: Folyamatp\u00E9ld\u00E1nyok \u00E1tlagos sz\u00E1ma
+AVG_PERFORMANCE: \u00C1tlagos teljes\u00EDtm\u00E9ny
+AVG_QUEUE_SIZE: V\u00E1r\u00F3lista \u00E1tlagos nagys\u00E1ga
+AVG_RESOURCE_UTILIZATION: \u00C1tlagos er\u0151forr\u00E1s-kihaszn\u00E1lts\u00E1g
+AVG_WORKING_COUNT: Munk\u00E1k \u00E1tlagos sz\u00E1ma
+COMPLETED_INSTANCES: Befejezett p\u00E9ld\u00E1nyok
+COMPLETED_OPERATIONS: Befejezett m\u0171veletek
+CURRENT_INSTANCE_COUNT: Folyamatp\u00E9ld\u00E1nyok sz\u00E1ma jelenleg
+CURRENT_QUEUE_SIZE: V\u00E1r\u00F3lista nagys\u00E1ga jelenleg
+CURRENT_RESOURCE_UTILIZATION: Jelenlegi er\u0151forr\u00E1s-kihaszn\u00E1lts\u00E1g
+CURRENT_WORKING_COUNT: Munk\u00E1k sz\u00E1ma jelenleg
+MAX_INSTANCE_COUNT: Folyamatp\u00E9ld\u00E1nyok maxim\u00E1lis sz\u00E1ma
+MAX_INSTANCES_WORKING_COUNT: M\u0171k\u00F6d\u0151 folyamatp\u00E9ld\u00E1nyok maxim\u00E1lis sz\u00E1ma
+MAX_QUEUE_SIZE: Legnagyobb v\u00E1r\u00F3sor
+MAX_RESOURCE_UTILIZATION: Maxim\u00E1lis er\u0151forr\u00E1s-kihaszn\u00E1lts\u00E1g
+TOTAL_RESOURCE_UTILIZATION: Er\u0151forr\u00E1s-kihaszn\u00E1lts\u00E1g \u00F6sszesen
+TOTAL_WAITING_COUNT: V\u00E1rakoz\u00E1sok sz\u00E1ma \u00F6sszesen
+
+AVG_PROCESS_TIME: \u00C1tlagos feldolgoz\u00E1si id\u0151
+AVG_CYCLE_TIME: \u00C1tlagos ciklusid\u0151
+MAX_CYCLE_TIME: Maxim\u00E1lis ciklus t\u00EDpusa
+MIN_CYCLE_TIME: Minim\u00E1lis ciklus t\u00EDpusa
+AVG_WAITING_TIME: \u00C1tlagos v\u00E1rakoz\u00E1si id\u0151
+MAX_WAITING_TIME: Maxim\u00E1lis v\u00E1rakoz\u00E1si id\u0151
+MIN_WAITING_TIME: Minim\u00E1lis v\u00E1rakoz\u00E1si id\u0151
+AVG_WORKING_TIME: \u00C1tlagos \u00FCzemid\u0151
+MAX_WORKING_TIME: Maxim\u00E1lis \u00FCzemid\u0151
+MIN_WORKING_TIME: Minim\u00E1lis m\u0171k\u00F6d\u00E9si id\u0151
+
+TOTAL_COST: Teljes k\u00F6lts\u00E9g
+AVG_TOTAL_COST: \u00C1tlagos teljes k\u00F6lts\u00E9g
+
+TOTAL_WAITING_TIME: Teljes v\u00E1rakoz\u00E1si id\u0151
+
+RESOURCE_BUSY_TIME: Er\u0151forr\u00E1sok foglalts\u00E1gi ideje
+
+RESOURCE_BUSY_COST: Er\u0151forr\u00E1sok foglalts\u00E1gi k\u00F6lts\u00E9ge
+RESOURCE_TOTAL_COST: Er\u0151forr\u00E1sok teljes k\u00F6lts\u00E9ge
+RESOURCES: Er\u0151forr\u00E1sok
+INDICATORS: Jelz\u0151k
+VALUES: \u00C9rt\u00E9kek
+
+TIME: Id\u0151pont
+COST: K\u00F6lts\u00E9gek
+UNITS: M\u00E9rt\u00E9kegys\u00E9g
+
+COLUMN_CHART: Oszlopdiagram
+BAR_CHART: S\u00E1vdiagram
+
+CLICK_TO_REVEAL_CHART: . Kattintson a diagram megjelen\u00EDt\u00E9s\u00E9hez
+SHOW_RESULTS: Eredm\u00E9nyek megjelen\u00EDt\u00E9se
+FILTERS: Sz\u0171r\u0151k
+CLEAR_RESULTS: Eredm\u00E9nyek t\u00F6rl\u00E9se
+INSTANCE_NUMBER: P\u00E9ld\u00E1nyok
+USE_INSTANCES: P\u00E9ld\u00E1nyok haszn\u00E1lata
+
+INTERVAL: Intervallum
+MEAN: K\u00F6z\u00E9p\u00E9rt\u00E9k
+STANDARD_DEVIATION: Sz\u00F3r\u00E1s
+PERIOD: Id\u0151szak
+FREQUENCY: Gyakoris\u00E1g
+EVERY: minden
+DISTRIBUTION_TYPE: Terjeszt\u00E9si t\u00EDpus
+INSTANCE_CREATION: P\u00E9ld\u00E1ny l\u00E9trehoz\u00E1sa
+DELTA: Elt\u00E9r\u00E9s
+INSTANCES: p\u00E9ld\u00E1nyok
+CRITERIA: Felt\u00E9telek
+
+DAYS: napok
+HOURS_AB: h
+MINUTES_AB: p
+SECONDS_AB: mp
+
+
+CONSTANT_DIST: \u00C1lland\u00F3
+UNIFORM_DIST: Egys\u00E9ges
+EXPONENTIAL_DIST: Exponenci\u00E1lis
+NORMAL_DIST: Norm\u00E1l
+REAL_DIST: Val\u00F3s
+
+
+FIFO: F.I.F.O.
+LIFO: L.I.F.O.
+RANDOM: V\u00E9letlen
+BY_PRIORITY: Priorit\u00E1s szerint
+MINIMUM_COST: Minim\u00E1lis k\u00F6lts\u00E9g
+MAXIMUM_EFFICIENCY: Maxim\u00E1lis hat\u00E9konys\u00E1g
+
+
+FIXED_BASE_COST: R\u00F6gz\u00EDtett alapk\u00F6lts\u00E9g
+BASE_COST_PLUS_RESOURCE_COST: Alapk\u00F6lts\u00E9g plusz er\u0151forr\u00E1sk\u00F6lts\u00E9g
+
+HOURLY: \u00D3r\u00E1nk\u00E9nt
+DAILY: Napi
+WEEKLY: Heti
+MONTHLY: Havi
+
+SUNDAY: Vas\u00E1rnap
+MONDAY: H\u00E9tf\u0151
+TUESDAY: Kedd
+WEDNESDAY: Szerda
+THURSDAY: Cs\u00FCt\u00F6rt\u00F6k
+FRIDAY: P\u00E9ntek
+SATURDAY: Szombat
+
+FIRST: Els\u0151
+SECOND: M\u00E1sodperc
+THIRD: Harmadik
+FOURTH: Negyedik
+LAST: Utols\u00F3
+
+JANUARY: Janu\u00E1r
+FEBRUARY: Febru\u00E1r
+MARCH: M\u00E1rcius
+APRIL: \u00C1prilis
+MAY: M\u00E1jus
+JUNE: J\u00FAnius
+JULY: J\u00FAlius
+AUGUST: Augusztus
+SEPTEMBER: Szeptember
+OCTOBER: Okt\u00F3ber
+NOVEMBER: November
+DECEMBER: December
+
+DURATION: Id\u0151tartam
+COST_PER_HOUR: K\u00F6lts\u00E9g \u00F3r\u00E1nk\u00E9nt
+QUEUE_INFO: V\u00E1r\u00F3sor adatai
+OUTGOING_FLOWS: Kimen\u0151 folyamok
+
+USE_ORGANIZATION_RESOURCES: Szervezeti er\u0151forr\u00E1sok haszn\u00E1lata
+USE_FIXED_RESOURCES: R\u00F6gz\u00EDtett er\u0151forr\u00E1sok haszn\u00E1lata
+PARTICIPANT_SELECTION_POLICY: A r\u00E9sztvev\u0151kijel\u00F6l\u00E9s alapszab\u00E1lya
+AVAILABLE_RESOURCES: V\u00E1laszthat\u00F3 er\u0151forr\u00E1sok
+
+PROCESS_EDITOR: Tervez\u00E9s
+SIMULATION_EDITOR: Szimul\u00E1ci\u00F3
+ADD_MODEL_SIMULATION: Modellszimul\u00E1ci\u00F3 hozz\u00E1ad\u00E1sa
+
+ACTIVITY_FIXED_BASE_COST: Tev\u00E9kenys\u00E9g r\u00F6gz\u00EDtett alapk\u00F6lts\u00E9ge
+ACTIVITY_COST_TYPE: Tev\u00E9kenys\u00E9g k\u00F6lts\u00E9g\u00E9nek t\u00EDpusa
+
+QUEUE_WARNING_SIZE: A v\u00E1r\u00F3sor figyelmeztet\u00E9si m\u00E9rete
+
+THREADS: Sz\u00E1lak
+MODEL: Modell:
+CREATE_SIM_MODEL: Szimul\u00E1ci\u00F3s modell k\u00E9sz\u00EDt\u00E9se
+
+NOT_PROCESS_EDITOR: V\u00E1lt\u00E1s tervez\u00E9s m\u00F3dra a folyamat szerkeszt\u00E9s\u00E9hez
+MINUS_ENA: Diagram \u00F6sszecsuk\u00E1sa
+
+BUSINESS_INDICATORS: \u00DCgyviteli jel\u00F6l\u0151k
+
+METRICS: Mutat\u00F3sz\u00E1mok
+ALL: Mind
+NONE: Nincs
+
+INIT_PLAYER_INSTANCE: R\u00E9sztvev\u0151p\u00E9ld\u00E1ny elind\u00EDt\u00E1sa
+REFRESH_PLAYER_INSTANCE: Friss\u00EDt\u00E9s
+DELETE_PLAYER_INSTANCE: T\u00F6rl\u00E9s
+PROCESS_VARIABLES: Folyamatv\u00E1ltoz\u00F3k
+THREAD_ID: Sz\u00E1lazonos\u00EDt\u00F3
+INSTANCE_ID: P\u00E9ld\u00E1ny azonos\u00EDt\u00F3ja
+INSTANCE_INFORMATION: P\u00E9ld\u00E1nyadatok
+
+INVALID_PAYLOAD_NAME: \u00C9rv\u00E9nytelen a feladatadatok neve
+
+MUST_BE_LOWER : kisbet\u0171snek kell lennie.

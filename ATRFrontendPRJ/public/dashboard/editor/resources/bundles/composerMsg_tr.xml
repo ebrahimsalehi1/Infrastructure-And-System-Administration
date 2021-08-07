@@ -1,0 +1,443 @@
+#
+#
+# hash = 405f00d000bf10009f90407060df4f804f40d0b0
+#
+START:                   Ba\u015Flat
+THROW:                   At
+CATCH:                   Yakala
+END:                     Sonland\u0131r
+
+ABSTRACT_ACTIVITY: Soyut Etkinlik
+TASK: Etkinlik
+INTERACTIVE_TASK: Etkile\u015Fimli
+
+
+USER_TASK: Kullan\u0131c\u0131 G\u00F6revi
+SERVICE_TASK: Hizmet G\u00F6revi
+SEND_TASK: G\u00F6rev G\u00F6nder
+RECEIVE_TASK: G\u00F6rev Al
+NOTIFICATION_TASK: Bildirim G\u00F6revi
+UPDATE_TASK: G\u00F6revi G\u00FCncelle
+BUSINESS_RULE_TASK: \u0130\u015F Kural\u0131 G\u00F6revi
+SCRIPT_TASK: Komut Listesi G\u00F6revi
+MANUAL_TASK: Manuel G\u00F6rev
+CALL_ACTIVITY: \u00C7a\u011Fr\u0131 Etkinli\u011Fi
+SUBPROCESS: Alt \u0130\u015Flem
+INLINE_HANDLER: Etkinlik Alt \u0130\u015Flemi
+
+EVENT: Etkinlik
+START_EVENT: Ba\u015Flat
+END_EVENT: Sonland\u0131r
+BOUNDARY_EVENT: S\u0131n\u0131r
+THROW_EVENT: Etkinlik At
+CATCH_EVENT: Yakalama Etkinli\u011Fi
+
+GATEWAY: A\u011F Ge\u00E7idi
+COMPLEX_GATEWAY: Karma\u015F\u0131k A\u011F Ge\u00E7idi
+EXCLUSIVE_GATEWAY: Harici A\u011F Ge\u00E7idi
+INCLUSIVE_GATEWAY: Dahili A\u011F Ge\u00E7idi
+PARALLEL_GATEWAY: Paralel A\u011F Ge\u00E7idi
+EVENT_BASED_GATEWAY: Etkinlik Tabanl\u0131 A\u011F Ge\u00E7idi
+
+NOTE: Not
+
+START_NONE:              Ba\u015Flat
+START_MESSAGE_TOPLEVEL:  Mesaj Ba\u015Flang\u0131c\u0131
+START_TIMER_TOPLEVEL:    S\u00FCre\u00F6l\u00E7er Ba\u015Flang\u0131c\u0131
+START_SIGNAL_TOPLEVEL:   Sinyal Ba\u015Flang\u0131c\u0131
+START_ERROR_SUBPROCESS:  Hata Ba\u015Flang\u0131c\u0131
+INTERMEDIATE_NONE:       Yakala
+INTERMEDIATE_ERROR_BOUNDARY_INTERRUPTING: Hata S\u0131n\u0131r\u0131
+INTERMEDIATE_TIMER_CATCH: Zamanlay\u0131c\u0131
+INTERMEDIATE_MESSAGE_CATCH: Mesaj
+INTERMEDIATE_NONE_THROW_NONBOUNDARY: At
+INTERMEDIATE_MESSAGE_THROW_NONBOUNDARY: Mesaj
+INTERMEDIATE_SIGNAL_THROW_NONBOUNDARY: Sinyal
+INTERMEDIATE_SIGNAL_CATCH: Sinyal
+END_NONE:                Sonland\u0131r
+END_MESSAGE:             Mesaj Sonu
+END_ERROR:               Hata Sonu
+END_SIGNAL:              Sinyal Hatas\u0131
+END_TERMINATE:           Sonland\u0131rma Sonu
+MEASUREMENT_START:       \u00D6l\u00E7\u00FCy\u00FC Ba\u015Flat
+MEASUREMENT_END:         \u00D6l\u00E7\u00FCy\u00FC Bitir
+MEASUREMENT:             \u00D6l\u00E7\u00FC
+
+NONE_TRIGGER_TYPE:       Hi\u00E7biri
+MESSAGE_TRIGGER_TYPE:    Mesaj
+TIMER_TRIGGER_TYPE:      Zamanlay\u0131c\u0131
+ERROR_TRIGGER_TYPE:      Hata
+SIGNAL_TRIGGER_TYPE:     Sinyal
+TERMINATE_TRIGGER_TYPE:  Sonland\u0131r
+
+PROCESS_COMPONENTS:      BPM Bile\u015Fenleri
+BPMN_ARTIFACTS:          BPMN Ak\u0131\u015F Nesneleri
+BASIC_ARTIFACTS:         Temel Ak\u0131\u015F Nesneleri
+BPMN:                    BPMN
+BPM_DESCRIPTIVE:         BPM A\u00E7\u0131klamal\u0131
+BUSINESS_CATALOG:        \u0130\u015F Katalo\u011Fu
+ARGUMENT_MAPPING:        Veri \u0130li\u015Fkilendirmesi
+VIEW_COLLABORATION:      \u0130\u015Fbirli\u011Fini G\u00F6r\u00FCnt\u00FCle
+HIDE_COLLABORATION:      \u0130\u015Fbirli\u011Fini Gizle
+LOADING:                 Y\u00FCkleniyor...
+CANCEL_SEARCH:           Aramay\u0131 \u0130ptal Et
+EVENTS:                  Etkinlikler
+ZOOM_OUT:                Uzakla\u015Ft\u0131r
+SELECT_ALL:              T\u00FCm\u00FCn\u00FC se\u00E7
+DELETE:                  Sil
+
+SERVICES:                Hizmetler
+REMOVE_CUSTOM_OUTPUT:    \u00D6zel \u00C7\u0131kt\u0131y\u0131 Kald\u0131r
+ZOOM_IN:                 Yakla\u015Ft\u0131r
+
+SELECT:                  Se\u00E7
+OK:                      Tamam
+BPMN_COMPONENTS:         BPMN Bile\u015Fenleri
+GATEWAYS:                A\u011F Ge\u00E7itleri
+ARTIFACTS:               Olu\u015Fumlar
+BASIC:                   Temel
+SEARCH:                  Bile\u015Fen Bul
+FLOW_SEALED:             Ak\u0131\u015F\n\u015Eifreli
+REDO:                    Yinele
+CANCEL:                  \u0130ptal
+APPLY:                   Uygula
+CREATE:                  Yarat
+VARIABLES:               Veri Nesneleri
+PREDEFINED_VARIABLES:    \u00D6ntan\u0131ml\u0131 De\u011Fi\u015Fkenler
+PROCESS:                 \u0130\u015Flem
+PROJECT:                 Proje
+DEFAULT:                 \u00D6nde\u011Fer
+TASKS:                   Etkinlikler
+PANNING:                 \u00C7evirme
+SAVE:                    Kaydet
+UNDO:                    Geri Al
+ADD_NEW_VAR:             Yeni Veri Nesnesi Ekle
+REMOVE_VAR:              Veri Nesnesini Kald\u0131r
+VIEW_DATA_OBJECTS:       Veri Nesnelerini G\u00F6r\u00FCnt\u00FCle
+DATA_OBJECTS:            Veri Nesneleri
+INPUTS:                  Girdiler
+OUTPUTS:                 \u00C7\u0131kt\u0131lar
+DRAG_VARIABLES:          Veri nesnelerini metin kutular\u0131na s\u00FCr\u00FCkleyin.
+NAME:                    Ad\u0131
+ICON:                    Simge
+TYPE:                    T\u00FCr
+DESCRIPTION:             A\u00E7\u0131klama
+SCOPE:                   Kapsam
+NEW_VARIABLE:            Yeni Veri Nesnesi
+ADVANCED:                Geli\u015Fmi\u015F
+TRANSITIONS:             S\u0131ra Ak\u0131\u015Flar\u0131
+BUSINESS_RULES:          \u0130\u015F Kurallar\u0131
+HELP:                    Yard\u0131m       
+HUMAN_TASKS:             \u0130nsan G\u00F6revleri
+BUSINESS_OBJECTS:        \u0130\u015F Nesneleri
+ADD_CUSTOM_OUTPUT:       \u00D6zel \u00C7\u0131kt\u0131 Ekle
+ADD_CUSTOM_INPUT:        \u00D6zel Girdi Ekle
+TRANSITION:              S\u0131ra Ak\u0131\u015F\u0131
+NORMAL: Ko\u015Fulsuz
+CONDITIONAL: Ko\u015Fullu
+EXCEPTION: \u0130stisna
+PRINT:                   Yazd\u0131r
+AUTOLAYOUT:              Otomatik D\u00FCzen
+ADD_TO_MILESTONE:        \u00D6nemli G\u00FCncellemeye Ekle
+COLLAPSE:                Daralt
+EXPAND:                  Geni\u015Flet
+OWNER:                   \u0130\u015Flem Sahibi
+PROPERTIES:              Nitelikler
+IMPLEMENT:               Uygula
+BUSINESS_PROPERTIES: \u0130\u015F \u00D6zellikleri
+CREATE_TRANSITION:       Ge\u00E7i\u015F Ekle
+DOCUMENTATION:           Dok\u00FCmanlar
+UNRECOGNIZED_BPMN_TYPE:  Tan\u0131nmayan BPMN t\u00FCr\u00FC.
+STRAIGHTEN_TRANSITION:   Ge\u00E7i\u015Fi D\u00FCzelt
+MAKE_TRANS_ORTHOGONAL:   Ge\u00E7i\u015Fi Dikgen Yap
+CURVE_TRANSITION:        Ge\u00E7i\u015Fi E\u011Fri Yap
+SHOW_DOCUMENTATION:      Dok\u00FCmantasyon
+SHOW_IMPLEMENTATION:     Uygulama
+
+SIMPLE: Basit
+COMPLEX: Karma\u015F\u0131k
+
+CONVERT_GATEWAY:         A\u011F Ge\u00E7idini D\u00F6n\u00FC\u015Ft\u00FCr
+CONVERT_TO_PARALLEL:     Paralele D\u00F6n\u00FC\u015Ft\u00FCr
+CONVERT_TO_INCLUSIVE:    Kapsaml\u0131ya D\u00F6n\u00FC\u015Ft\u00FCr
+
+ERROR_MESSAGE:Hata Ad\u0131: {0}. \nHata Mesaj\u0131: {1}
+
+CREATE_COUNTER_MARK:     Saya\u00E7 \u0130\u015Fareti Yarat
+DELETE_COUNTER_MARK:     Saya\u00E7 \u0130\u015Fareti Sil
+
+ADD_NEW_SERVICE:         Hizmet Ekle
+
+GRID_SHOW:              K\u0131lavuz g\u00F6r\u00FCn\u00FCrl\u00FC\u011F\u00FCnde ge\u00E7i\u015F yap
+GRID_SNAP:              K\u0131lavuza uydur
+
+LAUNCH_EXPRESSION_BUILDER: \u0130fade Olu\u015Fturucu'yu ba\u015Flat
+
+EXTERNAL_REFERENCES:       Harici Referanslar
+
+CLOSE:                  Kapat
+TRIGGER:                Tetikleyici
+
+OPEN_HT: \u0130nsan G\u00F6revi A\u00E7
+OPEN_PROCESS: \u0130\u015Flem A\u00E7
+OPEN_BUSINESS_RULE: \u0130\u015F Kural\u0131 A\u00E7
+
+COPY: Kopyala
+CUT: Kes
+PASTE: Yap\u0131\u015Ft\u0131r
+
+REFINE_ACTIVITY: Etkinli\u011Fi Daralt
+CONVERT_TO_REGULAR_SUBPROCESS: D\u00FCzenli Alt \u0130\u015Fleme d\u00F6n\u00FC\u015Ft\u00FCr
+
+SHOW_PALETTE:              Palet g\u00F6r\u00FCn\u00FCrl\u00FC\u011F\u00FCnde ge\u00E7i\u015F yap
+STAMP_MODE:                Damga moduna ge\u00E7i\u015F yap
+
+ROLE: Rol
+USE: Kullan
+AUTOMATIC_HANDLER: Otomatik \u0130\u015Fleyici
+CHANGE: De\u011Fi\u015Ftir...
+ADD_LANE: S\u00FCtun Ekle
+
+MORE: Di\u011Fer
+MORE_TOOLTIP: Alt \u00F6\u011Feleri g\u00F6ster
+LESS: K\u00FC\u00E7\u00FCkt\u00FCr
+LESS_TOOLTIP: Alt \u00F6\u011Feleri gizle
+
+LESS_DC_TOOLTIP: Alt \u00F6\u011Feleri gizlemek i\u00E7in \u00E7ift t\u0131klay\u0131n
+MORE_DC_TOOLTIP: Daha fazlas\u0131 i\u00E7in \u00E7ift t\u0131klay\u0131n
+
+# Policies messages...
+
+INVALID_TYPE: D\u00FC\u011F\u00FCm t\u00FCr\u00FC {0} olarak de\u011Fi\u015Ftirilemiyor
+CAN_ONLY_CHANGE_TO_ACTIVITY: Etkinli\u011Fin sadece t\u00FCr\u00FCn\u00FC de\u011Fi\u015Ftirebilirsiniz
+ALREADY_DEFINED_TYPE: Etkinlik zaten bu t\u00FCrde
+CAN_ONLY_CHANGE_TO_UNIMPLEMENTED_UT : D\u00FCzen, uygulanan bir kullan\u0131c\u0131 g\u00F6revi olarak de\u011Fi\u015Ftirilemiyor
+
+FROM_EQ_TO: Kaynak ve hedef d\u00FC\u011F\u00FCm ayn\u0131 olamaz.
+DIFF_CONTAINER: Kaynak ve hedef d\u00FC\u011F\u00FCm ayn\u0131 kapsay\u0131c\u0131ya sahip olmal\u0131d\u0131r.
+DIFF_BOUNDARY_CONTAINER: S\u0131n\u0131r etkinli\u011Fi, bu kapsay\u0131c\u0131yla ili\u015Fkilendirilemedi.
+START_INCOMING: Ba\u015Flang\u0131\u00E7 etkinliklerinde gelen ge\u00E7i\u015Fler olamaz.
+MORE_THAN_ONE_UNCONDITIONAL: Bu d\u00FC\u011F\u00FCmleri ba\u011Flayan bir ko\u015Fulsuz ge\u00E7i\u015F zaten mevcut.
+EVENT_BASED_CONNECTIONS: "Etkinlik Tabanl\u0131 A\u011F Ge\u00E7idi; sadece Mesaj Yakala, S\u00FCre\u00F6l\u00E7er Yakala ve G\u00F6rev Al ile ba\u011Flanabilir."
+END_OUTGOING: Biti\u015F etkinlikleri giden ge\u00E7i\u015Flere sahip olamaz.
+MORE_OUTGOING_UNCONDITIONAL: Sadece Paralel ve Etkinlik Tabanl\u0131 A\u011F Ge\u00E7itleri birden \u00E7ok giden ko\u015Fulsuz ge\u00E7i\u015Fe sahip olabilir.
+CONDITIONAL_TRANS: Sadece D\u0131\u015Flayan, Kapsayan ve Karma\u015F\u0131k A\u011F Ge\u00E7itlerinde ko\u015Fullu ge\u00E7i\u015Fler olabilir.
+OUTGOING_CONDITIONAL: A\u011F Ge\u00E7idi Birle\u015Ftirme giden ko\u015Fullu ge\u00E7i\u015Fe sahip olamaz.
+NOT_PART_OF_THE_FLOW: {0} ak\u0131\u015F\u0131n par\u00E7as\u0131 de\u011Fil (s\u0131n\u0131r etkinliklerine, gelen ve giden ge\u00E7i\u015Flere sahip olamaz).
+BOUNDARIES_TASKS: S\u0131n\u0131r etkinlikleri sadece G\u00F6revlere eklenebilir.
+NOTE_TARGET: No hedefi {0} olamaz.
+BOUNDARY_EVT: S\u0131n\u0131r etkinli\u011Fi
+MM_TRANSITIONS: \u00D6l\u00E7\u00FC \u0130\u015Faretleri sadece s\u0131ra ak\u0131\u015Flar\u0131na eklenebilir.
+ON_TOP_OF_NODE: Ba\u015Fka d\u00FC\u011F\u00FCm\u00FCn \u00FCzerine eklenemez.
+SPACE_FOR_NODES: T\u00FCm d\u00FC\u011F\u00FCmleri kapsayacak alan yok.
+NOT_BOUNDARY: {0} etkinli\u011Fi bir s\u0131n\u0131r etkinli\u011Fi de\u011Fil.
+
+SERVICE_IMPL: {0} sadece Hizmetler ile uygulanabilir.
+SERVICE_NOT_CALLBACK: {0} uygulamak i\u00E7in Geri \u00C7a\u011F\u0131rma \u0130\u015Flemleri kullan\u0131lamaz.
+NOT_SYNC: {0} uygulamak i\u00E7in Senkron i\u015Flemleri kullan\u0131lamaz.
+BR_IMPL: \u0130\u015F Kural\u0131 G\u00F6revleri sadece \u0130\u015F Kurallar\u0131 ile uygulanabilir.
+CANNOT_IMPL: Se\u00E7ilen etkinlik uygulanamaz.
+UT_IMPL: \u0130nsan G\u00F6revleri ile sadece Kullan\u0131c\u0131 G\u00F6revleri uygulanabilir.
+TASKS_IMPL: Sadece g\u00F6revler uygulanabilir.
+
+FLOW_IS_SEALED: Ak\u0131\u015F, \u015Fifrelendi\u011Fi i\u00E7in de\u011Fi\u015Ftirilemez.
+NODE_IS_SEALED: D\u00FC\u011F\u00FCm \u015Fifrelendi.
+
+PROCESS_READ_ONLY: \u0130\u015Flem salt okunur.
+EDIT_CONVERSATIONS: Konu\u015Fmalar\u0131 D\u00FCzenle
+
+######################
+
+VALIDATE_TARGET: Hedefi \u015Funlar\u0131 atad\u0131ktan sonra do\u011Frula:
+VALIDATE_INPUT: girdi veri ili\u015Fkilendirmeleri
+VALIDATE_OUTPUT: \u00E7\u0131kt\u0131 veri ili\u015Fkilendirmeleri
+
+ADD_SEQUENTIAL: S\u0131ral\u0131 Ekle
+ADD_PARALLEL: Paralel Ekle
+PARTICIPANTS: Kat\u0131l\u0131mc\u0131lar
+STAGE: A\u015Fama
+SINGLE: Tek
+PARALLEL_SINGLE: Paralel Tek
+PARALLEL_BLOCK: Paralel Blok
+SERIAL: Seri
+FYI: Bilgi mesaj\u0131
+ADHOC: \u00D6zel
+MANAGEMENT_CHAIN: \u0130dare Zinciri
+NOTIFY: Bildir
+
+MANAGEMENT: \u0130dare
+GROUP: Grup
+INITIATOR: Ba\u015Flat\u0131c\u0131
+
+REVEAL_ASSOCIATIONS: \u0130li\u015Fkilendirmeleri ortaya \u00E7\u0131kartmak i\u00E7in buraya t\u0131klay\u0131n
+
+FIND_USAGES: Kullan\u0131m Bul
+
+
+AVG_INSTANCE_COUNT: Ortalama An Say\u0131s\u0131
+AVG_PERFORMANCE: Ortalama Performans
+AVG_QUEUE_SIZE: Ortalama Kuyruk Boyutu
+AVG_RESOURCE_UTILIZATION: Ortalama Kaynak Kullan\u0131m\u0131
+AVG_WORKING_COUNT: Ortalama \u00C7al\u0131\u015Fan Say\u0131s\u0131
+COMPLETED_INSTANCES: Tamamlanan Anlar
+COMPLETED_OPERATIONS: Tamamlanan \u0130\u015Flemler
+CURRENT_INSTANCE_COUNT: Ge\u00E7erli An Say\u0131s\u0131
+CURRENT_QUEUE_SIZE: Ge\u00E7erli Kuyruk Boyutu
+CURRENT_RESOURCE_UTILIZATION: Ge\u00E7erli Kaynak Kullan\u0131m\u0131
+CURRENT_WORKING_COUNT: Ge\u00E7erli \u00C7al\u0131\u015Fma Say\u0131s\u0131
+MAX_INSTANCE_COUNT: Maksimum An Say\u0131s\u0131
+MAX_INSTANCES_WORKING_COUNT: Maksimum An \u00C7al\u0131\u015Fma Say\u0131s\u0131
+MAX_QUEUE_SIZE: Maksimum Kuyruk Boyutu
+MAX_RESOURCE_UTILIZATION: Maksimum Kaynak Kullan\u0131m\u0131
+TOTAL_RESOURCE_UTILIZATION: Toplam Kaynak Kullan\u0131m\u0131
+TOTAL_WAITING_COUNT: Toplam Bekleme Say\u0131s\u0131
+
+AVG_PROCESS_TIME: Ortalama i\u015Flem s\u00FCresi
+AVG_CYCLE_TIME: Ortalama D\u00F6ng\u00FC S\u00FCresi
+MAX_CYCLE_TIME: Maksimum D\u00F6ng\u00FC T\u00FCr\u00FC
+MIN_CYCLE_TIME: Minimum D\u00F6ng\u00FC T\u00FCr\u00FC
+AVG_WAITING_TIME: Ortalama Bekleme S\u00FCresi
+MAX_WAITING_TIME: Maksimum Bekleme S\u00FCresi
+MIN_WAITING_TIME: Minimum Bekleme S\u00FCresi
+AVG_WORKING_TIME: Ortalama \u00C7al\u0131\u015Fma S\u00FCresi
+MAX_WORKING_TIME: Maksimum \u00C7al\u0131\u015Fma S\u00FCresi
+MIN_WORKING_TIME: Minimum \u00C7al\u0131\u015Fma S\u00FCresi
+
+TOTAL_COST: Toplam Maliyet
+AVG_TOTAL_COST: Ortalama Toplam Maliyet
+
+TOTAL_WAITING_TIME: Toplam Bekleme S\u00FCresi
+
+RESOURCE_BUSY_TIME: Kaynaklar\u0131n \u00C7al\u0131\u015Fma Zaman\u0131
+
+RESOURCE_BUSY_COST: Kaynak \u00C7al\u0131\u015Fma Maliyeti
+RESOURCE_TOTAL_COST: Kaynak Toplam Maliyeti
+RESOURCES: Kaynaklar
+INDICATORS: G\u00F6stergeler
+VALUES: De\u011Ferler
+
+TIME: Zaman
+COST: Maliyetler
+UNITS: Birimler
+
+COLUMN_CHART: S\u00FCtun grafi\u011Fi
+BAR_CHART: \u00C7ubuk grafik
+
+CLICK_TO_REVEAL_CHART: . Grafi\u011Fi g\u00F6r\u00FCnt\u00FClemek i\u00E7in t\u0131klay\u0131n
+SHOW_RESULTS: Sonu\u00E7lar\u0131 G\u00F6ster
+FILTERS: Filtreler
+CLEAR_RESULTS: Sonu\u00E7lar\u0131 Temizle
+INSTANCE_NUMBER: Anlar
+USE_INSTANCES: Anlar\u0131 Kullan
+
+INTERVAL: Aral\u0131k
+MEAN: Ortalama
+STANDARD_DEVIATION: Standart Sapma
+PERIOD: D\u00F6nem
+FREQUENCY: S\u0131kl\u0131k
+EVERY: her
+DISTRIBUTION_TYPE: Da\u011F\u0131t\u0131m T\u00FCr\u00FC
+INSTANCE_CREATION: An Yaratma
+DELTA: Delta
+INSTANCES: anlar
+CRITERIA: \u00D6l\u00E7\u00FCtler
+
+DAYS: g\u00FCn
+HOURS_AB: s
+MINUTES_AB: d
+SECONDS_AB: s
+
+
+CONSTANT_DIST: Sabit
+UNIFORM_DIST: Ortak
+EXPONENTIAL_DIST: \u00DCstel
+NORMAL_DIST: Normal
+REAL_DIST: Ger\u00E7ek
+
+
+FIFO: F.I.F.O.
+LIFO: L.I.F.O.
+RANDOM: Rasgele
+BY_PRIORITY: \u00D6nceli\u011Fe g\u00F6re
+MINIMUM_COST: Minimum Maliyet
+MAXIMUM_EFFICIENCY: Maksimum Verimlilik
+
+
+FIXED_BASE_COST: Sabit Taban Maliyeti
+BASE_COST_PLUS_RESOURCE_COST: En \u0130yi Maliyet Art\u0131 Kaynak Maliyeti
+
+HOURLY: Saatlik
+DAILY: G\u00FCnl\u00FCk
+WEEKLY: Haftal\u0131k
+MONTHLY: Ayl\u0131k
+
+SUNDAY: Pazar
+MONDAY: Pazartesi
+TUESDAY: Sal\u0131
+WEDNESDAY: \u00C7ar\u015Famba
+THURSDAY: Per\u015Fembe
+FRIDAY: Cuma
+SATURDAY: Cumartesi
+
+FIRST: \u0130lk
+SECOND: \u0130kinci
+THIRD: \u00DC\u00E7\u00FCnc\u00FC
+FOURTH: D\u00F6rd\u00FCnc\u00FC
+LAST: Sonuncu
+
+JANUARY: Ocak
+FEBRUARY: \u015Eubat
+MARCH: Mart
+APRIL: Nisan
+MAY: May\u0131s
+JUNE: Haziran
+JULY: Temmuz
+AUGUST: A\u011Fustos
+SEPTEMBER: Eyl\u00FCl
+OCTOBER: Ekim
+NOVEMBER: Kas\u0131m
+DECEMBER: Aral\u0131k
+
+DURATION: S\u00FCre
+COST_PER_HOUR: Saatlik maliyet
+QUEUE_INFO: Kuyruk Bilgileri
+OUTGOING_FLOWS: Giden Ak\u0131\u015Flar
+
+USE_ORGANIZATION_RESOURCES: Organizasyon Kaynaklar\u0131 Kullan
+USE_FIXED_RESOURCES: Sabit Kaynaklar\u0131 Kullan
+PARTICIPANT_SELECTION_POLICY: Kat\u0131l\u0131mc\u0131 Se\u00E7imi \u0130lkesi
+AVAILABLE_RESOURCES: Kullan\u0131labilir Kaynaklar
+
+PROCESS_EDITOR: Tasar\u0131m
+SIMULATION_EDITOR: Benzetim
+ADD_MODEL_SIMULATION: Model Benzetimi Ekle
+
+ACTIVITY_FIXED_BASE_COST: Etkinlik Sabit Taban Maliyeti
+ACTIVITY_COST_TYPE: Etkinlik Maliyet T\u00FCr\u00FC
+
+QUEUE_WARNING_SIZE: Kuyruk Uyar\u0131 Boyutu
+
+THREADS: Thread'ler
+MODEL: Model:
+CREATE_SIM_MODEL: Benzetim Modeli Olu\u015Ftur
+
+NOT_PROCESS_EDITOR: \u0130\u015Flemi d\u00FCzenlemek i\u00E7in Tasar\u0131m moduna ge\u00E7
+MINUS_ENA: Grafi\u011Fi daralt
+
+BUSINESS_INDICATORS: \u0130\u015F G\u00F6stergeleri
+
+METRICS: \u00D6l\u00E7\u00FCmler
+ALL: T\u00FCm\u00FC
+NONE: Hi\u00E7biri
+
+INIT_PLAYER_INSTANCE: Oynat\u0131c\u0131 An\u0131n\u0131 Ba\u015Flat
+REFRESH_PLAYER_INSTANCE: Yenile
+DELETE_PLAYER_INSTANCE: Sil
+PROCESS_VARIABLES: \u0130\u015Flem De\u011Fi\u015Fkenleri
+THREAD_ID: Thread No
+INSTANCE_ID: An No
+INSTANCE_INFORMATION: An Bilgileri
+
+INVALID_PAYLOAD_NAME: Ge\u00E7ersiz g\u00F6rev verileri ad\u0131
+
+MUST_BE_LOWER : k\u00FC\u00E7\u00FCk harfli olmal\u0131d\u0131r.

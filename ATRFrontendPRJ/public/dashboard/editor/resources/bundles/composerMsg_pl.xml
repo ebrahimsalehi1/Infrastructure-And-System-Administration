@@ -1,0 +1,443 @@
+#
+#
+# hash = 405f00d000bf10009f90407060df4f804f40d0b0
+#
+START:                   Pocz\u0105tek
+THROW:                   Zg\u0142o\u015B
+CATCH:                   Wychwy\u0107
+END:                     Koniec
+
+ABSTRACT_ACTIVITY: Dzia\u0142anie wyodr\u0119bnione
+TASK: Dzia\u0142anie
+INTERACTIVE_TASK: Interaktywne
+
+
+USER_TASK: Zadanie u\u017Cytkownika
+SERVICE_TASK: Zadanie us\u0142ugi
+SEND_TASK: Zadanie wysy\u0142ania
+RECEIVE_TASK: Zadanie odbioru
+NOTIFICATION_TASK: Zadanie powiadamiania
+UPDATE_TASK: Zadanie aktualizacji
+BUSINESS_RULE_TASK: Zadanie regu\u0142y biznesowej
+SCRIPT_TASK: Zadanie skryptu
+MANUAL_TASK: Zadanie r\u0119czne
+CALL_ACTIVITY: Dzia\u0142anie wywo\u0142ywania
+SUBPROCESS: Podproces
+INLINE_HANDLER: Podproces zdarzenia
+
+EVENT: Zdarzenie
+START_EVENT: Pocz\u0105tek
+END_EVENT: Ko\u0144cowe
+BOUNDARY_EVENT: Graniczne
+THROW_EVENT: Zdarzenie zg\u0142aszania
+CATCH_EVENT: Zdarzenie wychwytywania
+
+GATEWAY: Bramka
+COMPLEX_GATEWAY: Bramka z\u0142o\u017Cona
+EXCLUSIVE_GATEWAY: Bramka wy\u0142\u0105czna
+INCLUSIVE_GATEWAY: Bramka w\u0142\u0105czna
+PARALLEL_GATEWAY: Bramka r\u00F3wnoleg\u0142a
+EVENT_BASED_GATEWAY: Bramka oparta na zdarzeniach
+
+NOTE: Uwaga
+
+START_NONE:              Pocz\u0105tek
+START_MESSAGE_TOPLEVEL:  Uruchomienie komunikat\u00F3w
+START_TIMER_TOPLEVEL:    Uruchomienie zegara
+START_SIGNAL_TOPLEVEL:   Uruchomienie sygnalizacji
+START_ERROR_SUBPROCESS:  Uruchomienie obs\u0142ugi b\u0142\u0119d\u00F3w
+INTERMEDIATE_NONE:       Wychwy\u0107
+INTERMEDIATE_ERROR_BOUNDARY_INTERRUPTING: Granica b\u0142\u0119du
+INTERMEDIATE_TIMER_CATCH: Zegar
+INTERMEDIATE_MESSAGE_CATCH: Komunikat
+INTERMEDIATE_NONE_THROW_NONBOUNDARY: Zg\u0142o\u015B
+INTERMEDIATE_MESSAGE_THROW_NONBOUNDARY: Komunikat
+INTERMEDIATE_SIGNAL_THROW_NONBOUNDARY: Sygna\u0142
+INTERMEDIATE_SIGNAL_CATCH: Sygna\u0142
+END_NONE:                Koniec
+END_MESSAGE:             Koniec komunikatu
+END_ERROR:               Koniec b\u0142\u0119du
+END_SIGNAL:              Koniec sygnalizacji
+END_TERMINATE:           Koniec zako\u0144czenia
+MEASUREMENT_START:       Rozpocznij pomiar
+MEASUREMENT_END:         Zako\u0144cz pomiar
+MEASUREMENT:             Pomiar
+
+NONE_TRIGGER_TYPE:       Brak
+MESSAGE_TRIGGER_TYPE:    Komunikat
+TIMER_TRIGGER_TYPE:      Zegar
+ERROR_TRIGGER_TYPE:      B\u0142\u0105d
+SIGNAL_TRIGGER_TYPE:     Sygna\u0142
+TERMINATE_TRIGGER_TYPE:  Zako\u0144cz
+
+PROCESS_COMPONENTS:      Sk\u0142adniki BPM
+BPMN_ARTIFACTS:          Obiekty przep\u0142ywu BPMN
+BASIC_ARTIFACTS:         Podstawowe obiekty przep\u0142ywu
+BPMN:                    BPMN
+BPM_DESCRIPTIVE:         BPM - opisowe
+BUSINESS_CATALOG:        Katalog biznesowy
+ARGUMENT_MAPPING:        Powi\u0105zanie danych
+VIEW_COLLABORATION:      Wy\u015Bwietl wsp\u00F3\u0142prac\u0119
+HIDE_COLLABORATION:      Ukryj wsp\u00F3\u0142prac\u0119
+LOADING:                 \u0141adowanie...
+CANCEL_SEARCH:           Anulowanie wyszukiwania
+EVENTS:                  Zdarzenia
+ZOOM_OUT:                Pomniejsz
+SELECT_ALL:              Wybierz wszystko
+DELETE:                  Usu\u0144
+
+SERVICES:                Us\u0142ugi
+REMOVE_CUSTOM_OUTPUT:    Usu\u0144 wynik niestandardowy
+ZOOM_IN:                 Powi\u0119ksz
+
+SELECT:                  Wyb\u00F3r
+OK:                      OK
+BPMN_COMPONENTS:         Sk\u0142adniki BPMN
+GATEWAYS:                Bramki
+ARTIFACTS:               Artefakty
+BASIC:                   Podstawowe
+SEARCH:                  Znajdowanie sk\u0142adnika
+FLOW_SEALED:             Przep\u0142yw\nzapiecz\u0119towany
+REDO:                    Pon\u00F3w
+CANCEL:                  Anuluj
+APPLY:                   Zastosuj
+CREATE:                  Utw\u00F3rz
+VARIABLES:               Obiekty danych
+PREDEFINED_VARIABLES:    Zmienne predefiniowane
+PROCESS:                 Proces
+PROJECT:                 Projekt
+DEFAULT:                 Domy\u015Blne
+TASKS:                   Dzia\u0142ania
+PANNING:                 Panoramowanie
+SAVE:                    Zapisz
+UNDO:                    Cofnij
+ADD_NEW_VAR:             Dodaj nowy obiekt danych
+REMOVE_VAR:              Usu\u0144 obiekt danych
+VIEW_DATA_OBJECTS:       Wy\u015Bwietl obiekty danych
+DATA_OBJECTS:            Obiekty danych
+INPUTS:                  Dane wej\u015Bciowe
+OUTPUTS:                 Wyniki
+DRAG_VARIABLES:          Prosz\u0119 przeci\u0105gn\u0105\u0107 obiekty danych do p\u00F3l tekstowych.
+NAME:                    Nazwa
+ICON:                    Ikona
+TYPE:                    Typ
+DESCRIPTION:             Opis
+SCOPE:                   Zakres
+NEW_VARIABLE:            Nowy obiekt danych
+ADVANCED:                Zaawansowane
+TRANSITIONS:             Przep\u0142ywy sekwencyjne
+BUSINESS_RULES:          Regu\u0142y biznesowe
+HELP:                    Pomoc       
+HUMAN_TASKS:             Zadania interaktywne
+BUSINESS_OBJECTS:        Obiekty biznesowe
+ADD_CUSTOM_OUTPUT:       Dodaj wyj\u015Bcie niestandardowe
+ADD_CUSTOM_INPUT:        Dodaj wej\u015Bcie niestandardowe
+TRANSITION:              Przep\u0142yw sekwencyjny
+NORMAL: Bezwarunkowe
+CONDITIONAL: Warunkowe
+EXCEPTION: Wyj\u0105tek
+PRINT:                   Drukuj
+AUTOLAYOUT:              Automatyczny uk\u0142ad
+ADD_TO_MILESTONE:        Dodaj do wa\u017Cnego etapu
+COLLAPSE:                Zwi\u0144
+EXPAND:                  Rozwi\u0144
+OWNER:                   W\u0142a\u015Bciciel procesu
+PROPERTIES:              W\u0142a\u015Bciwo\u015Bci
+IMPLEMENT:               Implementacja
+BUSINESS_PROPERTIES: W\u0142a\u015Bciwo\u015Bci biznesowe
+CREATE_TRANSITION:       Dodawanie przej\u015Bcia
+DOCUMENTATION:           Dokumentacja
+UNRECOGNIZED_BPMN_TYPE:  Nieznany typ BPMN.
+STRAIGHTEN_TRANSITION:   Wyprostuj przej\u015Bcie
+MAKE_TRANS_ORTHOGONAL:   Uczy\u0144 przej\u015Bcie prostopad\u0142ym
+CURVE_TRANSITION:        Zakrzyw przej\u015Bcie
+SHOW_DOCUMENTATION:      Dokumentacja
+SHOW_IMPLEMENTATION:     Implementacja
+
+SIMPLE: Proste
+COMPLEX: Z\u0142o\u017Cone
+
+CONVERT_GATEWAY:         Bramka konwertuj\u0105ca
+CONVERT_TO_PARALLEL:     Konwersja na "r\u00F3wnolegle"
+CONVERT_TO_INCLUSIVE:    Konwersja na "w\u0142\u0105cznie"
+
+ERROR_MESSAGE:Nazwa b\u0142\u0119du: {0}. \nKomunikat o b\u0142\u0119dzie: {1}
+
+CREATE_COUNTER_MARK:     Tworzenie znaku licznika
+DELETE_COUNTER_MARK:     Usuwanie znaku licznika
+
+ADD_NEW_SERVICE:         Dodawanie us\u0142ugi
+
+GRID_SHOW:              Prze\u0142\u0105cz widoczno\u015B\u0107 siatki
+GRID_SNAP:              Przyci\u0105gaj do siatki
+
+LAUNCH_EXPRESSION_BUILDER: Uruchom konstruktor wyra\u017Ce\u0144
+
+EXTERNAL_REFERENCES:       Odwo\u0142ania zewn\u0119trzne
+
+CLOSE:                  Zamknij
+TRIGGER:                Wyzwalacz
+
+OPEN_HT: Otw\u00F3rz zadanie interaktywne
+OPEN_PROCESS: Otw\u00F3rz proces
+OPEN_BUSINESS_RULE: Otw\u00F3rz regu\u0142\u0119 biznesow\u0105
+
+COPY: Kopiuj
+CUT: Wytnij
+PASTE: Wklej
+
+REFINE_ACTIVITY: Uszczeg\u00F3\u0142owianie dzia\u0142ania
+CONVERT_TO_REGULAR_SUBPROCESS: Przekszta\u0142cenie w zwyk\u0142y podproces
+
+SHOW_PALETTE:              Prze\u0142\u0105cz widoczno\u015B\u0107 palety
+STAMP_MODE:                Prze\u0142\u0105cz tryb wielokrotny
+
+ROLE: Rola
+USE: U\u017Cycie
+AUTOMATIC_HANDLER: Automatyczna procedura obs\u0142ugi
+CHANGE: Zmie\u0144...
+ADD_LANE: Dodaj tor
+
+MORE: Wi\u0119cej
+MORE_TOOLTIP: Poka\u017C elementy ni\u017Cszego poziomu
+LESS: Mniej
+LESS_TOOLTIP: Ukryj elementy ni\u017Cszego poziomu
+
+LESS_DC_TOOLTIP: Prosz\u0119 klikn\u0105\u0107 dwukrotnie, aby ukry\u0107 elementy ni\u017Cszego poziomu
+MORE_DC_TOOLTIP: Prosz\u0119 klikn\u0105\u0107 dwukrotnie, aby wy\u015Bwietli\u0107 wi\u0119cej
+
+# Policies messages...
+
+INVALID_TYPE: Nie mo\u017Cna zmieni\u0107 typu w\u0119z\u0142a na "{0}"
+CAN_ONLY_CHANGE_TO_ACTIVITY: Mo\u017Cna zmieni\u0107 tylko typ dzia\u0142ania
+ALREADY_DEFINED_TYPE: Dzia\u0142anie ju\u017C jest tego typu
+CAN_ONLY_CHANGE_TO_UNIMPLEMENTED_UT : Nie mo\u017Cna zmieni\u0107 wzorca na zaimplementowane zadanie u\u017Cytkownika
+
+FROM_EQ_TO: W\u0119ze\u0142 \u017Ar\u00F3d\u0142owy i docelowy nie mog\u0105 by\u0107 tym samym w\u0119z\u0142em.
+DIFF_CONTAINER: W\u0119ze\u0142 \u017Ar\u00F3d\u0142owy i docelowy musz\u0105 mie\u0107 ten sam pojemnik.
+DIFF_BOUNDARY_CONTAINER: Zdarzenia granicznego nie mo\u017Cna powi\u0105za\u0107 z jego w\u0142asnym pojemnikiem.
+START_INCOMING: Zdarzenia pocz\u0105tkowe nie mog\u0105 mie\u0107 przej\u015B\u0107 przychodz\u0105cych.
+MORE_THAN_ONE_UNCONDITIONAL: Istnieje ju\u017C jedno bezwarunkowe przej\u015Bcie \u0142\u0105cz\u0105ce te w\u0119z\u0142y.
+EVENT_BASED_CONNECTIONS: Bramka oparta na zdarzeniach mo\u017Ce by\u0107 przy\u0142\u0105czana tylko do komunikat\u00F3w wychwytywania, zegar\u00F3w wychwytywania oraz do zdarze\u0144 odbioru.
+END_OUTGOING: Zdarzenia ko\u0144cowe nie mog\u0105 mie\u0107 przej\u015B\u0107 wychodz\u0105cych.
+MORE_OUTGOING_UNCONDITIONAL: Tylko bramki r\u00F3wnoleg\u0142a i oparta na zdarzeniach mog\u0105 mie\u0107 wi\u0119cej ni\u017C jedno bezwarunkowe przej\u015Bcie wychodz\u0105ce.
+CONDITIONAL_TRANS: Tylko bramki w\u0142\u0105czna, wy\u0142\u0105czna i z\u0142o\u017Cona mog\u0105 mie\u0107 przej\u015Bcia warunkowe.
+OUTGOING_CONDITIONAL: Bramka scalaj\u0105ca nie mo\u017Ce mie\u0107 warunkowego przep\u0142ywu wychodz\u0105cego
+NOT_PART_OF_THE_FLOW: {0} nie jest cz\u0119\u015Bci\u0105 przep\u0142ywu (nie mo\u017Ce mie\u0107 zdarze\u0144 granicznych ani przep\u0142yw\u00F3w przychodz\u0105cych b\u0105d\u017A wychodz\u0105cych).
+BOUNDARIES_TASKS: Zdarzenia graniczne mo\u017Cna dodawa\u0107 wy\u0142\u0105cznie do zada\u0144.
+NOTE_TARGET: Celem notatki nie mo\u017Ce by\u0107 {0}.
+BOUNDARY_EVT: Zdarzenie graniczne
+MM_TRANSITIONS: Oznaczenia pomiar\u00F3w mo\u017Cna dodawa\u0107 tylko do przep\u0142yw\u00F3w sekwencyjnych.
+ON_TOP_OF_NODE: Nie mo\u017Cna doda\u0107 na g\u00F3rze innego w\u0119z\u0142a.
+SPACE_FOR_NODES: Za ma\u0142o miejsca, aby mo\u017Cna by\u0142o pomie\u015Bci\u0107 wszystkie w\u0119z\u0142y.
+NOT_BOUNDARY: Zdarzenie "{0}" nie jest zdarzeniem granicznym.
+
+SERVICE_IMPL: {0} mo\u017Cna zaimplementowa\u0107 tylko z us\u0142ugami.
+SERVICE_NOT_CALLBACK: Do implementacji "{0}" nie mo\u017Cna u\u017Cy\u0107 operacji wywo\u0142ania zwrotnego.
+NOT_SYNC: Do implementacji "{0}" nie mo\u017Cna u\u017Cy\u0107 operacji synchronicznych.
+BR_IMPL: Zadania regu\u0142 biznesowych mo\u017Cna implementowa\u0107 tylko z regu\u0142ami biznesowymi.
+CANNOT_IMPL: Nie mo\u017Cna zaimplementowa\u0107 wybranego dzia\u0142ania.
+UT_IMPL: Z zadaniami interaktywnymi mo\u017Cna implementowa\u0107 tylko zadania u\u017Cytkownika.
+TASKS_IMPL: Mo\u017Cna implementowa\u0107 tylko zadania.
+
+FLOW_IS_SEALED: Nie mo\u017Cna zmieni\u0107 przep\u0142ywu, poniewa\u017C jest zapiecz\u0119towany.
+NODE_IS_SEALED: W\u0119ze\u0142 jest zapiecz\u0119towany.
+
+PROCESS_READ_ONLY: Proces jest tylko do odczytu.
+EDIT_CONVERSATIONS: Edycja konwersacji
+
+######################
+
+VALIDATE_TARGET: Zweryfikuj cel po przypisaniu:
+VALIDATE_INPUT: powi\u0105zania danych wej\u015Bciowych
+VALIDATE_OUTPUT: powi\u0105zania danych wyj\u015Bciowych
+
+ADD_SEQUENTIAL: Dodaj sekwencyjny
+ADD_PARALLEL: Dodaj r\u00F3wnoleg\u0142y
+PARTICIPANTS: Uczestnicy
+STAGE: Etap
+SINGLE: Jeden
+PARALLEL_SINGLE: Jeden r\u00F3wnoleg\u0142y
+PARALLEL_BLOCK: Blok r\u00F3wnoleg\u0142y
+SERIAL: Szeregowo
+FYI: Informacja
+ADHOC: Dora\u017Anie
+MANAGEMENT_CHAIN: \u0141a\u0144cuch zarz\u0105dzania
+NOTIFY: Powiadamianie
+
+MANAGEMENT: Zarz\u0105dzanie
+GROUP: Grupa
+INITIATOR: Inicjator
+
+REVEAL_ASSOCIATIONS: Aby ods\u0142oni\u0107 powi\u0105zania, prosz\u0119 tutaj klikn\u0105\u0107
+
+FIND_USAGES: Znajd\u017A u\u017Cycia
+
+
+AVG_INSTANCE_COUNT: \u015Arednia liczba instancji
+AVG_PERFORMANCE: \u015Arednia wydajno\u015B\u0107
+AVG_QUEUE_SIZE: \u015Aredni rozmiar kolejki
+AVG_RESOURCE_UTILIZATION: \u015Arednie u\u017Cycie zasobu
+AVG_WORKING_COUNT: \u015Arednia liczba pracuj\u0105cych
+COMPLETED_INSTANCES: Instancje uko\u0144czone
+COMPLETED_OPERATIONS: Operacje uko\u0144czone
+CURRENT_INSTANCE_COUNT: Bie\u017C\u0105ca liczba instancji
+CURRENT_QUEUE_SIZE: Bie\u017C\u0105cy rozmiar kolejki
+CURRENT_RESOURCE_UTILIZATION: Bie\u017C\u0105ce u\u017Cycie zasobu
+CURRENT_WORKING_COUNT: Bie\u017C\u0105ca liczba pracuj\u0105cych
+MAX_INSTANCE_COUNT: Maksymalna liczba instancji
+MAX_INSTANCES_WORKING_COUNT: Maksymalna liczba dzia\u0142aj\u0105cych instancji
+MAX_QUEUE_SIZE: Maksymalny rozmiar kolejki
+MAX_RESOURCE_UTILIZATION: Maksymalne u\u017Cycie zasob\u00F3w
+TOTAL_RESOURCE_UTILIZATION: U\u017Cycie zasobu og\u00F3\u0142em
+TOTAL_WAITING_COUNT: Czas oczekiwania og\u00F3\u0142em
+
+AVG_PROCESS_TIME: \u015Aredni czas przetwarzania
+AVG_CYCLE_TIME: \u015Aredni czas cyklu
+MAX_CYCLE_TIME: Maksymalny czas cyklu
+MIN_CYCLE_TIME: Minimalny czas cyklu
+AVG_WAITING_TIME: \u015Aredni czas oczekiwania
+MAX_WAITING_TIME: Maksymalny czas oczekiwania
+MIN_WAITING_TIME: Minimalny czas oczekiwania
+AVG_WORKING_TIME: \u015Aredni czas pracy
+MAX_WORKING_TIME: Maksymalny czas pracy
+MIN_WORKING_TIME: Minimalny czas pracy
+
+TOTAL_COST: Koszt \u0142\u0105czny
+AVG_TOTAL_COST: \u015Aredni koszt ca\u0142kowity
+
+TOTAL_WAITING_TIME: \u0141\u0105czny czas oczekiwania
+
+RESOURCE_BUSY_TIME: Czas zajmowania zasobu
+
+RESOURCE_BUSY_COST: Koszt zajmowania zasobu
+RESOURCE_TOTAL_COST: Koszt zasobu og\u00F3\u0142em
+RESOURCES: Zasoby
+INDICATORS: Wska\u017Aniki
+VALUES: Warto\u015Bci
+
+TIME: Czas
+COST: Koszty
+UNITS: Jednostki
+
+COLUMN_CHART: Wykres kolumnowy
+BAR_CHART: Wykres s\u0142upkowy
+
+CLICK_TO_REVEAL_CHART: . Prosz\u0119 klikn\u0105\u0107, aby ods\u0142oni\u0107 wykres
+SHOW_RESULTS: Poka\u017C wyniki
+FILTERS: Filtry
+CLEAR_RESULTS: Wyczy\u015B\u0107 wyniki
+INSTANCE_NUMBER: Instancje
+USE_INSTANCES: U\u017Cyj instancji
+
+INTERVAL: Interwa\u0142
+MEAN: \u015Arednia
+STANDARD_DEVIATION: Odchylenie standardowe
+PERIOD: Okres
+FREQUENCY: Cz\u0119stotliwo\u015B\u0107
+EVERY: ka\u017Cdy(-a)/co
+DISTRIBUTION_TYPE: Typ rozk\u0142adu
+INSTANCE_CREATION: Tworzenie instancji
+DELTA: Delta
+INSTANCES: instancje
+CRITERIA: Kryteria
+
+DAYS: dni
+HOURS_AB: h
+MINUTES_AB: m
+SECONDS_AB: s
+
+
+CONSTANT_DIST: Sta\u0142y
+UNIFORM_DIST: Jednostajny
+EXPONENTIAL_DIST: Wyk\u0142adniczy
+NORMAL_DIST: Normalny
+REAL_DIST: Rzeczywisty
+
+
+FIFO: F.I.F.O.
+LIFO: L.I.F.O.
+RANDOM: Losowo
+BY_PRIORITY: Wed\u0142ug priorytetu
+MINIMUM_COST: Minimalny koszt
+MAXIMUM_EFFICIENCY: Maksymalna wydajno\u015B\u0107
+
+
+FIXED_BASE_COST: Sta\u0142y koszt podstawowy
+BASE_COST_PLUS_RESOURCE_COST: Koszt podstawowy plus koszt zasobu
+
+HOURLY: Co godzin\u0119
+DAILY: Co dzie\u0144
+WEEKLY: Co tydzie\u0144
+MONTHLY: Co miesi\u0105c
+
+SUNDAY: Niedziela
+MONDAY: Poniedzia\u0142ek
+TUESDAY: Wtorek
+WEDNESDAY: \u015Aroda
+THURSDAY: Czwartek
+FRIDAY: Pi\u0105tek
+SATURDAY: Sobota
+
+FIRST: Pierwszy(-a)
+SECOND: Drugi(-a)
+THIRD: Trzeci(a)
+FOURTH: Czwarty(-a)
+LAST: Ostatni(a)
+
+JANUARY: Stycze\u0144
+FEBRUARY: Luty
+MARCH: Marzec
+APRIL: Kwiecie\u0144
+MAY: Maj
+JUNE: Czerwiec
+JULY: Lipiec
+AUGUST: Sierpie\u0144
+SEPTEMBER: Wrzesie\u0144
+OCTOBER: Pa\u017Adziernik
+NOVEMBER: Listopad
+DECEMBER: Grudzie\u0144
+
+DURATION: Czas trwania
+COST_PER_HOUR: Koszt na godzin\u0119
+QUEUE_INFO: Informacje o kolejce
+OUTGOING_FLOWS: Przep\u0142ywy wychodz\u0105ce
+
+USE_ORGANIZATION_RESOURCES: U\u017Cycie zasob\u00F3w organizacji
+USE_FIXED_RESOURCES: U\u017Cycie sta\u0142ych zasob\u00F3w
+PARTICIPANT_SELECTION_POLICY: Za\u0142o\u017Cenia systemowe dot. wyboru uczestnik\u00F3w
+AVAILABLE_RESOURCES: Dost\u0119pne zasoby
+
+PROCESS_EDITOR: Projekt
+SIMULATION_EDITOR: Symulacja
+ADD_MODEL_SIMULATION: Dodawanie symulacji modelu
+
+ACTIVITY_FIXED_BASE_COST: Sta\u0142y koszt podstawowy dzia\u0142ania
+ACTIVITY_COST_TYPE: Typ koszt\u00F3w dzia\u0142a\u0144
+
+QUEUE_WARNING_SIZE: Rozmiar ostrzegawczy kolejki
+
+THREADS: W\u0105tki
+MODEL: Model:
+CREATE_SIM_MODEL: Utw\u00F3rz model symulacji
+
+NOT_PROCESS_EDITOR: Aby edytowa\u0107 proces, prosz\u0119 si\u0119 prze\u0142\u0105czy\u0107 do trybu projektowania
+MINUS_ENA: Zwi\u0144 wykres
+
+BUSINESS_INDICATORS: Wska\u017Aniki biznesowe
+
+METRICS: Statystyki
+ALL: Wszystkie
+NONE: Brak
+
+INIT_PLAYER_INSTANCE: Inicjalizuj instancj\u0119 odtwarzacza
+REFRESH_PLAYER_INSTANCE: Od\u015Bwie\u017C
+DELETE_PLAYER_INSTANCE: Usu\u0144
+PROCESS_VARIABLES: Zmienne procesu
+THREAD_ID: ID w\u0105tku
+INSTANCE_ID: ID instancji
+INSTANCE_INFORMATION: Informacje o instancji
+
+INVALID_PAYLOAD_NAME: Niepoprawna nazwa danych zadania
+
+MUST_BE_LOWER : musi by\u0107 ma\u0142\u0105 liter\u0105.

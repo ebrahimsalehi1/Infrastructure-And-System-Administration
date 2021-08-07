@@ -1,0 +1,443 @@
+#
+#
+# hash = 405f00d000bf10009f90407060df4f804f40d0b0
+#
+START:                   Start
+THROW:                   Utl\u00F6sa
+CATCH:                   F\u00E5nga
+END:                     Slut
+
+ABSTRACT_ACTIVITY: Abstrakt aktivitet
+TASK: Aktivitet
+INTERACTIVE_TASK: Interaktiv
+
+
+USER_TASK: Anv\u00E4ndaruppgift
+SERVICE_TASK: Tj\u00E4nsteuppgift
+SEND_TASK: Skicka uppgift
+RECEIVE_TASK: Ta emot uppgift
+NOTIFICATION_TASK: Meddelandeuppgift
+UPDATE_TASK: Uppdatera uppgift
+BUSINESS_RULE_TASK: Aff\u00E4rsregeluppgift
+SCRIPT_TASK: Skriptuppgift
+MANUAL_TASK: Manuell uppgift
+CALL_ACTIVITY: Anropsaktivitet
+SUBPROCESS: Delprocess
+INLINE_HANDLER: Delprocess f\u00F6r h\u00E4ndelser
+
+EVENT: H\u00E4ndelse
+START_EVENT: Start
+END_EVENT: Slut
+BOUNDARY_EVENT: Gr\u00E4ns
+THROW_EVENT: Utl\u00F6sningsh\u00E4ndelse
+CATCH_EVENT: F\u00E5ngsth\u00E4ndelse
+
+GATEWAY: N\u00E4tsluss
+COMPLEX_GATEWAY: Komplex n\u00E4tsluss
+EXCLUSIVE_GATEWAY: Exklusiv n\u00E4tsluss
+INCLUSIVE_GATEWAY: Inkluderad n\u00E4tsluss
+PARALLEL_GATEWAY: Parallell n\u00E4tsluss
+EVENT_BASED_GATEWAY: H\u00E4ndelsebaserad n\u00E4tsluss
+
+NOTE: Anteckning
+
+START_NONE:              Start
+START_MESSAGE_TOPLEVEL:  Meddelandestart
+START_TIMER_TOPLEVEL:    Tidtagarstart
+START_SIGNAL_TOPLEVEL:   Signalstart
+START_ERROR_SUBPROCESS:  Felstart
+INTERMEDIATE_NONE:       F\u00E5nga
+INTERMEDIATE_ERROR_BOUNDARY_INTERRUPTING: Felgr\u00E4ns
+INTERMEDIATE_TIMER_CATCH: Tidtagare
+INTERMEDIATE_MESSAGE_CATCH: Meddelande
+INTERMEDIATE_NONE_THROW_NONBOUNDARY: Utl\u00F6sa
+INTERMEDIATE_MESSAGE_THROW_NONBOUNDARY: Meddelande
+INTERMEDIATE_SIGNAL_THROW_NONBOUNDARY: Signal
+INTERMEDIATE_SIGNAL_CATCH: Signal
+END_NONE:                Slut
+END_MESSAGE:             Meddelandeslut
+END_ERROR:               Felslut
+END_SIGNAL:              Signalslut
+END_TERMINATE:           Avsluta, slut
+MEASUREMENT_START:       Startm\u00E5tt
+MEASUREMENT_END:         Slutm\u00E5tt
+MEASUREMENT:             M\u00E5tt
+
+NONE_TRIGGER_TYPE:       Ingen
+MESSAGE_TRIGGER_TYPE:    Meddelande
+TIMER_TRIGGER_TYPE:      Tidtagare
+ERROR_TRIGGER_TYPE:      Fel
+SIGNAL_TRIGGER_TYPE:     Signal
+TERMINATE_TRIGGER_TYPE:  Avsluta
+
+PROCESS_COMPONENTS:      BPM-komponenter
+BPMN_ARTIFACTS:          BPMN-fl\u00F6desobjekt
+BASIC_ARTIFACTS:         Grundl\u00E4ggande fl\u00F6desobjekt
+BPMN:                    BPMN
+BPM_DESCRIPTIVE:         BPM beskrivande
+BUSINESS_CATALOG:        Aff\u00E4rskatalog
+ARGUMENT_MAPPING:        Dataassociation
+VIEW_COLLABORATION:      Visa samarbete
+HIDE_COLLABORATION:      D\u00F6lj samarbete
+LOADING:                 Laddar...
+CANCEL_SEARCH:           Avbryt s\u00F6kning
+EVENTS:                  H\u00E4ndelser
+ZOOM_OUT:                Zooma ut
+SELECT_ALL:              Markera alla
+DELETE:                  Ta bort
+
+SERVICES:                Tj\u00E4nster
+REMOVE_CUSTOM_OUTPUT:    Ta bort anpassade utdata
+ZOOM_IN:                 Zooma in
+
+SELECT:                  V\u00E4lj
+OK:                      OK
+BPMN_COMPONENTS:         BPMN-komponenter
+GATEWAYS:                N\u00E4tslussar
+ARTIFACTS:               Artefakter
+BASIC:                   Enkel
+SEARCH:                  S\u00F6k efter komponent
+FLOW_SEALED:             Fl\u00F6de\nF\u00F6rseglad
+REDO:                    G\u00F6r om
+CANCEL:                  Avbryt
+APPLY:                   Anv\u00E4nd
+CREATE:                  Skapa
+VARIABLES:               Dataobjekt
+PREDEFINED_VARIABLES:    F\u00F6rdefinierade variabler
+PROCESS:                 Process
+PROJECT:                 Projekt
+DEFAULT:                 Standard
+TASKS:                   Aktiviteter
+PANNING:                 Panorering
+SAVE:                    Spara
+UNDO:                    \u00C5ngra
+ADD_NEW_VAR:             L\u00E4gg till nytt dataobjekt
+REMOVE_VAR:              Ta bort dataobjekt
+VIEW_DATA_OBJECTS:       Visa dataobjekt
+DATA_OBJECTS:            Dataobjekt
+INPUTS:                  Indata
+OUTPUTS:                 Utdata
+DRAG_VARIABLES:          Dra dataobjekt till textrutor.
+NAME:                    Namn
+ICON:                    Ikon
+TYPE:                    Typ
+DESCRIPTION:             Beskrivning
+SCOPE:                   Omfattning
+NEW_VARIABLE:            Nytt dataobjekt
+ADVANCED:                Avancerad
+TRANSITIONS:             Sekvensfl\u00F6den
+BUSINESS_RULES:          Aff\u00E4rsregler
+HELP:                    Hj\u00E4lp       
+HUMAN_TASKS:             Personliga uppgifter
+BUSINESS_OBJECTS:        Aff\u00E4rsobjekt
+ADD_CUSTOM_OUTPUT:       L\u00E4gg till anpassade utdata
+ADD_CUSTOM_INPUT:        L\u00E4gg till anpassad indata
+TRANSITION:              Sekvensfl\u00F6de
+NORMAL: Ovillkorligt
+CONDITIONAL: Villkorlig
+EXCEPTION: Undantag
+PRINT:                   Skriv ut
+AUTOLAYOUT:              Autolayout
+ADD_TO_MILESTONE:        L\u00E4gg till milstolpe
+COLLAPSE:                Komprimera
+EXPAND:                  Expandera
+OWNER:                   Process\u00E4gare
+PROPERTIES:              Egenskaper
+IMPLEMENT:               Implementera
+BUSINESS_PROPERTIES: Aff\u00E4rsegenskaper
+CREATE_TRANSITION:       L\u00E4gg till \u00F6verg\u00E5ng
+DOCUMENTATION:           Dokumentation
+UNRECOGNIZED_BPMN_TYPE:  Ok\u00E4nd BPMN-typ.
+STRAIGHTEN_TRANSITION:   G\u00F6r \u00F6verg\u00E5ng rak
+MAKE_TRANS_ORTHOGONAL:   G\u00F6r \u00F6verg\u00E5ng ortogonal
+CURVE_TRANSITION:        G\u00F6r \u00F6verg\u00E5ng b\u00F6jd
+SHOW_DOCUMENTATION:      Dokumentation
+SHOW_IMPLEMENTATION:     Implementering
+
+SIMPLE: Enkel
+COMPLEX: Komplex
+
+CONVERT_GATEWAY:         Konvertera n\u00E4tsluss
+CONVERT_TO_PARALLEL:     Konvertera till parallell
+CONVERT_TO_INCLUSIVE:    Konvertera till inkluderad
+
+ERROR_MESSAGE:Felnamn: {0}. \nFelmeddelande: {1}
+
+CREATE_COUNTER_MARK:     Skapa r\u00E4knarmark\u00F6r
+DELETE_COUNTER_MARK:     Ta bort r\u00E4knarmark\u00F6r
+
+ADD_NEW_SERVICE:         L\u00E4gg till tj\u00E4nst
+
+GRID_SHOW:              V\u00E4xla rutn\u00E4tsvisning
+GRID_SNAP:              F\u00E4st mot rutn\u00E4t
+
+LAUNCH_EXPRESSION_BUILDER: Starta uttrycksverktyg
+
+EXTERNAL_REFERENCES:       Externa referenser
+
+CLOSE:                  St\u00E4ng
+TRIGGER:                Trigger
+
+OPEN_HT: \u00D6ppen personlig uppgift
+OPEN_PROCESS: \u00D6ppna process
+OPEN_BUSINESS_RULE: \u00D6ppen aff\u00E4rsregel
+
+COPY: Kopiera
+CUT: Klipp ut
+PASTE: Klistra in
+
+REFINE_ACTIVITY: Begr\u00E4nsa aktivitet
+CONVERT_TO_REGULAR_SUBPROCESS: Konvertera till normal delprocess
+
+SHOW_PALETTE:              V\u00E4xla palettens synlighet
+STAMP_MODE:                V\u00E4xla tidsst\u00E4mpell\u00E4ge
+
+ROLE: Roll
+USE: Anv\u00E4nda
+AUTOMATIC_HANDLER: Automatisk hanterare
+CHANGE: \u00C4ndra...
+ADD_LANE: L\u00E4gg till bana
+
+MORE: Mer
+MORE_TOOLTIP: Visa underobjekt
+LESS: Mindre
+LESS_TOOLTIP: D\u00F6lj underobjekt
+
+LESS_DC_TOOLTIP: Dubbelklicka om du vill d\u00F6lja underobjekten
+MORE_DC_TOOLTIP: Dubbelklicka om du vill se mer
+
+# Policies messages...
+
+INVALID_TYPE: Kan inte \u00E4ndra nodtypen till {0}
+CAN_ONLY_CHANGE_TO_ACTIVITY: Du kan bara \u00E4ndra typen p\u00E5 en aktivitet
+ALREADY_DEFINED_TYPE: Aktiviteten \u00E4r redan av den h\u00E4r typen
+CAN_ONLY_CHANGE_TO_UNIMPLEMENTED_UT : Kan inte \u00E4ndra m\u00F6nster f\u00F6r en implementerad anv\u00E4ndaruppgift
+
+FROM_EQ_TO: K\u00E4ll- och m\u00E5lnod f\u00E5r inte vara samma.
+DIFF_CONTAINER: K\u00E4ll- och m\u00E5lnoder m\u00E5ste ha samma container.
+DIFF_BOUNDARY_CONTAINER: Gr\u00E4nsh\u00E4ndelsen kan inte l\u00E4nkas till sin container.
+START_INCOMING: Starth\u00E4ndelser f\u00E5r inte ha inkommande \u00F6verg\u00E5ngar.
+MORE_THAN_ONE_UNCONDITIONAL: Det finns redan en ovillkorlig \u00F6verg\u00E5ng som kopplar samman noderna.
+EVENT_BASED_CONNECTIONS: Den h\u00E4ndelsebaserade n\u00E4tslussen kan bara ansluta f\u00F6r att f\u00E5nga meddelanden, f\u00E5nga tidtagare och ta emot uppgifter.
+END_OUTGOING: Sluth\u00E4ndelser f\u00E5r inte ha utg\u00E5ende \u00F6verg\u00E5ngar.
+MORE_OUTGOING_UNCONDITIONAL: Endast parallella och h\u00E4ndelsebaserade n\u00E4tslussar f\u00E5r ha fler \u00E4n en utg\u00E5ende ovillkorlig \u00F6verg\u00E5ng.
+CONDITIONAL_TRANS: Endast exklusiva, inkluderade och komplexa n\u00E4tslussar f\u00E5r ha villkorliga \u00F6verg\u00E5ngar.
+OUTGOING_CONDITIONAL: En n\u00E4tslussammanslagning f\u00E5r inte ha en utg\u00E5ende villkorlig \u00F6verg\u00E5ng.
+NOT_PART_OF_THE_FLOW: {0} \u00E4r inte del av fl\u00F6det (f\u00E5r inte ha gr\u00E4nsh\u00E4ndelser, inkommande eller utg\u00E5ende \u00F6verg\u00E5ngar).
+BOUNDARIES_TASKS: Gr\u00E4nsh\u00E4ndelser kan bara l\u00E4ggas till i uppgifter.
+NOTE_TARGET: Anteckningsm\u00E5let f\u00E5r inte vara {0}.
+BOUNDARY_EVT: Gr\u00E4nsh\u00E4ndelse
+MM_TRANSITIONS: M\u00E5ttmark\u00F6rer f\u00E5r bara bifogas till sekvensfl\u00F6den.
+ON_TOP_OF_NODE: Kan inte l\u00E4gga till ovanp\u00E5 en annan.
+SPACE_FOR_NODES: Inte tillr\u00E4ckligt med utrymme f\u00F6r att inneh\u00E5lla alla noder.
+NOT_BOUNDARY: H\u00E4ndelsen {0} \u00E4r inte en gr\u00E4nsh\u00E4ndelse.
+
+SERVICE_IMPL: {0} kan endast implementeras med tj\u00E4nster.
+SERVICE_NOT_CALLBACK: \u00C5teranrops\u00E5tg\u00E4rder f\u00E5r inte anv\u00E4ndas till att implementera {0}.
+NOT_SYNC: Synkrona \u00E5tg\u00E4rder f\u00E5r inte anv\u00E4ndas till att implementera {0}.
+BR_IMPL: Aff\u00E4rsregelsuppgifter kan endast implementeras med aff\u00E4rsregler.
+CANNOT_IMPL: Den valda aktiviteten kan inte implementeras.
+UT_IMPL: Endast anv\u00E4ndaruppgifter kan implementeras med personliga uppgifter.
+TASKS_IMPL: Endast uppgifter kan implementeras.
+
+FLOW_IS_SEALED: Fl\u00F6det kan inte \u00E4ndras eftersom det \u00E4r slutet.
+NODE_IS_SEALED: Noden \u00E4r f\u00F6rseglad.
+
+PROCESS_READ_ONLY: Processen skrivskyddad.
+EDIT_CONVERSATIONS: Redigera konversationer
+
+######################
+
+VALIDATE_TARGET: Validera m\u00E5l efter tilldelning av:
+VALIDATE_INPUT: indataassociationer
+VALIDATE_OUTPUT: utdataassociationer
+
+ADD_SEQUENTIAL: L\u00E4gg till sekventiell
+ADD_PARALLEL: L\u00E4gg till parallell
+PARTICIPANTS: Deltagare
+STAGE: Steg
+SINGLE: Enstaka
+PARALLEL_SINGLE: Parallell enstaka
+PARALLEL_BLOCK: Parallellt block
+SERIAL: Seriell
+FYI: F\u00F6r k\u00E4nnedom
+ADHOC: Ad hoc
+MANAGEMENT_CHAIN: Beslutskedja
+NOTIFY: Meddela
+
+MANAGEMENT: Ledning
+GROUP: Grupp
+INITIATOR: Initierare
+
+REVEAL_ASSOCIATIONS: Klicka h\u00E4r f\u00F6r att visa associationer
+
+FIND_USAGES: S\u00F6k efter anv\u00E4ndningar
+
+
+AVG_INSTANCE_COUNT: Genomsnittligt instansantal
+AVG_PERFORMANCE: Genomsnittlig prestanda
+AVG_QUEUE_SIZE: Genomsnittlig k\u00F6storlek
+AVG_RESOURCE_UTILIZATION: Genomsnittligt resursutnyttjande
+AVG_WORKING_COUNT: Genomsnittligt jobbantal
+COMPLETED_INSTANCES: Slutf\u00F6rda instanser
+COMPLETED_OPERATIONS: Slutf\u00F6rda \u00E5tg\u00E4rder
+CURRENT_INSTANCE_COUNT: Aktuellt instansantal
+CURRENT_QUEUE_SIZE: Aktuell k\u00F6storlek
+CURRENT_RESOURCE_UTILIZATION: Aktuellt resursutnyttjande
+CURRENT_WORKING_COUNT: Aktuellt jobbantal
+MAX_INSTANCE_COUNT: Maximalt instansantal
+MAX_INSTANCES_WORKING_COUNT: Mac antal jobb f\u00F6r instanser
+MAX_QUEUE_SIZE: Maximal k\u00F6storlek
+MAX_RESOURCE_UTILIZATION: Maximalt resursutnyttjande
+TOTAL_RESOURCE_UTILIZATION: Totalt resursutnyttjande
+TOTAL_WAITING_COUNT: Total v\u00E4ntetid
+
+AVG_PROCESS_TIME: Genomsnittlig processtid
+AVG_CYCLE_TIME: Genomsnittlig cykeltid
+MAX_CYCLE_TIME: Max. cykeltyp
+MIN_CYCLE_TIME: Min. cykeltyp
+AVG_WAITING_TIME: Genomsnittlig v\u00E4ntetid
+MAX_WAITING_TIME: L\u00E4ngsta v\u00E4ntetid
+MIN_WAITING_TIME: Kortaste v\u00E4ntetid
+AVG_WORKING_TIME: Genomsnittlig jobbtid
+MAX_WORKING_TIME: Maximal jobbtid
+MIN_WORKING_TIME: Kortaste jobbtid
+
+TOTAL_COST: Total kostnad
+AVG_TOTAL_COST: Genomsnittlig totalkostnad
+
+TOTAL_WAITING_TIME: Total v\u00E4ntetid
+
+RESOURCE_BUSY_TIME: Resurser upptagna, tid
+
+RESOURCE_BUSY_COST: Resurs upptagen, kostnad
+RESOURCE_TOTAL_COST: Total resurskostnad
+RESOURCES: Resurser
+INDICATORS: Indikatorer
+VALUES: V\u00E4rden
+
+TIME: Tid
+COST: Kostnader
+UNITS: Enheter
+
+COLUMN_CHART: Kolumndiagram
+BAR_CHART: Stapeldiagram
+
+CLICK_TO_REVEAL_CHART: . Klicka f\u00F6r att visa diagram
+SHOW_RESULTS: Visa resultat
+FILTERS: Filter
+CLEAR_RESULTS: Rensa resultat
+INSTANCE_NUMBER: Instanser
+USE_INSTANCES: Anv\u00E4nd instanser
+
+INTERVAL: Intervall
+MEAN: Medelv\u00E4rde
+STANDARD_DEVIATION: Standardavvikelse
+PERIOD: Period
+FREQUENCY: Frekvens
+EVERY: var
+DISTRIBUTION_TYPE: Distributionstyp
+INSTANCE_CREATION: Instansskapande
+DELTA: Delta
+INSTANCES: instanser
+CRITERIA: Kriterier
+
+DAYS: dagar
+HOURS_AB: t
+MINUTES_AB: m
+SECONDS_AB: s
+
+
+CONSTANT_DIST: Konstant
+UNIFORM_DIST: Enhetlig
+EXPONENTIAL_DIST: Exponentiell
+NORMAL_DIST: Normalt
+REAL_DIST: Real
+
+
+FIFO: FIFU
+LIFO: SIFU
+RANDOM: Slumpm\u00E4ssig
+BY_PRIORITY: Per prioritet
+MINIMUM_COST: Minimikostnad
+MAXIMUM_EFFICIENCY: Maximal effektivitet
+
+
+FIXED_BASE_COST: Fast grundkostnad
+BASE_COST_PLUS_RESOURCE_COST: Grundkostnad plus resurskostnad
+
+HOURLY: Varje timme
+DAILY: Varje dag
+WEEKLY: Varje vecka
+MONTHLY: Varje m\u00E5nad
+
+SUNDAY: s\u00F6ndag
+MONDAY: m\u00E5ndag
+TUESDAY: tisdag
+WEDNESDAY: onsdag
+THURSDAY: torsdag
+FRIDAY: fredag
+SATURDAY: l\u00F6rdag
+
+FIRST: f\u00F6rsta
+SECOND: andra
+THIRD: tredje
+FOURTH: fj\u00E4rde
+LAST: sista
+
+JANUARY: januari
+FEBRUARY: februari
+MARCH: mars
+APRIL: april
+MAY: maj
+JUNE: juni
+JULY: juli
+AUGUST: augusti
+SEPTEMBER: september
+OCTOBER: oktober
+NOVEMBER: november
+DECEMBER: december
+
+DURATION: Tidsl\u00E4ngd
+COST_PER_HOUR: Kostnad per timme
+QUEUE_INFO: K\u00F6info
+OUTGOING_FLOWS: Utg\u00E5ende fl\u00F6den
+
+USE_ORGANIZATION_RESOURCES: Anv\u00E4nd organisationsresurser
+USE_FIXED_RESOURCES: Anv\u00E4nd fasta resurser
+PARTICIPANT_SELECTION_POLICY: Policy f\u00F6r deltagarurval
+AVAILABLE_RESOURCES: Tillg\u00E4ngliga resurser
+
+PROCESS_EDITOR: Design
+SIMULATION_EDITOR: Simulering
+ADD_MODEL_SIMULATION: L\u00E4gg till modellsimulering
+
+ACTIVITY_FIXED_BASE_COST: Fast grundkostnad f\u00F6r aktivitet
+ACTIVITY_COST_TYPE: Aktivitetskostnadstyp
+
+QUEUE_WARNING_SIZE: K\u00F6varningsstorlek
+
+THREADS: \u00C4mnen
+MODEL: Modell:
+CREATE_SIM_MODEL: Skapa simuleringsmodell
+
+NOT_PROCESS_EDITOR: V\u00E4xla till designl\u00E4ge om du vill redigera processen
+MINUS_ENA: Komprimera diagram
+
+BUSINESS_INDICATORS: Verksamhetsm\u00E5tt
+
+METRICS: M\u00E4tetal
+ALL: Alla
+NONE: Ingen
+
+INIT_PLAYER_INSTANCE: Initiera spelarinstans
+REFRESH_PLAYER_INSTANCE: F\u00F6rnya
+DELETE_PLAYER_INSTANCE: Ta bort
+PROCESS_VARIABLES: Processvariabler
+THREAD_ID: Tr\u00E5d-id
+INSTANCE_ID: Instans-id
+INSTANCE_INFORMATION: Instansinformation
+
+INVALID_PAYLOAD_NAME: Ogiltigt uppgiftsdatanamn
+
+MUST_BE_LOWER : M\u00E5ste vara gemen.

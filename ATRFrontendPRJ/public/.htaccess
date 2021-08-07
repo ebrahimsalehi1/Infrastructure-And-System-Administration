@@ -1,0 +1,19 @@
+RewriteEngine On
+
+RewriteCond %{REQUEST_METHOD} OPTIONS
+RewriteRule ^(.*)$ $1 [L,R=204]
+
+Header Always set Access-Control-Allow-Origin: "*"
+Header Always set Content-Security-Policy: "frame-ancestors 'self' *"
+Header Always set Access-Control-Allow-Headers: "origin, x-requested-with, content-type"
+Header Always set Access-Control-Allow-Methods: "PUT, GET, POST, DELETE, OPTIONS"
+
+
+
+RewriteCond %{HTTP:Authorization} .
+RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^ index.html [L]
+

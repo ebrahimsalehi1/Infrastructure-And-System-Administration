@@ -1,0 +1,52 @@
+.wrapper {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.bar-wrapper {
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.tree-wrapper {
+    height: calc(100% - 25px);
+}
+
+.previous {
+    margin-left: 10px;
+}
+
+.next,
+.collapse {
+    margin-right: 10px;
+    margin-left: 5px;
+}
+/*
+
+.rstcustom__collapseButton {
+    right: -25px !important;
+}
+
+.rstcustom__expandButton {
+    right: -25px !important;
+}
+
+.rst__lineHalfVerticalTop{
+    right: -1px !important;
+
+}
+.rst__lineFullVertical{
+    right: -1px !important;
+}
+.rstcustom__rowWrapper{
+
+    padding: 10px 0px 10px 0px !important;
+
+}
+*/

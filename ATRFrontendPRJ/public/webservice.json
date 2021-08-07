@@ -1,0 +1,22 @@
+[
+    {
+        "name": "ZONE_LIST",
+        "urlLocal": "http://localhost:3000",
+        "url": "http://172.25.230.11:3000"
+    },
+    {
+        "name": "ZONE_ADD",
+        "urlLocal": "http://localhost:3000",
+        "url": "http://172.25.230.11:3000"
+    },
+    {
+        "name": "ZONE_EDIT",
+        "urlLocal": "http://localhost:3000",
+        "url": "http://172.25.230.11:3000"
+    },
+    {
+        "name": "ZONE_DELETE",
+        "urlLocal": "http://localhost:3000",
+        "url": "http://172.25.230.11:3000"
+    }
+]

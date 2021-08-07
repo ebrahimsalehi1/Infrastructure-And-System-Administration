@@ -1,0 +1,443 @@
+#
+#
+# hash = 405f00d000bf10009f90407060df4f804f40d0b0
+#
+START:                   S\u0101kt
+THROW:                   Izmest
+CATCH:                   Notvert
+END:                     Beigt
+
+ABSTRACT_ACTIVITY: Atrefer\u0113juma aktivit\u0101te
+TASK: Aktivit\u0101te
+INTERACTIVE_TASK: Interakt\u012Bvs
+
+
+USER_TASK: Lietot\u0101ja uzdevums
+SERVICE_TASK: Pakalpojuma uzdevums
+SEND_TASK: S\u016Bt\u012Bt uzdevumu
+RECEIVE_TASK: Sa\u0146emt uzdevumu
+NOTIFICATION_TASK: Pazi\u0146ojuma uzdevums
+UPDATE_TASK: Atjaunin\u0101t uzdevumu
+BUSINESS_RULE_TASK: Biznesa noteikumu uzdevums
+SCRIPT_TASK: Skripta uzdevums
+MANUAL_TASK: Manu\u0101ls uzdevums
+CALL_ACTIVITY: Zvan\u012B\u0161anas aktivit\u0101te
+SUBPROCESS: Pak\u0101rtots process
+INLINE_HANDLER: Notikuma pak\u0101rtots process
+
+EVENT: Notikums
+START_EVENT: S\u0101kt
+END_EVENT: Beigt
+BOUNDARY_EVENT: Robe\u017Ea
+THROW_EVENT: Izmest notikumu
+CATCH_EVENT: Notvert notikumu
+
+GATEWAY: V\u0101rteja
+COMPLEX_GATEWAY: Kompleksa v\u0101rteja
+EXCLUSIVE_GATEWAY: \u012Apa\u0161a v\u0101rteja
+INCLUSIVE_GATEWAY: Ietvero\u0161a v\u0101rteja
+PARALLEL_GATEWAY: Paral\u0113la v\u0101rteja
+EVENT_BASED_GATEWAY: Ar notikumu saist\u012Bta v\u0101rteja
+
+NOTE: Piez\u012Bme
+
+START_NONE:              S\u0101kt
+START_MESSAGE_TOPLEVEL:  Zi\u0146ojuma s\u0101k\u0161ana
+START_TIMER_TOPLEVEL:    Taimera s\u0101k\u0161ana
+START_SIGNAL_TOPLEVEL:   Sign\u0101la s\u0101k\u0161ana
+START_ERROR_SUBPROCESS:  K\u013C\u016Bdas s\u0101k\u0161ana
+INTERMEDIATE_NONE:       Notvert
+INTERMEDIATE_ERROR_BOUNDARY_INTERRUPTING: K\u013C\u016Bdas robe\u017Ea
+INTERMEDIATE_TIMER_CATCH: Taimeris
+INTERMEDIATE_MESSAGE_CATCH: Zi\u0146ojums
+INTERMEDIATE_NONE_THROW_NONBOUNDARY: Izmest
+INTERMEDIATE_MESSAGE_THROW_NONBOUNDARY: Zi\u0146ojums
+INTERMEDIATE_SIGNAL_THROW_NONBOUNDARY: Sign\u0101ls
+INTERMEDIATE_SIGNAL_CATCH: Sign\u0101ls
+END_NONE:                Beigt
+END_MESSAGE:             Zi\u0146ojuma beig\u0161ana
+END_ERROR:               K\u013C\u016Bdas beig\u0161ana
+END_SIGNAL:              Sign\u0101la beig\u0161ana
+END_TERMINATE:           P\u0101rtrauk\u0161anas beig\u0161ana
+MEASUREMENT_START:       S\u0101kt m\u0113r\u012Bjumu
+MEASUREMENT_END:         Beigt m\u0113r\u012Bjumu
+MEASUREMENT:             M\u0113r\u012Bjums
+
+NONE_TRIGGER_TYPE:       Nav
+MESSAGE_TRIGGER_TYPE:    Zi\u0146ojums
+TIMER_TRIGGER_TYPE:      Taimeris
+ERROR_TRIGGER_TYPE:      K\u013C\u016Bda
+SIGNAL_TRIGGER_TYPE:     Sign\u0101ls
+TERMINATE_TRIGGER_TYPE:  P\u0101rtraukt
+
+PROCESS_COMPONENTS:      BPM komponenti
+BPMN_ARTIFACTS:          BPMN pl\u016Bsmas objekti
+BASIC_ARTIFACTS:         Standarta pl\u016Bsmas objekti
+BPMN:                    BPMN
+BPM_DESCRIPTIVE:         BPM apraksts
+BUSINESS_CATALOG:        Biznesa katalogs
+ARGUMENT_MAPPING:        Datu saist\u012Bba
+VIEW_COLLABORATION:      Skat\u012Bt sadarb\u012Bbu
+HIDE_COLLABORATION:      Pasl\u0113pt sadarb\u012Bbu
+LOADING:                 Notiek iel\u0101de...
+CANCEL_SEARCH:           Atcelt mekl\u0113\u0161anu
+EVENTS:                  Notikumi
+ZOOM_OUT:                T\u0101lin\u0101t
+SELECT_ALL:              Atlas\u012Bt visu
+DELETE:                  Dz\u0113st
+
+SERVICES:                Pakalpojumi
+REMOVE_CUSTOM_OUTPUT:    No\u0146emt piel\u0101gotu izvadi
+ZOOM_IN:                 Tuvin\u0101t
+
+SELECT:                  Atlas\u012Bt
+OK:                      Labi
+BPMN_COMPONENTS:         BPMN komponenti
+GATEWAYS:                V\u0101rtejas
+ARTIFACTS:               Artefakti
+BASIC:                   Pamata
+SEARCH:                  Atrast komponentu
+FLOW_SEALED:             Pl\u016Bsma\nSl\u0113gta
+REDO:                    Atcelt atsauk\u0161anu
+CANCEL:                  Atcelt
+APPLY:                   Lietot
+CREATE:                  Izveidot
+VARIABLES:               Datu objekti
+PREDEFINED_VARIABLES:    Iepriek\u0161 defin\u0113ti main\u012Bgie
+PROCESS:                 Process
+PROJECT:                 Projekts
+DEFAULT:                 Noklus\u0113jums
+TASKS:                   Aktivit\u0101tes
+PANNING:                 B\u012Bd\u012B\u0161ana
+SAVE:                    Saglab\u0101t
+UNDO:                    Atsaukt
+ADD_NEW_VAR:             Pievienot jaunu datu objektu
+REMOVE_VAR:              No\u0146emt datu objektu
+VIEW_DATA_OBJECTS:       Skat\u012Bt datu objektus
+DATA_OBJECTS:            Datu objekti
+INPUTS:                  Ievades
+OUTPUTS:                 Izvades
+DRAG_VARIABLES:          Vilkt datu objektus tekstlodzi\u0146os
+NAME:                    Nosaukums
+ICON:                    Ikona
+TYPE:                    Tips
+DESCRIPTION:             Apraksts
+SCOPE:                   Tv\u0113rums
+NEW_VARIABLE:            Jauns datu objekts
+ADVANCED:                Detaliz\u0113ti
+TRANSITIONS:             Sec\u012Bbas pl\u016Bsmas
+BUSINESS_RULES:          Biznesa noteikumi.
+HELP:                    Pal\u012Bdz\u012Bba
+HUMAN_TASKS:             Cilv\u0113kam veicamie uzdevumi
+BUSINESS_OBJECTS:        Biznesa objekti
+ADD_CUSTOM_OUTPUT:       Pievienot piel\u0101gotu izvadi
+ADD_CUSTOM_INPUT:        Pievienot piel\u0101gotu ievadi
+TRANSITION:              Sec\u012Bbas pl\u016Bsma
+NORMAL: Beznosac\u012Bjuma
+CONDITIONAL: Nosac\u012Bjuma
+EXCEPTION: Iz\u0146\u0113mums
+PRINT:                   Druk\u0101t
+AUTOLAYOUT:              Autom\u0101tisks izk\u0101rtojums
+ADD_TO_MILESTONE:        Pievienot atskaites punktam
+COLLAPSE:                Sak\u013Caut
+EXPAND:                  Izv\u0113rst
+OWNER:                   Procesa \u012Bpa\u0161nieks
+PROPERTIES:              Rekviz\u012Bti
+IMPLEMENT:               Ieviest
+BUSINESS_PROPERTIES: Biznesa rekviz\u012Bti
+CREATE_TRANSITION:       Pievienot p\u0101reju
+DOCUMENTATION:           Dokument\u0101cija
+UNRECOGNIZED_BPMN_TYPE:  Neatpaz\u012Bts BPMN tips.
+STRAIGHTEN_TRANSITION:   Iztaisnot p\u0101reju
+MAKE_TRANS_ORTHOGONAL:   P\u0101rveidot p\u0101reju taisnst\u016Bra veid\u0101
+CURVE_TRANSITION:        L\u012Bknes veida p\u0101reja
+SHOW_DOCUMENTATION:      Dokument\u0101cija
+SHOW_IMPLEMENTATION:     Ievie\u0161ana
+
+SIMPLE: Vienk\u0101r\u0161s
+COMPLEX: Komplekss
+
+CONVERT_GATEWAY:         P\u0101rv\u0113rst v\u0101rteju
+CONVERT_TO_PARALLEL:     P\u0101rv\u0113rst uz paral\u0113lu
+CONVERT_TO_INCLUSIVE:    P\u0101rv\u0113rst uz ietvero\u0161u
+
+ERROR_MESSAGE:K\u013C\u016Bdas nosaukums: {0}. \nK\u013C\u016Bdas zi\u0146ojums: {1}
+
+CREATE_COUNTER_MARK:     Izveidot skait\u012Bt\u0101ja atz\u012Bmi
+DELETE_COUNTER_MARK:     Dz\u0113st skait\u012Bt\u0101ja atz\u012Bmi
+
+ADD_NEW_SERVICE:         Pievienot pakalpojumu
+
+GRID_SHOW:              P\u0101rsl\u0113gt re\u017E\u0123a redzam\u012Bbu
+GRID_SNAP:              Pie\u0137erties re\u017E\u0123im
+
+LAUNCH_EXPRESSION_BUILDER: Palaist izteiksmju veidot\u0101ju
+
+EXTERNAL_REFERENCES:       \u0100r\u0113jas atsauces
+
+CLOSE:                  Aizv\u0113rt
+TRIGGER:                Triger\u0113t
+
+OPEN_HT: Atv\u0113rt cilv\u0113kam veicamu uzdevumu
+OPEN_PROCESS: Atv\u0113rt procesu
+OPEN_BUSINESS_RULE: Atv\u0113rt biznesa noteikumus
+
+COPY: Kop\u0113t
+CUT: Izgriezt
+PASTE: Iel\u012Bm\u0113t
+
+REFINE_ACTIVITY: Preciz\u0113t aktivit\u0101ti
+CONVERT_TO_REGULAR_SUBPROCESS: P\u0101rv\u0113rst par regul\u0101ru pak\u0101rtotu procesu
+
+SHOW_PALETTE:              P\u0101rsl\u0113gt paletes redzam\u012Bbu
+STAMP_MODE:                P\u0101rsl\u0113gt z\u012Bmoga re\u017E\u012Bmu
+
+ROLE: Loma
+USE: Izmantot
+AUTOMATIC_HANDLER: Autom\u0101tiskais apdarin\u0101t\u0101js
+CHANGE: Main\u012Bt...
+ADD_LANE: Pievienot celi\u0146u
+
+MORE: Vair\u0101k
+MORE_TOOLTIP: R\u0101d\u012Bt apak\u0161vienumus
+LESS: Maz\u0101k
+LESS_TOOLTIP: Sl\u0113pt apak\u0161vienumus
+
+LESS_DC_TOOLTIP: Veiciet dubultklik\u0161\u0137i, lai sl\u0113ptu apak\u0161vienumus
+MORE_DC_TOOLTIP: Veiciet dubultklik\u0161\u0137i, lai redz\u0113tu vair\u0101k
+
+# Policies messages...
+
+INVALID_TYPE: Nevar main\u012Bt mezgla tipu uz {0}
+CAN_ONLY_CHANGE_TO_ACTIVITY: Main\u012Bt var tikai aktivit\u0101tes tipu
+ALREADY_DEFINED_TYPE: Aktivit\u0101tei jau ir pie\u0161\u0137irts \u0161is tips
+CAN_ONLY_CHANGE_TO_UNIMPLEMENTED_UT : Nevar main\u012Bt modeli uz ieviesto lietot\u0101ja uzdevumu
+
+FROM_EQ_TO: Avota un m\u0113r\u0137a mezgls nevar b\u016Bt vien\u0101di.
+DIFF_CONTAINER: Avota un m\u0113r\u0137a mezgliem j\u0101b\u016Bt vienam konteineram.
+DIFF_BOUNDARY_CONTAINER: Robe\u017Eas notikums nevar b\u016Bt saist\u012Bts ar t\u0101 konteineru.
+START_INCOMING: S\u0101k\u0161anas notikumiem nedr\u012Bkst b\u016Bt ien\u0101ko\u0161as p\u0101rejas.
+MORE_THAN_ONE_UNCONDITIONAL: \u0160os mezglus jau savieno viena beznosac\u012Bjuma p\u0101reja.
+EVENT_BASED_CONNECTIONS: Ar notikumu saist\u012Bta v\u0101rteja var savienot tikai vienumus Notvert zi\u0146ojumus, Notvert taimerus un Sa\u0146emt uzdevumus.
+END_OUTGOING: Beig\u0161anas notikumiem nedr\u012Bkst b\u016Bt ien\u0101ko\u0161as p\u0101rejas.
+MORE_OUTGOING_UNCONDITIONAL: Tikai paral\u0113l\u0101m un ar notikumu saist\u012Bt\u0101m v\u0101rtej\u0101m var b\u016Bt vair\u0101k nek\u0101 viena izejo\u0161a beznosac\u012Bjuma p\u0101reja.
+CONDITIONAL_TRANS: Tikai \u012Bpa\u0161\u0101m, iek\u013Caut\u0101m vai kompleks\u0101m v\u0101rtej\u0101m var b\u016Bt nosac\u012Bjuma p\u0101rejas.
+OUTGOING_CONDITIONAL: V\u0101rtejas sapludin\u0101\u0161an\u0101 nevar past\u0101v\u0113t izejo\u0161a p\u0101reja.
+NOT_PART_OF_THE_FLOW: {0} nav pl\u016Bsmas da\u013Ca (taj\u0101 nevar past\u0101v\u0113t robe\u017Eas notikumi, ien\u0101ko\u0161as vai izejo\u0161as p\u0101rejas).
+BOUNDARIES_TASKS: Robe\u017Eas notikumus var pievienot tikai uzdevumiem.
+NOTE_TARGET: Piez\u012Bmes m\u0113r\u0137is nevar b\u016Bt {0}.
+BOUNDARY_EVT: Robe\u017Eas notikums
+MM_TRANSITIONS: M\u0113r\u012Bjuma atz\u012Bmes var pievienot tikai sec\u012Bbas pl\u016Bsm\u0101m.
+ON_TOP_OF_NODE: Nevar pievienot virs cita mezgla.
+SPACE_FOR_NODES: Nepietiek vietas visiem mezgliem.
+NOT_BOUNDARY: Notikums {0} nav robe\u017Eas notikums.
+
+SERVICE_IMPL: {0} var ieviest, tikai izmantojot pakalpojumus.
+SERVICE_NOT_CALLBACK: {0} ievie\u0161anai nedr\u012Bkst izmantot atzvan\u012B\u0161anas oper\u0101cijas.
+NOT_SYNC: {0} ievie\u0161anai nedr\u012Bkst izmantot sinhroniz\u0101cijas oper\u0101cijas.
+BR_IMPL: Biznesa noteikumi uzdevumu ievie\u0161anai var izmantot tikai biznesa noteikumus
+CANNOT_IMPL: Atlas\u012Bto aktivit\u0101ti nevar ieviest.
+UT_IMPL: Izmantojot cilv\u0113kam veicamos uzdevumus, var ieviest tikai lietot\u0101jam veicamos uzdevumus.
+TASKS_IMPL: Ieviest var tikai uzdevumus.
+
+FLOW_IS_SEALED: Pl\u016Bsmu nevar main\u012Bt, jo t\u0101 ir sl\u0113gta.
+NODE_IS_SEALED: Mezgls ir sl\u0113gts.
+
+PROCESS_READ_ONLY: Process ir tikai las\u0101ms.
+EDIT_CONVERSATIONS: Redi\u0123\u0113t sarunas
+
+######################
+
+VALIDATE_TARGET: Valid\u0113t m\u0113r\u0137i, kad ir nov\u0113rt\u0113ti \u0161\u0101di vienumi:
+VALIDATE_INPUT: ievades datu saist\u012Bbas
+VALIDATE_OUTPUT: izvades datu saist\u012Bbas
+
+ADD_SEQUENTIAL: Pievienot sec\u012Bgi
+ADD_PARALLEL: Pievienot paral\u0113li
+PARTICIPANTS: Dal\u012Bbnieki
+STAGE: Posms
+SINGLE: Viens
+PARALLEL_SINGLE: Paral\u0113ls viens
+PARALLEL_BLOCK: Paral\u0113ls bloks
+SERIAL: Seri\u0101ls
+FYI: Tikai inform\u0101cijai
+ADHOC: Ekspromta
+MANAGEMENT_CHAIN: P\u0101rvald\u012Bbas \u0137\u0113de
+NOTIFY: Pazi\u0146ot
+
+MANAGEMENT: P\u0101rvald\u012B\u0161ana
+GROUP: Grupa
+INITIATOR: Iniciators
+
+REVEAL_ASSOCIATIONS: Noklik\u0161\u0137in\u0101t \u0161eit, lai atkl\u0101tu saist\u012Bbas
+
+FIND_USAGES: Mekl\u0113t lieto\u0161anas iesp\u0113jas
+
+
+AVG_INSTANCE_COUNT: Vid\u0113jais instan\u010Du skaits
+AVG_PERFORMANCE: Vid\u0113j\u0101 veiktsp\u0113ja
+AVG_QUEUE_SIZE: Vid\u0113jais rindas lielums
+AVG_RESOURCE_UTILIZATION: Vid\u0113j\u0101 resursa izmanto\u0161ana
+AVG_WORKING_COUNT: Vid\u0113jais darbu skaits
+COMPLETED_INSTANCES: Pabeigt\u0101s instances
+COMPLETED_OPERATIONS: Pabeigt\u0101s oper\u0101cijas
+CURRENT_INSTANCE_COUNT: Pa\u0161reiz\u0113jais instan\u010Du skaits
+CURRENT_QUEUE_SIZE: Pa\u0161reiz\u0113jais rindas lielums
+CURRENT_RESOURCE_UTILIZATION: Pa\u0161reiz\u0113j\u0101 resursa izmanto\u0161ana
+CURRENT_WORKING_COUNT: Pa\u0161reiz\u0113jais darbu skaits
+MAX_INSTANCE_COUNT: Maksim\u0101lais instan\u010Du skaits
+MAX_INSTANCES_WORKING_COUNT: Maksim\u0101lais instan\u010Du darbu skaits
+MAX_QUEUE_SIZE: Maksim\u0101lais rindas lielums
+MAX_RESOURCE_UTILIZATION: Maksim\u0101l\u0101 resursa izmanto\u0161ana
+TOTAL_RESOURCE_UTILIZATION: Kop\u0113j\u0101 resursa izmanto\u0161ana
+TOTAL_WAITING_COUNT: Kop\u0113jais gaid\u012B\u0161anas uzskait\u012Bjums
+
+AVG_PROCESS_TIME: Vid\u0113jais procesa laiks
+AVG_CYCLE_TIME: Vid\u0113jais cikla laiks
+MAX_CYCLE_TIME: Maksim\u0101l\u0101 cikla tips
+MIN_CYCLE_TIME: Minim\u0101l\u0101 cikla tips
+AVG_WAITING_TIME: Vid\u0113jais gaid\u012B\u0161anas laiks
+MAX_WAITING_TIME: Maksim\u0101lais gaid\u012B\u0161anas laiks
+MIN_WAITING_TIME: Minim\u0101lais gaid\u012B\u0161anas laiks
+AVG_WORKING_TIME: Vid\u0113jais darba laiks
+MAX_WORKING_TIME: Maksim\u0101lais darba laiks
+MIN_WORKING_TIME: Minim\u0101lais darba laiks
+
+TOTAL_COST: Kop\u0113j\u0101s izmaksas
+AVG_TOTAL_COST: Vid\u0113j\u0101s kop\u0113j\u0101s izmaksas
+
+TOTAL_WAITING_TIME: Kop\u0113jais gaid\u012B\u0161anas laiks
+
+RESOURCE_BUSY_TIME: Resursu aiz\u0146emt\u012Bbas laiks
+
+RESOURCE_BUSY_COST: Resursu aiz\u0146emt\u012Bbas izmaksas
+RESOURCE_TOTAL_COST: Resursu kop\u0113j\u0101s izmaksas
+RESOURCES: Resursi
+INDICATORS: Indikatori
+VALUES: V\u0113rt\u012Bbas
+
+TIME: Laiks
+COST: Izmaksas
+UNITS: Vien\u012Bbas
+
+COLUMN_CHART: Stabi\u0146u diagramma
+BAR_CHART: Joslu diagramma
+
+CLICK_TO_REVEAL_CHART: . Noklik\u0161\u0137iniet, lai atkl\u0101tu diagrammu
+SHOW_RESULTS: R\u0101d\u012Bt rezult\u0101tus
+FILTERS: Filtri
+CLEAR_RESULTS: Not\u012Br\u012Bt rezult\u0101tus
+INSTANCE_NUMBER: Instances
+USE_INSTANCES: Izmantot instances
+
+INTERVAL: Interv\u0101ls
+MEAN: Vid\u0113jais
+STANDARD_DEVIATION: Standartnovirze
+PERIOD: Punkts
+FREQUENCY: Bie\u017Eums
+EVERY: katrs
+DISTRIBUTION_TYPE: Sadales tips
+INSTANCE_CREATION: Instances izveide
+DELTA: Delta
+INSTANCES: instances
+CRITERIA: Krit\u0113riji
+
+DAYS: dienas
+HOURS_AB: h
+MINUTES_AB: m
+SECONDS_AB: s
+
+
+CONSTANT_DIST: Konstante
+UNIFORM_DIST: Vienots
+EXPONENTIAL_DIST: Eksponenci\u0101ls
+NORMAL_DIST: Parasts
+REAL_DIST: Re\u0101ls
+
+
+FIFO: F.I.F.O.
+LIFO: L.I.F.O.
+RANDOM: Nejau\u0161a sec\u012Bba
+BY_PRIORITY: P\u0113c priorit\u0101tes
+MINIMUM_COST: Minim\u0101las izmaksas
+MAXIMUM_EFFICIENCY: Maksim\u0101la efektivit\u0101te
+
+
+FIXED_BASE_COST: Fiks\u0113ta pamatv\u0113rt\u012Bba
+BASE_COST_PLUS_RESOURCE_COST: Pamatv\u0113rt\u012Bba plus resursu izmaksas
+
+HOURLY: Reizi stund\u0101
+DAILY: Katru dienu
+WEEKLY: Reizi ned\u0113\u013C\u0101
+MONTHLY: Reizi m\u0113nes\u012B
+
+SUNDAY: Sv\u0113tdiena
+MONDAY: Pirmdiena
+TUESDAY: Otrdiena
+WEDNESDAY: Tre\u0161diena
+THURSDAY: Ceturtdiena
+FRIDAY: Piektdiena
+SATURDAY: Sestdiena
+
+FIRST: Pirmais
+SECOND: Otrais
+THIRD: Tre\u0161ais
+FOURTH: Ceturtais
+LAST: P\u0113d\u0113jais
+
+JANUARY: Janv\u0101ris
+FEBRUARY: Febru\u0101ris
+MARCH: Marts
+APRIL: Apr\u012Blis
+MAY: Maijs
+JUNE: J\u016Bnijs
+JULY: J\u016Blijs
+AUGUST: Augusts
+SEPTEMBER: Septembris
+OCTOBER: Oktobris
+NOVEMBER: Novembris
+DECEMBER: Decembris
+
+DURATION: Ilgums
+COST_PER_HOUR: Maksa par stundu
+QUEUE_INFO: Rindas inform\u0101cija
+OUTGOING_FLOWS: Izejo\u0161\u0101s pl\u016Bsmas
+
+USE_ORGANIZATION_RESOURCES: Izmantot uz\u0146\u0113muma resursus
+USE_FIXED_RESOURCES: Izmantot fiks\u0113tus resursus
+PARTICIPANT_SELECTION_POLICY: Dal\u012Bbnieku atlases politika
+AVAILABLE_RESOURCES: Pieejamie resursi
+
+PROCESS_EDITOR: Noform\u0113jums
+SIMULATION_EDITOR: Simul\u0101cija
+ADD_MODEL_SIMULATION: Pievienot mode\u013Ca simul\u0101ciju
+
+ACTIVITY_FIXED_BASE_COST: Aktivit\u0101tes fiks\u0113ta pamatv\u0113rt\u012Bba
+ACTIVITY_COST_TYPE: Aktivit\u0101tes v\u0113rt\u012Bbas tips
+
+QUEUE_WARNING_SIZE: Rindas br\u012Bdin\u0101juma lielums
+
+THREADS: Pavedieni
+MODEL: Modelis:
+CREATE_SIM_MODEL: Izveidot simul\u0101cijas modeli
+
+NOT_PROCESS_EDITOR: Procesa redi\u0123\u0113\u0161anas nol\u016Bk\u0101 p\u0101rsl\u0113gties uz noform\u0113\u0161anas re\u017E\u012Bmu
+MINUS_ENA: Sak\u013Caut diagrammu
+
+BUSINESS_INDICATORS: Biznesa indikatori
+
+METRICS: R\u0101d\u012Bt\u0101ji
+ALL: Visi
+NONE: Nav
+
+INIT_PLAYER_INSTANCE: Inicializ\u0113t atska\u0146ot\u0101ja instanci
+REFRESH_PLAYER_INSTANCE: Atsvaidzin\u0101t
+DELETE_PLAYER_INSTANCE: Dz\u0113st
+PROCESS_VARIABLES: Procesa main\u012Bgie
+THREAD_ID: Pavediena ID
+INSTANCE_ID: Instances ID
+INSTANCE_INFORMATION: Instances inform\u0101cija
+
+INVALID_PAYLOAD_NAME: Neder\u012Bgs uzdevuma datu nosaukums
+
+MUST_BE_LOWER : j\u0101b\u016Bt mazajiem burtiem.

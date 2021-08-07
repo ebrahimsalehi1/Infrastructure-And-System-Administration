@@ -1,0 +1,443 @@
+#
+#
+# hash = 405f00d000bf10009f90407060df4f804f40d0b0
+#
+START:                   Start
+THROW:                   Throw
+CATCH:                   Catch
+END:                     Slut
+
+ABSTRACT_ACTIVITY: Abstrakt aktivitet
+TASK: Aktivitet
+INTERACTIVE_TASK: Interaktiv
+
+
+USER_TASK: Brugeropgave
+SERVICE_TASK: Serviceopgave
+SEND_TASK: Send opgave
+RECEIVE_TASK: Modtag opgave
+NOTIFICATION_TASK: Underretningsopgave
+UPDATE_TASK: Opdat\u00E9r opgave
+BUSINESS_RULE_TASK: Forretningsregelopgave
+SCRIPT_TASK: Scriptopgave
+MANUAL_TASK: Manuel opgave
+CALL_ACTIVITY: Kald-aktivitet
+SUBPROCESS: Underproces
+INLINE_HANDLER: Underproces for begivenhed
+
+EVENT: Begivenhed
+START_EVENT: Start
+END_EVENT: Slut
+BOUNDARY_EVENT: Boundary
+THROW_EVENT: Throw event
+CATCH_EVENT: Catch event
+
+GATEWAY: Gateway
+COMPLEX_GATEWAY: Kompleks gateway
+EXCLUSIVE_GATEWAY: Eksklusive gateway
+INCLUSIVE_GATEWAY: Inklusive gateway
+PARALLEL_GATEWAY: Parallel gateway
+EVENT_BASED_GATEWAY: Event Based Gateway
+
+NOTE: Note
+
+START_NONE:              Start
+START_MESSAGE_TOPLEVEL:  Meddelelsesstart
+START_TIMER_TOPLEVEL:    Timerstart
+START_SIGNAL_TOPLEVEL:   Signalstart
+START_ERROR_SUBPROCESS:  Fejlstart
+INTERMEDIATE_NONE:       Catch
+INTERMEDIATE_ERROR_BOUNDARY_INTERRUPTING: Fejlgr\u00E6nse
+INTERMEDIATE_TIMER_CATCH: Timer
+INTERMEDIATE_MESSAGE_CATCH: Meddelelse
+INTERMEDIATE_NONE_THROW_NONBOUNDARY: Throw
+INTERMEDIATE_MESSAGE_THROW_NONBOUNDARY: Meddelelse
+INTERMEDIATE_SIGNAL_THROW_NONBOUNDARY: Signal
+INTERMEDIATE_SIGNAL_CATCH: Signal
+END_NONE:                Slut
+END_MESSAGE:             Meddelelsesslutning
+END_ERROR:               Fejlslutning
+END_SIGNAL:              Signalslutning
+END_TERMINATE:           Afslutningslutning
+MEASUREMENT_START:       Start m\u00E5ling
+MEASUREMENT_END:         Slut m\u00E5ling
+MEASUREMENT:             M\u00E5ling
+
+NONE_TRIGGER_TYPE:       Ingen
+MESSAGE_TRIGGER_TYPE:    Meddelelse
+TIMER_TRIGGER_TYPE:      Timer
+ERROR_TRIGGER_TYPE:      Fejl
+SIGNAL_TRIGGER_TYPE:     Signal
+TERMINATE_TRIGGER_TYPE:  Afslut
+
+PROCESS_COMPONENTS:      BPM-komponenter
+BPMN_ARTIFACTS:          BPMN-flowobjekter
+BASIC_ARTIFACTS:         Grundl\u00E6ggende flowobjekter
+BPMN:                    BPMN
+BPM_DESCRIPTIVE:         BPM Descriptive
+BUSINESS_CATALOG:        Forretningskatalog
+ARGUMENT_MAPPING:        Datatilknytning
+VIEW_COLLABORATION:      Vis samarbejde
+HIDE_COLLABORATION:      Skjul samarbejde
+LOADING:                 Indl\u00E6ser ...
+CANCEL_SEARCH:           Annull\u00E9r s\u00F8gning
+EVENTS:                  Begivenheder
+ZOOM_OUT:                Zoom ud
+SELECT_ALL:              V\u00E6lg alle
+DELETE:                  Slet
+
+SERVICES:                Services
+REMOVE_CUSTOM_OUTPUT:    Fjern tilpasset output
+ZOOM_IN:                 Zoom ind
+
+SELECT:                  V\u00E6lg
+OK:                      OK
+BPMN_COMPONENTS:         BPMN-komponenter
+GATEWAYS:                Gateways
+ARTIFACTS:               Artefakter
+BASIC:                   Grundl\u00E6ggende
+SEARCH:                  S\u00F8g efter komponent
+FLOW_SEALED:             Flow\nforseglet
+REDO:                    Annull\u00E9r Fortryd
+CANCEL:                  Annuller
+APPLY:                   Anvend
+CREATE:                  Opret
+VARIABLES:               Dataobjekter
+PREDEFINED_VARIABLES:    Foruddefinerede variabler
+PROCESS:                 Proces
+PROJECT:                 Projekt
+DEFAULT:                 Standard
+TASKS:                   Aktiviteter
+PANNING:                 Panorering
+SAVE:                    Gem
+UNDO:                    Fortryd
+ADD_NEW_VAR:             Tilf\u00F8j nyt dataobjekt
+REMOVE_VAR:              Fjern dataobjekt
+VIEW_DATA_OBJECTS:       Vis dataobjekter
+DATA_OBJECTS:            Dataobjekter
+INPUTS:                  Input
+OUTPUTS:                 Output
+DRAG_VARIABLES:          Tr\u00E6k dataobjekter til tekstfelter.
+NAME:                    Navn
+ICON:                    Ikon
+TYPE:                    Type
+DESCRIPTION:             Beskrivelse
+SCOPE:                   Omfang
+NEW_VARIABLE:            Nyt dataobjekt
+ADVANCED:                Avanceret
+TRANSITIONS:             Sekvensflows
+BUSINESS_RULES:          Forretningsregler
+HELP:                    Hj\u00E6lp       
+HUMAN_TASKS:             Medarbejderopgaver
+BUSINESS_OBJECTS:        Forretningsobjekter
+ADD_CUSTOM_OUTPUT:       Tilf\u00F8j tilpasset output
+ADD_CUSTOM_INPUT:        Tilf\u00F8j tilpasset input
+TRANSITION:              Sekvensflow
+NORMAL: Ubetinget
+CONDITIONAL: Betinget
+EXCEPTION: Undtagelse
+PRINT:                   Udskriv
+AUTOLAYOUT:              Automatisk layout
+ADD_TO_MILESTONE:        F\u00F8j til milep\u00E6l
+COLLAPSE:                Skjul
+EXPAND:                  Udvid
+OWNER:                   Procesejer
+PROPERTIES:              Egenskaber
+IMPLEMENT:               Implement\u00E9r
+BUSINESS_PROPERTIES: Forretningsegenskaber
+CREATE_TRANSITION:       Tilf\u00F8j overgang
+DOCUMENTATION:           Dokumentation
+UNRECOGNIZED_BPMN_TYPE:  Ikke-genkendt BPMN-type.
+STRAIGHTEN_TRANSITION:   Ret overgang ud
+MAKE_TRANS_ORTHOGONAL:   G\u00F8r overgang retvinklet
+CURVE_TRANSITION:        G\u00F8r overgang buet
+SHOW_DOCUMENTATION:      Dokumentation
+SHOW_IMPLEMENTATION:     Implementering
+
+SIMPLE: Enkel
+COMPLEX: Kompleks
+
+CONVERT_GATEWAY:         Konvert\u00E9r gateway
+CONVERT_TO_PARALLEL:     Konvert\u00E9r til parallel
+CONVERT_TO_INCLUSIVE:    Konvert\u00E9r til inkluderende
+
+ERROR_MESSAGE:Fejlnavn: {0}. \nFejlmeddelelse: {1}
+
+CREATE_COUNTER_MARK:     Opret t\u00E6llerm\u00E6rke
+DELETE_COUNTER_MARK:     Slet t\u00E6llerm\u00E6rke
+
+ADD_NEW_SERVICE:         Tilf\u00F8j service
+
+GRID_SHOW:              Skift melllem synlighedsgrader af gitter
+GRID_SNAP:              Fastg\u00F8r til gitter
+
+LAUNCH_EXPRESSION_BUILDER: Start udtryks-builder
+
+EXTERNAL_REFERENCES:       Eksterne referencer
+
+CLOSE:                  Luk
+TRIGGER:                Trigger
+
+OPEN_HT: \u00C5bn medarbejderopgave
+OPEN_PROCESS: \u00C5bn proces
+OPEN_BUSINESS_RULE: \u00C5bn forretningsregel
+
+COPY: Kopi\u00E9r
+CUT: Klip
+PASTE: S\u00E6t ind
+
+REFINE_ACTIVITY: Indsn\u00E6vringsaktivitet
+CONVERT_TO_REGULAR_SUBPROCESS: Konverter til almindelig underordnet proces
+
+SHOW_PALETTE:              Sl\u00E5 paletsynlighed til og fra
+STAMP_MODE:                Sl\u00E5 stempeltilstand til og fra
+
+ROLE: Rolle
+USE: Brug
+AUTOMATIC_HANDLER: Automatisk handler
+CHANGE: \u00C6ndr...
+ADD_LANE: Tilf\u00F8j bane
+
+MORE: Flere
+MORE_TOOLTIP: Vis underelement
+LESS: F\u00E6rre
+LESS_TOOLTIP: Skjul underelementer
+
+LESS_DC_TOOLTIP: Dobbeltklik for at skjule underelementer
+MORE_DC_TOOLTIP: Dobbeltklik for flere
+
+# Policies messages...
+
+INVALID_TYPE: Kan ikke \u00E6ndre nodetype til en/et {0}
+CAN_ONLY_CHANGE_TO_ACTIVITY: Du kan kun \u00E6ndre en aktivitets type
+ALREADY_DEFINED_TYPE: Aktiviteten har allerede denne type
+CAN_ONLY_CHANGE_TO_UNIMPLEMENTED_UT : Kan ikke \u00E6ndre m\u00F8nster for en implementeret brugeropgave
+
+FROM_EQ_TO: Kilde- og m\u00E5lnoden kan ikke v\u00E6re identiske.
+DIFF_CONTAINER: Kilde- og m\u00E5lnoden skal have samme container.
+DIFF_BOUNDARY_CONTAINER: Boundary-begivenheden kan ikke k\u00E6des sammen med den tilh\u00F8rende container.
+START_INCOMING: Startbegivenheder kan ikke have indg\u00E5ende overgange.
+MORE_THAN_ONE_UNCONDITIONAL: Der er allerede \u00E9n ubetinget overgang, der forbinder disse noder.
+EVENT_BASED_CONNECTIONS: Den event-based gateway kan kun oprette forbindelse til catch-meddelelser, catch-timere og receive-opgaver.
+END_OUTGOING: Slutbegivenheder m\u00E5 ikke have udg\u00E5ende overgange.
+MORE_OUTGOING_UNCONDITIONAL: Kun parallelle og event-based gateways kan have mere end \u00E9n udg\u00E5ende ubetinget overgang.
+CONDITIONAL_TRANS: Kun ekskluderende, inkluderende og komplekse gateways kan have betingede overgange.
+OUTGOING_CONDITIONAL: En gateway-fletning kan ikke have en udg\u00E5ende betinget overgang.
+NOT_PART_OF_THE_FLOW: En {0} er ikke del af flowet (den kan ikke have boundary events eller indg\u00E5ende eller udg\u00E5ende overgange).
+BOUNDARIES_TASKS: Boundary events kan kun f\u00F8jes til opgaver.
+NOTE_TARGET: Notem\u00E5let kan ikke v\u00E6re en/et {0}.
+BOUNDARY_EVT: Boundary-begivenhed
+MM_TRANSITIONS: M\u00E5lingsm\u00E6rker kan kun vedh\u00E6ftes sekvensflow.
+ON_TOP_OF_NODE: Kan ikke tilf\u00F8je oven p\u00E5 en anden node.
+SPACE_FOR_NODES: Ikke tilstr\u00E6kkelig plads til at indeholde alle noder.
+NOT_BOUNDARY: Event {0} er ikke en boundary event.
+
+SERVICE_IMPL: En {0} kan kun implementeres i services.
+SERVICE_NOT_CALLBACK: Callback-operationer kan ikke bruges til at implementere en/et {0}.
+NOT_SYNC: Synkroniseringsoperationer kan ikke bruges til at implementere en/et {0}.
+BR_IMPL: Forretningsregelopgaver kan kun implementeres i forretningsregler.
+CANNOT_IMPL: Den valgte aktivitet kan ikke implementeres.
+UT_IMPL: Kun brugeropgaver kan implementeres med medarbejderopgaver.
+TASKS_IMPL: Kun opgaver kan implementeres.
+
+FLOW_IS_SEALED: Flow kan ikke \u00E6ndres, fordi det er forseglet.
+NODE_IS_SEALED: Node er forseglet.
+
+PROCESS_READ_ONLY: Proces er skrivebeskyttet.
+EDIT_CONVERSATIONS: Redig\u00E9r samtaler
+
+######################
+
+VALIDATE_TARGET: Valid\u00E9r m\u00E5l efter tildeling af:
+VALIDATE_INPUT: inputdatatilknytninger
+VALIDATE_OUTPUT: outputdatatilknytninger
+
+ADD_SEQUENTIAL: Tilf\u00F8j sekventiel
+ADD_PARALLEL: Tilf\u00F8j parallel
+PARTICIPANTS: Deltagere
+STAGE: Trin
+SINGLE: Enkelt
+PARALLEL_SINGLE: Parallel enkelt
+PARALLEL_BLOCK: Parallel blok
+SERIAL: Seriel
+FYI: FYI
+ADHOC: Ad hoc
+MANAGEMENT_CHAIN: Ledelsesk\u00E6de
+NOTIFY: Underret
+
+MANAGEMENT: Styring
+GROUP: Gruppe
+INITIATOR: Igangs\u00E6tter
+
+REVEAL_ASSOCIATIONS: Klik her for at f\u00E5 vist tilknytninger
+
+FIND_USAGES: S\u00F8g efter anvendelser
+
+
+AVG_INSTANCE_COUNT: Gennemsnitligt instansantal
+AVG_PERFORMANCE: Gennemsnitlig ydeevne
+AVG_QUEUE_SIZE: Gennemsnitlig k\u00F8st\u00F8rrelse
+AVG_RESOURCE_UTILIZATION: Gennemsnitlig ressourceudnyttelse
+AVG_WORKING_COUNT: Gennemsnitligt arbejdsantal
+COMPLETED_INSTANCES: Fuldf\u00F8rte instanser
+COMPLETED_OPERATIONS: Fuldf\u00F8rte operationer
+CURRENT_INSTANCE_COUNT: Aktuelt instansantal
+CURRENT_QUEUE_SIZE: Aktuel k\u00F8st\u00F8rrelse
+CURRENT_RESOURCE_UTILIZATION: Aktuelt ressourceforbrug
+CURRENT_WORKING_COUNT: Aktuelt arbejdsantal
+MAX_INSTANCE_COUNT: Maksimalt antal instanser
+MAX_INSTANCES_WORKING_COUNT: Maksimalt arbejdsantal for instanser
+MAX_QUEUE_SIZE: Maksimal k\u00F8st\u00F8rrelse
+MAX_RESOURCE_UTILIZATION: Maksimal ressourceudnyttelse
+TOTAL_RESOURCE_UTILIZATION: Totalt ressourceforbrug
+TOTAL_WAITING_COUNT: Totalt antal waits
+
+AVG_PROCESS_TIME: Gennemsnitlig procestid
+AVG_CYCLE_TIME: Gennemsnitlig cyklustid
+MAX_CYCLE_TIME: Maksimal cyklustype
+MIN_CYCLE_TIME: Minimal cyklustype
+AVG_WAITING_TIME: Gennemsnitlig ventetid
+MAX_WAITING_TIME: Maksimal ventetid
+MIN_WAITING_TIME: Minimal ventetid
+AVG_WORKING_TIME: Gennemsnitlig arbejdstid
+MAX_WORKING_TIME: Maksimal arbejdstid
+MIN_WORKING_TIME: Minimal arbejdstid
+
+TOTAL_COST: Totale omkostninger
+AVG_TOTAL_COST: Gennemsnitlige totalomkostninger
+
+TOTAL_WAITING_TIME: Total ventetid
+
+RESOURCE_BUSY_TIME: Optaget tid for ressourcer
+
+RESOURCE_BUSY_COST: Omkostninger for optaget ressource
+RESOURCE_TOTAL_COST: Totale omkostninger for ressource
+RESOURCES: Ressourcer
+INDICATORS: Indikatorer
+VALUES: V\u00E6rdier
+
+TIME: Klokkesl\u00E6t
+COST: Omkostninger
+UNITS: Enheder
+
+COLUMN_CHART: S\u00F8jlediagram
+BAR_CHART: S\u00F8jlediagram
+
+CLICK_TO_REVEAL_CHART: . Klik for at se diagram
+SHOW_RESULTS: Vis resultater
+FILTERS: Filtre
+CLEAR_RESULTS: Ryd resultater
+INSTANCE_NUMBER: Instanser
+USE_INSTANCES: Brug instanser
+
+INTERVAL: Interval
+MEAN: Middel
+STANDARD_DEVIATION: Standardafvigelse
+PERIOD: Periode
+FREQUENCY: Frekvens
+EVERY: hver
+DISTRIBUTION_TYPE: Fordelingstype
+INSTANCE_CREATION: Instansoprettelse
+DELTA: Delta
+INSTANCES: instanser
+CRITERIA: Kriterier
+
+DAYS: dag
+HOURS_AB: t
+MINUTES_AB: m
+SECONDS_AB: s
+
+
+CONSTANT_DIST: Konstant
+UNIFORM_DIST: Ensartet
+EXPONENTIAL_DIST: Eksponentiel
+NORMAL_DIST: Normal
+REAL_DIST: Reelt
+
+
+FIFO: F.I.F.O.
+LIFO: L.I.F.O.
+RANDOM: Vilk\u00E5rlig
+BY_PRIORITY: Efter prioritet
+MINIMUM_COST: Minimumomkostninger
+MAXIMUM_EFFICIENCY: Maksimal effektivitet
+
+
+FIXED_BASE_COST: Faste basisomkostninger
+BASE_COST_PLUS_RESOURCE_COST: Basisomkostninger plus ressourceomkostninger
+
+HOURLY: Hver time
+DAILY: Dagligt
+WEEKLY: Ugentligt
+MONTHLY: M\u00E5nedligt
+
+SUNDAY: S\u00F8ndag
+MONDAY: Mandag
+TUESDAY: Tirsdag
+WEDNESDAY: Onsdag
+THURSDAY: Torsdag
+FRIDAY: Fredag
+SATURDAY: L\u00F8rdag
+
+FIRST: F\u00F8rste
+SECOND: Anden
+THIRD: Tredje
+FOURTH: Fjerde
+LAST: Sidste
+
+JANUARY: Januar
+FEBRUARY: Februar
+MARCH: Marts
+APRIL: April
+MAY: Maj
+JUNE: Juni
+JULY: Juli
+AUGUST: August
+SEPTEMBER: September
+OCTOBER: Oktober
+NOVEMBER: November
+DECEMBER: December
+
+DURATION: Varighed
+COST_PER_HOUR: Omkostninger pr. time
+QUEUE_INFO: K\u00F8oplysninger
+OUTGOING_FLOWS: Udg\u00E5ende flow
+
+USE_ORGANIZATION_RESOURCES: Brug organisationsressourcer
+USE_FIXED_RESOURCES: Brug faste ressourcer
+PARTICIPANT_SELECTION_POLICY: Politik for deltagervalg
+AVAILABLE_RESOURCES: Tilg\u00E6ngelige ressourcer 
+
+PROCESS_EDITOR: Design
+SIMULATION_EDITOR: Simulering
+ADD_MODEL_SIMULATION: Tilf\u00F8j modelsimulering
+
+ACTIVITY_FIXED_BASE_COST: Faste basisomkostninger for aktivitet
+ACTIVITY_COST_TYPE: Omkostningstype for aktivitet
+
+QUEUE_WARNING_SIZE: St\u00F8rrelse for k\u00F8advarsel
+
+THREADS: Tr\u00E5de
+MODEL: Model:
+CREATE_SIM_MODEL: Opret simuleringsmodel
+
+NOT_PROCESS_EDITOR: Skift til designtilstand for at redigere processen
+MINUS_ENA: Skjul diagram
+
+BUSINESS_INDICATORS: Forretningsindikatorer
+
+METRICS: Metrikker
+ALL: Alle
+NONE: Ingen
+
+INIT_PLAYER_INSTANCE: Initialis\u00E9r afspillerinstans
+REFRESH_PLAYER_INSTANCE: Opfrisk
+DELETE_PLAYER_INSTANCE: Slet
+PROCESS_VARIABLES: Procesvariabler
+THREAD_ID: Tr\u00E5d-ID
+INSTANCE_ID: Instans-ID
+INSTANCE_INFORMATION: Instansoplysninger
+
+INVALID_PAYLOAD_NAME: Ugyldigt navn p\u00E5 opgavedata
+
+MUST_BE_LOWER : skal v\u00E6re sm\u00E5 bogstaver.

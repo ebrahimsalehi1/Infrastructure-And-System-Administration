@@ -1,0 +1,443 @@
+#
+#
+# hash = 405f00d000bf10009f90407060df4f804f40d0b0
+#
+START:                   Za\u010Diatok
+THROW:                   Spusti\u0165 (throw)
+CATCH:                   Zachyti\u0165
+END:                     Koniec
+
+ABSTRACT_ACTIVITY: Abstraktn\u00E1 \u010Dinnos\u0165
+TASK: \u010Cinnos\u0165
+INTERACTIVE_TASK: Interakt\u00EDvne
+
+
+USER_TASK: \u00DAloha pou\u017E\u00EDvate\u013Ea
+SERVICE_TASK: \u00DAloha slu\u017Eby
+SEND_TASK: \u00DAloha odoslania
+RECEIVE_TASK: \u00DAloha prijatia
+NOTIFICATION_TASK: \u00DAloha upozornenia
+UPDATE_TASK: Aktualizova\u0165 \u00FAlohu
+BUSINESS_RULE_TASK: \u00DAloha biznis pravidla
+SCRIPT_TASK: \u00DAloha skriptu
+MANUAL_TASK: Manu\u00E1lna \u00FAloha
+CALL_ACTIVITY: \u010Cinnos\u0165 volania
+SUBPROCESS: Podproces
+INLINE_HANDLER: Podproces udalosti
+
+EVENT: Udalos\u0165
+START_EVENT: Za\u010Diatok
+END_EVENT: Koniec
+BOUNDARY_EVENT: Hranica
+THROW_EVENT: Udalos\u0165 spustenia
+CATCH_EVENT: Udalos\u0165 zachytenia
+
+GATEWAY: Gateway
+COMPLEX_GATEWAY: Komplexn\u00E1 gateway
+EXCLUSIVE_GATEWAY: Exkluz\u00EDvna gateway
+INCLUSIVE_GATEWAY: Inkluz\u00EDvna gateway
+PARALLEL_GATEWAY: Paraleln\u00E1 gateway
+EVENT_BASED_GATEWAY: Gateway na z\u00E1klade udalosti
+
+NOTE: Pozn\u00E1mka
+
+START_NONE:              Za\u010Diatok
+START_MESSAGE_TOPLEVEL:  Za\u010Diatok spr\u00E1vy
+START_TIMER_TOPLEVEL:    Za\u010Diatok \u010Dasova\u010Da
+START_SIGNAL_TOPLEVEL:   Za\u010Diatok sign\u00E1lu
+START_ERROR_SUBPROCESS:  Za\u010Diatok chyby
+INTERMEDIATE_NONE:       Zachyti\u0165
+INTERMEDIATE_ERROR_BOUNDARY_INTERRUPTING: Hranica chyby
+INTERMEDIATE_TIMER_CATCH: \u010Casova\u010D
+INTERMEDIATE_MESSAGE_CATCH: Spr\u00E1va
+INTERMEDIATE_NONE_THROW_NONBOUNDARY: Spusti\u0165 (throw)
+INTERMEDIATE_MESSAGE_THROW_NONBOUNDARY: Spr\u00E1va
+INTERMEDIATE_SIGNAL_THROW_NONBOUNDARY: Sign\u00E1l
+INTERMEDIATE_SIGNAL_CATCH: Sign\u00E1l
+END_NONE:                Koniec
+END_MESSAGE:             Koniec spr\u00E1vy
+END_ERROR:               Koniec chyby
+END_SIGNAL:              Koniec sign\u00E1lu
+END_TERMINATE:           Koniec ukon\u010Denia
+MEASUREMENT_START:       Po\u010Diato\u010Dn\u00E9 meranie
+MEASUREMENT_END:         Koncov\u00E9 meranie
+MEASUREMENT:             Meranie
+
+NONE_TRIGGER_TYPE:       \u017Diadne
+MESSAGE_TRIGGER_TYPE:    Spr\u00E1va
+TIMER_TRIGGER_TYPE:      \u010Casova\u010D
+ERROR_TRIGGER_TYPE:      Chyba
+SIGNAL_TRIGGER_TYPE:     Sign\u00E1l
+TERMINATE_TRIGGER_TYPE:  Ukon\u010Di\u0165
+
+PROCESS_COMPONENTS:      Komponenty BPM
+BPMN_ARTIFACTS:          Objekty toku BPMN
+BASIC_ARTIFACTS:         Z\u00E1kladn\u00E9 objekty toku
+BPMN:                    BPMN
+BPM_DESCRIPTIVE:         BPM - popisn\u00E9
+BUSINESS_CATALOG:        Biznis katal\u00F3g
+ARGUMENT_MAPPING:        Asoci\u00E1cia d\u00E1t
+VIEW_COLLABORATION:      Zobrazi\u0165 spolupr\u00E1cu
+HIDE_COLLABORATION:      Skry\u0165 spolupr\u00E1cu
+LOADING:                 Zav\u00E1dza sa...
+CANCEL_SEARCH:           Zru\u0161i\u0165 vyh\u013Ead\u00E1vanie
+EVENTS:                  Udalosti
+ZOOM_OUT:                Oddiali\u0165
+SELECT_ALL:              Vybra\u0165 v\u0161etko
+DELETE:                  Odstr\u00E1ni\u0165
+
+SERVICES:                Slu\u017Eby
+REMOVE_CUSTOM_OUTPUT:    Odstr\u00E1ni\u0165 vlastn\u00FD v\u00FDstup
+ZOOM_IN:                 Pribl\u00ED\u017Ei\u0165
+
+SELECT:                  Vybra\u0165
+OK:                      OK
+BPMN_COMPONENTS:         Komponenty BPMN
+GATEWAYS:                Br\u00E1ny gateway
+ARTIFACTS:               Artefakty
+BASIC:                   Z\u00E1kladn\u00E9
+SEARCH:                  N\u00E1js\u0165 komponent
+FLOW_SEALED:             Zape\u010Daten\u00FD\ntok
+REDO:                    Znova
+CANCEL:                  Zru\u0161i\u0165
+APPLY:                   Pou\u017Ei\u0165
+CREATE:                  Vytvori\u0165
+VARIABLES:               D\u00E1tov\u00E9 objekty
+PREDEFINED_VARIABLES:    Preddefinovan\u00E9 premenn\u00E9
+PROCESS:                 Proces
+PROJECT:                 Projekt
+DEFAULT:                 Predvolen\u00E9
+TASKS:                   \u010Cinnosti
+PANNING:                 Posunutie
+SAVE:                    Ulo\u017Ei\u0165
+UNDO:                    Odvola\u0165
+ADD_NEW_VAR:             Prida\u0165 nov\u00FD d\u00E1tov\u00FD objekt
+REMOVE_VAR:              Odstr\u00E1ni\u0165 d\u00E1tov\u00FD objekt
+VIEW_DATA_OBJECTS:       Zobrazi\u0165 d\u00E1tov\u00E9 objekty
+DATA_OBJECTS:            D\u00E1tov\u00E9 objekty
+INPUTS:                  Vstupy
+OUTPUTS:                 V\u00FDstupy
+DRAG_VARIABLES:          Presun\u00FA\u0165 d\u00E1tov\u00E9 objekty do textov\u00FDch pol\u00ED.
+NAME:                    N\u00E1zov
+ICON:                    Ikona
+TYPE:                    Typ
+DESCRIPTION:             Popis
+SCOPE:                   Rozsah
+NEW_VARIABLE:            Nov\u00FD d\u00E1tov\u00FD objekt
+ADVANCED:                Roz\u0161\u00EDren\u00E9
+TRANSITIONS:             Toky sekvenci\u00ED
+BUSINESS_RULES:          Biznis pravidl\u00E1
+HELP:                    Pomoc       
+HUMAN_TASKS:             \u013Dudsk\u00E9 \u00FAlohy
+BUSINESS_OBJECTS:        Biznis objekty
+ADD_CUSTOM_OUTPUT:       Prida\u0165 vlastn\u00FD v\u00FDstup
+ADD_CUSTOM_INPUT:        Prida\u0165 vlastn\u00FD vstup
+TRANSITION:              Tok sekvenci\u00ED
+NORMAL: Nepodmienen\u00E9
+CONDITIONAL: Podmienen\u00E9
+EXCEPTION: V\u00FDnimka
+PRINT:                   Tla\u010Di\u0165
+AUTOLAYOUT:              Automatick\u00E9 rozlo\u017Eenie
+ADD_TO_MILESTONE:        Prida\u0165 do k\u013E\u00FA\u010Dovej udalosti
+COLLAPSE:                Zbali\u0165
+EXPAND:                  Rozbali\u0165
+OWNER:                   Vlastn\u00EDk procesu
+PROPERTIES:              Vlastnosti
+IMPLEMENT:               Implementova\u0165
+BUSINESS_PROPERTIES: Biznis vlastnosti
+CREATE_TRANSITION:       Prida\u0165 prechod
+DOCUMENTATION:           Dokument\u00E1cia
+UNRECOGNIZED_BPMN_TYPE:  Nerozpoznan\u00FD typ BPMN.
+STRAIGHTEN_TRANSITION:   Vyrovna\u0165 prechod
+MAKE_TRANS_ORTHOGONAL:   Vytvori\u0165 kolm\u00FD prechod
+CURVE_TRANSITION:        Spoji\u0165 prechod krivkou
+SHOW_DOCUMENTATION:      Dokument\u00E1cia
+SHOW_IMPLEMENTATION:     Implement\u00E1cia
+
+SIMPLE: Jednoduch\u00E9
+COMPLEX: Komplexn\u00E9
+
+CONVERT_GATEWAY:         Konvertova\u0165 gateway
+CONVERT_TO_PARALLEL:     Konvertova\u0165 na paraleln\u00FA
+CONVERT_TO_INCLUSIVE:    Konvertova\u0165 na inkluz\u00EDvnu
+
+ERROR_MESSAGE:N\u00E1zov chyby: {0}. \nChybov\u00E9 hl\u00E1senie: {1}
+
+CREATE_COUNTER_MARK:     Vytvori\u0165 zna\u010Dku po\u010D\u00EDtadla
+DELETE_COUNTER_MARK:     Odstr\u00E1ni\u0165 zna\u010Dku po\u010D\u00EDtadla
+
+ADD_NEW_SERVICE:         Prida\u0165 slu\u017Ebu
+
+GRID_SHOW:              Prepn\u00FA\u0165 vidite\u013Enos\u0165 mrie\u017Eky
+GRID_SNAP:              Prichyti\u0165 k mrie\u017Eke
+
+LAUNCH_EXPRESSION_BUILDER: Spusti\u0165 n\u00E1stroj Expression Builder
+
+EXTERNAL_REFERENCES:       Extern\u00E9 referencie
+
+CLOSE:                  Zatvori\u0165
+TRIGGER:                Sp\u00FA\u0161\u0165a\u010D
+
+OPEN_HT: Otvori\u0165 \u013Eudsk\u00FA \u00FAlohu
+OPEN_PROCESS: Otvori\u0165 proces
+OPEN_BUSINESS_RULE: Otvori\u0165 biznis pravidlo
+
+COPY: Kop\u00EDrova\u0165
+CUT: Vystrihn\u00FA\u0165
+PASTE: Prilepi\u0165
+
+REFINE_ACTIVITY: Spresni\u0165 \u010Dinnos\u0165
+CONVERT_TO_REGULAR_SUBPROCESS: Konvertova\u0165 na regul\u00E1rny podproces
+
+SHOW_PALETTE:              Zobrazi\u0165/skry\u0165 paletu
+STAMP_MODE:                Prepn\u00FA\u0165 re\u017Eim pe\u010Diatky
+
+ROLE: Rola
+USE: Pou\u017Ei\u0165
+AUTOMATIC_HANDLER: Automatick\u00FD obslu\u017En\u00FD program
+CHANGE: Zmeni\u0165...
+ADD_LANE: Prida\u0165 dr\u00E1hu
+
+MORE: \u010Eal\u0161ie
+MORE_TOOLTIP: Zobrazi\u0165 podpolo\u017Eky
+LESS: Menej
+LESS_TOOLTIP: Skry\u0165 podpolo\u017Eky
+
+LESS_DC_TOOLTIP: Dvakr\u00E1t kliknite, ak chcete skry\u0165 podpolo\u017Eky
+MORE_DC_TOOLTIP: Dvakr\u00E1t kliknite, ak chcete zobrazi\u0165 \u010Fal\u0161ie
+
+# Policies messages...
+
+INVALID_TYPE: Nie je mo\u017En\u00E9 zmeni\u0165 typ uzla na {0}
+CAN_ONLY_CHANGE_TO_ACTIVITY: M\u00F4\u017Eete zmeni\u0165 len typ \u010Dinnosti
+ALREADY_DEFINED_TYPE: \u010Cinnos\u0165 u\u017E m\u00E1 tento typ
+CAN_ONLY_CHANGE_TO_UNIMPLEMENTED_UT : Nemo\u017Eno zmeni\u0165 vzor na implementovan\u00FA \u00FAlohu pou\u017E\u00EDvate\u013Ea
+
+FROM_EQ_TO: Zdrojov\u00FD a cie\u013Eov\u00FD uzol nem\u00F4\u017Eu by\u0165 toto\u017En\u00E9.
+DIFF_CONTAINER: Zdrojov\u00FD a cie\u013Eov\u00FD uzol musia ma\u0165 rovnak\u00FD kontajner.
+DIFF_BOUNDARY_CONTAINER: Hrani\u010Dn\u00FA udalos\u0165 nie je mo\u017En\u00E9 prepoji\u0165 s jej kontajnerom.
+START_INCOMING: Po\u010Diato\u010Dn\u00E9 udalosti nem\u00F4\u017Eu ma\u0165 prich\u00E1dzaj\u00FAce prechody.
+MORE_THAN_ONE_UNCONDITIONAL: Jeden nepodmienen\u00FD prechod sp\u00E1jaj\u00FAci tieto uzly u\u017E existuje.
+EVENT_BASED_CONNECTIONS: Gateway na z\u00E1klade udalosti sa m\u00F4\u017Ee pripoji\u0165 len k \u00FAloh\u00E1m zachytenia spr\u00E1vy, \u010Dasova\u010Dom zachytenia a \u00FAloh\u00E1m prijatia.
+END_OUTGOING: Koncov\u00E9 udalosti nem\u00F4\u017Eu ma\u0165 odch\u00E1dzaj\u00FAce prechody.
+MORE_OUTGOING_UNCONDITIONAL: Len paraleln\u00E9 gateway a gateway na z\u00E1klade udalost\u00ED m\u00F4\u017Eu ma\u0165 viac ako jeden odch\u00E1dzaj\u00FAci nepodmienen\u00FD prechod.
+CONDITIONAL_TRANS: Len exkluz\u00EDvne, inkluz\u00EDvne a komplexn\u00E9 gateway m\u00F4\u017Eu ma\u0165 podmienen\u00E9 prechody.
+OUTGOING_CONDITIONAL: Zl\u00FA\u010Denie gateway nem\u00F4\u017Ee ma\u0165 odch\u00E1dzaj\u00FAci podmienen\u00FD prechod.
+NOT_PART_OF_THE_FLOW: {0} nie je s\u00FA\u010Das\u0165ou toku (nem\u00F4\u017Ee ma\u0165 hrani\u010Dn\u00E9 udalosti, prich\u00E1dzaj\u00FAce alebo odch\u00E1dzaj\u00FAce prechody).
+BOUNDARIES_TASKS: Hrani\u010Dn\u00E9 udalosti je mo\u017En\u00E9 prida\u0165 len k \u00FAloh\u00E1m.
+NOTE_TARGET: Cie\u013E pozn\u00E1mky nem\u00F4\u017Ee by\u0165 {0}.
+BOUNDARY_EVT: Hrani\u010Dn\u00E1 udalos\u0165
+MM_TRANSITIONS: Zna\u010Dky merania mo\u017Eno pripoji\u0165 len k tokom sekvenci\u00ED.
+ON_TOP_OF_NODE: Nie je mo\u017En\u00E9 prida\u0165 na za\u010Diatok in\u00E9ho uzla.
+SPACE_FOR_NODES: Nedostatok priestoru na ulo\u017Eenie v\u0161etk\u00FDch uzlov.
+NOT_BOUNDARY: Udalos\u0165 {0} nie je hrani\u010Dn\u00E1 udalos\u0165.
+
+SERVICE_IMPL: {0} mo\u017Eno implementova\u0165 len so slu\u017Ebami.
+SERVICE_NOT_CALLBACK: Oper\u00E1cie sp\u00E4tn\u00E9ho volania nie je mo\u017En\u00E9 pou\u017Ei\u0165 na implementovanie {0}.
+NOT_SYNC: Synchr\u00F3nne oper\u00E1cie nie je mo\u017En\u00E9 pou\u017Ei\u0165 na implementovanie {0}.
+BR_IMPL: \u00DAlohy biznis pravidiel mo\u017Eno implementova\u0165 len s biznis pravidlami.
+CANNOT_IMPL: Vybran\u00FA \u010Dinnos\u0165 nie je mo\u017En\u00E9 implementova\u0165.
+UT_IMPL: Len \u00FAlohy pou\u017E\u00EDvate\u013Ea je mo\u017En\u00E9 implementova\u0165 s \u013Eudsk\u00FDmi \u00FAlohami.
+TASKS_IMPL: Implementova\u0165 mo\u017Eno len \u00FAlohy.
+
+FLOW_IS_SEALED: Tok nie je mo\u017En\u00E9 zmeni\u0165, preto\u017Ee je zape\u010Daten\u00FD.
+NODE_IS_SEALED: Uzol je zape\u010Daten\u00FD.
+
+PROCESS_READ_ONLY: Proces je len na \u010D\u00EDtanie.
+EDIT_CONVERSATIONS: Upravi\u0165 konverz\u00E1cie
+
+######################
+
+VALIDATE_TARGET: Overi\u0165 cie\u013E po priraden\u00ED:
+VALIDATE_INPUT: asoci\u00E1cie vstupn\u00FDch d\u00E1t
+VALIDATE_OUTPUT: asoci\u00E1cie v\u00FDstupn\u00FDch d\u00E1t
+
+ADD_SEQUENTIAL: Prida\u0165 sekven\u010Dn\u00E9
+ADD_PARALLEL: Prida\u0165 paraleln\u00E9
+PARTICIPANTS: \u00DA\u010Dastn\u00EDci
+STAGE: \u0160t\u00E1dium
+SINGLE: Jeden
+PARALLEL_SINGLE: Paraleln\u00E9 jednotliv\u00E9
+PARALLEL_BLOCK: Paraleln\u00FD blok
+SERIAL: S\u00E9riov\u00E9
+FYI: FYI
+ADHOC: Ad hoc
+MANAGEMENT_CHAIN: Hierarchia riadenia
+NOTIFY: Upozorni\u0165
+
+MANAGEMENT: Riadenie
+GROUP: Skupina
+INITIATOR: Inici\u00E1tor
+
+REVEAL_ASSOCIATIONS: Kliknut\u00EDm sem zobraz\u00EDte asoci\u00E1cie
+
+FIND_USAGES: N\u00E1js\u0165 pou\u017Eitia
+
+
+AVG_INSTANCE_COUNT: Priemern\u00FD po\u010Det in\u0161tanci\u00ED
+AVG_PERFORMANCE: Priemern\u00FD v\u00FDkon
+AVG_QUEUE_SIZE: Priemern\u00E1 ve\u013Ekos\u0165 frontu
+AVG_RESOURCE_UTILIZATION: Priemern\u00E1 vyu\u017Eite\u013Enos\u0165 prostriedkov
+AVG_WORKING_COUNT: Priemern\u00FD po\u010Det in\u0161tanci\u00ED
+COMPLETED_INSTANCES: Dokon\u010Den\u00E9 in\u0161tancie
+COMPLETED_OPERATIONS: Dokon\u010Den\u00E9 oper\u00E1cie
+CURRENT_INSTANCE_COUNT: Aktu\u00E1lny po\u010Det in\u0161tanci\u00ED
+CURRENT_QUEUE_SIZE: Aktu\u00E1lna ve\u013Ekos\u0165 frontu
+CURRENT_RESOURCE_UTILIZATION: Aktu\u00E1lna vyu\u017Eite\u013Enos\u0165 prostriedkov
+CURRENT_WORKING_COUNT: Aktu\u00E1lny po\u010Det in\u0161tanci\u00ED
+MAX_INSTANCE_COUNT: Maxim\u00E1lny po\u010Det in\u0161tanci\u00ED
+MAX_INSTANCES_WORKING_COUNT: Maxim\u00E1lny po\u010Det in\u0161tanci\u00ED
+MAX_QUEUE_SIZE: Maxim\u00E1lna ve\u013Ekos\u0165 frontu
+MAX_RESOURCE_UTILIZATION: Maxim\u00E1lna vyu\u017Eite\u013Enos\u0165 prostriedkov
+TOTAL_RESOURCE_UTILIZATION: Celkov\u00E1 vyu\u017Eite\u013Enos\u0165 prostriedkov
+TOTAL_WAITING_COUNT: Celkov\u00FD po\u010Det \u010Dakan\u00ED
+
+AVG_PROCESS_TIME: Priemern\u00FD \u010Das procesu
+AVG_CYCLE_TIME: Priemern\u00FD \u010Das cyklu
+MAX_CYCLE_TIME: Maxim\u00E1lny \u010Das cyklu
+MIN_CYCLE_TIME: Minim\u00E1lny \u010Das cyklu
+AVG_WAITING_TIME: Priemern\u00FD \u010Das \u010Dakania
+MAX_WAITING_TIME: Maxim\u00E1lny \u010Das \u010Dakania
+MIN_WAITING_TIME: Minim\u00E1lny \u010Das \u010Dakania
+AVG_WORKING_TIME: Priemern\u00FD pracovn\u00FD \u010Das
+MAX_WORKING_TIME: Maxim\u00E1lny pracovn\u00FD \u010Das
+MIN_WORKING_TIME: Minim\u00E1lny pracovn\u00FD \u010Das
+
+TOTAL_COST: Celkov\u00E9 n\u00E1klady
+AVG_TOTAL_COST: Priemern\u00E9 celkov\u00E9 n\u00E1klady
+
+TOTAL_WAITING_TIME: Celkov\u00FD \u010Das \u010Dakania
+
+RESOURCE_BUSY_TIME: \u010Cas obsadenosti prostriedkov
+
+RESOURCE_BUSY_COST: N\u00E1klady pri obsadenosti prostriedkov
+RESOURCE_TOTAL_COST: Celkov\u00E9 n\u00E1klady na prostriedky
+RESOURCES: Prostriedky
+INDICATORS: Indik\u00E1tory
+VALUES: Hodnoty
+
+TIME: \u010Cas
+COST: N\u00E1klady
+UNITS: Jednotky
+
+COLUMN_CHART: St\u013Apcov\u00FD graf
+BAR_CHART: Pruhov\u00FD graf
+
+CLICK_TO_REVEAL_CHART: . Kliknut\u00EDm zobraz\u00EDte graf
+SHOW_RESULTS: Zobrazi\u0165 v\u00FDsledky
+FILTERS: Filtre
+CLEAR_RESULTS: Vymaza\u0165 v\u00FDsledky
+INSTANCE_NUMBER: In\u0161tancie
+USE_INSTANCES: Pou\u017Ei\u0165 in\u0161tancie
+
+INTERVAL: Interval
+MEAN: Stredn\u00E1 hodnota
+STANDARD_DEVIATION: \u0160tandardn\u00E1 odch\u00FDlka
+PERIOD: Obdobie
+FREQUENCY: Frekvencia
+EVERY: ka\u017Ed\u00FDch
+DISTRIBUTION_TYPE: Typ distrib\u00FAcie
+INSTANCE_CREATION: Vytvorenie in\u0161tancie
+DELTA: Delta
+INSTANCES: in\u0161tancie
+CRITERIA: Krit\u00E9ri\u00E1
+
+DAYS: dni
+HOURS_AB: h
+MINUTES_AB: m
+SECONDS_AB: s
+
+
+CONSTANT_DIST: Kon\u0161tanta
+UNIFORM_DIST: Rovnomern\u00E1
+EXPONENTIAL_DIST: Exponenci\u00E1lna
+NORMAL_DIST: Norm\u00E1lna
+REAL_DIST: Re\u00E1lna
+
+
+FIFO: F.I.F.O.
+LIFO: L.I.F.O.
+RANDOM: N\u00E1hodn\u00E9
+BY_PRIORITY: Pod\u013Ea priority
+MINIMUM_COST: Minim\u00E1lne n\u00E1klady
+MAXIMUM_EFFICIENCY: Maxim\u00E1lna efekt\u00EDvnos\u0165
+
+
+FIXED_BASE_COST: Pevn\u00E9 z\u00E1kladn\u00E9 n\u00E1klady
+BASE_COST_PLUS_RESOURCE_COST: Z\u00E1kladn\u00E9 n\u00E1klady plus n\u00E1klady na prostriedok
+
+HOURLY: Ka\u017Ed\u00FA hodinu
+DAILY: Denne
+WEEKLY: T\u00FD\u017Edenne
+MONTHLY: Mesa\u010Dne
+
+SUNDAY: Nede\u013Ea
+MONDAY: Pondelok
+TUESDAY: Utorok
+WEDNESDAY: Streda
+THURSDAY: \u0160tvrtok
+FRIDAY: Piatok
+SATURDAY: Sobota
+
+FIRST: Prv\u00FD
+SECOND: Druh\u00FD
+THIRD: Tret\u00ED
+FOURTH: \u0160tvrt\u00FD
+LAST: Posledn\u00FD
+
+JANUARY: Janu\u00E1r
+FEBRUARY: Febru\u00E1r
+MARCH: Marec
+APRIL: Apr\u00EDl
+MAY: M\u00E1j
+JUNE: J\u00FAn
+JULY: J\u00FAl
+AUGUST: August
+SEPTEMBER: September
+OCTOBER: Okt\u00F3ber
+NOVEMBER: November
+DECEMBER: December
+
+DURATION: Trvanie
+COST_PER_HOUR: N\u00E1klady na hodinu
+QUEUE_INFO: Inform\u00E1cie o fronte
+OUTGOING_FLOWS: Odch\u00E1dzaj\u00FAce toky
+
+USE_ORGANIZATION_RESOURCES: Pou\u017Ei\u0165 prostriedky organiz\u00E1cie
+USE_FIXED_RESOURCES: Pou\u017Ei\u0165 fixn\u00E9 prostriedky
+PARTICIPANT_SELECTION_POLICY: Strat\u00E9gia v\u00FDberu \u00FA\u010Dastn\u00EDka
+AVAILABLE_RESOURCES: Dostupn\u00E9 prostriedky
+
+PROCESS_EDITOR: N\u00E1vrh
+SIMULATION_EDITOR: Simul\u00E1cia
+ADD_MODEL_SIMULATION: Prida\u0165 simul\u00E1ciu modelu
+
+ACTIVITY_FIXED_BASE_COST: Pevn\u00E9 z\u00E1kladn\u00E9 n\u00E1klady na \u010Dinnos\u0165
+ACTIVITY_COST_TYPE: Typ n\u00E1kladov na \u010Dinnos\u0165
+
+QUEUE_WARNING_SIZE: Ve\u013Ekos\u0165 frontu aktivuj\u00FAca upozornenie
+
+THREADS: Vl\u00E1kna
+MODEL: Model:
+CREATE_SIM_MODEL: Vytvori\u0165 model simul\u00E1cie
+
+NOT_PROCESS_EDITOR: Ak chcete upravi\u0165 proces, prepnite na re\u017Eim N\u00E1vrh
+MINUS_ENA: Zbali\u0165 graf
+
+BUSINESS_INDICATORS: Biznis indik\u00E1tory
+
+METRICS: Metrika
+ALL: V\u0161etko
+NONE: \u017Diadne
+
+INIT_PLAYER_INSTANCE: Inicializova\u0165 in\u0161tanciu prehr\u00E1va\u010Da
+REFRESH_PLAYER_INSTANCE: Obnovi\u0165
+DELETE_PLAYER_INSTANCE: Odstr\u00E1ni\u0165
+PROCESS_VARIABLES: Premenn\u00E9 procesu
+THREAD_ID: ID vl\u00E1kna
+INSTANCE_ID: ID in\u0161tancie
+INSTANCE_INFORMATION: Inform\u00E1cie o in\u0161tancii
+
+INVALID_PAYLOAD_NAME: Neplatn\u00FD n\u00E1zov d\u00E1t \u00FAlohy
+
+MUST_BE_LOWER : mus\u00ED by\u0165 mal\u00FDmi p\u00EDsmenami.

@@ -1,0 +1,443 @@
+#
+#
+# hash = 405f00d000bf10009f90407060df4f804f40d0b0
+#
+START:                   Iniciar
+THROW:                   Devolver
+CATCH:                   Detetar
+END:                     Fim
+
+ABSTRACT_ACTIVITY: Atividade Abstrata
+TASK: Atividade
+INTERACTIVE_TASK: Interativa
+
+
+USER_TASK: Tarefa do Utilizador
+SERVICE_TASK: Tarefa de Servi\u00E7o
+SEND_TASK: Tarefa de Envio
+RECEIVE_TASK: Tarefa de Rece\u00E7\u00E3o
+NOTIFICATION_TASK: Tarefa de Notifica\u00E7\u00E3o
+UPDATE_TASK: Tarefa de Atualiza\u00E7\u00E3o
+BUSINESS_RULE_TASK: Tarefa da Regra Empresarial
+SCRIPT_TASK: Tarefa de Ficheiro de Comandos
+MANUAL_TASK: Tarefa Manual
+CALL_ACTIVITY: Atividade de Chamada
+SUBPROCESS: Subprocesso
+INLINE_HANDLER: Subprocesso do Evento
+
+EVENT: Evento
+START_EVENT: In\u00EDcio
+END_EVENT: Fim
+BOUNDARY_EVENT: Limite
+THROW_EVENT: Evento de Devolu\u00E7\u00E3o
+CATCH_EVENT: Evento de Dete\u00E7\u00E3o
+
+GATEWAY: Gateway
+COMPLEX_GATEWAY: Gateway Complexo
+EXCLUSIVE_GATEWAY: Gateway Exclusivo
+INCLUSIVE_GATEWAY: Gateway Inclusivo
+PARALLEL_GATEWAY: Gateway Paralelo
+EVENT_BASED_GATEWAY: Gateway Baseado no Evento
+
+NOTE: Nota
+
+START_NONE:              In\u00EDcio
+START_MESSAGE_TOPLEVEL:  In\u00EDcio de Mensagem
+START_TIMER_TOPLEVEL:    In\u00EDcio de Temporizador
+START_SIGNAL_TOPLEVEL:   In\u00EDcio de Sinal
+START_ERROR_SUBPROCESS:  In\u00EDcio de Erro
+INTERMEDIATE_NONE:       Detetar
+INTERMEDIATE_ERROR_BOUNDARY_INTERRUPTING: Limite de Erros
+INTERMEDIATE_TIMER_CATCH: Temporizador
+INTERMEDIATE_MESSAGE_CATCH: Mensagem
+INTERMEDIATE_NONE_THROW_NONBOUNDARY: Devolver
+INTERMEDIATE_MESSAGE_THROW_NONBOUNDARY: Mensagem
+INTERMEDIATE_SIGNAL_THROW_NONBOUNDARY: Sinal
+INTERMEDIATE_SIGNAL_CATCH: Sinal
+END_NONE:                Fim
+END_MESSAGE:             Fim de Mensagem
+END_ERROR:               Fim de Erro
+END_SIGNAL:              Fim de Sinal
+END_TERMINATE:           Fim de T\u00E9rmino
+MEASUREMENT_START:       Iniciar Medi\u00E7\u00E3o
+MEASUREMENT_END:         Terminar Medi\u00E7\u00E3o
+MEASUREMENT:             Medi\u00E7\u00E3o
+
+NONE_TRIGGER_TYPE:       Nenhum
+MESSAGE_TRIGGER_TYPE:    Mensagem
+TIMER_TRIGGER_TYPE:      Temporizador
+ERROR_TRIGGER_TYPE:      Erro
+SIGNAL_TRIGGER_TYPE:     Sinal
+TERMINATE_TRIGGER_TYPE:  Terminar
+
+PROCESS_COMPONENTS:      Componentes do BPM
+BPMN_ARTIFACTS:          Objetos de Fluxos do BPMN
+BASIC_ARTIFACTS:         Objetos de Fluxos B\u00E1sicos
+BPMN:                    BPMN
+BPM_DESCRIPTIVE:         BPM - Descritivo
+BUSINESS_CATALOG:        Cat\u00E1logo de Atividade
+ARGUMENT_MAPPING:        Associa\u00E7\u00E3o de Dados
+VIEW_COLLABORATION:      Visualizar Colabora\u00E7\u00E3o
+HIDE_COLLABORATION:      Ocultar Colabora\u00E7\u00E3o
+LOADING:                 A carregar...
+CANCEL_SEARCH:           Cancelar Pesquisa
+EVENTS:                  Eventos
+ZOOM_OUT:                Afastar
+SELECT_ALL:              Selecionar todos
+DELETE:                  Apagar
+
+SERVICES:                Servi\u00E7os
+REMOVE_CUSTOM_OUTPUT:    Retirar Sa\u00EDda de Dados Personalizada
+ZOOM_IN:                 Aproximar
+
+SELECT:                  Selecionar
+OK:                      OK
+BPMN_COMPONENTS:         Componentes do BPMN
+GATEWAYS:                Gateways
+ARTIFACTS:               Artefactos
+BASIC:                   B\u00E1sico
+SEARCH:                  Encontrar Componente
+FLOW_SEALED:             Fluxo\nSelado
+REDO:                    Refazer
+CANCEL:                  Cancelar
+APPLY:                   Aplicar
+CREATE:                  Criar
+VARIABLES:               Objetos de Dados
+PREDEFINED_VARIABLES:    Vari\u00E1veis Predefinidas
+PROCESS:                 Processo
+PROJECT:                 Projeto
+DEFAULT:                 Valor por Omiss\u00E3o
+TASKS:                   Atividades
+PANNING:                 Deslocamento
+SAVE:                    Gravar
+UNDO:                    Desfazer
+ADD_NEW_VAR:             Acrescentar Novo Objeto de Dados
+REMOVE_VAR:              Retirar Objeto de Dados
+VIEW_DATA_OBJECTS:       Visualizar Objetos de Dados
+DATA_OBJECTS:            Objetos de Dados
+INPUTS:                  Entradas de Dados
+OUTPUTS:                 Sa\u00EDdas de Dados
+DRAG_VARIABLES:          Arrastar objetos de dados para caixas de texto.
+NAME:                    Nome
+ICON:                    \u00CDcone
+TYPE:                    Tipo
+DESCRIPTION:             Descri\u00E7\u00E3o
+SCOPE:                   \u00C2mbito
+NEW_VARIABLE:            Novo Objeto de Dados
+ADVANCED:                Avan\u00E7adas
+TRANSITIONS:             Fluxos de Sequ\u00EAncias
+BUSINESS_RULES:          Regras Empresariais
+HELP:                    Aux\u00EDlio       
+HUMAN_TASKS:             Tarefas Humanas
+BUSINESS_OBJECTS:        Objetos Empresariais
+ADD_CUSTOM_OUTPUT:       Acrescentar Sa\u00EDda de Dados Personalizada
+ADD_CUSTOM_INPUT:        Acrescentar Entrada de Dados Personalizada
+TRANSITION:              Fluxo de Sequ\u00EAncias
+NORMAL: Incondicional
+CONDITIONAL: Condicional
+EXCEPTION: Exce\u00E7\u00E3o
+PRINT:                   Imprimir
+AUTOLAYOUT:              Disposi\u00E7\u00E3o Autom\u00E1tica
+ADD_TO_MILESTONE:        Acrescentar ao Ponto-chave
+COLLAPSE:                Contrair
+EXPAND:                  Expandir
+OWNER:                   Propriet\u00E1rio do Processo
+PROPERTIES:              Propriedades
+IMPLEMENT:               Implementar
+BUSINESS_PROPERTIES: Propriedades da Atividade
+CREATE_TRANSITION:       Acrescentar Transi\u00E7\u00E3o
+DOCUMENTATION:           Documenta\u00E7\u00E3o
+UNRECOGNIZED_BPMN_TYPE:  Tipo do BPMN n\u00E3o reconhecido.
+STRAIGHTEN_TRANSITION:   Transi\u00E7\u00E3o Reta
+MAKE_TRANS_ORTHOGONAL:   Tornar a Transi\u00E7\u00E3o Ortogonal
+CURVE_TRANSITION:        Transi\u00E7\u00E3o Curva
+SHOW_DOCUMENTATION:      Documenta\u00E7\u00E3o
+SHOW_IMPLEMENTATION:     Implementa\u00E7\u00E3o
+
+SIMPLE: Simples
+COMPLEX: Complexo
+
+CONVERT_GATEWAY:         Converter Gateway
+CONVERT_TO_PARALLEL:     Converter em Paralelo
+CONVERT_TO_INCLUSIVE:    Converter em Inclusivo
+
+ERROR_MESSAGE:Nome do Erro: {0}. \nMensagem de Erro: {1}
+
+CREATE_COUNTER_MARK:     Criar Marca do Contador
+DELETE_COUNTER_MARK:     Apagar Marca do Contador
+
+ADD_NEW_SERVICE:         Acrescentar Servi\u00E7o
+
+GRID_SHOW:              Alternar visibilidade da grelha
+GRID_SNAP:              Ajustar \u00E0 grelha
+
+LAUNCH_EXPRESSION_BUILDER: Lan\u00E7ar Criador de Express\u00F5es
+
+EXTERNAL_REFERENCES:       Refer\u00EAncias Externas
+
+CLOSE:                  Fechar
+TRIGGER:                Trigger
+
+OPEN_HT: Abrir Tarefa Humana
+OPEN_PROCESS: Abrir Processo
+OPEN_BUSINESS_RULE: Abrir Regra Empresarial
+
+COPY: Copiar
+CUT: Cortar
+PASTE: Colar
+
+REFINE_ACTIVITY: Refinar Atividade
+CONVERT_TO_REGULAR_SUBPROCESS: Converter em subprocesso regular
+
+SHOW_PALETTE:              Alternar visibilidade da paleta
+STAMP_MODE:                Alternar modo de indica\u00E7\u00E3o
+
+ROLE: Perfil de Grupo
+USE: Utilizar
+AUTOMATIC_HANDLER: Rotina de Tratamento Autom\u00E1tica
+CHANGE: Alterar...
+ADD_LANE: Acrescentar Pista
+
+MORE: Mais
+MORE_TOOLTIP: Mostrar subitens
+LESS: Menos
+LESS_TOOLTIP: Ocultar subitens
+
+LESS_DC_TOOLTIP: Clique duas vezes para ocultar os subitens
+MORE_DC_TOOLTIP: Clique duas vezes para mais
+
+# Policies messages...
+
+INVALID_TYPE: N\u00E3o \u00E9 poss\u00EDvel alterar o tipo de n\u00F3 para {0}
+CAN_ONLY_CHANGE_TO_ACTIVITY: S\u00F3 \u00E9 poss\u00EDvel alterar o tipo de uma Atividade
+ALREADY_DEFINED_TYPE: A Atividade j\u00E1 tem este tipo
+CAN_ONLY_CHANGE_TO_UNIMPLEMENTED_UT : N\u00E3o \u00E9 poss\u00EDvel alterar o padr\u00E3o de uma tarefa de utilizador implementada
+
+FROM_EQ_TO: N\u00E3o \u00E9 poss\u00EDvel que o n\u00F3 de origem e de destino sejam iguais.
+DIFF_CONTAINER: \u00C9 necess\u00E1rio que os n\u00F3s de origem e de destino tenham o mesmo contentor.
+DIFF_BOUNDARY_CONTAINER: N\u00E3o \u00E9 poss\u00EDvel referenciar o evento limite no respetivo contentor.
+START_INCOMING: N\u00E3o \u00E9 poss\u00EDvel que os eventos de in\u00EDcio tenham transi\u00E7\u00F5es de rece\u00E7\u00E3o.
+MORE_THAN_ONE_UNCONDITIONAL: J\u00E1 existe uma transi\u00E7\u00E3o incondicional a ligar estes n\u00F3s.
+EVENT_BASED_CONNECTIONS: S\u00F3 \u00E9 poss\u00EDvel ao Gateway Baseado no Evento ligar a Mensagens de Dete\u00E7\u00E3o, Temporizadores de Dete\u00E7\u00E3o e Tarefas de Rece\u00E7\u00E3o.
+END_OUTGOING: N\u00E3o \u00E9 poss\u00EDvel que os eventos de fim tenham transi\u00E7\u00F5es de envio.
+MORE_OUTGOING_UNCONDITIONAL: Apenas os Gateways Paralelos e Baseados no Evento poder\u00E3o ter mais de uma transi\u00E7\u00E3o incondicional de envio.
+CONDITIONAL_TRANS: Apenas os Gateways Exclusivos, Inclusivos e Complexos poder\u00E3o ter transi\u00E7\u00F5es condicionais.
+OUTGOING_CONDITIONAL: N\u00E3o \u00E9 poss\u00EDvel que a Fus\u00E3o do Gateway tenha uma transi\u00E7\u00E3o condicional de envio.
+NOT_PART_OF_THE_FLOW: {0} n\u00E3o faz parte do fluxo (n\u00E3o \u00E9 poss\u00EDvel que tenha eventos limite, transi\u00E7\u00F5es de rece\u00E7\u00E3o ou envio).
+BOUNDARIES_TASKS: Os eventos limite s\u00F3 poder\u00E3o ser acrescentados \u00E0s Tarefas.
+NOTE_TARGET: N\u00E3o \u00E9 poss\u00EDvel que o destino da nota seja {0}.
+BOUNDARY_EVT: Evento limite
+MM_TRANSITIONS: As Marcas de Medi\u00E7\u00E3o s\u00F3 poder\u00E3o ser anexadas aos fluxos de sequ\u00EAncias.
+ON_TOP_OF_NODE: N\u00E3o \u00E9 poss\u00EDvel acrescentar sobre outro n\u00F3.
+SPACE_FOR_NODES: N\u00E3o existe espa\u00E7o suficiente para conter todos os n\u00F3s.
+NOT_BOUNDARY: O evento {0} n\u00E3o \u00E9 um evento limite.
+
+SERVICE_IMPL: S\u00F3 \u00E9 poss\u00EDvel implementar {0} com Servi\u00E7os.
+SERVICE_NOT_CALLBACK: N\u00E3o \u00E9 poss\u00EDvel utilizar opera\u00E7\u00F5es de callback para implementar {0}.
+NOT_SYNC: N\u00E3o \u00E9 poss\u00EDvel utilizar opera\u00E7\u00F5es sincr\u00F3nicas para implementar {0}.
+BR_IMPL: S\u00F3 \u00E9 poss\u00EDvel implementar Tarefas de Regra Empresarial com Regras Empresariais.
+CANNOT_IMPL: N\u00E3o \u00E9 poss\u00EDvel implementar a atividade selecionada.
+UT_IMPL: S\u00F3 \u00E9 poss\u00EDvel implementar Tarefas do Utilizador com Tarefas Humanas.
+TASKS_IMPL: S\u00F3 \u00E9 poss\u00EDvel implementar tarefas.
+
+FLOW_IS_SEALED: N\u00E3o \u00E9 poss\u00EDvel alterar o fluxo, porque est\u00E1 selado.
+NODE_IS_SEALED: O n\u00F3 est\u00E1 selado.
+
+PROCESS_READ_ONLY: O processo \u00E9 s\u00F3 de leitura.
+EDIT_CONVERSATIONS: Editar Conversa\u00E7\u00F5es
+
+######################
+
+VALIDATE_TARGET: Validar destino depois de atribuir:
+VALIDATE_INPUT: associa\u00E7\u00F5es de dados de entrada
+VALIDATE_OUTPUT: associa\u00E7\u00F5es de dados de sa\u00EDda
+
+ADD_SEQUENTIAL: Acrescentar Sequencial
+ADD_PARALLEL: Acrescentar Paralelo
+PARTICIPANTS: Participantes
+STAGE: Fase
+SINGLE: \u00DAnico
+PARALLEL_SINGLE: \u00DAnico Paralelo
+PARALLEL_BLOCK: Bloco Paralelo
+SERIAL: S\u00E9rie
+FYI: Informativo
+ADHOC: Ad-hoc
+MANAGEMENT_CHAIN: Cadeia de Gest\u00E3o
+NOTIFY: Notificar
+
+MANAGEMENT: Gest\u00E3o
+GROUP: Grupo
+INITIATOR: Iniciador
+
+REVEAL_ASSOCIATIONS: Clique aqui para revelar as associa\u00E7\u00F5es
+
+FIND_USAGES: Encontrar Utiliza\u00E7\u00F5es
+
+
+AVG_INSTANCE_COUNT: Contagem M\u00E9dia de Inst\u00E2ncias
+AVG_PERFORMANCE: Desempenho M\u00E9dio
+AVG_QUEUE_SIZE: Dimens\u00E3o M\u00E9dia da Fila de Espera
+AVG_RESOURCE_UTILIZATION: Utiliza\u00E7\u00E3o M\u00E9dia de Recursos
+AVG_WORKING_COUNT: Contagem M\u00E9dia de Trabalho
+COMPLETED_INSTANCES: Inst\u00E2ncias Conclu\u00EDdas
+COMPLETED_OPERATIONS: Opera\u00E7\u00F5es Conclu\u00EDdas
+CURRENT_INSTANCE_COUNT: Contagem Atual de Inst\u00E2ncias
+CURRENT_QUEUE_SIZE: Dimens\u00E3o Atual da Fila de Espera
+CURRENT_RESOURCE_UTILIZATION: Utiliza\u00E7\u00E3o Atual de Recursos
+CURRENT_WORKING_COUNT: Contagem Atual de Trabalho
+MAX_INSTANCE_COUNT: Contagem M\u00E1xima de Inst\u00E2ncias
+MAX_INSTANCES_WORKING_COUNT: Contagem M\u00E1xima de Trabalho em Inst\u00E2ncias
+MAX_QUEUE_SIZE: Dimens\u00E3o M\u00E1xima da Fila de Espera
+MAX_RESOURCE_UTILIZATION: Utiliza\u00E7\u00E3o M\u00E1xima de Recursos
+TOTAL_RESOURCE_UTILIZATION: Utiliza\u00E7\u00E3o Total de Recursos
+TOTAL_WAITING_COUNT: Contagem Total de Espera
+
+AVG_PROCESS_TIME: Tempo m\u00E9dio do processo
+AVG_CYCLE_TIME: Tempo M\u00E9dio do Ciclo
+MAX_CYCLE_TIME: Tipo de Ciclo M\u00E1ximo
+MIN_CYCLE_TIME: Tipo de Ciclo M\u00EDnimo
+AVG_WAITING_TIME: Tempo M\u00E9dio de Espera
+MAX_WAITING_TIME: Tempo M\u00E1ximo de Espera
+MIN_WAITING_TIME: Tempo M\u00EDnimo de Espera
+AVG_WORKING_TIME: Tempo M\u00E9dio de Trabalho
+MAX_WORKING_TIME: Tempo M\u00E1ximo de Trabalho
+MIN_WORKING_TIME: Tempo M\u00EDnimo de Trabalho
+
+TOTAL_COST: Custo Total
+AVG_TOTAL_COST: Custo M\u00E9dio Total
+
+TOTAL_WAITING_TIME: Tempo de Espera Total
+
+RESOURCE_BUSY_TIME: Tempo de Ocupa\u00E7\u00E3o dos Recursos
+
+RESOURCE_BUSY_COST: Custo de Ocupa\u00E7\u00E3o dos Recursos
+RESOURCE_TOTAL_COST: Custo Total dos Recursos
+RESOURCES: Recursos
+INDICATORS: Indicadores
+VALUES: Valores
+
+TIME: Tempo
+COST: Custos
+UNITS: Unidades
+
+COLUMN_CHART: Gr\u00E1fico de colunas
+BAR_CHART: Gr\u00E1fico de barras
+
+CLICK_TO_REVEAL_CHART: . Clique para revelar gr\u00E1fico.
+SHOW_RESULTS: Mostrar Resultados
+FILTERS: Filtros
+CLEAR_RESULTS: Limpar Resultados
+INSTANCE_NUMBER: Inst\u00E2ncias
+USE_INSTANCES: Utilizar Inst\u00E2ncias
+
+INTERVAL: Intervalo
+MEAN: M\u00E9dia
+STANDARD_DEVIATION: Desvio Padr\u00E3o
+PERIOD: Per\u00EDodo
+FREQUENCY: Frequ\u00EAncia
+EVERY: a cada
+DISTRIBUTION_TYPE: Tipo de Distribui\u00E7\u00E3o
+INSTANCE_CREATION: Cria\u00E7\u00E3o da Inst\u00E2ncia
+DELTA: Delta
+INSTANCES: inst\u00E2ncias
+CRITERIA: Crit\u00E9rios
+
+DAYS: dias
+HOURS_AB: h
+MINUTES_AB: m
+SECONDS_AB: s
+
+
+CONSTANT_DIST: Constante
+UNIFORM_DIST: Uniforme
+EXPONENTIAL_DIST: Exponencial
+NORMAL_DIST: Normal
+REAL_DIST: Real
+
+
+FIFO: F.I.F.O.
+LIFO: L.I.F.O.
+RANDOM: Aleat\u00F3rio
+BY_PRIORITY: Por prioridade
+MINIMUM_COST: Custo M\u00EDnimo
+MAXIMUM_EFFICIENCY: Efici\u00EAncia M\u00E1xima
+
+
+FIXED_BASE_COST: Custo Base Fixo
+BASE_COST_PLUS_RESOURCE_COST: Custo Base Mais Custo do Recurso
+
+HOURLY: De Hora a Hora
+DAILY: Diariamente
+WEEKLY: Semanalmente
+MONTHLY: Mensalmente
+
+SUNDAY: Domingo
+MONDAY: Segunda-feira
+TUESDAY: Ter\u00E7a-feira
+WEDNESDAY: Quarta-feira
+THURSDAY: Quinta-feira
+FRIDAY: Sexta-feira
+SATURDAY: S\u00E1bado
+
+FIRST: Primeiro
+SECOND: Segundo
+THIRD: Terceiro
+FOURTH: Quarto
+LAST: \u00DAltimo
+
+JANUARY: Janeiro
+FEBRUARY: Fevereiro
+MARCH: Mar\u00E7o
+APRIL: Abril
+MAY: Maio
+JUNE: Junho
+JULY: Julho
+AUGUST: Agosto
+SEPTEMBER: Setembro
+OCTOBER: Outubro
+NOVEMBER: Novembro
+DECEMBER: Dezembro
+
+DURATION: Dura\u00E7\u00E3o
+COST_PER_HOUR: Custo por hora
+QUEUE_INFO: Informa\u00E7\u00F5es da Fila de Espera
+OUTGOING_FLOWS: Fluxos de Envio
+
+USE_ORGANIZATION_RESOURCES: Utilizar Recursos da Organiza\u00E7\u00E3o
+USE_FIXED_RESOURCES: Utilizar Recursos Fixos
+PARTICIPANT_SELECTION_POLICY: Perfil de Sele\u00E7\u00E3o de Participantes
+AVAILABLE_RESOURCES: Recursos Dispon\u00EDveis
+
+PROCESS_EDITOR: Desenho
+SIMULATION_EDITOR: Simula\u00E7\u00E3o
+ADD_MODEL_SIMULATION: Acrescentar Simula\u00E7\u00E3o do Modelo
+
+ACTIVITY_FIXED_BASE_COST: Custo Base Fixo da Atividade
+ACTIVITY_COST_TYPE: Tipo de Custo da Atividade
+
+QUEUE_WARNING_SIZE: Dimens\u00E3o de Aviso da Fila de Espera
+
+THREADS: Processos Leves
+MODEL: Modelo:
+CREATE_SIM_MODEL: Criar Modelo de Simula\u00E7\u00E3o
+
+NOT_PROCESS_EDITOR: Mudar para modo de Desenho para editar o processo
+MINUS_ENA: Contrair gr\u00E1fico
+
+BUSINESS_INDICATORS: Indicadores de Neg\u00F3cio
+
+METRICS: M\u00E9tricas
+ALL: Todos
+NONE: Nenhum
+
+INIT_PLAYER_INSTANCE: Inicializar Inst\u00E2ncia do Leitor
+REFRESH_PLAYER_INSTANCE: Renovar
+DELETE_PLAYER_INSTANCE: Apagar
+PROCESS_VARIABLES: Vari\u00E1veis do Processo
+THREAD_ID: ID do Processo Leve
+INSTANCE_ID: ID da Inst\u00E2ncia
+INSTANCE_INFORMATION: Informa\u00E7\u00F5es da Inst\u00E2ncia
+
+INVALID_PAYLOAD_NAME: O nome dos dados da tarefa \u00E9 inv\u00E1lido
+
+MUST_BE_LOWER : \u00E9 necess\u00E1rio que esteja em min\u00FAsculas.

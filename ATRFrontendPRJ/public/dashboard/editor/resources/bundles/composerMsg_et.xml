@@ -1,0 +1,443 @@
+#
+#
+# hash = 405f00d000bf10009f90407060df4f804f40d0b0
+#
+START:                   K\u00E4ivita
+THROW:                   Throw
+CATCH:                   Catch
+END:                     L\u00F5pp
+
+ABSTRACT_ACTIVITY: Tegevuse l\u00FChikokkuv\u00F5te
+TASK: Tegevus
+INTERACTIVE_TASK: Interaktiivne
+
+
+USER_TASK: Kasutajatoiming
+SERVICE_TASK: Service Task
+SEND_TASK: Saatmistoiming
+RECEIVE_TASK: Receive Task
+NOTIFICATION_TASK: Teavitustoiming
+UPDATE_TASK: V\u00E4rskendustoiming
+BUSINESS_RULE_TASK: \u00C4rireeglitoiming
+SCRIPT_TASK: Skriptitoiming
+MANUAL_TASK: K\u00E4sitsi tehtav toiming
+CALL_ACTIVITY: Tegevuse kutsumine
+SUBPROCESS: Alamprotsess
+INLINE_HANDLER: S\u00FCndmuse alamprotsess
+
+EVENT: S\u00FCndmus
+START_EVENT: K\u00E4ivita
+END_EVENT: L\u00F5pp
+BOUNDARY_EVENT: Piir
+THROW_EVENT: Throw Event
+CATCH_EVENT: Catch Event
+
+GATEWAY: L\u00FC\u00FCs
+COMPLEX_GATEWAY: Kompleksl\u00FC\u00FCs
+EXCLUSIVE_GATEWAY: V\u00E4listav l\u00FC\u00FCs
+INCLUSIVE_GATEWAY: Kaasav l\u00FC\u00FCs
+PARALLEL_GATEWAY: Paralleelne l\u00FC\u00FCs
+EVENT_BASED_GATEWAY: S\u00FCndmusep\u00F5hine l\u00FC\u00FCs
+
+NOTE: M\u00E4rkus
+
+START_NONE:              K\u00E4ivita
+START_MESSAGE_TOPLEVEL:  Teate algus
+START_TIMER_TOPLEVEL:    Ajasti algus
+START_SIGNAL_TOPLEVEL:   Signaali algus
+START_ERROR_SUBPROCESS:  T\u00F5rke algus
+INTERMEDIATE_NONE:       Catch
+INTERMEDIATE_ERROR_BOUNDARY_INTERRUPTING: T\u00F5rke piir
+INTERMEDIATE_TIMER_CATCH: Ajasti
+INTERMEDIATE_MESSAGE_CATCH: Teade
+INTERMEDIATE_NONE_THROW_NONBOUNDARY: Throw
+INTERMEDIATE_MESSAGE_THROW_NONBOUNDARY: Teade
+INTERMEDIATE_SIGNAL_THROW_NONBOUNDARY: Signaal
+INTERMEDIATE_SIGNAL_CATCH: Signaal
+END_NONE:                L\u00F5pp
+END_MESSAGE:             Teate l\u00F5pp
+END_ERROR:               T\u00F5rke l\u00F5pp
+END_SIGNAL:              Signaali l\u00F5pp
+END_TERMINATE:           L\u00F5petamise l\u00F5pp
+MEASUREMENT_START:       M\u00F5\u00F5tmise algus
+MEASUREMENT_END:         M\u00F5\u00F5tmise l\u00F5pp
+MEASUREMENT:             M\u00F5\u00F5tmine
+
+NONE_TRIGGER_TYPE:       Pole
+MESSAGE_TRIGGER_TYPE:    Teade
+TIMER_TRIGGER_TYPE:      Ajasti
+ERROR_TRIGGER_TYPE:      T\u00F5rge
+SIGNAL_TRIGGER_TYPE:     Signaal
+TERMINATE_TRIGGER_TYPE:  L\u00F5petamine
+
+PROCESS_COMPONENTS:      BPM-i komponendid
+BPMN_ARTIFACTS:          BPMN-i voo-objektid
+BASIC_ARTIFACTS:         Peamised voo-objektid
+BPMN:                    BPMN
+BPM_DESCRIPTIVE:         BPM-i kirjeldus
+BUSINESS_CATALOG:        \u00C4rikataloog
+ARGUMENT_MAPPING:        Andmeseos
+VIEW_COLLABORATION:      Kuva koost\u00F6\u00F6
+HIDE_COLLABORATION:      Peida koost\u00F6\u00F6
+LOADING:                 Laadimine...
+CANCEL_SEARCH:           T\u00FChista otsing
+EVENTS:                  S\u00FCndmused
+ZOOM_OUT:                V\u00E4henda
+SELECT_ALL:              Vali k\u00F5ik
+DELETE:                  Kustuta
+
+SERVICES:                Teenused
+REMOVE_CUSTOM_OUTPUT:    Eemalda kohandatud v\u00E4ljund
+ZOOM_IN:                 Suurenda
+
+SELECT:                  Vali
+OK:                      OK
+BPMN_COMPONENTS:         BPMN-i komponendid
+GATEWAYS:                L\u00FC\u00FCsid
+ARTIFACTS:               Artefaktid
+BASIC:                   P\u00F5hiline
+SEARCH:                  Otsi komponenti
+FLOW_SEALED:             Voog\nPitseeritud
+REDO:                    Tee uuesti
+CANCEL:                  Loobu
+APPLY:                   Rakenda
+CREATE:                  Loo
+VARIABLES:               Andmeobjektid
+PREDEFINED_VARIABLES:    Eelm\u00E4\u00E4ratud muutujad
+PROCESS:                 Protsess
+PROJECT:                 Projekt
+DEFAULT:                 Vaikev\u00E4\u00E4rtus
+TASKS:                   Tegevused
+PANNING:                 Panoraamimine
+SAVE:                    Salvesta
+UNDO:                    V\u00F5ta tagasi
+ADD_NEW_VAR:             Lisa uus andmeobjekt
+REMOVE_VAR:              Eemalda andmeobjekt
+VIEW_DATA_OBJECTS:       Kuva andmeobjektid
+DATA_OBJECTS:            Andmeobjektid
+INPUTS:                  Sisendid
+OUTPUTS:                 V\u00E4ljundid
+DRAG_VARIABLES:          Pukseerige andmeobjektid tekstiv\u00E4ljadele.
+NAME:                    Nimi
+ICON:                    Ikoon
+TYPE:                    T\u00FC\u00FCp
+DESCRIPTION:             Kirjeldus
+SCOPE:                   Skoop
+NEW_VARIABLE:            Uus andmeobjekt
+ADVANCED:                T\u00E4psemalt
+TRANSITIONS:             J\u00E4rjestusevood
+BUSINESS_RULES:          \u00C4rireeglid
+HELP:                    Spikker       
+HUMAN_TASKS:             T\u00F6\u00F6\u00FClesanded
+BUSINESS_OBJECTS:        \u00C4riobjektid
+ADD_CUSTOM_OUTPUT:       Lisa kohandatud v\u00E4ljund
+ADD_CUSTOM_INPUT:        Lisa kohandatud sisend
+TRANSITION:              J\u00E4rjestusevoog
+NORMAL: Tingimusteta
+CONDITIONAL: Tingimuslik
+EXCEPTION: Erand
+PRINT:                   Prindi
+AUTOLAYOUT:              Automaatpaigutus
+ADD_TO_MILESTONE:        Lisa vahe-eesm\u00E4rgile
+COLLAPSE:                Ahenda
+EXPAND:                  Laienda
+OWNER:                   Protsessi omanik
+PROPERTIES:              Atribuudid
+IMPLEMENT:               Juuruta
+BUSINESS_PROPERTIES: \u00C4riatribuudid
+CREATE_TRANSITION:       Lisa \u00FCleminek
+DOCUMENTATION:           Dokumentatsioon
+UNRECOGNIZED_BPMN_TYPE:  Tundmatu BPMN-i t\u00FC\u00FCp
+STRAIGHTEN_TRANSITION:   Sirgenda \u00FCleminek
+MAKE_TRANS_ORTHOGONAL:   Tee \u00FCleminek ortogonaalseks
+CURVE_TRANSITION:        K\u00F5verda \u00FCleminek
+SHOW_DOCUMENTATION:      Dokumentatsioon
+SHOW_IMPLEMENTATION:     Juurutamine
+
+SIMPLE: Lihtne
+COMPLEX: Keeruline
+
+CONVERT_GATEWAY:         Teisenda l\u00FC\u00FCs
+CONVERT_TO_PARALLEL:     Teisenda paralleelseks
+CONVERT_TO_INCLUSIVE:    Teisenda kaasavaks
+
+ERROR_MESSAGE:T\u00F5rke nimi: {0}. \nT\u00F5rketeade: {1}
+
+CREATE_COUNTER_MARK:     Loo loenduri t\u00E4his
+DELETE_COUNTER_MARK:     Kustuta loenduri t\u00E4his
+
+ADD_NEW_SERVICE:         Lisa teenus
+
+GRID_SHOW:              L\u00FClita n\u00E4htavus sisse v\u00F5i v\u00E4lja
+GRID_SNAP:              T\u00F5mba ruudustikule
+
+LAUNCH_EXPRESSION_BUILDER: K\u00E4ivita avaldisekoostur
+
+EXTERNAL_REFERENCES:       V\u00E4lised viited
+
+CLOSE:                  Sule
+TRIGGER:                P\u00E4\u00E4stik
+
+OPEN_HT: Ava t\u00F6\u00F6\u00FClesanne
+OPEN_PROCESS: Ava protsess
+OPEN_BUSINESS_RULE: Ava \u00E4rireegel
+
+COPY: Kopeeri
+CUT: L\u00F5ika
+PASTE: Kleebi
+
+REFINE_ACTIVITY: Kitsenda tegevust
+CONVERT_TO_REGULAR_SUBPROCESS: Teisenda regulaarseks alamprotsessiks
+
+SHOW_PALETTE:              L\u00FClita paleti n\u00E4htavus sisse v\u00F5i v\u00E4lja
+STAMP_MODE:                L\u00FClita templire\u017Eiim sisse v\u00F5i v\u00E4lja
+
+ROLE: Roll
+USE: Kasuta
+AUTOMATIC_HANDLER: Automaatne ohjur
+CHANGE: Muuda...
+ADD_LANE: Lisa rada
+
+MORE: Rohkem
+MORE_TOOLTIP: Kuva all\u00FCksused
+LESS: V\u00E4hem
+LESS_TOOLTIP: Peida all\u00FCksused
+
+LESS_DC_TOOLTIP: All\u00FCksuste peitmiseks topeltkl\u00F5psake
+MORE_DC_TOOLTIP: Rohkem kuvamiseks topeltkl\u00F5psake
+
+# Policies messages...
+
+INVALID_TYPE: S\u00F5lme t\u00FC\u00FCbiks ei saa m\u00E4\u00E4rata {0}.
+CAN_ONLY_CHANGE_TO_ACTIVITY: Muuta saab ainult tegevuse t\u00FC\u00FCpi.
+ALREADY_DEFINED_TYPE: Tegevus on juba seda t\u00FC\u00FCpi.
+CAN_ONLY_CHANGE_TO_UNIMPLEMENTED_UT : Juurutatud kasutajatoimingute mustrit ei saa muuta.
+
+FROM_EQ_TO: L\u00E4hte- ja sihts\u00F5lm ei v\u00F5i kattuda.
+DIFF_CONTAINER: L\u00E4hte- ja sihts\u00F5lmel peab olema sama konteiner.
+DIFF_BOUNDARY_CONTAINER: Piiris\u00FCndmust ei saa selle konteineriga siduda.
+START_INCOMING: Alguss\u00FCndmustel ei saa olla sisenevaid \u00FCleminekuid.
+MORE_THAN_ONE_UNCONDITIONAL: Neid s\u00F5lmi \u00FChendab juba \u00FCks tingimusteta \u00FCleminek.
+EVENT_BASED_CONNECTIONS: S\u00FCndmusep\u00F5hine l\u00FC\u00FCs saab luua \u00FChenduse ainult p\u00FC\u00FCdmisteadete (Catch Messages), p\u00FC\u00FCdmisajastite (Catch Timers) ja vastuv\u00F5tutoimingutega (Receive Tasks).
+END_OUTGOING: L\u00F5pps\u00FCndmustel ei saa olla v\u00E4ljuvaid \u00FCleminekuid.
+MORE_OUTGOING_UNCONDITIONAL: Ainult paralleelsetel ja s\u00FCndmusep\u00F5histel l\u00FC\u00FCsidel saab olla enam kui \u00FCks v\u00E4ljuv tingimusteta \u00FCleminek.
+CONDITIONAL_TRANS: Ainult v\u00E4listavatel, kaasavatel ja kompleksl\u00FC\u00FCsidel saab olla tingimuslikke \u00FCleminekuid.
+OUTGOING_CONDITIONAL: L\u00FC\u00FCsi \u00FChendamisel ei saa olla v\u00E4ljuvat tingimuslikku \u00FCleminekut.
+NOT_PART_OF_THE_FLOW: {0} pole voo osa (sellel ei saa olla piiris\u00FCndmusi, sissetulevaid ega v\u00E4ljuvaid \u00FCleminekuid).
+BOUNDARIES_TASKS: Piiris\u00FCndmusi saab lisada ainult toimingutele.
+NOTE_TARGET: M\u00E4rkme siht ei saa olla {0}.
+BOUNDARY_EVT: Piiris\u00FCndmus
+MM_TRANSITIONS: M\u00F5\u00F5tem\u00E4rke saab lisada ainult j\u00E4rjestusevoogudele.
+ON_TOP_OF_NODE: Teise s\u00F5lme peale ei saa lisada.
+SPACE_FOR_NODES: K\u00F5igi s\u00F5lmede jaoks pole piisavalt ruumi.
+NOT_BOUNDARY: S\u00FCndmus {0} pole piiris\u00FCndmus.
+
+SERVICE_IMPL: {0} on juurutatav ainult koos teenustega.
+SERVICE_NOT_CALLBACK: Tagasikutse toiminguid ei saa kasutada \u00FCksuse {0} juurutamiseks.
+NOT_SYNC: S\u00FCnkroonimistoiminguid ei saa kasutada \u00FCksuse {0} juurutamiseks.
+BR_IMPL: \u00C4rireeglitoiminguid saab juurutada ainult koos \u00E4rireeglitega.
+CANNOT_IMPL: Valitud tegevust ei saa juurutada.
+UT_IMPL: T\u00F6\u00F6\u00FClesannetega saab juurutada ainult kasutajatoiminguid.
+TASKS_IMPL: Juurutada saab ainult toiminguid.
+
+FLOW_IS_SEALED: Voogu ei saa muuta, kuna see on pitseeritud.
+NODE_IS_SEALED: S\u00F5lm on pitseeritud.
+
+PROCESS_READ_ONLY: Protsess on kirjutuskaitstud.
+EDIT_CONVERSATIONS: Redigeeri vestlusi
+
+######################
+
+VALIDATE_TARGET: Valideeri sihtkoht p\u00E4rast m\u00E4\u00E4ramist:
+VALIDATE_INPUT: sisendandmete seosed
+VALIDATE_OUTPUT: v\u00E4ljundandmete seosed
+
+ADD_SEQUENTIAL: Lisa j\u00E4rjestikune
+ADD_PARALLEL: Lisa paralleelne
+PARTICIPANTS: Osalejad
+STAGE: Etapp
+SINGLE: \u00DChekordne
+PARALLEL_SINGLE: Paralleelne \u00FChekordne
+PARALLEL_BLOCK: Paralleelplokk
+SERIAL: Seeria
+FYI: Teadmiseks
+ADHOC: Eri
+MANAGEMENT_CHAIN: Juhtimisahel
+NOTIFY: Teavita
+
+MANAGEMENT: Haldus
+GROUP: R\u00FChm
+INITIATOR: Algataja
+
+REVEAL_ASSOCIATIONS: Seoste kuvamiseks kl\u00F5psake siin
+
+FIND_USAGES: Kasutuste otsing
+
+
+AVG_INSTANCE_COUNT: Keskmine eksemplaride arv
+AVG_PERFORMANCE: Keskmine tulemuslikkus
+AVG_QUEUE_SIZE: Keskmine j\u00E4rjekorra pikkus
+AVG_RESOURCE_UTILIZATION: Keskmine ressursikasutus
+AVG_WORKING_COUNT: Keskmine t\u00F6\u00F6\u00FCksuste arv
+COMPLETED_INSTANCES: L\u00F5puleviidud eksemplarid
+COMPLETED_OPERATIONS: L\u00F5pule viidud toimingud
+CURRENT_INSTANCE_COUNT: Praegune eksemplaride arv
+CURRENT_QUEUE_SIZE: Praegune j\u00E4rjekorra pikkus
+CURRENT_RESOURCE_UTILIZATION: Praegune ressursikasutus
+CURRENT_WORKING_COUNT: Praegune t\u00F6\u00F6\u00FCksuste arv
+MAX_INSTANCE_COUNT: Eksemplaride maksimumarv
+MAX_INSTANCES_WORKING_COUNT: Eksemplaride t\u00F6\u00F6\u00FCksuste maksimumarv
+MAX_QUEUE_SIZE: J\u00E4rjekorra maksimumpikkus
+MAX_RESOURCE_UTILIZATION: Maksimaalne ressursikasutus
+TOTAL_RESOURCE_UTILIZATION: Ressursikasutus kokku
+TOTAL_WAITING_COUNT: Ootel \u00FCksuste koguarv
+
+AVG_PROCESS_TIME: Keskmine t\u00F6\u00F6tlemisaeg
+AVG_CYCLE_TIME: Keskmine ts\u00FCkli kestus
+MAX_CYCLE_TIME: Maksimumts\u00FCkli t\u00FC\u00FCp
+MIN_CYCLE_TIME: Miinimumts\u00FCkli t\u00FC\u00FCp
+AVG_WAITING_TIME: Keskmine ooteaeg
+MAX_WAITING_TIME: Maksimaalne ooteaeg
+MIN_WAITING_TIME: Minimaalne ooteaeg
+AVG_WORKING_TIME: Keskmine t\u00F6\u00F6aeg
+MAX_WORKING_TIME: Maksimaalne t\u00F6\u00F6aeg
+MIN_WORKING_TIME: Minimaalne t\u00F6\u00F6aeg
+
+TOTAL_COST: Kogukulu
+AVG_TOTAL_COST: Keskmine kogukulu
+
+TOTAL_WAITING_TIME: Ooteaeg kokku
+
+RESOURCE_BUSY_TIME: Ressursside h\u00F5ivatuse kestus
+
+RESOURCE_BUSY_COST: Ressurssi h\u00F5ivatuse kulu
+RESOURCE_TOTAL_COST: Ressursi kogukulu
+RESOURCES: Ressursid
+INDICATORS: N\u00E4itajad
+VALUES: V\u00E4\u00E4rtused
+
+TIME: Aeg
+COST: Kulud
+UNITS: \u00DChikud
+
+COLUMN_CHART: Tulpdiagramm
+BAR_CHART: Lintdiagramm
+
+CLICK_TO_REVEAL_CHART: . Diagrammi kuvamiseks kl\u00F5psake
+SHOW_RESULTS: Kuva tulemid
+FILTERS: Filtrid
+CLEAR_RESULTS: Eemalda tulemid
+INSTANCE_NUMBER: Eksemplarid
+USE_INSTANCES: Kasuta eksemplare
+
+INTERVAL: Intervall
+MEAN: Keskmine
+STANDARD_DEVIATION: Standardh\u00E4lve
+PERIOD: Periood
+FREQUENCY: Sagedus
+EVERY: iga
+DISTRIBUTION_TYPE: Jaotuse t\u00FC\u00FCp
+INSTANCE_CREATION: Eksemplari loomine
+DELTA: Delta
+INSTANCES: eksemplarid
+CRITERIA: Kriteeriumid
+
+DAYS: p\u00E4eva
+HOURS_AB: h
+MINUTES_AB: m
+SECONDS_AB: s
+
+
+CONSTANT_DIST: Konstant
+UNIFORM_DIST: \u00DChtne
+EXPONENTIAL_DIST: Eksponentsiaalne
+NORMAL_DIST: Tavaline
+REAL_DIST: Tegelik
+
+
+FIFO: FIFO
+LIFO: LIFO
+RANDOM: Juhuslik
+BY_PRIORITY: Prioriteedi j\u00E4rgi
+MINIMUM_COST: Minimaalne kulu
+MAXIMUM_EFFICIENCY: Maksimaalne t\u00F5husus
+
+
+FIXED_BASE_COST: Fikseeritud baasmaksumus
+BASE_COST_PLUS_RESOURCE_COST: Baasmaksumus pluss ressursikulu
+
+HOURLY: Kord tunnis
+DAILY: Iga p\u00E4ev
+WEEKLY: Kord n\u00E4dalas
+MONTHLY: Kord kuus
+
+SUNDAY: P\u00FChap\u00E4ev
+MONDAY: Esmasp\u00E4ev
+TUESDAY: Teisip\u00E4ev
+WEDNESDAY: Kolmap\u00E4ev
+THURSDAY: Neljap\u00E4ev
+FRIDAY: Reede
+SATURDAY: Laup\u00E4ev
+
+FIRST: Esimene
+SECOND: Teine
+THIRD: Kolmas
+FOURTH: Neljas
+LAST: Viimane
+
+JANUARY: Jaanuar
+FEBRUARY: Veebruar
+MARCH: M\u00E4rts
+APRIL: Aprill
+MAY: Mai
+JUNE: Juuni
+JULY: Juuli
+AUGUST: August
+SEPTEMBER: September
+OCTOBER: Oktoober
+NOVEMBER: November
+DECEMBER: Detsember
+
+DURATION: Kestus
+COST_PER_HOUR: Kulu tunnis
+QUEUE_INFO: J\u00E4rjekorra teave
+OUTGOING_FLOWS: V\u00E4ljuvad vood
+
+USE_ORGANIZATION_RESOURCES: Kasuta organisatsiooni ressursse
+USE_FIXED_RESOURCES: Kasuta fikseeritud ressursse
+PARTICIPANT_SELECTION_POLICY: Osaleja valimise reeglid
+AVAILABLE_RESOURCES: Saadaolevad ressursid
+
+PROCESS_EDITOR: Kujundus
+SIMULATION_EDITOR: Simulatsioon
+ADD_MODEL_SIMULATION: Lisa mudeli simulatsioon
+
+ACTIVITY_FIXED_BASE_COST: Tegevuse fikseeritud baasmaksumus
+ACTIVITY_COST_TYPE: Tegevuse kulut\u00FC\u00FCp
+
+QUEUE_WARNING_SIZE: J\u00E4rjekorra pikkuse hoiatustase
+
+THREADS: L\u00F5imed
+MODEL: Mudel:
+CREATE_SIM_MODEL: Loo simulatsioonimudel
+
+NOT_PROCESS_EDITOR: Aktiveerige protsessi redigeerimiseks kujundusre\u017Eiim
+MINUS_ENA: Ahenda diagramm
+
+BUSINESS_INDICATORS: \u00C4ritegevuse n\u00E4itajad
+
+METRICS: M\u00F5\u00F5dikud
+ALL: K\u00F5ik
+NONE: Pole
+
+INIT_PLAYER_INSTANCE: L\u00E4htesta Playeri eksemplar
+REFRESH_PLAYER_INSTANCE: V\u00E4rskenda
+DELETE_PLAYER_INSTANCE: Kustuta
+PROCESS_VARIABLES: Protsessi muutujad
+THREAD_ID: L\u00F5ime ID
+INSTANCE_ID: Eksemplari ID
+INSTANCE_INFORMATION: Eksemplari teave
+
+INVALID_PAYLOAD_NAME: Sobimatu toiminguandmete nimi
+
+MUST_BE_LOWER : peab olema v\u00E4iket\u00E4htedega.

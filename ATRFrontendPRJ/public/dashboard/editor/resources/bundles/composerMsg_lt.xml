@@ -1,0 +1,443 @@
+#
+#
+# hash = 405f00d000bf10009f90407060df4f804f40d0b0
+#
+START:                   Prad\u0117ti
+THROW:                   Pateikti
+CATCH:                   Aptikti
+END:                     Baigti
+
+ABSTRACT_ACTIVITY: Abstrakti veikla
+TASK: Veikla
+INTERACTIVE_TASK: Interaktyvus
+
+
+USER_TASK: Naudotojo u\u017Eduotis
+SERVICE_TASK: Paslaug\u0173 u\u017Eduotis
+SEND_TASK: Si\u0173sti u\u017Eduot\u012F
+RECEIVE_TASK: Gauti u\u017Eduot\u012F
+NOTIFICATION_TASK: Prane\u0161imo u\u017Eduotis
+UPDATE_TASK: Atnaujinti u\u017Eduot\u012F
+BUSINESS_RULE_TASK: Verslo taisykl\u0117s u\u017Eduotis
+SCRIPT_TASK: Scenarijaus u\u017Eduotis
+MANUAL_TASK: Rankin\u0117 u\u017Eduotis
+CALL_ACTIVITY: Skambu\u010Dio aktyvumas
+SUBPROCESS: Antrinis procesas
+INLINE_HANDLER: \u012Evykio antrinis procesas
+
+EVENT: \u012Evykis
+START_EVENT: Prad\u0117ti
+END_EVENT: Baigti
+BOUNDARY_EVENT: Riba
+THROW_EVENT: Pateikimo \u012Fvykis
+CATCH_EVENT: Aptikimo \u012Fvykis
+
+GATEWAY: Tinkl\u0173 s\u0105saja
+COMPLEX_GATEWAY: Kompleksin\u0117 tinkl\u0173 s\u0105saja
+EXCLUSIVE_GATEWAY: I\u0161skirtin\u0117 tinkl\u0173 s\u0105saja
+INCLUSIVE_GATEWAY: \u012Etraukiama tinkl\u0173 s\u0105saja
+PARALLEL_GATEWAY: Lygiagreti tinkl\u0173 s\u0105saja
+EVENT_BASED_GATEWAY: \u012Evykiais pagr\u012Fsta tinkl\u0173 s\u0105saja
+
+NOTE: Pastaba
+
+START_NONE:              Prad\u0117ti
+START_MESSAGE_TOPLEVEL:  Prane\u0161imo prad\u017Eia
+START_TIMER_TOPLEVEL:    Laikma\u010Dio prad\u017Eia
+START_SIGNAL_TOPLEVEL:   Signalo prad\u017Eia
+START_ERROR_SUBPROCESS:  Klaidos prad\u017Eia
+INTERMEDIATE_NONE:       Aptikti
+INTERMEDIATE_ERROR_BOUNDARY_INTERRUPTING: Klaidos riba
+INTERMEDIATE_TIMER_CATCH: Laikmatis
+INTERMEDIATE_MESSAGE_CATCH: Prane\u0161imas
+INTERMEDIATE_NONE_THROW_NONBOUNDARY: Pateikti
+INTERMEDIATE_MESSAGE_THROW_NONBOUNDARY: Prane\u0161imas
+INTERMEDIATE_SIGNAL_THROW_NONBOUNDARY: Signalas
+INTERMEDIATE_SIGNAL_CATCH: Signalas
+END_NONE:                Baigti
+END_MESSAGE:             Prane\u0161imo pabaiga
+END_ERROR:               Klaidos pabaiga
+END_SIGNAL:              Signalo pabaiga
+END_TERMINATE:           Nutraukimo pabaiga
+MEASUREMENT_START:       Prad\u0117ti matavim\u0105
+MEASUREMENT_END:         Baigti matavim\u0105
+MEASUREMENT:             Matavimas
+
+NONE_TRIGGER_TYPE:       N/A
+MESSAGE_TRIGGER_TYPE:    Prane\u0161imas
+TIMER_TRIGGER_TYPE:      Laikmatis
+ERROR_TRIGGER_TYPE:      Klaida
+SIGNAL_TRIGGER_TYPE:     Signalas
+TERMINATE_TRIGGER_TYPE:  Nutraukti
+
+PROCESS_COMPONENTS:      BPM Komponentai
+BPMN_ARTIFACTS:          BPMN srauto objektai
+BASIC_ARTIFACTS:         Pagrindiniai srauto objektai
+BPMN:                    BPMN
+BPM_DESCRIPTIVE:         BPM apra\u0161omasis
+BUSINESS_CATALOG:        Verslo katalogas
+ARGUMENT_MAPPING:        Duomen\u0173 susiejimas
+VIEW_COLLABORATION:      Per\u017Ei\u016Br\u0117ti bendradarbiavim\u0105
+HIDE_COLLABORATION:      Sl\u0117pti bendradarbiavim\u0105
+LOADING:                 \u012Ekeliama...
+CANCEL_SEARCH:           At\u0161aukti paie\u0161k\u0105
+EVENTS:                  \u012Evykiai
+ZOOM_OUT:                Tolinti
+SELECT_ALL:              Pasirinkti visk\u0105
+DELETE:                  Naikinti
+
+SERVICES:                Paslaugos
+REMOVE_CUSTOM_OUTPUT:    Pa\u0161alinti pasirinktin\u0119 i\u0161vest\u012F
+ZOOM_IN:                 Artinti
+
+SELECT:                  Pasirinkti
+OK:                      Gerai
+BPMN_COMPONENTS:         BPMN Komponentai
+GATEWAYS:                Tinkl\u0173 s\u0105sajos
+ARTIFACTS:               Artefaktai
+BASIC:                   Pagrindinis
+SEARCH:                  Rasti komponent\u0105
+FLOW_SEALED:             Seka\nU\u017Edaryta
+REDO:                    Perdaryti
+CANCEL:                  At\u0161aukti
+APPLY:                   Taikyti
+CREATE:                  Kurti
+VARIABLES:               Duomen\u0173 objektai
+PREDEFINED_VARIABLES:    I\u0161 anksto nustatyti kintamieji
+PROCESS:                 Procesas
+PROJECT:                 Projektas
+DEFAULT:                 Numatytasis
+TASKS:                   Veiklos
+PANNING:                 Horizontalus jud\u0117jimas
+SAVE:                    \u012Era\u0161yti
+UNDO:                    Anuliuoti
+ADD_NEW_VAR:             Prid\u0117ti nauj\u0105 duomen\u0173 objekt\u0105
+REMOVE_VAR:              Pa\u0161alinti duomen\u0173 objekt\u0105
+VIEW_DATA_OBJECTS:       Per\u017Ei\u016Br\u0117ti duomen\u0173 objektus
+DATA_OBJECTS:            Duomen\u0173 objektai
+INPUTS:                  \u012Evestys
+OUTPUTS:                 I\u0161vestys
+DRAG_VARIABLES:          Vilkite duomen\u0173 objektus \u012F teksto laukus.
+NAME:                    Pavadinimas
+ICON:                    Piktograma
+TYPE:                    Tipas
+DESCRIPTION:             Apra\u0161as
+SCOPE:                   Apr\u0117ptis
+NEW_VARIABLE:            Naujas duomen\u0173 objektas
+ADVANCED:                I\u0161pl\u0117stinis
+TRANSITIONS:             Sekos srautai
+BUSINESS_RULES:          Verslo taisykl\u0117s
+HELP:                    \u017Dinynas       
+HUMAN_TASKS:             Naudotojo atliekamos u\u017Eduotys
+BUSINESS_OBJECTS:        Verslo objektai
+ADD_CUSTOM_OUTPUT:       \u012Etraukti pasirinktin\u0119 i\u0161vest\u012F
+ADD_CUSTOM_INPUT:        \u012Etraukti pasirinktin\u0119 \u012Fvest\u012F
+TRANSITION:              Sekos srautas
+NORMAL: Nes\u0105lyginis
+CONDITIONAL: S\u0105lyginis
+EXCEPTION: I\u0161imtis
+PRINT:                   Spausdinti
+AUTOLAYOUT:              Automatinis i\u0161d\u0117stymas
+ADD_TO_MILESTONE:        \u012Etraukti \u012F gair\u0119
+COLLAPSE:                Sutraukti
+EXPAND:                  I\u0161pl\u0117sti
+OWNER:                   Proceso savininkas
+PROPERTIES:              Ypatyb\u0117s
+IMPLEMENT:               \u012Ediegti
+BUSINESS_PROPERTIES: Verslo ypatyb\u0117s
+CREATE_TRANSITION:       \u012Etraukti per\u0117jim\u0105
+DOCUMENTATION:           Dokumentacija
+UNRECOGNIZED_BPMN_TYPE:  Neatpa\u017Eintas BPMN tipas.
+STRAIGHTEN_TRANSITION:   I\u0161tiesinti per\u0117jim\u0105
+MAKE_TRANS_ORTHOGONAL:   Paversti per\u0117jim\u0105 ortogonaliu
+CURVE_TRANSITION:        Kreiv\u0117s per\u0117jimas
+SHOW_DOCUMENTATION:      Dokumentacija
+SHOW_IMPLEMENTATION:     \u012Egyvendinimas
+
+SIMPLE: Paprastas
+COMPLEX: Sud\u0117tinis
+
+CONVERT_GATEWAY:         Konvertuoti tinkl\u0173 s\u0105saj\u0105
+CONVERT_TO_PARALLEL:     Konvertuoti \u012F lygiagre\u010Di\u0105
+CONVERT_TO_INCLUSIVE:    Konvertuoti \u012F \u012Ftraukiam\u0105
+
+ERROR_MESSAGE:Klaidos pavadinimas: {0}. \nKlaidos prane\u0161imas: {1}
+
+CREATE_COUNTER_MARK:     Sukurti skaitiklio \u017Eym\u0119
+DELETE_COUNTER_MARK:     Naikinti skaitiklio \u017Eym\u0119
+
+ADD_NEW_SERVICE:         \u012Etraukti paslaug\u0105
+
+GRID_SHOW:              Perjungti tinklelio matomum\u0105
+GRID_SNAP:              Kabinti prie tinklelio
+
+LAUNCH_EXPRESSION_BUILDER: \u012Ejungti i\u0161rai\u0161k\u0173 darykl\u0119
+
+EXTERNAL_REFERENCES:       I\u0161orin\u0117s nuorodos
+
+CLOSE:                  U\u017Edaryti
+TRIGGER:                Paleidiklis
+
+OPEN_HT: Atidaryti naudotojo atliekam\u0105 u\u017Eduot\u012F
+OPEN_PROCESS: Atidaryti proces\u0105
+OPEN_BUSINESS_RULE: Atidaryti verslo taisykl\u0119
+
+COPY: Kopijuoti
+CUT: I\u0161kirpti
+PASTE: \u012Eklijuoti
+
+REFINE_ACTIVITY: Patikslinti veikl\u0105
+CONVERT_TO_REGULAR_SUBPROCESS: Konvertuoti \u012F \u012Fprastin\u012F antrin\u012F proces\u0105
+
+SHOW_PALETTE:              Perjungti palet\u0117s matomum\u0105
+STAMP_MODE:                Perjungti \u017Eymos re\u017Eim\u0105
+
+ROLE: Vaidmuo
+USE: Naudoti
+AUTOMATIC_HANDLER: Automatin\u0117 apdorojimo programa
+CHANGE: Keisti...
+ADD_LANE: Prid\u0117ti atpa\u017Einimo \u017Eym\u0119
+
+MORE: Daugiau
+MORE_TOOLTIP: Rodyti subelementus
+LESS: Ma\u017Eiau
+LESS_TOOLTIP: Sl\u0117pti subelementus
+
+LESS_DC_TOOLTIP: Spustel\u0117kite dukart, nor\u0117dami sl\u0117pti subelementus
+MORE_DC_TOOLTIP: Spustel\u0117kite dukart, nor\u0117dami gauti daugiau
+
+# Policies messages...
+
+INVALID_TYPE: Mazgo tipo negalite pakeisti \u012F {0}
+CAN_ONLY_CHANGE_TO_ACTIVITY: Galite keisti tik veiklos tip\u0105
+ALREADY_DEFINED_TYPE: Veikla jau turi \u0161\u012F tip\u0105
+CAN_ONLY_CHANGE_TO_UNIMPLEMENTED_UT : Negalima pakeisti \u0161ablono \u012F \u012Fgyvendint\u0105 naudotojo u\u017Eduot\u012F
+
+FROM_EQ_TO: Pirminis ir tikslinis mazgas negali b\u016Bti tas pats.
+DIFF_CONTAINER: Pirminio ir tikslinio mazgo konteineris turi b\u016Bti tas pats.
+DIFF_BOUNDARY_CONTAINER: Apribotas \u012Fvykis negali b\u016Bti susietas su savo konteineriu.
+START_INCOMING: Prad\u017Eios \u012Fvykiuose negali b\u016Bti gaunam\u0173 per\u0117jim\u0173.
+MORE_THAN_ONE_UNCONDITIONAL: \u0160iuos mazgus jau jungia vienas nes\u0105lyginis per\u0117jimas.
+EVENT_BASED_CONNECTIONS: \u012Evykiais pagr\u012Fsta tinkl\u0173 s\u0105saja gali prisijungti prie aptikimo prane\u0161im\u0173, aptikimo laikma\u010Di\u0173 ir gavimo u\u017Eduo\u010Di\u0173.
+END_OUTGOING: Pabaigos veiklose negali b\u016Bti siun\u010Diam\u0173 per\u0117jim\u0173.
+MORE_OUTGOING_UNCONDITIONAL: Tik lygiagre\u010Dios ir \u012Fvykiais pagr\u012Fstos tinkl\u0173 s\u0105sajos gali tur\u0117ti daugiau nei vien\u0105 siun\u010Diam\u0105 nes\u0105lygin\u012F per\u0117jim\u0105.
+CONDITIONAL_TRANS: Tik i\u0161skirtin\u0117s, \u012Ftraukiamos ir kompleksin\u0117s tinkl\u0173 s\u0105sajos gali tur\u0117ti s\u0105lyginius per\u0117jimus.
+OUTGOING_CONDITIONAL: Tinklo s\u0105sajos suliejimas negali tur\u0117ti siun\u010Diamo s\u0105lyginio per\u0117jimo.
+NOT_PART_OF_THE_FLOW: {0} n\u0117ra srauto dalis (negali tur\u0117ti apribot\u0173 \u012Fvyki\u0173, siun\u010Diam\u0173 arba gaunam\u0173 per\u0117jim\u0173).
+BOUNDARIES_TASKS: Apribotus \u012Fvykius galima prid\u0117ti tik prie u\u017Eduo\u010Di\u0173.
+NOTE_TARGET: Pastabos tikslas negali b\u016Bti {0}.
+BOUNDARY_EVT: Apribotas \u012Fvykis
+MM_TRANSITIONS: Matavimo \u017Eym\u0117s gali b\u016Bti prid\u0117tos tik prie sekos sraut\u0173.
+ON_TOP_OF_NODE: Negalima prid\u0117ti ant kito mazgo vir\u0161aus.
+SPACE_FOR_NODES: Vis\u0173 mazg\u0173 laikymui nepakanka vietos.
+NOT_BOUNDARY: {0} n\u0117ra apribotas \u012Fvykis.
+
+SERVICE_IMPL: {0} galima \u012Fgyvendinti tik su paslaugomis.
+SERVICE_NOT_CALLBACK: Atgalinio i\u0161kvietimo operacij\u0173 negalima naudoti {0} \u012Fgyvendinimui.
+NOT_SYNC: Sinchronini\u0173 operacij\u0173 negalima naudoti {0} \u012Fgyvendinimui.
+BR_IMPL: Verslo taisykl\u0117s u\u017Eduotys gali b\u016Bti \u012Fgyvendinamos tik su verslo taisykl\u0117mis.
+CANNOT_IMPL: Pasirinkta veikla negali b\u016Bti \u012Fgyvendinta.
+UT_IMPL: Tik naudotojo u\u017Eduotys gali b\u016Bti \u012Fgyvendinamos su naudotojo atliekamomis u\u017Eduotimis.
+TASKS_IMPL: Tik u\u017Eduotys gali b\u016Bti \u012Fgyvendintos.
+
+FLOW_IS_SEALED: Srauto negalima keisti, nes jis u\u017Edarytas.
+NODE_IS_SEALED: Mazgas u\u017Edarytas.
+
+PROCESS_READ_ONLY: Procesas tik skaitomas.
+EDIT_CONVERSATIONS: Redaguoti pokalbius
+
+######################
+
+VALIDATE_TARGET: Tikrinti tiksl\u0105 po priskyrimo:
+VALIDATE_INPUT: \u012Fvesties duomen\u0173 susiejimai
+VALIDATE_OUTPUT: i\u0161vesties duomen\u0173 susiejimai
+
+ADD_SEQUENTIAL: \u012Etraukti nuosekl\u0173j\u012F
+ADD_PARALLEL: \u012Etraukti lygiagret\u0173j\u012F
+PARTICIPANTS: Dalyviai
+STAGE: Etapas
+SINGLE: Pavienis
+PARALLEL_SINGLE: Lygiagretus pavienis
+PARALLEL_BLOCK: Lygiagretus blokas
+SERIAL: Nuoseklusis
+FYI: Skirtoji informacija
+ADHOC: Specialus
+MANAGEMENT_CHAIN: Vadov\u0173 grandin\u0117
+NOTIFY: Prane\u0161ti
+
+MANAGEMENT: Vadyba
+GROUP: Grup\u0117
+INITIATOR: Iniciatorius
+
+REVEAL_ASSOCIATIONS: Spustel\u0117kite \u010Dia, nor\u0117dami pamatyti ry\u0161ius
+
+FIND_USAGES: Rasti naudojim\u0105
+
+
+AVG_INSTANCE_COUNT: Vidutinis egzempliori\u0173 skai\u010Dius
+AVG_PERFORMANCE: Vidutinis na\u0161umas
+AVG_QUEUE_SIZE: Vidutinis eil\u0117s dydis
+AVG_RESOURCE_UTILIZATION: Vidutinis resurs\u0173 panaudojimas
+AVG_WORKING_COUNT: Vidutinis dirban\u010Di\u0173 skai\u010Dius
+COMPLETED_INSTANCES: Baigti egzemplioriai
+COMPLETED_OPERATIONS: Baigtos operacijos
+CURRENT_INSTANCE_COUNT: Dabartinis egzempliori\u0173 skai\u010Dius
+CURRENT_QUEUE_SIZE: Dabartinis eil\u0117s dydis
+CURRENT_RESOURCE_UTILIZATION: Dabartinis resurs\u0173 panaudojimas
+CURRENT_WORKING_COUNT: Dabartinis veikian\u010Di\u0173 skai\u010Dius
+MAX_INSTANCE_COUNT: Maksimalus egzempliori\u0173 skai\u010Dius
+MAX_INSTANCES_WORKING_COUNT: Maksimalus veikian\u010Di\u0173 egzempliori\u0173 skai\u010Dius
+MAX_QUEUE_SIZE: Maksimalus eil\u0117s dydis
+MAX_RESOURCE_UTILIZATION: Maksimalus resurs\u0173 panaudojimas
+TOTAL_RESOURCE_UTILIZATION: Bendras resurs\u0173 panaudojimas
+TOTAL_WAITING_COUNT: Bendras laukiam\u0173 skai\u010Dius
+
+AVG_PROCESS_TIME: Vidutin\u0117 proceso trukm\u0117
+AVG_CYCLE_TIME: Vidutin\u0117 ciklo trukm\u0117
+MAX_CYCLE_TIME: Maksimalus ciklo tipas
+MIN_CYCLE_TIME: Minimalus ciklo tipas
+AVG_WAITING_TIME: Vidutinis laukimo laikas
+MAX_WAITING_TIME: Maksimalus laukimo laikas
+MIN_WAITING_TIME: Minimalus laukimo laikas
+AVG_WORKING_TIME: Vidutinis darbo laikas
+MAX_WORKING_TIME: Maksimalus darbo laikas
+MIN_WORKING_TIME: Minimalus darbo laikas
+
+TOTAL_COST: Bendri ka\u0161tai
+AVG_TOTAL_COST: Vidutiniai bendri ka\u0161tai
+
+TOTAL_WAITING_TIME: Bendras laukimo laikas
+
+RESOURCE_BUSY_TIME: U\u017Eimtas i\u0161tekli\u0173 laikas
+
+RESOURCE_BUSY_COST: U\u017Eimtos i\u0161tekli\u0173 i\u0161laidos
+RESOURCE_TOTAL_COST: Bendra resurs\u0173 kaina
+RESOURCES: I\u0161tekliai
+INDICATORS: Indikatoriai
+VALUES: Reik\u0161m\u0117s
+
+TIME: Laikas
+COST: I\u0161laidos
+UNITS: Vienetai
+
+COLUMN_CHART: Stulpelin\u0117 diagrama
+BAR_CHART: Juostin\u0117 diagrama
+
+CLICK_TO_REVEAL_CHART: . Spustel\u0117kite, nor\u0117dami pamatyti diagram\u0105
+SHOW_RESULTS: Rodyti rezultatus
+FILTERS: Filtrai
+CLEAR_RESULTS: Valyti rezultatus
+INSTANCE_NUMBER: Egzemplioriai
+USE_INSTANCES: Naudoti egzempliorius
+
+INTERVAL: Intervalas
+MEAN: Vidurkis
+STANDARD_DEVIATION: Standartinis nuokrypis
+PERIOD: Periodas
+FREQUENCY: Da\u017Enumas
+EVERY: kas
+DISTRIBUTION_TYPE: Paskirstymo tipas
+INSTANCE_CREATION: Egzemplioriaus k\u016Brimas
+DELTA: Delta
+INSTANCES: egzemplioriai
+CRITERIA: Kriterijai
+
+DAYS: dienos
+HOURS_AB: h
+MINUTES_AB: m
+SECONDS_AB: s
+
+
+CONSTANT_DIST: Konstanta
+UNIFORM_DIST: Vienodas
+EXPONENTIAL_DIST: Eksponentinis
+NORMAL_DIST: Normalus
+REAL_DIST: Realus
+
+
+FIFO: F.I.F.O.
+LIFO: L.I.F.O.
+RANDOM: Atsitiktinis
+BY_PRIORITY: Pagal prioritet\u0105
+MINIMUM_COST: Ma\u017Eiausios i\u0161laidos
+MAXIMUM_EFFICIENCY: Maksimalus efektyvumas
+
+
+FIXED_BASE_COST: Fiksuotos bazin\u0117s i\u0161laidos
+BASE_COST_PLUS_RESOURCE_COST: Bazin\u0117s i\u0161laidos su resurs\u0173 i\u0161laidomis
+
+HOURLY: Valandinis
+DAILY: Kasdienis
+WEEKLY: Kas savait\u0119
+MONTHLY: Kas m\u0117nes\u012F
+
+SUNDAY: Sekmadienis
+MONDAY: Pirmadienis
+TUESDAY: Antradienis
+WEDNESDAY: Tre\u010Diadienis
+THURSDAY: Ketvirtadienis
+FRIDAY: Penktadienis
+SATURDAY: \u0160e\u0161tadienis
+
+FIRST: Pirmas
+SECOND: Antras
+THIRD: Tre\u010Dias
+FOURTH: Ketvirtas
+LAST: Paskutinis
+
+JANUARY: Sausis
+FEBRUARY: Vasaris
+MARCH: Kovas
+APRIL: Balandis
+MAY: Gegu\u017E\u0117
+JUNE: Bir\u017Eelis
+JULY: Liepa
+AUGUST: Rugpj\u016Btis
+SEPTEMBER: Rugs\u0117jis
+OCTOBER: Spalis
+NOVEMBER: Lapkritis
+DECEMBER: Gruodis
+
+DURATION: Trukm\u0117
+COST_PER_HOUR: Kaina u\u017E valand\u0105
+QUEUE_INFO: Eil\u0117s informacija
+OUTGOING_FLOWS: Siun\u010Diami srautai
+
+USE_ORGANIZATION_RESOURCES: Naudoti organizacijos resursus
+USE_FIXED_RESOURCES: Naudoti fiksuotus resursus
+PARTICIPANT_SELECTION_POLICY: Dalyvio pasirinkimo strategija
+AVAILABLE_RESOURCES: Galimi resursai
+
+PROCESS_EDITOR: Dizainas
+SIMULATION_EDITOR: Modeliavimas
+ADD_MODEL_SIMULATION: \u012Etraukti modelio modeliavim\u0105
+
+ACTIVITY_FIXED_BASE_COST: Veiklos fiksuot\u0173 ka\u0161t\u0173 tipas
+ACTIVITY_COST_TYPE: Veiklos ka\u0161t\u0173 tipas
+
+QUEUE_WARNING_SIZE: Eil\u0117s \u012Fsp\u0117jimo dydis
+
+THREADS: Gijos
+MODEL: Modelis:
+CREATE_SIM_MODEL: Sukurti modeliavimo model\u012F
+
+NOT_PROCESS_EDITOR: Perjunkite \u012F dizaino re\u017Eim\u0105, nor\u0117dami redaguoti proces\u0105
+MINUS_ENA: Sutraukti diagram\u0105
+
+BUSINESS_INDICATORS: Verslo indikatoriai
+
+METRICS: Metrika
+ALL: Visi
+NONE: N/A
+
+INIT_PLAYER_INSTANCE: inicijuoti leistuvo egzempliori\u0173
+REFRESH_PLAYER_INSTANCE: Atnaujinti
+DELETE_PLAYER_INSTANCE: Naikinti
+PROCESS_VARIABLES: Proceso kintamieji
+THREAD_ID: Gijos ID
+INSTANCE_ID: Egzemplioriaus ID
+INSTANCE_INFORMATION: Egzemplioriaus informacija
+
+INVALID_PAYLOAD_NAME: Neleistinas u\u017Eduoties duomen\u0173 pavadinimas
+
+MUST_BE_LOWER : turi b\u016Bti ma\u017Eosiomis raid\u0117mis.

@@ -1,0 +1,443 @@
+#
+#
+# hash = 405f00d000bf10009f90407060df4f804f40d0b0
+#
+START:                   Spustit
+THROW:                   Vyvolat
+CATCH:                   Zachytit
+END:                     Konec
+
+ABSTRACT_ACTIVITY: Abstraktn\u00ED \u010Dinnost
+TASK: \u010Cinnost
+INTERACTIVE_TASK: Interaktivn\u00ED
+
+
+USER_TASK: \u00DAloha u\u017Eivatele
+SERVICE_TASK: \u00DAloha slu\u017Eby
+SEND_TASK: Odeslat \u00FAlohu
+RECEIVE_TASK: P\u0159ijmout \u00FAlohu
+NOTIFICATION_TASK: \u00DAloha upozorn\u011Bn\u00ED
+UPDATE_TASK: Aktualizovat \u00FAlohu
+BUSINESS_RULE_TASK: \u00DAloha pravidla
+SCRIPT_TASK: \u00DAloha skriptu
+MANUAL_TASK: Ru\u010Dn\u00ED \u00FAloha
+CALL_ACTIVITY: \u010Cinnost vol\u00E1n\u00ED
+SUBPROCESS: Podproces
+INLINE_HANDLER: Podproces ud\u00E1losti
+
+EVENT: Ud\u00E1lost
+START_EVENT: Spustit
+END_EVENT: Konec
+BOUNDARY_EVENT: Mez
+THROW_EVENT: Vyvolat ud\u00E1lost
+CATCH_EVENT: Zachytit ud\u00E1lost
+
+GATEWAY: Br\u00E1na
+COMPLEX_GATEWAY: Komplexn\u00ED br\u00E1na
+EXCLUSIVE_GATEWAY: Br\u00E1na typu XOR
+INCLUSIVE_GATEWAY: Br\u00E1na typu OR
+PARALLEL_GATEWAY: Paraleln\u00ED br\u00E1na
+EVENT_BASED_GATEWAY: Br\u00E1na podle ud\u00E1lost\u00ED
+
+NOTE: Pozn\u00E1mka
+
+START_NONE:              Spustit
+START_MESSAGE_TOPLEVEL:  Zpr\u00E1va - za\u010D\u00E1tek
+START_TIMER_TOPLEVEL:    \u010Casova\u010D - za\u010D\u00E1tek
+START_SIGNAL_TOPLEVEL:   Sign\u00E1l - za\u010D\u00E1tek
+START_ERROR_SUBPROCESS:  Chyba - za\u010D\u00E1tek
+INTERMEDIATE_NONE:       Zachytit
+INTERMEDIATE_ERROR_BOUNDARY_INTERRUPTING: Chybn\u00E9 ohrani\u010Den\u00ED
+INTERMEDIATE_TIMER_CATCH: \u010Casova\u010D
+INTERMEDIATE_MESSAGE_CATCH: Zpr\u00E1va
+INTERMEDIATE_NONE_THROW_NONBOUNDARY: Vyvolat
+INTERMEDIATE_MESSAGE_THROW_NONBOUNDARY: Zpr\u00E1va
+INTERMEDIATE_SIGNAL_THROW_NONBOUNDARY: Sign\u00E1l
+INTERMEDIATE_SIGNAL_CATCH: Sign\u00E1l
+END_NONE:                Konec
+END_MESSAGE:             Zpr\u00E1va - konec
+END_ERROR:               Chyba - konec
+END_SIGNAL:              Sign\u00E1l - konec
+END_TERMINATE:           Ukon\u010Den\u00ED - konec
+MEASUREMENT_START:       Za\u010D\u00E1tek m\u011B\u0159en\u00ED
+MEASUREMENT_END:         Konec m\u011B\u0159en\u00ED
+MEASUREMENT:             M\u011B\u0159en\u00ED
+
+NONE_TRIGGER_TYPE:       \u017D\u00E1dn\u00FD
+MESSAGE_TRIGGER_TYPE:    Zpr\u00E1va
+TIMER_TRIGGER_TYPE:      \u010Casova\u010D
+ERROR_TRIGGER_TYPE:      Chyba
+SIGNAL_TRIGGER_TYPE:     Sign\u00E1l
+TERMINATE_TRIGGER_TYPE:  Ukon\u010Dit
+
+PROCESS_COMPONENTS:      Komponenty BPM
+BPMN_ARTIFACTS:          Objekty toku BPMN
+BASIC_ARTIFACTS:         Z\u00E1kladn\u00ED objekty toku
+BPMN:                    BPMN
+BPM_DESCRIPTIVE:         BPM - popisn\u00FD
+BUSINESS_CATALOG:        Katalog
+ARGUMENT_MAPPING:        P\u0159idru\u017Een\u00ED dat
+VIEW_COLLABORATION:      Zobrazit spolupr\u00E1ci
+HIDE_COLLABORATION:      Skr\u00FDt spolupr\u00E1ci
+LOADING:                 Prob\u00EDh\u00E1 na\u010D\u00EDt\u00E1n\u00ED...
+CANCEL_SEARCH:           Zru\u0161it vyhled\u00E1v\u00E1n\u00ED
+EVENTS:                  Ud\u00E1losti
+ZOOM_OUT:                Zmen\u0161it
+SELECT_ALL:              Vybrat v\u0161e
+DELETE:                  Odstranit
+
+SERVICES:                Slu\u017Eby
+REMOVE_CUSTOM_OUTPUT:    Odebrat vlastn\u00ED v\u00FDstup
+ZOOM_IN:                 Zv\u011Bt\u0161it
+
+SELECT:                  Vybrat
+OK:                      OK
+BPMN_COMPONENTS:         Komponenty BPMN
+GATEWAYS:                Br\u00E1ny
+ARTIFACTS:               Artefakty
+BASIC:                   Z\u00E1kladn\u00ED
+SEARCH:                  Naj\u00EDt komponentu
+FLOW_SEALED:             T\u011Bsn\u00FD\ntok
+REDO:                    Znovu
+CANCEL:                  Zru\u0161it
+APPLY:                   Pou\u017E\u00EDt
+CREATE:                  Vytvo\u0159it
+VARIABLES:               Datov\u00E9 objekty
+PREDEFINED_VARIABLES:    P\u0159edvolen\u00E9 prom\u011Bnn\u00E9
+PROCESS:                 Proces
+PROJECT:                 Projekt
+DEFAULT:                 V\u00FDchoz\u00ED
+TASKS:                   \u010Cinnosti
+PANNING:                 Naklon\u011Bn\u00ED
+SAVE:                    Ulo\u017Eit
+UNDO:                    Zp\u011Bt
+ADD_NEW_VAR:             P\u0159idat nov\u00FD datov\u00FD objekt
+REMOVE_VAR:              Odebrat datov\u00FD objekt
+VIEW_DATA_OBJECTS:       Zobrazit datov\u00E9 objekty
+DATA_OBJECTS:            Datov\u00E9 objekty
+INPUTS:                  Vstupy
+OUTPUTS:                 V\u00FDstupy
+DRAG_VARIABLES:          P\u0159et\u00E1hnout datov\u00E9 objekty do textov\u00FDch pol\u00ED.
+NAME:                    N\u00E1zev
+ICON:                    Ikona
+TYPE:                    Typ
+DESCRIPTION:             Popis
+SCOPE:                   Rozsah
+NEW_VARIABLE:            Nov\u00FD datov\u00FD objekt
+ADVANCED:                Roz\u0161\u00ED\u0159en\u00E9
+TRANSITIONS:             Sekven\u010Dn\u00ED toky
+BUSINESS_RULES:          Pravidla
+HELP:                    N\u00E1pov\u011Bda       
+HUMAN_TASKS:             Lidsk\u00E9 \u00FAlohy
+BUSINESS_OBJECTS:        Objekty
+ADD_CUSTOM_OUTPUT:       P\u0159idat vlastn\u00ED v\u00FDstup
+ADD_CUSTOM_INPUT:        P\u0159idat vlastn\u00ED vstup
+TRANSITION:              Sekven\u010Dn\u00ED tok
+NORMAL: Bez podm\u00EDnek
+CONDITIONAL: Podm\u00EDne\u010Dn\u00FD
+EXCEPTION: V\u00FDjimka
+PRINT:                   Tisk
+AUTOLAYOUT:              Automatick\u00E9 rozvr\u017Een\u00ED
+ADD_TO_MILESTONE:        P\u0159idat miln\u00EDk
+COLLAPSE:                Sbalit
+EXPAND:                  Rozbalit
+OWNER:                   Vlastn\u00EDk procesu
+PROPERTIES:              Vlastnosti
+IMPLEMENT:               Implementovat
+BUSINESS_PROPERTIES: Vlastnosti
+CREATE_TRANSITION:       P\u0159idat p\u0159echod
+DOCUMENTATION:           Dokumentace
+UNRECOGNIZED_BPMN_TYPE:  Nerozpoznan\u00FD typ BPMN.
+STRAIGHTEN_TRANSITION:   Vyrovnat p\u0159echod
+MAKE_TRANS_ORTHOGONAL:   Nastavit p\u0159echod jako kolm\u00FD
+CURVE_TRANSITION:        P\u0159echod v k\u0159ivce
+SHOW_DOCUMENTATION:      Dokumentace
+SHOW_IMPLEMENTATION:     Implementace
+
+SIMPLE: Jednoduch\u00E9
+COMPLEX: Komplexn\u00ED
+
+CONVERT_GATEWAY:         P\u0159ev\u00E9st br\u00E1nu
+CONVERT_TO_PARALLEL:     P\u0159ev\u00E9st na paraleln\u00ED
+CONVERT_TO_INCLUSIVE:    P\u0159ev\u00E9st na inkluz\u00EDvn\u00ED
+
+ERROR_MESSAGE:N\u00E1zev chyby: {0}. \nChybov\u00E1 zpr\u00E1va: {1}
+
+CREATE_COUNTER_MARK:     Vytvo\u0159it zna\u010Dku \u010D\u00EDta\u010De
+DELETE_COUNTER_MARK:     Odstranit zna\u010Dku \u010D\u00EDta\u010De
+
+ADD_NEW_SERVICE:         P\u0159idat slu\u017Ebu
+
+GRID_SHOW:              P\u0159epnout viditelnost m\u0159\u00ED\u017Eky
+GRID_SNAP:              P\u0159ichytit k m\u0159\u00ED\u017Ece
+
+LAUNCH_EXPRESSION_BUILDER: Spustit Tv\u016Frce v\u00FDraz\u016F
+
+EXTERNAL_REFERENCES:       Extern\u00ED reference
+
+CLOSE:                  Zav\u0159\u00EDt
+TRIGGER:                Trigger
+
+OPEN_HT: Otev\u0159\u00EDt lidskou \u00FAlohu
+OPEN_PROCESS: Otev\u0159\u00EDt proces
+OPEN_BUSINESS_RULE: Otev\u0159\u00EDt pravidlo
+
+COPY: Kop\u00EDrovat
+CUT: Vyjmout
+PASTE: Vlo\u017Eit
+
+REFINE_ACTIVITY: Up\u0159esnit \u010Dinnost
+CONVERT_TO_REGULAR_SUBPROCESS: Konvertovat na norm\u00E1ln\u00ED podproces
+
+SHOW_PALETTE:              P\u0159epnout viditelnost palety
+STAMP_MODE:                P\u0159epnout re\u017Eim raz\u00EDtka
+
+ROLE: Role
+USE: Pou\u017E\u00EDt
+AUTOMATIC_HANDLER: Automatick\u00FD deskriptor
+CHANGE: Zm\u011Bnit...
+ADD_LANE: P\u0159idat trasu
+
+MORE: V\u00EDce
+MORE_TOOLTIP: Zobrazit pod\u0159\u00EDzen\u00E9 polo\u017Eky
+LESS: M\u00E9n\u011B
+LESS_TOOLTIP: Skr\u00FDt pod\u0159\u00EDzen\u00E9 polo\u017Eky
+
+LESS_DC_TOOLTIP: Dvoj\u00EDm kliknut\u00EDm pod\u0159\u00EDzen\u00E9 polo\u017Eky skryjete
+MORE_DC_TOOLTIP: Dvoj\u00EDm kliknut\u00EDm zobraz\u00EDte v\u00EDce informac\u00ED
+
+# Policies messages...
+
+INVALID_TYPE: Typ uzlu nelze zm\u011Bnit na {0}
+CAN_ONLY_CHANGE_TO_ACTIVITY: Lze zm\u011Bnit pouze typ \u010Dinnosti
+ALREADY_DEFINED_TYPE: \u010Cinnost ji\u017E tento typ m\u00E1
+CAN_ONLY_CHANGE_TO_UNIMPLEMENTED_UT : Vzor nelze zm\u011Bnit na implementovanou \u00FAlohu u\u017Eivatele
+
+FROM_EQ_TO: Zdrojov\u00FD uzel nesm\u00ED b\u00FDt stejn\u00FD jako c\u00EDlov\u00FD uzel.
+DIFF_CONTAINER: Zdrojov\u00FD a c\u00EDlov\u00FD uzel mus\u00ED m\u00EDt stejn\u00FD kontejner.
+DIFF_BOUNDARY_CONTAINER: Ud\u00E1lost ohrani\u010Den\u00ED nelze propojit se sv\u00FDm kontejnerem.
+START_INCOMING: Po\u010D\u00E1te\u010Dn\u00ED ud\u00E1losti nesm\u00ED m\u00EDt p\u0159\u00EDchoz\u00ED p\u0159echody.
+MORE_THAN_ONE_UNCONDITIONAL: Tyto uzly jsou ji\u017E propojeny jedn\u00EDm p\u0159echodem bez podm\u00EDnky.
+EVENT_BASED_CONNECTIONS: Br\u00E1na na z\u00E1klad\u011B ud\u00E1lost\u00ED se m\u016F\u017Ee p\u0159ipojovat pouze ke zpr\u00E1v\u00E1m zachycen\u00ED, \u010Dasova\u010D\u016Fm zachycen\u00ED a \u00FAloh\u00E1m p\u0159\u00EDjmu.
+END_OUTGOING: Koncov\u00E9 ud\u00E1losti nemohou m\u00EDt odchoz\u00ED transakce.
+MORE_OUTGOING_UNCONDITIONAL: Pouze paraleln\u00ED br\u00E1ny a br\u00E1ny na z\u00E1klad\u011B ud\u00E1lost\u00ED mohou m\u00EDt v\u00EDce ne\u017E jeden odchoz\u00ED p\u0159echod bez podm\u00EDnky.
+CONDITIONAL_TRANS: P\u0159echody s podm\u00EDnkami mohou m\u00EDt pouze exkluzivn\u00ED, inkluz\u00EDvn\u00ED a komplexn\u00ED br\u00E1ny.
+OUTGOING_CONDITIONAL: Slou\u010Den\u00ED bran nem\u016F\u017Ee m\u00EDt odchoz\u00ED p\u0159echod s podm\u00EDnkou.
+NOT_PART_OF_THE_FLOW: {0} nen\u00ED sou\u010D\u00E1st\u00ED toku (nem\u016F\u017Ee m\u00EDt hrani\u010Dn\u00ED ud\u00E1losti ani p\u0159\u00EDchoz\u00ED \u010Di odchoz\u00ED p\u0159echody).
+BOUNDARIES_TASKS: Hrani\u010Dn\u00ED ud\u00E1losti lze p\u0159id\u00E1vat pouze do \u00FAloh.
+NOTE_TARGET: C\u00EDlem pozn\u00E1mky nem\u016F\u017Ee b\u00FDt {0}.
+BOUNDARY_EVT: Hrani\u010Dn\u00ED ud\u00E1lost
+MM_TRANSITIONS: Zna\u010Dky m\u011B\u0159en\u00ED lze p\u0159ipojovat pouze k sekven\u010Dn\u00EDm tok\u016Fm.
+ON_TOP_OF_NODE: Nelze p\u0159idat je\u0161t\u011B k jin\u00E9mu uzlu.
+SPACE_FOR_NODES: Pro ulo\u017Een\u00ED v\u0161ech uzl\u016F nen\u00ED dostatek m\u00EDsta.
+NOT_BOUNDARY: Ud\u00E1lost {0} nen\u00ED hrani\u010Dn\u00ED ud\u00E1lost.
+
+SERVICE_IMPL: {0} lze implementovat pouze se slu\u017Ebami.
+SERVICE_NOT_CALLBACK: Pomoc\u00ED operace zp\u011Btn\u00E9ho vol\u00E1n\u00ED nelze implementovat {0}.
+NOT_SYNC: Pomoc\u00ED operac\u00ED synchronizace nelze implementovat {0}.
+BR_IMPL: \u00DAlohy pravidel lze implementovat pouze s pravidly.
+CANNOT_IMPL: Vybranou \u010Dinnost nelze implementovat.
+UT_IMPL: S lidsk\u00FDmi \u00FAlohami lze implementovat pouze \u00FAlohy u\u017Eivatel\u016F.
+TASKS_IMPL: Lze implementovat pouze \u00FAlohy.
+
+FLOW_IS_SEALED: Tok nelze zm\u011Bnit, proto\u017Ee je zape\u010Det\u011Bn.
+NODE_IS_SEALED: Uzel nen\u00ED zape\u010Det\u011Bn.
+
+PROCESS_READ_ONLY: Proces je jen pro \u010Dten\u00ED.
+EDIT_CONVERSATIONS: Upravit konverzace
+
+######################
+
+VALIDATE_TARGET: Ov\u011B\u0159it c\u00EDl po p\u0159i\u0159azen\u00ED:
+VALIDATE_INPUT: p\u0159idru\u017Een\u00ED vstupn\u00EDch dat
+VALIDATE_OUTPUT: p\u0159idru\u017Een\u00ED v\u00FDstupn\u00EDch dat
+
+ADD_SEQUENTIAL: P\u0159idat sekven\u010Dn\u00ED
+ADD_PARALLEL: P\u0159idat paraleln\u00ED
+PARTICIPANTS: \u00DA\u010Dastn\u00EDci
+STAGE: F\u00E1ze
+SINGLE: Jeden
+PARALLEL_SINGLE: Paraleln\u00ED - jeden
+PARALLEL_BLOCK: Paraleln\u00ED - blok
+SERIAL: S\u00E9riov\u011B
+FYI: Pro va\u0161i informaci
+ADHOC: Adhoc
+MANAGEMENT_CHAIN: \u0158et\u011Bzec vedouc\u00EDch pracovn\u00EDk\u016F
+NOTIFY: Upozornit
+
+MANAGEMENT: Spr\u00E1va
+GROUP: Skupina
+INITIATOR: Inici\u00E1tor
+
+REVEAL_ASSOCIATIONS: Kliknut\u00EDm sem zobraz\u00EDte p\u0159idru\u017Een\u00ED
+
+FIND_USAGES: Vyhledat pou\u017Eit\u00ED
+
+
+AVG_INSTANCE_COUNT: Pr\u016Fm\u011Brn\u00FD po\u010Det instanc\u00ED
+AVG_PERFORMANCE: Pr\u016Fm\u011Brn\u00FD v\u00FDkon
+AVG_QUEUE_SIZE: Pr\u016Fm\u011Brn\u00E1 velikost fronty
+AVG_RESOURCE_UTILIZATION: Pr\u016Fm\u011Brn\u00E9 vyu\u017Eit\u00ED zdroj\u016F
+AVG_WORKING_COUNT: Pr\u016Fm\u011Brn\u00FD pracovn\u00ED po\u010Det
+COMPLETED_INSTANCES: Dokon\u010Den\u00E9 instance
+COMPLETED_OPERATIONS: Dokon\u010Den\u00E9 operace
+CURRENT_INSTANCE_COUNT: Aktu\u00E1ln\u00ED po\u010Det instanc\u00ED
+CURRENT_QUEUE_SIZE: Aktu\u00E1ln\u00ED velikost fronty
+CURRENT_RESOURCE_UTILIZATION: Aktu\u00E1ln\u00ED vyu\u017Eit\u00ED zdroje
+CURRENT_WORKING_COUNT: Aktu\u00E1ln\u00ED pracovn\u00ED po\u010Det
+MAX_INSTANCE_COUNT: Maxim\u00E1ln\u00ED po\u010Det instanc\u00ED
+MAX_INSTANCES_WORKING_COUNT: Maxim\u00E1ln\u00ED pracovn\u00ED po\u010Det instanc\u00ED
+MAX_QUEUE_SIZE: Maxim\u00E1ln\u00ED velikost fronty
+MAX_RESOURCE_UTILIZATION: Maxim\u00E1ln\u00ED vyu\u017Eit\u00ED zdroj\u016F
+TOTAL_RESOURCE_UTILIZATION: Celkov\u00E9 vyu\u017Eit\u00ED zdroj\u016F
+TOTAL_WAITING_COUNT: Celkov\u00FD \u010Dekaj\u00EDc\u00ED po\u010Det
+
+AVG_PROCESS_TIME: Pr\u016Fm\u011Brn\u00E1 doba zpracov\u00E1n\u00ED
+AVG_CYCLE_TIME: Pr\u016Fm\u011Brn\u00E1 doba cyklu
+MAX_CYCLE_TIME: Maxim\u00E1ln\u00ED typ cyklu
+MIN_CYCLE_TIME: Minim\u00E1ln\u00ED typ cyklu
+AVG_WAITING_TIME: Pr\u016Fm\u011Brn\u00E1 doba \u010Dek\u00E1n\u00ED
+MAX_WAITING_TIME: Maxim\u00E1ln\u00ED doba \u010Dek\u00E1n\u00ED
+MIN_WAITING_TIME: Minim\u00E1ln\u00ED doba \u010Dek\u00E1n\u00ED
+AVG_WORKING_TIME: Pr\u016Fm\u011Brn\u00E1 doba zpracov\u00E1v\u00E1n\u00ED
+MAX_WORKING_TIME: Maxim\u00E1ln\u00ED pracovn\u00ED doba
+MIN_WORKING_TIME: Minim\u00E1ln\u00ED pracovn\u00ED doba
+
+TOTAL_COST: Celkov\u00E9 n\u00E1klady
+AVG_TOTAL_COST: Pr\u016Fm\u011Brn\u00E9 celkov\u00E9 n\u00E1klady
+
+TOTAL_WAITING_TIME: Celkov\u00FD \u010Das \u010Dek\u00E1n\u00ED
+
+RESOURCE_BUSY_TIME: \u010Cas \u010Dinnosti zdroj\u016F
+
+RESOURCE_BUSY_COST: N\u00E1klady zanepr\u00E1zdn\u011Bn\u00ED zdroj\u016F
+RESOURCE_TOTAL_COST: Celkov\u00E9 n\u00E1klady zdroje
+RESOURCES: Zdroje
+INDICATORS: Indik\u00E1tory
+VALUES: Hodnoty
+
+TIME: \u010Cas
+COST: N\u00E1klady
+UNITS: Jednotky
+
+COLUMN_CHART: Graf sloupce
+BAR_CHART: Sloupcov\u00FD graf
+
+CLICK_TO_REVEAL_CHART: . Kliknut\u00EDm zobraz\u00EDte graf
+SHOW_RESULTS: Zobrazit v\u00FDsledky
+FILTERS: Filtry
+CLEAR_RESULTS: Vymazat v\u00FDsledky
+INSTANCE_NUMBER: Instance
+USE_INSTANCES: Pou\u017E\u00EDt instance
+
+INTERVAL: Interval
+MEAN: St\u0159edn\u00ED
+STANDARD_DEVIATION: Standardn\u00ED odchylka
+PERIOD: Obdob\u00ED
+FREQUENCY: Frekvence
+EVERY: ka\u017Ed\u00E9 (ka\u017Ed\u00FDch)
+DISTRIBUTION_TYPE: Typ distribuce
+INSTANCE_CREATION: Vytvo\u0159en\u00ED instance
+DELTA: Delta
+INSTANCES: instance
+CRITERIA: Krit\u00E9ria
+
+DAYS: dny (dn\u016F)
+HOURS_AB: h
+MINUTES_AB: M
+SECONDS_AB: S
+
+
+CONSTANT_DIST: Konstanta
+UNIFORM_DIST: Jednotn\u00E1
+EXPONENTIAL_DIST: Exponenci\u00E1ln\u00ED
+NORMAL_DIST: Norm\u00E1ln\u00ED
+REAL_DIST: Skute\u010Dn\u00E9
+
+
+FIFO: F.I.F.O.
+LIFO: L.I.F.O.
+RANDOM: N\u00E1hodn\u00E9
+BY_PRIORITY: Podle priority
+MINIMUM_COST: Minim\u00E1ln\u00ED n\u00E1klady
+MAXIMUM_EFFICIENCY: Maxim\u00E1ln\u00ED \u00FA\u010Dinnost
+
+
+FIXED_BASE_COST: Fixn\u00ED z\u00E1kladn\u00ED n\u00E1klady
+BASE_COST_PLUS_RESOURCE_COST: Z\u00E1kladn\u00ED n\u00E1klady plus n\u00E1klady na zdroje
+
+HOURLY: Ka\u017Edou hodinu
+DAILY: Denn\u011B
+WEEKLY: T\u00FDdn\u011B
+MONTHLY: M\u011Bs\u00ED\u010Dn\u011B
+
+SUNDAY: Ned\u011Ble
+MONDAY: Pond\u011Bl\u00ED
+TUESDAY: \u00DAter\u00FD
+WEDNESDAY: St\u0159eda
+THURSDAY: \u010Ctvrtek
+FRIDAY: P\u00E1tek
+SATURDAY: Sobota
+
+FIRST: Prvn\u00ED
+SECOND: Druh\u00FD
+THIRD: T\u0159et\u00ED
+FOURTH: \u010Ctvrt\u00FD
+LAST: Posledn\u00ED
+
+JANUARY: Leden
+FEBRUARY: \u00DAnor
+MARCH: B\u0159ezen
+APRIL: Duben
+MAY: Kv\u011Bten
+JUNE: \u010Cerven
+JULY: \u010Cervenec
+AUGUST: Srpen
+SEPTEMBER: Z\u00E1\u0159\u00ED
+OCTOBER: \u0158\u00EDjen
+NOVEMBER: Listopad
+DECEMBER: Prosinec
+
+DURATION: Doba trv\u00E1n\u00ED
+COST_PER_HOUR: Cena za hodinu
+QUEUE_INFO: Informace o front\u011B
+OUTGOING_FLOWS: V\u00FDstupn\u00ED toky
+
+USE_ORGANIZATION_RESOURCES: Pou\u017E\u00EDt zdroje organizace
+USE_FIXED_RESOURCES: Pou\u017E\u00EDt pevn\u00E9 zdroje
+PARTICIPANT_SELECTION_POLICY: Z\u00E1sady v\u00FDb\u011Bru \u00FA\u010Dastn\u00EDka
+AVAILABLE_RESOURCES: Dostupn\u00E9 zdroje
+
+PROCESS_EDITOR: N\u00E1vrh
+SIMULATION_EDITOR: Simulace
+ADD_MODEL_SIMULATION: P\u0159idat simulaci modelu
+
+ACTIVITY_FIXED_BASE_COST: Pevn\u00E1 z\u00E1kladn\u00ED cena \u010Dinnosti
+ACTIVITY_COST_TYPE: Typ n\u00E1klad\u016F \u010Dinnosti
+
+QUEUE_WARNING_SIZE: Velikost fronty varov\u00E1n\u00ED
+
+THREADS: Vl\u00E1kna
+MODEL: Model:
+CREATE_SIM_MODEL: Vytvo\u0159it model simulace
+
+NOT_PROCESS_EDITOR: P\u0159epnout na re\u017Eim n\u00E1vrhu s c\u00EDlem upravit proces
+MINUS_ENA: Sbalit graf
+
+BUSINESS_INDICATORS: Indik\u00E1tory
+
+METRICS: Metrika
+ALL: V\u0161e
+NONE: \u017D\u00E1dn\u00E9
+
+INIT_PLAYER_INSTANCE: Inicializovat instanci p\u0159ehr\u00E1va\u010De
+REFRESH_PLAYER_INSTANCE: Aktualizovat
+DELETE_PLAYER_INSTANCE: Odstranit
+PROCESS_VARIABLES: Prom\u011Bnn\u00E9 procesu
+THREAD_ID: ID vl\u00E1kna
+INSTANCE_ID: ID instance
+INSTANCE_INFORMATION: Informace o instanci
+
+INVALID_PAYLOAD_NAME: Neplatn\u00FD n\u00E1zev dat \u00FAlohy
+
+MUST_BE_LOWER : mus\u00ED b\u00FDt uvedeno mal\u00FDmi p\u00EDsmeny.

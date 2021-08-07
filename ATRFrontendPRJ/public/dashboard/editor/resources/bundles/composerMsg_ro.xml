@@ -1,0 +1,443 @@
+#
+#
+# hash = 405f00d000bf10009f90407060df4f804f40d0b0
+#
+START:                   Pornire
+THROW:                   Generare
+CATCH:                   Detectare
+END:                     \u00CEncheiere
+
+ABSTRACT_ACTIVITY: Activitate abstract\u0103
+TASK: Activitate
+INTERACTIVE_TASK: Interactiv\u0103
+
+
+USER_TASK: Sarcin\u0103 utilizator
+SERVICE_TASK: Sarcin\u0103 serviciu
+SEND_TASK: Trimitere sarcin\u0103
+RECEIVE_TASK: Primire sarcin\u0103
+NOTIFICATION_TASK: Sarcin\u0103 de \u00EEn\u015Ftiin\u0163are
+UPDATE_TASK: Actualizare activitate
+BUSINESS_RULE_TASK: Sarcin\u0103 regul\u0103 de activitate
+SCRIPT_TASK: Sarcin\u0103 script
+MANUAL_TASK: Sarcin\u0103 manual\u0103
+CALL_ACTIVITY: Apelare activitate
+SUBPROCESS: Sub-proces
+INLINE_HANDLER: Sub-proces eveniment
+
+EVENT: Eveniment
+START_EVENT: Pornire
+END_EVENT: \u00CEncheiere
+BOUNDARY_EVENT: Limit\u0103
+THROW_EVENT: Generare eveniment
+CATCH_EVENT: Detectare eveniment
+
+GATEWAY: Gateway
+COMPLEX_GATEWAY: Poart\u0103 complex\u0103
+EXCLUSIVE_GATEWAY: Poart\u0103 exclusiv\u0103
+INCLUSIVE_GATEWAY: Poart\u0103 inclusiv\u0103
+PARALLEL_GATEWAY: Poart\u0103 paralel\u0103
+EVENT_BASED_GATEWAY: Poart\u0103 bazat\u0103 pe evenimente
+
+NOTE: Not\u0103
+
+START_NONE:              Pornire
+START_MESSAGE_TOPLEVEL:  Pornire mesaj
+START_TIMER_TOPLEVEL:    Pornire timer
+START_SIGNAL_TOPLEVEL:   Pornire semnal
+START_ERROR_SUBPROCESS:  Pornire eroare
+INTERMEDIATE_NONE:       Detectare
+INTERMEDIATE_ERROR_BOUNDARY_INTERRUPTING: Limit\u0103 eroare
+INTERMEDIATE_TIMER_CATCH: Cronometru
+INTERMEDIATE_MESSAGE_CATCH: Mesaj
+INTERMEDIATE_NONE_THROW_NONBOUNDARY: Generare
+INTERMEDIATE_MESSAGE_THROW_NONBOUNDARY: Mesaj
+INTERMEDIATE_SIGNAL_THROW_NONBOUNDARY: Semnalizare
+INTERMEDIATE_SIGNAL_CATCH: Semnalizare
+END_NONE:                \u00CEncheiere
+END_MESSAGE:             \u00CEncheiere mesaj
+END_ERROR:               \u00CEncheiere eroare
+END_SIGNAL:              \u00CEncheiere semnal
+END_TERMINATE:           \u00CEncheiere \u00EEntrerupere
+MEASUREMENT_START:       \u00CEncepere m\u0103surare
+MEASUREMENT_END:         \u00CEncheiere m\u0103surare
+MEASUREMENT:             M\u0103surare
+
+NONE_TRIGGER_TYPE:       F\u0103r\u0103
+MESSAGE_TRIGGER_TYPE:    Mesaj
+TIMER_TRIGGER_TYPE:      Cronometru
+ERROR_TRIGGER_TYPE:      Eroare
+SIGNAL_TRIGGER_TYPE:     Semnalizare
+TERMINATE_TRIGGER_TYPE:  \u00CEntrerupere
+
+PROCESS_COMPONENTS:      Componente BPM
+BPMN_ARTIFACTS:          Obiecte din flux BPM
+BASIC_ARTIFACTS:         Obiecte din fluxul de baz\u0103
+BPMN:                    BPMN
+BPM_DESCRIPTIVE:         BPM - Descriptiv
+BUSINESS_CATALOG:        Catalog de activitate
+ARGUMENT_MAPPING:        Asociere de date
+VIEW_COLLABORATION:      Vizualizare colaborare
+HIDE_COLLABORATION:      Ascundere colaborare
+LOADING:                 \u00CEnc\u0103rcare...
+CANCEL_SEARCH:           Anulare c\u0103utare
+EVENTS:                  Evenimente
+ZOOM_OUT:                M\u0103rire
+SELECT_ALL:              Selectare global\u0103
+DELETE:                  \u015Etergere
+
+SERVICES:                Servicii
+REMOVE_CUSTOM_OUTPUT:    Eliminare ie\u015Fire personalizat\u0103
+ZOOM_IN:                 Mic\u015Forare
+
+SELECT:                  Selectare
+OK:                      OK
+BPMN_COMPONENTS:         Componente BPMN
+GATEWAYS:                Gateway-uri
+ARTIFACTS:               Artefacte
+BASIC:                   Elementar
+SEARCH:                  C\u0103utare component\u0103
+FLOW_SEALED:             Flux\nsigilat
+REDO:                    Reexecutare
+CANCEL:                  Anulare
+APPLY:                   Aplicare
+CREATE:                  Creare
+VARIABLES:               Obiecte de date
+PREDEFINED_VARIABLES:    Variabile predefinite
+PROCESS:                 Proces
+PROJECT:                 Proiect
+DEFAULT:                 Prestabilit
+TASKS:                   Activit\u0103\u0163i
+PANNING:                 Panoramare
+SAVE:                    Salvare
+UNDO:                    Anulare
+ADD_NEW_VAR:             Ad\u0103ugare obiect de date nou
+REMOVE_VAR:              Eliminare obiect de date
+VIEW_DATA_OBJECTS:       Vizualizare obiecte de date
+DATA_OBJECTS:            Obiecte de date
+INPUTS:                  Intr\u0103ri
+OUTPUTS:                 Ie\u015Firi
+DRAG_VARIABLES:          Trage\u0163i obiectele de date \u00EEn casete de text.
+NAME:                    Nume
+ICON:                    Pictogram\u0103
+TYPE:                    Tip
+DESCRIPTION:             Descriere
+SCOPE:                   Domeniu
+NEW_VARIABLE:            Obiect de date nou
+ADVANCED:                Avansat
+TRANSITIONS:             Fluxuri de secven\u0163e
+BUSINESS_RULES:          Reguli de activitate
+HELP:                    Asisten\u0163\u0103
+HUMAN_TASKS:             Sarcini cu interven\u0163ie uman\u0103
+BUSINESS_OBJECTS:        Obiecte de activitate
+ADD_CUSTOM_OUTPUT:       Ad\u0103ugare rezultat personalizat
+ADD_CUSTOM_INPUT:        Ad\u0103ugare intrare personalizat\u0103
+TRANSITION:              Flux secven\u0163\u0103
+NORMAL: Necondi\u0163ional
+CONDITIONAL: Condi\u0163ional
+EXCEPTION: Excep\u0163ie
+PRINT:                   Tip\u0103rire
+AUTOLAYOUT:              Configurare automat\u0103
+ADD_TO_MILESTONE:        Ad\u0103ugare la jalon
+COLLAPSE:                Restr\u00E2ngere
+EXPAND:                  Expandare
+OWNER:                   Responsabil de proces
+PROPERTIES:              Propriet\u0103\u0163i
+IMPLEMENT:               Implementare
+BUSINESS_PROPERTIES: Propriet\u0103\u0163i business
+CREATE_TRANSITION:       Ad\u0103ugare tranzi\u0163ie
+DOCUMENTATION:           Documenta\u0163ie
+UNRECOGNIZED_BPMN_TYPE:  Tip BPMN nerecunoscut.
+STRAIGHTEN_TRANSITION:   \u00CEndreptare tranzi\u0163ie
+MAKE_TRANS_ORTHOGONAL:   Face\u0163i tranzi\u0163ia ortogonal\u0103
+CURVE_TRANSITION:        Curbare tranzi\u0163ie
+SHOW_DOCUMENTATION:      Documenta\u0163ie
+SHOW_IMPLEMENTATION:     Implementare
+
+SIMPLE: Simplu
+COMPLEX: Complex
+
+CONVERT_GATEWAY:         Conversie gateway
+CONVERT_TO_PARALLEL:     Conversie \u00EEn paralel\u0103
+CONVERT_TO_INCLUSIVE:    Conversie \u00EEn inclusiv\u0103
+
+ERROR_MESSAGE:Nume eroare: {0}. \nMesaj de eroare: {1}
+
+CREATE_COUNTER_MARK:     Creare marcaj contor
+DELETE_COUNTER_MARK:     \u015Etergere marcaj contor
+
+ADD_NEW_SERVICE:         Ad\u0103ugare serviciu
+
+GRID_SHOW:              Comutare vizibilitate gril\u0103
+GRID_SNAP:              Aliniere la gril\u0103
+
+LAUNCH_EXPRESSION_BUILDER: Lansare generator de expresii
+
+EXTERNAL_REFERENCES:       Referin\u0163e externe
+
+CLOSE:                  \u00CEnchidere
+TRIGGER:                Trigger
+
+OPEN_HT: Deschidere sarcin\u0103 cu interven\u0163ie uman\u0103
+OPEN_PROCESS: Deschidere proces
+OPEN_BUSINESS_RULE: Deschidere regul\u0103 de activitate
+
+COPY: Copiere
+CUT: Decupare
+PASTE: Lipire
+
+REFINE_ACTIVITY: Rafinare activitate
+CONVERT_TO_REGULAR_SUBPROCESS: Conversie \u00EEn subproces obi\u015Fnuit
+
+SHOW_PALETTE:              Comutare vizibilitate palet\u0103
+STAMP_MODE:                Comutare mod \u015Etampilare
+
+ROLE: Rol
+USE: Utilizare
+AUTOMATIC_HANDLER: Rutin\u0103 automat\u0103
+CHANGE: Modificare...
+ADD_LANE: Ad\u0103ugare culoar
+
+MORE: Mai multe
+MORE_TOOLTIP: Afi\u015Fare subelemente
+LESS: Mai pu\u0163ine
+LESS_TOOLTIP: Ascundere subelemente
+
+LESS_DC_TOOLTIP: Face\u0163i dublu clic pentru a ascunde subelementele
+MORE_DC_TOOLTIP: Face\u0163i dublu clic pentru mai multe
+
+# Policies messages...
+
+INVALID_TYPE: Tipul de nod nu poate fi schimbat la: {0}
+CAN_ONLY_CHANGE_TO_ACTIVITY: Pute\u0163i modifica tipul numai pentru o activitate
+ALREADY_DEFINED_TYPE: Activitatea este deja de acest tip
+CAN_ONLY_CHANGE_TO_UNIMPLEMENTED_UT : Nu se poate schimba tiparul \u00EEntr-o sarcin\u0103 de utilizator implementat\u0103
+
+FROM_EQ_TO: Nodul surs\u0103 \u015Fi nodul destina\u0163ie nu pot coincide.
+DIFF_CONTAINER: Nodurile surs\u0103 \u015Fi destina\u0163ie trebuie s\u0103 aib\u0103 acela\u015Fi container.
+DIFF_BOUNDARY_CONTAINER: Evenimentului de limit\u0103 nu poate fi legat la containerul s\u0103u.
+START_INCOMING: Evenimentele ini\u0163iale nu pot avea tranzi\u0163ii de intrare.
+MORE_THAN_ONE_UNCONDITIONAL: O tranzi\u0163ie necondi\u0163ional\u0103 conecteaz\u0103 deja aceste noduri.
+EVENT_BASED_CONNECTIONS: Gateway-ul pe baz\u0103 de evenimente se poate conecta numai la mesaje de detectare, la timere de detectare \u015Fi la sarcini de recep\u0163ie.
+END_OUTGOING: Evenimentele finale nu pot avea tranzi\u0163ii de ie\u015Fire.
+MORE_OUTGOING_UNCONDITIONAL: Numai gateway-urile paralele \u015Fi cele pe baz\u0103 de evenimente pot avea mai multe tranzi\u0163ii de ie\u015Fire necondi\u0163ionale.
+CONDITIONAL_TRANS: Numai gateway-urile exclusive, inclusive \u015Fi complexe pot avea tranzi\u0163ii condi\u0163ionale.
+OUTGOING_CONDITIONAL: O fuzionare de gateway-uri nu poate avea o tranzi\u0163ie condi\u0163ional\u0103 de ie\u015Fire.
+NOT_PART_OF_THE_FLOW: {0} - Nu face parte din flux (nu poate avea evenimente limit\u0103, tranzi\u0163ii de intrare sau de ie\u015Fire).
+BOUNDARIES_TASKS: Evenimentele limit\u0103 pot fi ad\u0103ugate numai la sarcini.
+NOTE_TARGET: Destina\u0163ia notei nu poate fi: {0}.
+BOUNDARY_EVT: Eveniment limit\u0103
+MM_TRANSITIONS: Marcajele de m\u0103sur\u0103toare pot fi ata\u015Fate numai la fluxuri de secven\u0163\u0103.
+ON_TOP_OF_NODE: Nu se poate ad\u0103uga peste un alt nod.
+SPACE_FOR_NODES: Spa\u0163iul nu este suficient pentru toate nodurile.
+NOT_BOUNDARY: Evenimentul {0} nu este un eveniment limit\u0103.
+
+SERVICE_IMPL: {0} se poate implementa numai \u00EEn servicii.
+SERVICE_NOT_CALLBACK: Opera\u0163iile de reapelare nu pot fi utilizate pentru a implementa: {0}.
+NOT_SYNC: Opera\u0163iile sincrone nu se pot utiliza pentru a implementa: {0}.
+BR_IMPL: Sarcinile reguli de activitate pot fi implementate numai \u00EEn Business Rules.
+CANNOT_IMPL: Activitatea selectat\u0103 nu poate fi implementat\u0103.
+UT_IMPL: Numai sarcinile unui utilizator pot fi implementate \u00EEn sarcinile cu interven\u0163ie uman\u0103.
+TASKS_IMPL: Numai sarcinile pot fi implementate.
+
+FLOW_IS_SEALED: Fluxul nu poate fi modificat, deoarece este sigilat.
+NODE_IS_SEALED: Nodul este sigilat.
+
+PROCESS_READ_ONLY: Procesul este read-only.
+EDIT_CONVERSATIONS: Editare conversa\u0163ii
+
+######################
+
+VALIDATE_TARGET: Validare destina\u0163ie dup\u0103 asignare:
+VALIDATE_INPUT: asocieri de date de intrare
+VALIDATE_OUTPUT: asocieri de date rezultat
+
+ADD_SEQUENTIAL: Ad\u0103ugare secven\u0163ial
+ADD_PARALLEL: Ad\u0103ugare paralel
+PARTICIPANTS: Participan\u0163i
+STAGE: Stadiu
+SINGLE: Unic
+PARALLEL_SINGLE: Unic paralel
+PARALLEL_BLOCK: Bloc paralel
+SERIAL: \u00CEn serie
+FYI: Informativ
+ADHOC: Ad-hoc
+MANAGEMENT_CHAIN: Lan\u0163 de management
+NOTIFY: Notificare
+
+MANAGEMENT: Management
+GROUP: Grup
+INITIATOR: Ini\u0163iator
+
+REVEAL_ASSOCIATIONS: Face\u0163i clic aici pt. a afi\u015Fa asocierile
+
+FIND_USAGES: C\u0103utare utiliz\u0103ri
+
+
+AVG_INSTANCE_COUNT: Nr. mediu de instan\u0163e
+AVG_PERFORMANCE: Performan\u0163e medii
+AVG_QUEUE_SIZE: Dimensiune medie coad\u0103
+AVG_RESOURCE_UTILIZATION: Utilizare medie resurse
+AVG_WORKING_COUNT: Nr. mediu \u00EEn lucru
+COMPLETED_INSTANCES: Instan\u0163e finalizate
+COMPLETED_OPERATIONS: Opera\u0163ii finalizate
+CURRENT_INSTANCE_COUNT: Nr. instan\u0163e curente
+CURRENT_QUEUE_SIZE: Dimensiune coad\u0103 curent\u0103
+CURRENT_RESOURCE_UTILIZATION: Utilizare curent\u0103 resurse
+CURRENT_WORKING_COUNT: Nr. curent \u00EEn lucru
+MAX_INSTANCE_COUNT: Nr. maxim de instan\u0163e
+MAX_INSTANCES_WORKING_COUNT: Nr. maxim de instan\u0163e \u00EEn lucru
+MAX_QUEUE_SIZE: Dimensiune maxim\u0103 coad\u0103
+MAX_RESOURCE_UTILIZATION: Utilizare maxim\u0103 resurse
+TOTAL_RESOURCE_UTILIZATION: Utilizare total\u0103 resurse
+TOTAL_WAITING_COUNT: Nr. total \u00EEn a\u015Fteptare
+
+AVG_PROCESS_TIME: Durat\u0103 de procesare medie
+AVG_CYCLE_TIME: Durat\u0103 medie ciclu
+MAX_CYCLE_TIME: Tip ciclu maxim
+MIN_CYCLE_TIME: Tip ciclu minim
+AVG_WAITING_TIME: Durat\u0103 de a\u015Fteptare medie
+MAX_WAITING_TIME: Durat\u0103 de a\u015Fteptare maxim\u0103
+MIN_WAITING_TIME: Durat\u0103 minim\u0103 a\u015Fteptare
+AVG_WORKING_TIME: Durat\u0103 de lucru medie
+MAX_WORKING_TIME: Durat\u0103 de lucru maxim\u0103
+MIN_WORKING_TIME: Durat\u0103 de lucru minim\u0103
+
+TOTAL_COST: Cost total
+AVG_TOTAL_COST: Cost total mediu
+
+TOTAL_WAITING_TIME: Durat\u0103 de a\u015Fteptare total\u0103
+
+RESOURCE_BUSY_TIME: Durat\u0103 de ocupare resurse
+
+RESOURCE_BUSY_COST: Cost de ocupare resurse
+RESOURCE_TOTAL_COST: Cost total resurse
+RESOURCES: Resurse
+INDICATORS: Indicatori
+VALUES: Valori
+
+TIME: Timp
+COST: Costuri
+UNITS: Unit\u0103\u0163i
+
+COLUMN_CHART: Diagram\u0103 cu coloane
+BAR_CHART: Diagram\u0103 cu bare
+
+CLICK_TO_REVEAL_CHART: . Face\u0163i clic pt. a afi\u015Fa diagrama
+SHOW_RESULTS: Afi\u015Fare rezultate
+FILTERS: Filtre
+CLEAR_RESULTS: Golire rezultate
+INSTANCE_NUMBER: Instan\u0163e
+USE_INSTANCES: Utilizare instan\u0163e
+
+INTERVAL: Interval
+MEAN: Medie
+STANDARD_DEVIATION: Devia\u0163ie standard
+PERIOD: Perioad\u0103
+FREQUENCY: Frecven\u0163\u0103
+EVERY: la fiecare
+DISTRIBUTION_TYPE: Tip distribu\u0163ie
+INSTANCE_CREATION: Creare instan\u0163\u0103
+DELTA: Delta
+INSTANCES: instan\u0163e
+CRITERIA: Criterii
+
+DAYS: zile
+HOURS_AB: h
+MINUTES_AB: m
+SECONDS_AB: s
+
+
+CONSTANT_DIST: Constant\u0103
+UNIFORM_DIST: Uniform\u0103
+EXPONENTIAL_DIST: Exponen\u0163ial\u0103
+NORMAL_DIST: Normal\u0103
+REAL_DIST: Real\u0103
+
+
+FIFO: F.I.F.O.
+LIFO: L.I.F.O.
+RANDOM: Aleator
+BY_PRIORITY: Dup\u0103 prioritate
+MINIMUM_COST: Cost minim
+MAXIMUM_EFFICIENCY: Eficien\u0163\u0103 maxim\u0103
+
+
+FIXED_BASE_COST: Cost baz\u0103 fix\u0103
+BASE_COST_PLUS_RESOURCE_COST: Cost de baz\u0103 plus cost resurs\u0103
+
+HOURLY: La fiecare or\u0103
+DAILY: Zilnic
+WEEKLY: S\u0103pt\u0103m\u00E2nal
+MONTHLY: Lunar
+
+SUNDAY: Duminic\u0103
+MONDAY: Luni
+TUESDAY: Mar\u0163i
+WEDNESDAY: Miercuri
+THURSDAY: Joi
+FRIDAY: Vineri
+SATURDAY: S\u00E2mb\u0103t\u0103
+
+FIRST: Prima
+SECOND: A doua
+THIRD: A treia
+FOURTH: A patra
+LAST: Ultima
+
+JANUARY: Ianuarie
+FEBRUARY: Februarie
+MARCH: Martie
+APRIL: Aprilie
+MAY: Mai
+JUNE: Iunie
+JULY: Iulie
+AUGUST: August
+SEPTEMBER: Septembrie
+OCTOBER: Octombrie
+NOVEMBER: Noiembrie
+DECEMBER: Decembrie
+
+DURATION: Durat\u0103
+COST_PER_HOUR: Cost per or\u0103
+QUEUE_INFO: Informa\u0163ii coad\u0103
+OUTGOING_FLOWS: Fluxuri de ie\u015Fire
+
+USE_ORGANIZATION_RESOURCES: Utilizare resurse organiza\u0163ie
+USE_FIXED_RESOURCES: Utilizare resurse fixe
+PARTICIPANT_SELECTION_POLICY: Politic\u0103 de selec\u0163ie participan\u0163i
+AVAILABLE_RESOURCES: Resurse disponibile
+
+PROCESS_EDITOR: Design
+SIMULATION_EDITOR: Simulare
+ADD_MODEL_SIMULATION: Ad\u0103ugare simulare model
+
+ACTIVITY_FIXED_BASE_COST: Cost de baz\u0103 fix activitate
+ACTIVITY_COST_TYPE: Tip de cost activitate
+
+QUEUE_WARNING_SIZE: Dimensiune avertisment coad\u0103
+
+THREADS: Fire
+MODEL: Model:
+CREATE_SIM_MODEL: Creare model de simulare
+
+NOT_PROCESS_EDITOR: Comuta\u0163i la modul Design pt. a edita procesul
+MINUS_ENA: Restr\u00E2ngere diagram\u0103
+
+BUSINESS_INDICATORS: Indicatori de activitate
+
+METRICS: Metrici
+ALL: Toate
+NONE: Niciunul
+
+INIT_PLAYER_INSTANCE: Ini\u0163ializare instan\u0163\u0103 player
+REFRESH_PLAYER_INSTANCE: Re\u00EEmprosp\u0103tare
+DELETE_PLAYER_INSTANCE: \u015Etergere
+PROCESS_VARIABLES: Variabile proces
+THREAD_ID: ID fir
+INSTANCE_ID: ID instan\u0163\u0103
+INSTANCE_INFORMATION: Informa\u0163ii despre instan\u0163\u0103
+
+INVALID_PAYLOAD_NAME: Nume nevalid pt. datele sarcinii
+
+MUST_BE_LOWER : trebuie s\u0103 fie minuscule.

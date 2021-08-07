@@ -1,0 +1,443 @@
+#
+#
+# hash = 405f00d000bf10009f90407060df4f804f40d0b0
+#
+START:                   Aloitus
+THROW:                   Aiheuta
+CATCH:                   Ota
+END:                     Lopeta
+
+ABSTRACT_ACTIVITY: Abstraktitoimi
+TASK: Toiminto
+INTERACTIVE_TASK: Vuorovaikutteinen
+
+
+USER_TASK: K\u00E4ytt\u00E4j\u00E4teht\u00E4v\u00E4
+SERVICE_TASK: Palveluteht\u00E4v\u00E4
+SEND_TASK: L\u00E4hetysteht\u00E4v\u00E4
+RECEIVE_TASK: Vastaanottoteht\u00E4v\u00E4
+NOTIFICATION_TASK: Ilmoitusteht\u00E4v\u00E4
+UPDATE_TASK: P\u00E4ivit\u00E4 teht\u00E4v\u00E4
+BUSINESS_RULE_TASK: Liiketoimintas\u00E4\u00E4nt\u00F6teht\u00E4v\u00E4
+SCRIPT_TASK: Komentosarjateht\u00E4v\u00E4
+MANUAL_TASK: Manuaalinen teht\u00E4v\u00E4
+CALL_ACTIVITY: Kutsutoiminto
+SUBPROCESS: Aliprosessi
+INLINE_HANDLER: Tapahtuman aliprosessi
+
+EVENT: Tapahtuma
+START_EVENT: Aloitus
+END_EVENT: Lopeta
+BOUNDARY_EVENT: Raja
+THROW_EVENT: Aiheuta tapahtuma
+CATCH_EVENT: K\u00E4sittele tapahtuma
+
+GATEWAY: Yhdysk\u00E4yt\u00E4v\u00E4
+COMPLEX_GATEWAY: Monimutkainen yhdysk\u00E4yt\u00E4v\u00E4
+EXCLUSIVE_GATEWAY: Poissulkeva yhdysk\u00E4yt\u00E4v\u00E4
+INCLUSIVE_GATEWAY: Sis\u00E4llytt\u00E4v\u00E4 yhdysk\u00E4yt\u00E4v\u00E4
+PARALLEL_GATEWAY: Rinnakkainen yhdysk\u00E4yt\u00E4v\u00E4
+EVENT_BASED_GATEWAY: Tapahtumaan perustuva yhdysk\u00E4yt\u00E4v\u00E4
+
+NOTE: Huomautus
+
+START_NONE:              Aloitus
+START_MESSAGE_TOPLEVEL:  Sanoman aloitus
+START_TIMER_TOPLEVEL:    Ajastimen aloitus
+START_SIGNAL_TOPLEVEL:   Signaalin aloitus
+START_ERROR_SUBPROCESS:  Virheen aloitus
+INTERMEDIATE_NONE:       Ota
+INTERMEDIATE_ERROR_BOUNDARY_INTERRUPTING: Virheen raja
+INTERMEDIATE_TIMER_CATCH: Ajastin
+INTERMEDIATE_MESSAGE_CATCH: Sanoma
+INTERMEDIATE_NONE_THROW_NONBOUNDARY: Aiheuta
+INTERMEDIATE_MESSAGE_THROW_NONBOUNDARY: Sanoma
+INTERMEDIATE_SIGNAL_THROW_NONBOUNDARY: Signaali
+INTERMEDIATE_SIGNAL_CATCH: Signaali
+END_NONE:                Lopeta
+END_MESSAGE:             Sanoman lopetus
+END_ERROR:               Virheen lopetus
+END_SIGNAL:              Signaalin lopetus
+END_TERMINATE:           P\u00E4\u00E4t\u00E4 lopetus
+MEASUREMENT_START:       Aloita mittaus
+MEASUREMENT_END:         Lopeta mittaus
+MEASUREMENT:             Mittaus
+
+NONE_TRIGGER_TYPE:       Ei mit\u00E4\u00E4n
+MESSAGE_TRIGGER_TYPE:    Sanoma
+TIMER_TRIGGER_TYPE:      Ajastin
+ERROR_TRIGGER_TYPE:      Virhe
+SIGNAL_TRIGGER_TYPE:     Signaali
+TERMINATE_TRIGGER_TYPE:  Lopeta
+
+PROCESS_COMPONENTS:      BPM-komponentit
+BPMN_ARTIFACTS:          BPMN Flow -objektit
+BASIC_ARTIFACTS:         Basic Flow -objektit
+BPMN:                    BPMN
+BPM_DESCRIPTIVE:         BPM - kuvaava
+BUSINESS_CATALOG:        Liiketoimintaluettelo
+ARGUMENT_MAPPING:        Tietoyhteys
+VIEW_COLLABORATION:      Katsele yhteisty\u00F6skentely\u00E4
+HIDE_COLLABORATION:      Piilota yhteisty\u00F6skentely
+LOADING:                 Ladataan...
+CANCEL_SEARCH:           Peruuta haku
+EVENTS:                  Tapahtumat
+ZOOM_OUT:                Loitonna
+SELECT_ALL:              Valitse kaikki
+DELETE:                  Poista
+
+SERVICES:                Palvelut
+REMOVE_CUSTOM_OUTPUT:    Poista r\u00E4\u00E4t\u00E4l\u00F6ity tuloste
+ZOOM_IN:                 L\u00E4henn\u00E4
+
+SELECT:                  Valitse
+OK:                      OK
+BPMN_COMPONENTS:         BPMN-komponentit
+GATEWAYS:                Yhdysk\u00E4yt\u00E4v\u00E4t
+ARTIFACTS:               Artefaktit
+BASIC:                   Perus
+SEARCH:                  Etsi komponentti
+FLOW_SEALED:             Virtaus\nsinet\u00F6ity
+REDO:                    Suorita uudelleen
+CANCEL:                  Peruuta
+APPLY:                   K\u00E4yt\u00E4
+CREATE:                  Luo
+VARIABLES:               Tieto-objektit
+PREDEFINED_VARIABLES:    Esim\u00E4\u00E4ritetyt muuttujat
+PROCESS:                 Prosessi
+PROJECT:                 Projekti
+DEFAULT:                 Oletus
+TASKS:                   Toiminnot
+PANNING:                 Panorointi
+SAVE:                    Tallenna
+UNDO:                    Kumoa
+ADD_NEW_VAR:             Lis\u00E4\u00E4 uusi tieto-objekti
+REMOVE_VAR:              Poista tieto-objekti
+VIEW_DATA_OBJECTS:       Katso tieto-objektit
+DATA_OBJECTS:            Tieto-objektit
+INPUTS:                  Sy\u00F6tteet
+OUTPUTS:                 Tulosteet
+DRAG_VARIABLES:          Ved\u00E4 tieto-objekteja tekstikenttiin.
+NAME:                    Nimi
+ICON:                    Kuvake
+TYPE:                    Tyyppi
+DESCRIPTION:             Kuvaus
+SCOPE:                   Laajuus
+NEW_VARIABLE:            Uusi tieto-objekti
+ADVANCED:                Lis\u00E4m\u00E4\u00E4ritykset
+TRANSITIONS:             Sarjakulut
+BUSINESS_RULES:          Liiketoimintas\u00E4\u00E4nn\u00F6t
+HELP:                    Ohje       
+HUMAN_TASKS:             Henkil\u00F6n teht\u00E4v\u00E4t
+BUSINESS_OBJECTS:        Liiketoimintaobjektit
+ADD_CUSTOM_OUTPUT:       Lis\u00E4\u00E4 r\u00E4\u00E4t\u00E4l\u00F6ity tuloste
+ADD_CUSTOM_INPUT:        Lis\u00E4\u00E4 r\u00E4\u00E4t\u00E4l\u00F6ity sy\u00F6te
+TRANSITION:              Sarjakulku
+NORMAL: Ehdoton
+CONDITIONAL: Ehdollinen
+EXCEPTION: Poikkeus
+PRINT:                   Tulosta
+AUTOLAYOUT:              Automaattinen asettelu
+ADD_TO_MILESTONE:        Lis\u00E4\u00E4 virstanpylv\u00E4\u00E4seen
+COLLAPSE:                Tiivist\u00E4
+EXPAND:                  Laajenna
+OWNER:                   Prosessin omistaja
+PROPERTIES:              Ominaisuudet
+IMPLEMENT:               Toteuta
+BUSINESS_PROPERTIES: Liiketoimintaominaisuudet
+CREATE_TRANSITION:       Lis\u00E4\u00E4 siirtym\u00E4
+DOCUMENTATION:           Dokumentaatio
+UNRECOGNIZED_BPMN_TYPE:  Tuntematon BPMN-tyyppi.
+STRAIGHTEN_TRANSITION:   Suorista siirtym\u00E4
+MAKE_TRANS_ORTHOGONAL:   Tee siirtym\u00E4st\u00E4 kohtisuora
+CURVE_TRANSITION:        Kaarra siirtym\u00E4\u00E4
+SHOW_DOCUMENTATION:      Dokumentaatio
+SHOW_IMPLEMENTATION:     Toteutus
+
+SIMPLE: Yksinkertainen
+COMPLEX: Monimutkainen
+
+CONVERT_GATEWAY:         Muunna yhdysk\u00E4yt\u00E4v\u00E4
+CONVERT_TO_PARALLEL:     Muunna rinnakkaiseksi
+CONVERT_TO_INCLUSIVE:    Muunna sis\u00E4llytt\u00E4v\u00E4ksi
+
+ERROR_MESSAGE:Virheen nimi: {0}. \nVirheviesti: {1}
+
+CREATE_COUNTER_MARK:     Luo laskimen merkki
+DELETE_COUNTER_MARK:     Poista laskimen merkki
+
+ADD_NEW_SERVICE:         Lis\u00E4\u00E4 palvelu
+
+GRID_SHOW:              Vaihda ruudukon n\u00E4kyvyytt\u00E4
+GRID_SNAP:              Kohdista ruudukkoon
+
+LAUNCH_EXPRESSION_BUILDER: K\u00E4ynnist\u00E4 lausekkeen muodostin
+
+EXTERNAL_REFERENCES:       Ulkoiset viitteet
+
+CLOSE:                  Sulje
+TRIGGER:                Her\u00E4tin
+
+OPEN_HT: Avoin henkil\u00F6teht\u00E4v\u00E4
+OPEN_PROCESS: Avaa prosessi
+OPEN_BUSINESS_RULE: Avoin liiketoimintas\u00E4\u00E4nt\u00F6
+
+COPY: Kopioi
+CUT: Leikkaa
+PASTE: Liit\u00E4
+
+REFINE_ACTIVITY: Tarkenna toimea
+CONVERT_TO_REGULAR_SUBPROCESS: Muunna tavalliseksi aliprosessiksi
+
+SHOW_PALETTE:              Vaihda paletin n\u00E4kyvyytt\u00E4
+STAMP_MODE:                Vaihda leimatila
+
+ROLE: Rooli
+USE: K\u00E4ytt\u00F6
+AUTOMATIC_HANDLER: Automaattinen k\u00E4sittelij\u00E4
+CHANGE: Vaihda...
+ADD_LANE: Lis\u00E4\u00E4 v\u00E4yl\u00E4
+
+MORE: Lis\u00E4\u00E4
+MORE_TOOLTIP: N\u00E4yt\u00E4 alialkiot
+LESS: V\u00E4hemm\u00E4n
+LESS_TOOLTIP: Piilota alialkiot
+
+LESS_DC_TOOLTIP: Piilota alialkiot kaksoisnapsauttamalla
+MORE_DC_TOOLTIP: Lis\u00E4\u00E4 kaksoisnapsauttamalla
+
+# Policies messages...
+
+INVALID_TYPE: Ei voi muuttaa solmutyyppi\u00E4 tyypiksi {0}
+CAN_ONLY_CHANGE_TO_ACTIVITY: Voit muuttaa vain toimen tyyppi\u00E4
+ALREADY_DEFINED_TYPE: Toimella on jo t\u00E4m\u00E4 tyyppi
+CAN_ONLY_CHANGE_TO_UNIMPLEMENTED_UT : Malllia ei voi muuttaa toteutetuksi k\u00E4ytt\u00E4j\u00E4n teht\u00E4v\u00E4ksi
+
+FROM_EQ_TO: L\u00E4hde- ja kohdesolmut eiv\u00E4t voi olla samat.
+DIFF_CONTAINER: L\u00E4hde- ja kohdesolmuilla on oltava sama s\u00E4il\u00F6.
+DIFF_BOUNDARY_CONTAINER: Rajatapahtumaa ei voi linkitt\u00E4\u00E4 omaan s\u00E4il\u00F6\u00F6ns\u00E4.
+START_INCOMING: K\u00E4ynnistystapahtumilla ei voi olla saapuvia siirtymi\u00E4.
+MORE_THAN_ONE_UNCONDITIONAL: N\u00E4it\u00E4 solmuja yhdist\u00E4\u00E4 jo yksi ehdoton siirtym\u00E4.
+EVENT_BASED_CONNECTIONS: Tapahtumakohtaiset yhdysk\u00E4yt\u00E4v\u00E4t voivat yhdist\u00E4\u00E4 vain viestink\u00E4sittely-, ajastink\u00E4sittely- ja vastaanottoteht\u00E4vi\u00E4.
+END_OUTGOING: Lopetustapahtumilla ei voi olla l\u00E4htevi\u00E4 siirtymi\u00E4.
+MORE_OUTGOING_UNCONDITIONAL: Vain rinnakkaisilla ja tapahtumakohtaisilla yhdysk\u00E4yt\u00E4vill\u00E4 voi olla useampi kuin yksi l\u00E4htev\u00E4 ehdoton siirtym\u00E4.
+CONDITIONAL_TRANS: Vain poissulkevilla, sis\u00E4llytt\u00E4vill\u00E4 ja monimutkaisilla yhdysk\u00E4yt\u00E4vill\u00E4 voi olla ehdollisia siirtymi\u00E4.
+OUTGOING_CONDITIONAL: Yhdysk\u00E4yt\u00E4vien yhdist\u00E4misess\u00E4 ei voi olla l\u00E4htev\u00E4\u00E4 ehdollista siirtym\u00E4\u00E4.
+NOT_PART_OF_THE_FLOW: {0} ei ole osa kulkua (sill\u00E4 ei voi olla rajatapahtumia eik\u00E4 saapuvia tai l\u00E4htevi\u00E4 siirtymi\u00E4).
+BOUNDARIES_TASKS: Rajatapahtumia voi lis\u00E4t\u00E4 vain teht\u00E4viin.
+NOTE_TARGET: Huomautuskohde ei voi olla {0}.
+BOUNDARY_EVT: Rajatapahtuma
+MM_TRANSITIONS: Mittamerkint\u00F6j\u00E4 voi liitt\u00E4\u00E4 vain sarjakulkuihin.
+ON_TOP_OF_NODE: Ei voi lis\u00E4t\u00E4 toisen solmun p\u00E4\u00E4lle.
+SPACE_FOR_NODES: Tila ei riit\u00E4 kaikkien solmujen sis\u00E4llytt\u00E4miseen.
+NOT_BOUNDARY: Tapahtuma {0} ei ole rajatapahtuma.
+
+SERVICE_IMPL: {0} voidaan toteuttaa vain palveluilla.
+SERVICE_NOT_CALLBACK: Vastakutsuilla ei voi toteuttaa kohdetta {0}.
+NOT_SYNC: Synkronisilla toiminnoilla ei voi toteuttaa kohdetta {0}.
+BR_IMPL: Liiketoimintas\u00E4\u00E4nt\u00F6teht\u00E4vi\u00E4 voi toteuttaa vain liiketoimintas\u00E4\u00E4nn\u00F6ill\u00E4.
+CANNOT_IMPL: Valittua toimintoa ei voi toteuttaa
+UT_IMPL: Henkil\u00F6teht\u00E4vill\u00E4 voi toteuttaa vain k\u00E4ytt\u00E4j\u00E4n teht\u00E4vi\u00E4.
+TASKS_IMPL: Vain teht\u00E4vi\u00E4 voi toteuttaa.
+
+FLOW_IS_SEALED: Kulkua ei voi muuttaa, koska se on sinet\u00F6ity.
+NODE_IS_SEALED: Solmu on sinet\u00F6ity.
+
+PROCESS_READ_ONLY: Prosessi on vain luku -muotoa.
+EDIT_CONVERSATIONS: Muokkaa keskusteluja
+
+######################
+
+VALIDATE_TARGET: Tarkista kohde m\u00E4\u00E4ritt\u00E4misen j\u00E4lkeen:
+VALIDATE_INPUT: sy\u00F6tetietoyhteydet
+VALIDATE_OUTPUT: tulostetietoyhteydet
+
+ADD_SEQUENTIAL: Lis\u00E4\u00E4 per\u00E4kk\u00E4inen
+ADD_PARALLEL: Lis\u00E4\u00E4 rinnakkainen
+PARTICIPANTS: Osallistujat
+STAGE: Vaihe
+SINGLE: Yksitt\u00E4inen
+PARALLEL_SINGLE: Rinnakkainen yksitt\u00E4inen
+PARALLEL_BLOCK: Rinnakkainen esto
+SERIAL: Sarja
+FYI: Tiedoksi
+ADHOC: Ad-hoc
+MANAGEMENT_CHAIN: Hallintoketju
+NOTIFY: Ilmoita
+
+MANAGEMENT: Hallinta
+GROUP: Ryhm\u00E4
+INITIATOR: K\u00E4ynnist\u00E4j\u00E4
+
+REVEAL_ASSOCIATIONS: N\u00E4yt\u00E4 liitokset napsauttamalla t\u00E4t\u00E4
+
+FIND_USAGES: Etsi k\u00E4ytt\u00F6kohteet
+
+
+AVG_INSTANCE_COUNT: Keskim\u00E4\u00E4r\u00E4inen instanssien m\u00E4\u00E4r\u00E4
+AVG_PERFORMANCE: Keskim\u00E4\u00E4r\u00E4inen suorituskyky
+AVG_QUEUE_SIZE: Keskim\u00E4\u00E4r\u00E4inen jonon koko
+AVG_RESOURCE_UTILIZATION: Keskim\u00E4\u00E4r\u00E4inen resurssien k\u00E4ytt\u00F6aste
+AVG_WORKING_COUNT: Keskim\u00E4\u00E4r\u00E4inen k\u00E4ytt\u00F6m\u00E4\u00E4r\u00E4
+COMPLETED_INSTANCES: Valmiit instanssit
+COMPLETED_OPERATIONS: Valmiit toiminnot
+CURRENT_INSTANCE_COUNT: Nykyisten instanssien m\u00E4\u00E4r\u00E4
+CURRENT_QUEUE_SIZE: Nykyinen jonon koko
+CURRENT_RESOURCE_UTILIZATION: Resurssien nykyinen k\u00E4ytt\u00F6aste
+CURRENT_WORKING_COUNT: Nykyinen k\u00E4ytt\u00F6m\u00E4\u00E4r\u00E4
+MAX_INSTANCE_COUNT: Instanssien enimm\u00E4ism\u00E4\u00E4r\u00E4
+MAX_INSTANCES_WORKING_COUNT: Instanssien k\u00E4yt\u00F6n enimm\u00E4ism\u00E4\u00E4r\u00E4
+MAX_QUEUE_SIZE: Jonon enimm\u00E4iskoko
+MAX_RESOURCE_UTILIZATION: Resurssien enimm\u00E4isk\u00E4ytt\u00F6aste
+TOTAL_RESOURCE_UTILIZATION: Resurssin kokonaisk\u00E4ytt\u00F6aste
+TOTAL_WAITING_COUNT: Odotuksen kokonaism\u00E4\u00E4r\u00E4
+
+AVG_PROCESS_TIME: Keskim\u00E4\u00E4r\u00E4inen k\u00E4sittelyaika
+AVG_CYCLE_TIME: Keskim\u00E4\u00E4r\u00E4inen jakson kesto
+MAX_CYCLE_TIME: Jakson enimm\u00E4iskesto
+MIN_CYCLE_TIME: Jakson v\u00E4himm\u00E4iskesto
+AVG_WAITING_TIME: Keskim\u00E4\u00E4r\u00E4inen odotusaika
+MAX_WAITING_TIME: Enimm\u00E4isodotusaika
+MIN_WAITING_TIME: V\u00E4himm\u00E4isodotusaika
+AVG_WORKING_TIME: Keskim\u00E4\u00E4r\u00E4inen ty\u00F6aika
+MAX_WORKING_TIME: Enimm\u00E4isty\u00F6aika
+MIN_WORKING_TIME: V\u00E4himm\u00E4isk\u00E4ytt\u00F6aika
+
+TOTAL_COST: Kokonaiskustannukset
+AVG_TOTAL_COST: Keskim\u00E4\u00E4r\u00E4iset kokonaiskustannukset
+
+TOTAL_WAITING_TIME: Kokonaisodotusaika
+
+RESOURCE_BUSY_TIME: Resurssien varauksen aika
+
+RESOURCE_BUSY_COST: Resurssien varauksen kustannukset
+RESOURCE_TOTAL_COST: Resurssin kokonaiskustannukset
+RESOURCES: Resurssit
+INDICATORS: Ilmaisimet
+VALUES: Arvot
+
+TIME: Aika
+COST: Kustannukset
+UNITS: Yksik\u00F6t
+
+COLUMN_CHART: Sarakekaavio
+BAR_CHART: Pylv\u00E4skaavio
+
+CLICK_TO_REVEAL_CHART: . Tuo kaavio esiin napsauttamalla
+SHOW_RESULTS: N\u00E4yt\u00E4 tulokset
+FILTERS: Suodattimet
+CLEAR_RESULTS: Tyhjenn\u00E4 tulokset
+INSTANCE_NUMBER: Instanssit
+USE_INSTANCES: K\u00E4yt\u00E4 instansseja
+
+INTERVAL: V\u00E4li
+MEAN: Keskim\u00E4\u00E4r\u00E4inen
+STANDARD_DEVIATION: Keskihajonta
+PERIOD: Kausi
+FREQUENCY: Toistov\u00E4li
+EVERY: joka
+DISTRIBUTION_TYPE: Jakauman tyyppi
+INSTANCE_CREATION: Instanssin luonti
+DELTA: Muutos
+INSTANCES: instanssit
+CRITERIA: Ehdot
+
+DAYS: p\u00E4iv\u00E4t
+HOURS_AB: h
+MINUTES_AB: m
+SECONDS_AB: s
+
+
+CONSTANT_DIST: Vakio
+UNIFORM_DIST: Yhdenmukainen
+EXPONENTIAL_DIST: Eksponentiaalinen
+NORMAL_DIST: Normaali
+REAL_DIST: Reaaliluku
+
+
+FIFO: F.I.F.O.
+LIFO: L.I.F.O.
+RANDOM: Satunnainen
+BY_PRIORITY: Prioriteetin mukaan
+MINIMUM_COST: V\u00E4himm\u00E4iskustannukset
+MAXIMUM_EFFICIENCY: Enimm\u00E4istehokkuus
+
+
+FIXED_BASE_COST: Kiinte\u00E4t peruskustannukset
+BASE_COST_PLUS_RESOURCE_COST: Peruskustannukset lis\u00E4ttyn\u00E4 resurssikustannuksilla
+
+HOURLY: Kerran tunnissa
+DAILY: P\u00E4ivitt\u00E4in
+WEEKLY: Viikoittain
+MONTHLY: Kuukausittain
+
+SUNDAY: Sunnuntai
+MONDAY: Maanantai
+TUESDAY: Tiistai
+WEDNESDAY: Keskiviikko
+THURSDAY: Torstai
+FRIDAY: Perjantai
+SATURDAY: Lauantai
+
+FIRST: Ensimm\u00E4inen
+SECOND: Toinen
+THIRD: Kolmas
+FOURTH: Nelj\u00E4s
+LAST: Viimeinen
+
+JANUARY: Tammikuu
+FEBRUARY: Helmikuu
+MARCH: Maaliskuu
+APRIL: Huhtikuu
+MAY: Toukokuu
+JUNE: Kes\u00E4kuu
+JULY: Hein\u00E4kuu
+AUGUST: Elokuu
+SEPTEMBER: Syyskuu
+OCTOBER: Lokakuu
+NOVEMBER: Marraskuu
+DECEMBER: Joulukuu
+
+DURATION: Kesto
+COST_PER_HOUR: Kustannukset tunnissa
+QUEUE_INFO: Jonon tiedot
+OUTGOING_FLOWS: L\u00E4htev\u00E4t kulut
+
+USE_ORGANIZATION_RESOURCES: K\u00E4yt\u00E4 organisaation resursseja
+USE_FIXED_RESOURCES: K\u00E4yt\u00E4 kiinteit\u00E4 resursseja
+PARTICIPANT_SELECTION_POLICY: Osallistujan valintak\u00E4yt\u00E4nt\u00F6
+AVAILABLE_RESOURCES: K\u00E4ytett\u00E4viss\u00E4 olevat resurssit
+
+PROCESS_EDITOR: Suunnittelu
+SIMULATION_EDITOR: Simulaatio
+ADD_MODEL_SIMULATION: Lis\u00E4\u00E4 mallisimulaatio
+
+ACTIVITY_FIXED_BASE_COST: Toimen kiinte\u00E4 peruskustannus
+ACTIVITY_COST_TYPE: Toimen kustannustyyppi
+
+QUEUE_WARNING_SIZE: Jonon varoituskoko
+
+THREADS: S\u00E4ikeet
+MODEL: Malli:
+CREATE_SIM_MODEL: Luo simulointimalli
+
+NOT_PROCESS_EDITOR: Siirry suunnittelutilaan ja muokkaa prosessia
+MINUS_ENA: Tiivist\u00E4 kaavio
+
+BUSINESS_INDICATORS: Liiketoimintailmaisimet
+
+METRICS: Mittarit
+ALL: Kaikki
+NONE: Ei ole
+
+INIT_PLAYER_INSTANCE: Alusta toisto-ohjelman instanssi
+REFRESH_PLAYER_INSTANCE: P\u00E4ivit\u00E4
+DELETE_PLAYER_INSTANCE: Poista
+PROCESS_VARIABLES: Prosessimuuttujat
+THREAD_ID: S\u00E4ietunnus
+INSTANCE_ID: Instanssin tunnus
+INSTANCE_INFORMATION: Instanssin tiedot
+
+INVALID_PAYLOAD_NAME: Virheellinen teht\u00E4v\u00E4n tietojen nimi
+
+MUST_BE_LOWER : on oltava pieni kirjain.

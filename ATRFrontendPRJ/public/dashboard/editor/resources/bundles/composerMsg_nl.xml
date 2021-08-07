@@ -1,0 +1,443 @@
+#
+#
+# hash = 405f00d000bf10009f90407060df4f804f40d0b0
+#
+START:                   Starten
+THROW:                   Throw
+CATCH:                   Catch
+END:                     Be\u00EBindigen
+
+ABSTRACT_ACTIVITY: Abstracte activiteit
+TASK: Activiteit
+INTERACTIVE_TASK: Interactief
+
+
+USER_TASK: Gebruikerstaak
+SERVICE_TASK: Servicetaak
+SEND_TASK: Verstuurtaak
+RECEIVE_TASK: Ontvangsttaak
+NOTIFICATION_TASK: Meldingstaak
+UPDATE_TASK: Taak bijwerken
+BUSINESS_RULE_TASK: Bedrijfsregeltaak
+SCRIPT_TASK: Scripttaak
+MANUAL_TASK: Handmatige taak
+CALL_ACTIVITY: Aanroepactiviteit
+SUBPROCESS: Subproces
+INLINE_HANDLER: Subproces event
+
+EVENT: Event
+START_EVENT: Starten
+END_EVENT: Be\u00EBindigen
+BOUNDARY_EVENT: Grens
+THROW_EVENT: Throw-event
+CATCH_EVENT: Catchevent
+
+GATEWAY: Gateway
+COMPLEX_GATEWAY: Complexe gateway
+EXCLUSIVE_GATEWAY: Exclusieve gateway
+INCLUSIVE_GATEWAY: Inclusieve gateway
+PARALLEL_GATEWAY: Parallelle gateway
+EVENT_BASED_GATEWAY: Op event gebaseerde gateway
+
+NOTE: Notitie
+
+START_NONE:              Starten
+START_MESSAGE_TOPLEVEL:  Start bericht
+START_TIMER_TOPLEVEL:    Start timer
+START_SIGNAL_TOPLEVEL:   Start signaal
+START_ERROR_SUBPROCESS:  Start fout
+INTERMEDIATE_NONE:       Catch
+INTERMEDIATE_ERROR_BOUNDARY_INTERRUPTING: Foutbegrenzing
+INTERMEDIATE_TIMER_CATCH: Timer
+INTERMEDIATE_MESSAGE_CATCH: Bericht
+INTERMEDIATE_NONE_THROW_NONBOUNDARY: Throw
+INTERMEDIATE_MESSAGE_THROW_NONBOUNDARY: Bericht
+INTERMEDIATE_SIGNAL_THROW_NONBOUNDARY: Signaal
+INTERMEDIATE_SIGNAL_CATCH: Signaal
+END_NONE:                Be\u00EBindigen
+END_MESSAGE:             Einde bericht
+END_ERROR:               Einde fout
+END_SIGNAL:              Einde signaal
+END_TERMINATE:           Einde afsluiting
+MEASUREMENT_START:       Meting starten
+MEASUREMENT_END:         Meting be\u00EBindigen
+MEASUREMENT:             Meting
+
+NONE_TRIGGER_TYPE:       Geen
+MESSAGE_TRIGGER_TYPE:    Bericht
+TIMER_TRIGGER_TYPE:      Timer
+ERROR_TRIGGER_TYPE:      Fout
+SIGNAL_TRIGGER_TYPE:     Signaal
+TERMINATE_TRIGGER_TYPE:  Be\u00EBindigen
+
+PROCESS_COMPONENTS:      BPM-componenten
+BPMN_ARTIFACTS:          BPMN-stroomobjecten
+BASIC_ARTIFACTS:         Eenvoudige stroomobjecten
+BPMN:                    BPMN
+BPM_DESCRIPTIVE:         BPM: Beschrijvend
+BUSINESS_CATALOG:        Bedrijfscatalogus
+ARGUMENT_MAPPING:        Gegevenskoppeling
+VIEW_COLLABORATION:      Samenwerking bekijken
+HIDE_COLLABORATION:      Samenwerking verbergen
+LOADING:                 Bezig met laden...
+CANCEL_SEARCH:           Zoekopdracht annuleren
+EVENTS:                  Events
+ZOOM_OUT:                Uitzoomen
+SELECT_ALL:              Alles selecteren
+DELETE:                  Verwijderen
+
+SERVICES:                Services
+REMOVE_CUSTOM_OUTPUT:    Aangepaste uitvoer verwijderen
+ZOOM_IN:                 Inzoomen
+
+SELECT:                  Selecteren
+OK:                      OK
+BPMN_COMPONENTS:         BPMN-componenten
+GATEWAYS:                Gateways
+ARTIFACTS:               Artefacten
+BASIC:                   Basis
+SEARCH:                  Component zoeken
+FLOW_SEALED:             Stroom\nverzegeld
+REDO:                    Opnieuw
+CANCEL:                  Annuleren
+APPLY:                   Toepassen
+CREATE:                  Maken
+VARIABLES:               Gegevensobjecten
+PREDEFINED_VARIABLES:    Vooraf gedefinieerde variabelen
+PROCESS:                 Proces
+PROJECT:                 Project
+DEFAULT:                 Standaard
+TASKS:                   Activiteiten
+PANNING:                 Pannen
+SAVE:                    Opslaan
+UNDO:                    Ongedaan maken
+ADD_NEW_VAR:             Nieuw gegevensobject toevoegen
+REMOVE_VAR:              Gegevensobject verwijderen
+VIEW_DATA_OBJECTS:       Gegevensobjecten bekijken
+DATA_OBJECTS:            Gegevensobjecten
+INPUTS:                  Invoer
+OUTPUTS:                 Uitvoer
+DRAG_VARIABLES:          Gegevensobjecten naar tekstvakken slepen
+NAME:                    Naam
+ICON:                    Pictogram
+TYPE:                    Type
+DESCRIPTION:             Beschrijving
+SCOPE:                   Bereik
+NEW_VARIABLE:            Nieuw gegevensobject
+ADVANCED:                Uitgebreid
+TRANSITIONS:             Reeksstromen
+BUSINESS_RULES:          Bedrijfsregels
+HELP:                    Help       
+HUMAN_TASKS:             Menselijke taken
+BUSINESS_OBJECTS:        Bedrijfsobjecten
+ADD_CUSTOM_OUTPUT:       Aangepaste uitvoer toevoegen
+ADD_CUSTOM_INPUT:        Aangepaste invoer toevoegen
+TRANSITION:              Reeksstroom
+NORMAL: Onvoorwaardelijk
+CONDITIONAL: Voorwaardelijk
+EXCEPTION: Uitzondering
+PRINT:                   Afdrukken
+AUTOLAYOUT:              Automatische lay-out
+ADD_TO_MILESTONE:        Toevoegen aan mijlpaal
+COLLAPSE:                Samenvouwen
+EXPAND:                  Uitvouwen
+OWNER:                   Eigenaar proces
+PROPERTIES:              Eigenschappen
+IMPLEMENT:               Implementeren
+BUSINESS_PROPERTIES: Bedrijfseigenschappen
+CREATE_TRANSITION:       Overgang toevoegen
+DOCUMENTATION:           Documentatie
+UNRECOGNIZED_BPMN_TYPE:  Onbekend BPMN-type
+STRAIGHTEN_TRANSITION:   Overgang rechttrekken
+MAKE_TRANS_ORTHOGONAL:   Overgang orthogonaal maken
+CURVE_TRANSITION:        Overgang in curve laten verlopen
+SHOW_DOCUMENTATION:      Documentatie
+SHOW_IMPLEMENTATION:     Implementatie
+
+SIMPLE: Eenvoudig
+COMPLEX: Complex
+
+CONVERT_GATEWAY:         Gateway converteren
+CONVERT_TO_PARALLEL:     Naar parallel converteren
+CONVERT_TO_INCLUSIVE:    Naar inclusief converteren
+
+ERROR_MESSAGE:Foutnaam: {0}, \nFoutmelding: {1}
+
+CREATE_COUNTER_MARK:     Tellermarkering aanmaken
+DELETE_COUNTER_MARK:     Tellermarkering verwijderen
+
+ADD_NEW_SERVICE:         Service toevoegen
+
+GRID_SHOW:              Zichtbaarheid van raster in-/uitschakelen
+GRID_SNAP:              Uitlijnen op raster
+
+LAUNCH_EXPRESSION_BUILDER: Uitdrukkingsbuilder starten
+
+EXTERNAL_REFERENCES:       Externe verwijzingen
+
+CLOSE:                  Sluiten
+TRIGGER:                Trigger
+
+OPEN_HT: Menselijke taak openen
+OPEN_PROCESS: Proces openen
+OPEN_BUSINESS_RULE: Bedrijfsregel openen
+
+COPY: Kopi\u00EBren
+CUT: Knippen
+PASTE: Plakken
+
+REFINE_ACTIVITY: Activiteit verfijnen
+CONVERT_TO_REGULAR_SUBPROCESS: Converteren naar regulier subproces
+
+SHOW_PALETTE:              Zichtbaarheid palet in-/uitschakelen
+STAMP_MODE:                Stempelmodus in-/uitschakelen
+
+ROLE: Rol
+USE: Gebruiken
+AUTOMATIC_HANDLER: Automatische handler
+CHANGE: Wijzigen...
+ADD_LANE: Baan toevoegen
+
+MORE: Meer
+MORE_TOOLTIP: Subitems tonen
+LESS: Minder
+LESS_TOOLTIP: Subitems verbergen
+
+LESS_DC_TOOLTIP: Dubbelklik om subitems te verbergen
+MORE_DC_TOOLTIP: Dubbelklik voor meer
+
+# Policies messages...
+
+INVALID_TYPE: Nodetype kan niet worden gewijzigd in {0}.
+CAN_ONLY_CHANGE_TO_ACTIVITY: U kunt alleen het type van een activiteit wijzigen.
+ALREADY_DEFINED_TYPE: De activiteit heeft al dit type.
+CAN_ONLY_CHANGE_TO_UNIMPLEMENTED_UT : Het patroon van een ge\u00EFmplementeerde gebruikerstaak kan niet worden gewijzigd.
+
+FROM_EQ_TO: De bron- en doelnode mogen niet hetzelfde zijn.
+DIFF_CONTAINER: De bron- en doelnode moeten dezelfde container hebben.
+DIFF_BOUNDARY_CONTAINER: Het grensevent kan niet worden gekoppeld aan de container ervan.
+START_INCOMING: Startevents kunnen geen inkomende overgangen hebben.
+MORE_THAN_ONE_UNCONDITIONAL: Er is al een onvoorwaardelijke overgang die deze nodes verbindt.
+EVENT_BASED_CONNECTIONS: De op events gebaseerde gateway kan alleen verbinding maken met catchberichten, catchtimers en ontvangsttaken.
+END_OUTGOING: Eindevents kunnen geen uitgaande overgangen hebben.
+MORE_OUTGOING_UNCONDITIONAL: Alleen parallelle en op events gebaseerde gateways kunnen meer dan \u00E9\u00E9n onvoorwaardelijke uitgaande overgang hebben.
+CONDITIONAL_TRANS: Alleen exclusieve, inclusieve en complexe gateways kunnen voorwaardelijke overgangen hebben.
+OUTGOING_CONDITIONAL: Een gatewaysamenvoeging kan geen voorwaardelijke uitgaande overgang hebben.
+NOT_PART_OF_THE_FLOW: Een {0} is geen deel van de stroom (kan geen grensevents of inkomende of uitgaande overgangen hebben).
+BOUNDARIES_TASKS: Grensevents kunnen alleen aan taken worden toegevoegd.
+NOTE_TARGET: Het doel van de notitie kan geen {0} zijn.
+BOUNDARY_EVT: Grensevent
+MM_TRANSITIONS: Meetmarkeringen kunnen alleen aan reeksstromen worden gekoppeld.
+ON_TOP_OF_NODE: Toevoegen bovenop een andere node is niet mogelijk.
+SPACE_FOR_NODES: Er is niet voldoende ruimte voor alle nodes.
+NOT_BOUNDARY: Event {0} is geen grensevent.
+
+SERVICE_IMPL: Een {0} kan alleen worden ge\u00EFmplementeerd met services.
+SERVICE_NOT_CALLBACK: Callback-bewerkingen kunnen niet worden gebruikt om een {0} te implementeren.
+NOT_SYNC: Synchrone bewerkingen kunnen niet worden gebruikt om een {0} te implementeren.
+BR_IMPL: Bedrijfsregeltaken kunnen alleen worden ge\u00EFmplementeerd met bedrijfsregels.
+CANNOT_IMPL: De geselecteerde activiteit kan niet worden ge\u00EFmplementeerd.
+UT_IMPL: Alleen gebruikerstaken kunnen worden ge\u00EFmplementeerd met menselijke taken.
+TASKS_IMPL: Alleen taken kunnen worden ge\u00EFmplementeerd.
+
+FLOW_IS_SEALED: De stroom kan niet worden gewijzigd, omdat deze is verzegeld.
+NODE_IS_SEALED: De node is verzegeld.
+
+PROCESS_READ_ONLY: Het proces is alleen-lezen.
+EDIT_CONVERSATIONS: Gesprekken bewerken
+
+######################
+
+VALIDATE_TARGET: Doel valideren na toewijzing:
+VALIDATE_INPUT: invoergegevenskoppelingen
+VALIDATE_OUTPUT: uitvoergegevenskoppelingen
+
+ADD_SEQUENTIAL: Sequentieel toevoegen
+ADD_PARALLEL: Parallel toevoegen
+PARTICIPANTS: Deelnemers
+STAGE: Fase
+SINGLE: E\u00E9n
+PARALLEL_SINGLE: E\u00E9n parallel
+PARALLEL_BLOCK: Parallel blok
+SERIAL: Serieel
+FYI: INFO
+ADHOC: Ad-hoc
+MANAGEMENT_CHAIN: Managementketen
+NOTIFY: Melden
+
+MANAGEMENT: Beheer
+GROUP: Groep
+INITIATOR: Initiator
+
+REVEAL_ASSOCIATIONS: Klik hier om koppelingen weer te geven.
+
+FIND_USAGES: Gebruik zoeken
+
+
+AVG_INSTANCE_COUNT: Telling beschikbare instances
+AVG_PERFORMANCE: Gemiddelde prestaties
+AVG_QUEUE_SIZE: Gemiddelde wachtrijgrootte
+AVG_RESOURCE_UTILIZATION: Gemiddelde resourcebezetting
+AVG_WORKING_COUNT: Gemiddelde werktelling
+COMPLETED_INSTANCES: Voltooide instances
+COMPLETED_OPERATIONS: Voltooide bewerkingen
+CURRENT_INSTANCE_COUNT: Huidige telling instances
+CURRENT_QUEUE_SIZE: Huidige wachtrijgrootte
+CURRENT_RESOURCE_UTILIZATION: Huidige resourcebezetting
+CURRENT_WORKING_COUNT: Huidige werktelling
+MAX_INSTANCE_COUNT: Maximum aantal instances
+MAX_INSTANCES_WORKING_COUNT: Maximum aantal werkende instances
+MAX_QUEUE_SIZE: Maximale wachtrijgrootte
+MAX_RESOURCE_UTILIZATION: Maximale resourcebezetting
+TOTAL_RESOURCE_UTILIZATION: Totale resourcebezetting
+TOTAL_WAITING_COUNT: Telling totale wachttijd
+
+AVG_PROCESS_TIME: Gemiddelde procestijd
+AVG_CYCLE_TIME: Gemiddelde cyclustijd
+MAX_CYCLE_TIME: Maximaal cyclustype
+MIN_CYCLE_TIME: Minimaal cyclustype
+AVG_WAITING_TIME: Gemiddelde wachttijd
+MAX_WAITING_TIME: Maximale wachttijd
+MIN_WAITING_TIME: Minimale wachttijd
+AVG_WORKING_TIME: Gemiddelde werktijd
+MAX_WORKING_TIME: Maximale werktijd
+MIN_WORKING_TIME: Minimale werktijd
+
+TOTAL_COST: Totale kosten
+AVG_TOTAL_COST: Gemiddelde totale kosten
+
+TOTAL_WAITING_TIME: Totale wachttijd
+
+RESOURCE_BUSY_TIME: Actieve tijd resources
+
+RESOURCE_BUSY_COST: Kosten actieve resource
+RESOURCE_TOTAL_COST: Totale resourcekosten
+RESOURCES: Resources
+INDICATORS: Indicatoren
+VALUES: Waarden
+
+TIME: Tijd
+COST: Kosten
+UNITS: Eenheden
+
+COLUMN_CHART: Kolomgrafiek
+BAR_CHART: Staafgrafiek
+
+CLICK_TO_REVEAL_CHART: . Klik om grafiek weer te geven
+SHOW_RESULTS: Resultaten tonen
+FILTERS: Filters
+CLEAR_RESULTS: Resultaten wissen
+INSTANCE_NUMBER: Instances
+USE_INSTANCES: Instances gebruiken
+
+INTERVAL: Interval
+MEAN: Gemiddeld
+STANDARD_DEVIATION: Standaardafwijking
+PERIOD: Punt
+FREQUENCY: Frequentie
+EVERY: elke
+DISTRIBUTION_TYPE: Distributietype
+INSTANCE_CREATION: Instance aanmaken
+DELTA: Delta
+INSTANCES: instances
+CRITERIA: Criteria
+
+DAYS: dagen
+HOURS_AB: h
+MINUTES_AB: m
+SECONDS_AB: s
+
+
+CONSTANT_DIST: Constante
+UNIFORM_DIST: Uniform
+EXPONENTIAL_DIST: Exponentieel
+NORMAL_DIST: Normaal
+REAL_DIST: Real
+
+
+FIFO: FIFO
+LIFO: LIFO
+RANDOM: Willekeurig
+BY_PRIORITY: Op prioriteit
+MINIMUM_COST: Minimale kosten
+MAXIMUM_EFFICIENCY: Maximale effici\u00EBntie
+
+
+FIXED_BASE_COST: Vaste basiskosten
+BASE_COST_PLUS_RESOURCE_COST: Basiskosten plus resourcekosten
+
+HOURLY: Elk uur
+DAILY: Dagelijks
+WEEKLY: Wekelijks
+MONTHLY: Maandelijks
+
+SUNDAY: Zondag
+MONDAY: Maandag
+TUESDAY: Dinsdag
+WEDNESDAY: Woensdag
+THURSDAY: Donderdag
+FRIDAY: Vrijdag
+SATURDAY: Zaterdag
+
+FIRST: Eerste
+SECOND: Tweede
+THIRD: Derde
+FOURTH: Vierde
+LAST: Laatste
+
+JANUARY: Januari
+FEBRUARY: Februari
+MARCH: Maart
+APRIL: April
+MAY: Mei
+JUNE: Juni
+JULY: Juli
+AUGUST: Augustus
+SEPTEMBER: September
+OCTOBER: Oktober
+NOVEMBER: November
+DECEMBER: December
+
+DURATION: Duur
+COST_PER_HOUR: Kosten per uur
+QUEUE_INFO: Wachtrijgegevens
+OUTGOING_FLOWS: Uitgaande stromen
+
+USE_ORGANIZATION_RESOURCES: Organisatieresources gebruiken
+USE_FIXED_RESOURCES: Vaste resources gebruiken
+PARTICIPANT_SELECTION_POLICY: Policy voor deelnemerselectie
+AVAILABLE_RESOURCES: Beschikbare resources
+
+PROCESS_EDITOR: Ontwerpen
+SIMULATION_EDITOR: Simulatie
+ADD_MODEL_SIMULATION: Modelsimulatie toevoegen
+
+ACTIVITY_FIXED_BASE_COST: Vaste basiskosten activiteit
+ACTIVITY_COST_TYPE: Kostentype activiteit
+
+QUEUE_WARNING_SIZE: Wachtrijwaarschuwingsgrootte
+
+THREADS: Threads
+MODEL: Model:
+CREATE_SIM_MODEL: Simulatiemodel aanmaken
+
+NOT_PROCESS_EDITOR: Omschakelen naar ontwerpmodus om het proces bij te werken
+MINUS_ENA: Grafiek samenvouwen
+
+BUSINESS_INDICATORS: Bedrijfsindicatoren
+
+METRICS: Metrics
+ALL: Alles
+NONE: Geen
+
+INIT_PLAYER_INSTANCE: Player-instance initialiseren
+REFRESH_PLAYER_INSTANCE: Vernieuwen
+DELETE_PLAYER_INSTANCE: Verwijderen
+PROCESS_VARIABLES: Procesvariabelen
+THREAD_ID: Thread-ID
+INSTANCE_ID: Instance-ID
+INSTANCE_INFORMATION: Instancegegevens
+
+INVALID_PAYLOAD_NAME: Ongeldige taakgegevensnaam
+
+MUST_BE_LOWER : moet(en) bestaan uit kleine letters.
