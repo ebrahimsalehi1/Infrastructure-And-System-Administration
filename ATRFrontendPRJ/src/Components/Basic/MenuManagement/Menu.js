@@ -6,12 +6,14 @@ import {hideLoading, showLoading} from "@irisa/components-material-v.4/lib/redux
 import {API_BASE_URL, LOCAL_STORAGE_BFF} from "../../../Utils/Config/constants";
 import {showSnack} from "@irisa/components-material-v.4/lib/redux/actions/snackActions";
 import Grid from "@material-ui/core/Grid";
-import TextField from "@irisa/components-material-v.4/lib/TextField";
+//import TextField from "@irisa/components-material-v.4/lib/TextField";
+import TextField from "@material-ui/core/TextField";
 import FormControlLabel from "@material-ui/core/FormControlLabel/FormControlLabel";
 import Switch from "@material-ui/core/Switch/Switch";
 //import ConfirmationDialog from "@irisa/components-material-v.4/lib/ConfirmationDialog";
 import ConfirmationDialog from "../../General/ConfirmationDialog";
-import Select from "@irisa/components-material-v.4/lib/Select";
+//import Select from "@irisa/components-material-v.4/lib/Select";
+import Select from "@material-ui/core/Select";
 import UsersGroupsApprolesSearch from "../RoleManagement/UsersGroupsApprolesSearch";
 import Typography from '@material-ui/core/Typography';
 import {makeStyles} from '@material-ui/styles';

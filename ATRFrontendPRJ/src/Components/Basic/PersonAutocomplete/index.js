@@ -10,7 +10,8 @@ import {hideLoading, showLoading} from "@irisa/components-material-v.4/lib/redux
 import Select from '@material-ui/core/Select';
 import MenuItem from '@material-ui/core/MenuItem';
 import Grid from '@material-ui/core/Grid';
-import TextField from '@irisa/components-material-v.4/lib/TextField';
+//import TextField from '@irisa/components-material-v.4/lib/TextField';
+import TextField from '@material-ui/core/TextField';
 import {CreateApi} from "../../../Utils/Config/CallServiceRouter";
 
 const DynamicList = ({data})=>{

@@ -2,9 +2,10 @@ import React from 'react';
 import './App.css';
 import {Route, Switch} from "react-router-dom";
 import Pages from "./Utils/Config/Pages";
-import {SUB_SYSTEM_CONTEXT} from "@irisa/components-material-v.4/lib/config/constants";
-import SnackBar from "@irisa/components-material-v.4/lib/SnackBar";
-import Loading from "@irisa/components-material-v.4/lib/Loading";
+import {SUB_SYSTEM_CONTEXT} from "./Utils/Config/constants";
+//import {SUB_SYSTEM_CONTEXT} from "@irisa/components-material-v.4/lib/config/constants";
+// import SnackBar from "@irisa/components-material-v.4/lib/SnackBar";
+// import Loading from "@irisa/components-material-v.4/lib/Loading";
 import Demo from "./Components/Process/Demo";
 import {Button} from "@material-ui/core";
 import Basic from "./Utils/Config/Basic";
@@ -32,8 +33,8 @@ function App() {
 
     return (
         <div className="App">
-            <SnackBar/>
-            <Loading/>
+            {/* <SnackBar/> */}
+            {/* <Loading/> */}
             <Switch>
                 <Route path={SUB_SYSTEM_CONTEXT + "/pages"} render={(props) => <Pages  {...props}/>}/>
                 <Route path={SUB_SYSTEM_CONTEXT + "/basic"} render={(props) => <Basic  {...props}/>}/>

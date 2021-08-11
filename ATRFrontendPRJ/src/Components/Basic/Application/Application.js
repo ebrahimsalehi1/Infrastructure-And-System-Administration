@@ -2,17 +2,19 @@ import React from 'react';
 import Dialog from "../../Dialog";
 //import Button from "@material-ui/core/Button";
 import Button from '../../General/Button';
-import {hideLoading, showLoading} from "@irisa/components-material-v.4/lib/redux/actions/openActions";
+// import {hideLoading, showLoading} from "@irisa/components-material-v.4/lib/redux/actions/openActions";
 //import {createApi, deleteApi, updateApi,readApi} from "@irisa/components-material-v.4/lib/config/FetchSign";
 import {API_BASE_URL, LOCAL_STORAGE_BFF} from "../../../Utils/Config/constants";
 import {showSnack} from "@irisa/components-material-v.4/lib/redux/actions/snackActions";
 import Grid from "@material-ui/core/Grid";
-import TextField from "@irisa/components-material-v.4/lib/TextField";
+import TextField from "@material-ui/core/TextField";
+//import TextField from "@irisa/components-material-v.4/lib/TextField";
 import FormControlLabel from "@material-ui/core/FormControlLabel/FormControlLabel";
 import Switch from "@material-ui/core/Switch/Switch";
 //import ConfirmationDialog from "@irisa/components-material-v.4/lib/ConfirmationDialog";
 import ConfirmationDialog from "../../General/ConfirmationDialog";
-import Select from "@irisa/components-material-v.4/lib/Select";
+//import Select from "@irisa/components-material-v.4/lib/Select";
+import Select from "@material-ui/core/Select";
 import UsersGroupsApprolesSearch from '../RoleManagement/UsersGroupsApprolesSearch';
 import {makeStyles} from '@material-ui/styles';
 //import {ContextCache} from "../../../Context";
@@ -66,7 +68,7 @@ export default function Application(props) {
                 return;
             }
 
-            showLoading('لطفا منتظر بمانید');
+            // showLoading('لطفا منتظر بمانید');
             const user = localStorage.getItem('userToken');
             await ReadApi({url:`${ZONE_LIST.URL}${user}`,LOCAL_STORAGE_BFF:localStorage.getItem('LOCAL_STORAGE_BFF')=='1'})
                 .then( result => {
@@ -85,7 +87,7 @@ export default function Application(props) {
                         showSnack("خطا در بازیابی اطلاعات", "error", true, 3000);
                         onOperationFail();
                     }
-                    hideLoading();
+                    // hideLoading();
                 })
                 .catch(err=>{
                     setZones([]);
@@ -113,7 +115,7 @@ export default function Application(props) {
                                 color={"primary"}
                                 onClick={async ()=>
                             {
-                                showLoading('در حال ایجاد');
+                                // showLoading('در حال ایجاد');
                                 const user = localStorage.getItem('userToken');
                                 const userDisplayName = JSON.parse(localStorage.getItem('user')).name;
                                 await CreateApi(
@@ -156,11 +158,11 @@ export default function Application(props) {
                                                     onOperationFail();
                                                 });
 
-                                        hideLoading();
+                                        // hideLoading();
                                     }
                                     else {
                                         showSnack(result.response.data && result.response.data.length>0 ? result.response.data.join(",") :"خطا در ایجاد اطلاعات", "error", true, 3000);
-                                        hideLoading();
+                                        // hideLoading();
 
                                         onOperationFail();
                                     }
@@ -174,7 +176,7 @@ export default function Application(props) {
                                 color={"primary"}
                                 onClick={async ()=>{
 
-                                showLoading('در حال ویرایش');
+                                // showLoading('در حال ویرایش');
                                 await UpdateApi(
                                     {
                                         url:APPLICATION_UPDATE.URL,//`${API_BASE_URL}/ATR/api/v1.0/updateApplication`,
@@ -216,20 +218,20 @@ export default function Application(props) {
                                                 });
 
                                         //showSnack(result.data && result.data.length>0 ? result.data.join(",") : "اطلاعات با موفقیت بروزرسانی شد" , "success", true, 3000);
-                                        hideLoading();
+                                        // hideLoading();
 
                                         //onOperationSuccess();
                                     }
                                     else {
                                         showSnack(result.response.data && result.response.data.length>0 ? result.response.data.join(",") : "خطا در ایجاد اطلاعات", "error", true, 3000);
-                                        hideLoading();
+                                        // hideLoading();
 
                                         onOperationFail();
                                     }
                                 })
                                 .catch(err=>{
                                     showSnack("خطای اساسی در ایجاد اطلاعات", "error", true, 3000);
-                                    hideLoading();
+                                    // hideLoading();
 
                                     onOperationFail();
                                 });
@@ -324,7 +326,7 @@ export default function Application(props) {
                                 dialogContent={"آیا مایل به حذف حوزه هستید؟"}
                                 onExecute={
                                     async (event,confirmationRowData)=>{
-                                        showLoading("در حال حذف رکورد");
+                                        // showLoading("در حال حذف رکورد");
                                         console.log('onExecute, start',rowData,confirmationRowData);
                                         await DeleteApi( {url:`${APPLICATION_DELETE.URL}${applicationId}`})
                                             .then(result => {
@@ -356,24 +358,24 @@ export default function Application(props) {
                                                                 });
 
                                                         //showSnack(result.data && result.data.length>0 ? result.data.join(",") :"اطلاعات با موفقیت انجام شد", "success", true, 3000);
-                                                        hideLoading();
+                                                        // hideLoading();
 
                                                         //onOperationSuccess();
                                                         break;
                                                     case 204:
                                                         showSnack(result.response.data && result.response.data.length>0 ? result.response.data.join(",") : "اطلاعات با موفقیت انجام شد", "success", true, 3000);
-                                                        hideLoading();
+                                                        // hideLoading();
 
                                                         onOperationSuccess();
                                                         break;
                                                     case 428:
                                                         showSnack(result.response.data && result.response.data.length>0 ? result.response.data.join(",") : "خطا در حذف اطلاعات", "error", true, 3000);
-                                                        hideLoading();
+                                                        // hideLoading();
                                                         onOperationFail();
                                                         break;
                                                     default:
                                                         showSnack(result.response.data && result.response.data.length>0 ? result.response.data.join(",") : "خطا در حذف اطلاعات" , "error", true, 3000);
-                                                        hideLoading();
+                                                        // hideLoading();
                                                         onOperationFail();
                                                 }
 
@@ -381,7 +383,7 @@ export default function Application(props) {
                                             .catch(err=>{
                                                 showSnack("خطای اساسی در حذف اطلاعات", "error", true, 3000);
                                                 onOperationFail();
-                                                hideLoading();
+                                                // hideLoading();
                                             });
                                     }
                                 }/>
